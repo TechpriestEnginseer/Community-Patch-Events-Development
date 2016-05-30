@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07-Apr-16 12:57:26 PM -->
+<GameData>
+	<CityEvents>
+		<Row>
+			<Type>CITY_EVENT_MOTABA_OUTBREAK</Type>
+			<Description>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION</Description>
+			<Help>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP</Help>
+			<NumChoices>2</NumChoices>
+			<RandomChance>10</RandomChance>
+			<EventCooldown>25</EventCooldown>
+			<MinimumCityPopulation>20</MinimumCityPopulation>
+			<RandomChanceDelta>2</RandomChanceDelta>
+			<RequiredActivePlayerEventChoiceOtherPlayer>EVENT_MOTABA_VIRUS_CHOICE_1</RequiredActivePlayerEventChoiceOtherPlayer>
+			<RequiredNoActiveCityEventChoice>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</RequiredNoActiveCityEventChoice>
+		</Row>
+	</CityEvents>
+	<CityEventChoices>
+		<Row>
+			<Type>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</Type>
+			<Description>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1</Help>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</Type>
+			<Help>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_2</Description>
+			<RequiredBuildingClass>BUILDINGCLASS_MEDICAL_LAB</RequiredBuildingClass>
+		</Row>
+	</CityEventChoices>
+	<CityEventChoice_InstantYield>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>-2000</Yield>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoiceType>
+			<YieldType>YIELD_POPULATION</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</CityEventChoiceType>
+			<YieldType>YIELD_POPULATION</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+	</CityEventChoice_InstantYield>
+	<CityEvent_ParentEvents>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_MOTABA_OUTBREAK</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_MOTABA_OUTBREAK</CityEventType>
+		</Row>
+	</CityEvent_ParentEvents>
+	<CityEventChoiceFlavors>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</CityEventChoiceFlavors>
+	<CityEventChoice_Notification>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</CityEventChoiceType>
+			<NotificationType>NOTIFICATION_MINOR_QUEST</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoiceType>
+			<NotificationType>NOTIFICATION_MINOR_QUEST</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+	</CityEventChoice_Notification>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1_S">
+			<Text>The City of {2_CityName} has succumbed to an horrific viral outbreak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1">
+			<Text>The [ICON_CITIZEN] Population of {2_CityName} has fallen by 5!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2_S">
+			<Text>The City of {2_CityName} is fighting an horrific viral outbreak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2">
+			<Text>The City of {2_CityName} has lost 5 [ICON_CITIZEN] Population, but a cure has been discovered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION">
+			<Text>Viral Outbreak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP">
+			<Text>The city has been gripped by the deadly Motaba virus. At this time, there is no available treatment. We must prepare for the worst.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1">
+			<Text>Lose 5 [ICON_CITIZEN] Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_2">
+			<Text>Lose 5 [ICON_CITIZEN] Population and 2000 [ICON_RESEARCH] Science, but become immune to such events in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1">
+			<Text>Quarantine is the only option we have available.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_2">
+			<Text>Give the Medical Lab anything they need. We need to have an answer before this thing strikes again.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
