@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ef8387f0-b053-4c84-90ce-c3c5cb21a580" version="1">
+  <Properties>
+    <Name>(7) Community Events</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Creates more events for the Community Patch. Community Balance Patch recommended!</Teaser>
+    <Description>Creates more events for the Community Patch. Community Balance Patch recommended!</Description>
+    <Authors>The Community</Authors>
+    <SpecialThanks>Gazebo</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="City-State Diplomacy" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="30272260861F6F1A949486F354C58AE7" import="1">Art/CityRaid.dds</File>
+    <File md5="1E5274E454E2453CF336BD7BD74E9CE6" import="1">Art/EyeForEye.dds</File>
+    <File md5="962A7CDC3EBD64D01B045C7A6494E540" import="1">Art/FireFire.dds</File>
+    <File md5="6AADF65C7F52C2582215C19E8B81219B" import="1">Art/GoldStandard.dds</File>
+    <File md5="968715465F9647AF7CF12738D79F38C8" import="1">Art/JungleDisease.dds</File>
+    <File md5="AF8E8E683115CC06750A1F126C11BFD7" import="1">Art/NaturalBeauty.dds</File>
+    <File md5="7AE54BA5A31E80A1745528F5EC9924D7" import="1">Art/StockMarketCrash.dds</File>
+    <File md5="5FB18F80EA5E6E403ED198BE9AAFEAF5" import="1">Audio/EBankCashCash.mp3</File>
+    <File md5="E2118701BE55DB406245B9472E36E9B2" import="1">Audio/ECityCapture.mp3</File>
+    <File md5="AD7CB7001B6FF51CD7D57FCF36F5FC40" import="1">Audio/ECityRevolt.mp3</File>
+    <File md5="29215DCC7303D6888D68522C405712BE" import="1">Audio/ECrowdCheer.mp3</File>
+    <File md5="E1AD93C61D2CA38AB911BE628A8D553D" import="1">Audio/ECultureExpands.mp3</File>
+    <File md5="5D6E715321BB7CCE42B5EFF7D22626DE" import="1">Audio/EDeclareWar.mp3</File>
+    <File md5="BC26E88534B77C912B3E966EFDA00218" import="1">Audio/EDiscovery.mp3</File>
+    <File md5="B4A7FF0EB215563E5CD86B2B35E2856A" import="1">Audio/EFeatureGrowth.mp3</File>
+    <File md5="369BC87ECF80935DDD9AF2B1791160B7" import="1">Audio/EFirstToSomething.mp3</File>
+    <File md5="B0E713C002D9476B456F966C51B139C1" import="1">Audio/EGoldenAge.mp3</File>
+    <File md5="A06242927B0DB0549C4015D56B8E0F63" import="1">Audio/EGreatPeople.mp3</File>
+    <File md5="B50DF289370B6A6E9CE16BCDAE5DAF7B" import="1">Audio/EPlague.mp3</File>
+    <File md5="10FE83D564A3A1A2BE0425572010B16D" import="1">Audio/ERevolutionEnd.mp3</File>
+    <File md5="1616AA367FED0424AE00C8514AD4555C" import="1">Audio/ERevolutionStart.mp3</File>
+    <File md5="17968225A53BD3CA0F59F1DF338BF36C" import="0">LUA/EventLUA.lua</File>
+    <File md5="B5D3ECBCC6310A096A6EFFBD1019C551" import="0">XML/AncientEvents.xml</File>
+    <File md5="8DDBAB012A8BA982DABB1056CEE0DAEC" import="0">XML/AudioDefines.xml</File>
+    <File md5="FECF06B4F4AA75CEE540F5ED7848CD48" import="0">XML/DoomsdayEvents.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/AudioDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AncientEvents.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/EventLUA.lua">
+      <Name>EventLUA</Name>
+      <Description>LUA purposes.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
