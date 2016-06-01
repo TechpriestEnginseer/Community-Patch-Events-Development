@@ -7,13 +7,13 @@
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>30</RandomChance>
 			<IsOneShot>true</IsOneShot>c
 			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<CapitalOnly>true</CapitalOnly>
-			<EventCooldown>25</EventCooldown>
+			<EventCooldown>75</EventCooldown>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsUnhappy>true</IsUnhappy>
 		</Row>
 	</CityEvents>
