@@ -8,7 +8,7 @@
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>30</RandomChance>
-			<IsOneShot>true</IsOneShot>c
+			<IsOneShot>true</IsOneShot>
 			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<CapitalOnly>true</CapitalOnly>
 			<EventCooldown>75</EventCooldown>
