@@ -79,6 +79,11 @@
 			<YieldType>YIELD_POPULATION</YieldType>
 			<Yield>-2</Yield>
 		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_4</CityEventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>-200</Yield>
+		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoice_BuildingClassYieldChange>
 		<Row>
