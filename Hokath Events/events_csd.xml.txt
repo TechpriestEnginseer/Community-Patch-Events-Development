@@ -6,11 +6,11 @@
 			<Description>TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_WAR_MATERIALS_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>20</RandomChance>
+			<RandomChance>45</RandomChance>
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>true</IsOneShot>
 			<RequiredPolicy>POLICY_PHILANTHROPY</RequiredPolicy>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</Events>
@@ -145,11 +145,11 @@
 			<Description>TXT_KEY_EVENT_FREEDOM_DOCTRINE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_FREEDOM_DOCTRINE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>10</RandomChance>
+			<RandomChance>40</RandomChance>
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>true</IsOneShot>
 			<RequiredPolicy>POLICY_COVERT_ACTION</RequiredPolicy>
-			<RandomChanceDelta>30</RandomChanceDelta>
+			<RandomChanceDelta>3</RandomChanceDelta>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -261,7 +261,7 @@
 			<RandomChance>100</RandomChance>
 			<EventCooldown>25</EventCooldown>
 			<MinimumCityPopulation>18</MinimumCityPopulation>
-			<RandomChanceDelta>20</RandomChanceDelta>
+			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredIdeology>POLICY_BRANCH_ORDER</RequiredIdeology>
 			<RequiresOccupied>true</RequiresOccupied>
@@ -301,7 +301,7 @@
 			<RandomChance>100</RandomChance>
 			<EventCooldown>25</EventCooldown>
 			<MinimumCityPopulation>18</MinimumCityPopulation>
-			<RandomChanceDelta>20</RandomChanceDelta>
+			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredIdeology>POLICY_BRANCH_ORDER</RequiredIdeology>
 			<RequiresOccupied>true</RequiresOccupied>
@@ -338,11 +338,11 @@
 			<Description>TXT_KEY_EVENT_DOUBLE_AGENTS_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_DOUBLE_AGENTS_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>10</RandomChance>
+			<RandomChance>40</RandomChance>
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>true</IsOneShot>
 			<RequiredPolicy>POLICY_DOUBLE_AGENTS</RequiredPolicy>
-			<RandomChanceDelta>30</RandomChanceDelta>
+			<RandomChanceDelta>3</RandomChanceDelta>
 		</Row>
 	</Events>
 	<EventChoices>
