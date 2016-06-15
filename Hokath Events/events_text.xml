@@ -138,6 +138,15 @@
 			<Text>Give the Medical Lab anything they need. We need to have an answer before this thing strikes again.</Text>
 		</Row>
 	</Language_en_US>
+	<!-- Virus Immunize -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1">
+			<Text>You research efforts after the recent outbreak have secured a cure to the Motaba Virus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1">
+			<Text>Cure Discovered!</Text>
+		</Row>
+	</Language_en_US>
 	<!-- Pipeline Explosion -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_OIL_EXPLOSION_CHOICE_1_S">
