@@ -11,7 +11,7 @@
 			<RequiredBuildingClass>BUILDINGCLASS_MUSEUM</RequiredBuildingClass>
 			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
 			<EventCooldown>25</EventCooldown>
-			<RandomChanceDelta>0</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
