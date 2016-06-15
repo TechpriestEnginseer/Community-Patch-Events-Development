@@ -412,7 +412,7 @@
 			<MinimumCityPopulation>20</MinimumCityPopulation>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<RequiredActivePlayerEventChoiceOtherPlayer>EVENT_MOTABA_VIRUS_CHOICE_1</RequiredActivePlayerEventChoiceOtherPlayer>
-			<RequiredNoActiveCityEventChoice>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</RequiredNoActiveCityEventChoice>
+			<RequiredNoActivePlayerEventChoice>PLAYER_EVENT_MOTABA_OUTBREAK_CHOICE_1</RequiredNoActivePlayerEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -426,7 +426,7 @@
 			<Help>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_2</Description>
 			<RequiredBuildingClass>BUILDINGCLASS_MEDICAL_LAB</RequiredBuildingClass>
-			<EventDuration>30</EventDuration>
+			<EventDuration>2</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 	</CityEventChoices>
