@@ -484,8 +484,6 @@
 	<Events>
 		<Row>
 			<Type>PLAYER_EVENT_MOTABA_OUTBREAK</Type>
-			<Description>TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_DESCRIPTION</Description>
-			<Help>TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_HELP</Help>
 			<NumChoices>1</NumChoices>
 			<IgnoresGlobalCooldown>true</IgnoresGlobalCooldown>
 			<RandomChance>1000</RandomChance>
