@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>30</RandomChance>
+			<RandomChance>50</RandomChance>
 			<IsOneShot>true</IsOneShot>
 			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<CapitalOnly>true</CapitalOnly>
@@ -157,7 +157,7 @@
                         <IsOneShot>true</IsOneShot>
                         <RequiredBuildingClass>BUILDINGCLASS_HARBOR</RequiredBuildingClass>
                         <EventCooldown>25</EventCooldown>
-                        <RandomChanceDelta>10</RandomChanceDelta>
+                        <RandomChanceDelta>1</RandomChanceDelta>
                         <RequiredEra>ERA_MEDIEVAL</RequiredEra>
                         <ObsoleteEra>ERA_MODERN</ObsoleteEra>
                 </Row>
@@ -296,11 +296,11 @@
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>20</RandomChance>
+			<RandomChance>25</RandomChance>
 			<IsOneShot>false</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredBuildingClass>
 			<EventCooldown>25</EventCooldown>
-			<RandomChanceDelta>20</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<HasTradeConnection>true</HasTradeConnection>
 			<RequiredNoActiveCityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</RequiredNoActiveCityEventChoice>
 		</Row>
@@ -532,11 +532,11 @@
 			<Description>TXT_KEY_EVENT_MOTABA_VIRUS_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_MOTABA_VIRUS_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>20</RandomChance>
+			<RandomChance>30</RandomChance>
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>True</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChanceDelta>2</RandomChanceDelta>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -625,11 +625,11 @@
 			<Description>TXT_KEY_EVENT_PIPELINE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_PIPELINE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>20</RandomChance>
+			<RandomChance>45</RandomChance>
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>true</IsOneShot>
 			<RequiredIdeology>POLICY_BRANCH_AUTOCRACY</RequiredIdeology>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 		</Row>
 	</Events>
 	<EventChoices>
