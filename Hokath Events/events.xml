@@ -426,6 +426,8 @@
 			<Help>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_2</Description>
 			<RequiredBuildingClass>BUILDINGCLASS_MEDICAL_LAB</RequiredBuildingClass>
+			<EventDuration>30</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 	</CityEventChoices>
 	<CityEventChoice_InstantYield>
@@ -478,6 +480,31 @@
 			<IsWorldEvent>true</IsWorldEvent>
 		</Row>
 	</CityEventChoice_Notification>
+	<!-- Motaba Immunize   Chains off choice 2-->
+	<Events>
+		<Row>
+			<Type>PLAYER_EVENT_MOTABA_OUTBREAK</Type>
+			<Description>TXT_KEY_EVENT_MOTABA_OUTBREAK_DESCRIPTION</Description>
+			<Help>TXT_KEY_EVENT_MOTABA_OUTBREAK_HELP</Help>
+			<NumChoices>1</NumChoices>
+			<IgnoresGlobalCooldown>true</IgnoresGlobalCooldown>
+			<RandomChance>1000</RandomChance>
+			<RequiredActiveCityEventChoice>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</RequiredActiveCityEventChoice>
+		</Row>
+	</Events>
+	<EventChoices>
+		<Row>
+			<Type>PLAYER_EVENT_MOTABA_OUTBREAK_CHOICE_1</Type>
+			<Description>TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1</Help>
+		</Row>
+	</EventChoices>
+	<Event_ParentEvents>
+		<Row>
+			<EventChoiceType>PLAYER_EVENT_MOTABA_OUTBREAK_CHOICE_1</EventChoiceType>
+			<EventType>PLAYER_EVENT_MOTABA_OUTBREAK</EventType>
+		</Row>
+	</Event_ParentEvents>
 	<!-- Pipeline Explosion -->
 	<CityEvents>
 		<Row>
