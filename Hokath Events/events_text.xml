@@ -141,7 +141,7 @@
 	<!-- Virus Immunize -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1">
-			<Text>You research efforts after the recent outbreak have secured a cure to the Motaba Virus.</Text>
+			<Text>Research efforts after the recent outbreak have secured a cure to the Motaba Virus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1">
 			<Text>Cure Discovered!</Text>
