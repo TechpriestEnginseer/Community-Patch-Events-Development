@@ -117,7 +117,7 @@
 			<Text>The City of {2_CityName} is fighting an horrific viral outbreak.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2">
-			<Text>The City of {2_CityName} has lost 5 [ICON_CITIZEN] Population, but a cure has been discovered!</Text>
+			<Text>The City of {2_CityName} has lost 5 [ICON_CITIZEN] Population, but researchers are working on a cure!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION">
 			<Text>Viral Outbreak</Text>
