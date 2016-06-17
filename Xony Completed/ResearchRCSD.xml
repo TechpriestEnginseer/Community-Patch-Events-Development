@@ -295,7 +295,7 @@
 			<Text>Hot Summer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_COOLSUMMER_HELP">
-			<Text>This summer is particularly hot and the people surrounding you are fighting with the heat. Your advisor suggests to share some of the cool drinks that your majesty likes to drink, but this would require you to send more people to get the ice. What do we do?</Text>
+			<Text>This summer is particularly hot and the people surrounding you are fighting with the heat. Your advisor suggests to share some of the cool drinks that your majesty likes, but this would require you to send more people to the mountains for ice. What do we do?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COOLSUMMER_CHOICE_1">
 			<Text>Send them and let the World know of my generosity.</Text>
