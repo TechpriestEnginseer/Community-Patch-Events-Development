@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ec984dfa-899f-47b7-960b-103eb66aeddf" version="1">
+  <Properties>
+    <Name>Vox Populi Natural Wonder Events</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds recurring city events that add yields to natural wonders as well as some other oneshot options</Teaser>
+    <Description>Adds recurring city events that add yields to natural wonders as well as some other oneshot options</Description>
+    <Authors>Hokath</Authors>
+    <SpecialThanks>Gazebo</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="19CA0899A0E2CC5A408A46E5B569E9FF" import="0">BarringerCrater.xml</File>
+    <File md5="17462731B4D82CB8F153DAE15CC1B5BA" import="0">ElDorado.xml</File>
+    <File md5="6AE8257B494EB4C1AD5EBBAC2DF31E59" import="0">FountainOfYouth.xml</File>
+    <File md5="622222E808463B98807EEF3B954C95B6" import="0">Fuji.xml</File>
+    <File md5="653289E6E90F51C13771F09D2E796564" import="0">GrandMesa.xml</File>
+    <File md5="D42C96B24BDD6EE649743A916F4DCCE9" import="0">GreatBarrierReef.xml</File>
+    <File md5="95DBE7687D9BE546618013B5A9FCE6A0" import="0">Kilimanjaro.xml</File>
+    <File md5="4156894CEED65624E39DD6D5CF0E2AF0" import="0">Krakatoa.xml</File>
+    <File md5="03C09F5CCF3D417D136E0B3536F8B374" import="0">LakeVictoria.xml</File>
+    <File md5="362DDE69B370C69C675CB5138E18FD20" import="0">MtKailash.xml</File>
+    <File md5="C1EDD79D1C95B2DCF1CA760CB0CDC12C" import="0">MtSinai.xml</File>
+    <File md5="678EAD2A3BC398A0BF5882717B46D905" import="0">OldFaithful.xml</File>
+    <File md5="393827FF351002522608CE2A8CF4FDC4" import="0">Potosi.xml</File>
+    <File md5="54ABD0505CFFDD9E6187CCF218B6097E" import="0">readme.txt</File>
+    <File md5="9411992897571FA33E7FD9FCFA168995" import="0">RockOfGibraltar.xml</File>
+    <File md5="B0544C8C992E58078F3BD94CBDE69AB4" import="0">SolomonsMines.xml</File>
+    <File md5="E9DD1DF6E99BD7DA90F844385B334B46" import="0">SriPada.xml</File>
+    <File md5="A3B211C8F7116E3F1AC4F31ABE50C8AC" import="0">Uluru.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>BarringerCrater.xml</UpdateDatabase>
+      <UpdateDatabase>ElDorado.xml</UpdateDatabase>
+      <UpdateDatabase>FountainOfYouth.xml</UpdateDatabase>
+      <UpdateDatabase>Fuji.xml</UpdateDatabase>
+      <UpdateDatabase>GrandMesa.xml</UpdateDatabase>
+      <UpdateDatabase>GreatBarrierReef.xml</UpdateDatabase>
+      <UpdateDatabase>Kilimanjaro.xml</UpdateDatabase>
+      <UpdateDatabase>Krakatoa.xml</UpdateDatabase>
+      <UpdateDatabase>LakeVictoria.xml</UpdateDatabase>
+      <UpdateDatabase>MtKailash.xml</UpdateDatabase>
+      <UpdateDatabase>SolomonsMines.xml</UpdateDatabase>
+      <UpdateDatabase>MtSinai.xml</UpdateDatabase>
+      <UpdateDatabase>OldFaithful.xml</UpdateDatabase>
+      <UpdateDatabase>RockOfGibraltar.xml</UpdateDatabase>
+      <UpdateDatabase>Potosi.xml</UpdateDatabase>
+      <UpdateDatabase>SriPada.xml</UpdateDatabase>
+      <UpdateDatabase>Uluru.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
