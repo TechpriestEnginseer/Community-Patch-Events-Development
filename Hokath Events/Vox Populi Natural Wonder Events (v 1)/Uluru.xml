@@ -34,7 +34,7 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_ULURU_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
-			<EventBuildingClass>BUILDINGCLASS_ZOO</EventBuildingClass>
+			<EventBuildingClass>BUILDINGCLASS_THEATRE</EventBuildingClass>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_ULURU_CHOICE_4</Type>
@@ -68,13 +68,13 @@
 	<CityEventChoice_BuildingClassYieldChange>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_GIBRALTAR_CHOICE_3</CityEventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_GIBRALTAR_CHOICE_3</CityEventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>

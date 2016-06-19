@@ -91,5 +91,5 @@ skiing - req hotel, req 20 pop, +gold+tourism, no more production
 
 --Potosi--Man Eating Mountain
 silver mine - req forge, -food per turn, +2 copies silver ore
-lake dredge - req machinery, req lake, -prod per turn, lakes get +gold
+river dredge - req machinery, req river, -prod per turn, river get +gold
 copper (no tin) smelt - req factory, copy of copper

@@ -33,7 +33,8 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_POTOSI_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<NearbyFeature>FEATURE_LAKE</NearbyFeature>
+			<RiverOnly>true</RiverOnly>
+			<EventBuildingClass>BUILDINGCLASS_NW_POTOSI_DUMMY</EventBuildingClass>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_POTOSI_CHOICE_4</Type>
@@ -63,6 +64,35 @@
 		</Row>
 	</CityEvent_ParentEvents>
 
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NW_POTOSI_DUMMY</Type>
+			<DefaultBuilding></DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NW_POTOSI_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_NW_POTOSI_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_NW_POTOSI_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_RiverPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NW_POTOSI_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_RiverPlotYieldChanges>
+	
+	
 	<CityEventChoice_CityYield>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_POTOSI_CHOICE_2</CityEventChoiceType>
@@ -152,7 +182,7 @@
 			<Text>Deeper mines supply you with two copies of [ICON_RES_SILVER] Silver, but the hazardous conditions affect the health of the miners: -4 [ICON_FOOD] Food per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_HELP_CHOICE_3">
-			<Text>Lake dredging costs -5 [ICON_PRODUCTION] Production per turn, but nearby Lakes yield +3 [ICON_GOLD] Gold.</Text>
+			<Text>River dredging costs -5 [ICON_PRODUCTION] Production per turn, but nearby River Tiles yield +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_HELP_CHOICE_4">
 			<Text>Advanced smelting allows you to extract 1 copy of [ICON_RES_COPPER] Copper from the mountain ore.</Text>
@@ -164,10 +194,14 @@
 			<Text>*The forge master at the City has developed a method for the unprecedented extraction of the precious Silver ore of the mountain*[NEWLINE]Finally the Silver shall be ours!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_DESCRIPTION_CHOICE_3">
-			<Text>*Your Engineers believe that the metals of the mountain which are carried away by the rain can be found settled at the bottom of the water basin*[NEWLINE]Well there's a good way to find out. Provide the materials; I want platform on every lake.</Text>
+			<Text>*Your Engineers believe that the metals of the mountain which are carried away by the rain can be found settled at the bottom of the water basin*[NEWLINE]Well there's a good way to find out. Provide the materials; I want people panning every inch of that River.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_DESCRIPTION_CHOICE_4">
 			<Text>*An improvement to the Silver smelting process will allow us to separate Copper from the slag*[NEWLINE]To think how much of this stuff must have gone to waste over all these years!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_NW_POTOSI_DUMMY">
+			<Text></Text>
 		</Row>
 	</Language_en_US>
 </GameData>

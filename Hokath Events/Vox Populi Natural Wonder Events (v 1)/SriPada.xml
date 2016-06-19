@@ -113,13 +113,13 @@
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_NW_SRI_PADA_DUMMY_2</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NW_SRI_PADA_DUMMY_2</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
