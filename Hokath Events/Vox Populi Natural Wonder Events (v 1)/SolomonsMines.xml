@@ -234,7 +234,7 @@
 			<Text>The Natural Wonder permenantly yields +1 [ICON_PRODUCTION] Production, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_SOLOMONS_MINES_HELP_CHOICE_2">
-			<Text>A couple of Barbarian Units spawn near the City. In response, the citizen supply a Free Armoury which generates +2 [ICON_CULTURE] Culture.</Text>
+			<Text>A couple of [ICON_WAR] Barbarian Units spawn near the City. In response, the citizen supply a Free Armoury which generates +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_SOLOMONS_MINES_HELP_CHOICE_3">
 			<Text>Pay {2_InstantYield} to construct a Well which provides a copy of [ICON_RES_GEMS] Gems.</Text>
