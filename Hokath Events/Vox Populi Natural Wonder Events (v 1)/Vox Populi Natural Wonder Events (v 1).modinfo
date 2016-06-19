@@ -23,24 +23,24 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="19CA0899A0E2CC5A408A46E5B569E9FF" import="0">BarringerCrater.xml</File>
-    <File md5="17462731B4D82CB8F153DAE15CC1B5BA" import="0">ElDorado.xml</File>
-    <File md5="6AE8257B494EB4C1AD5EBBAC2DF31E59" import="0">FountainOfYouth.xml</File>
-    <File md5="622222E808463B98807EEF3B954C95B6" import="0">Fuji.xml</File>
-    <File md5="653289E6E90F51C13771F09D2E796564" import="0">GrandMesa.xml</File>
-    <File md5="D42C96B24BDD6EE649743A916F4DCCE9" import="0">GreatBarrierReef.xml</File>
-    <File md5="95DBE7687D9BE546618013B5A9FCE6A0" import="0">Kilimanjaro.xml</File>
-    <File md5="4156894CEED65624E39DD6D5CF0E2AF0" import="0">Krakatoa.xml</File>
-    <File md5="03C09F5CCF3D417D136E0B3536F8B374" import="0">LakeVictoria.xml</File>
-    <File md5="362DDE69B370C69C675CB5138E18FD20" import="0">MtKailash.xml</File>
-    <File md5="C1EDD79D1C95B2DCF1CA760CB0CDC12C" import="0">MtSinai.xml</File>
-    <File md5="678EAD2A3BC398A0BF5882717B46D905" import="0">OldFaithful.xml</File>
-    <File md5="393827FF351002522608CE2A8CF4FDC4" import="0">Potosi.xml</File>
-    <File md5="54ABD0505CFFDD9E6187CCF218B6097E" import="0">readme.txt</File>
-    <File md5="9411992897571FA33E7FD9FCFA168995" import="0">RockOfGibraltar.xml</File>
-    <File md5="B0544C8C992E58078F3BD94CBDE69AB4" import="0">SolomonsMines.xml</File>
-    <File md5="E9DD1DF6E99BD7DA90F844385B334B46" import="0">SriPada.xml</File>
-    <File md5="A3B211C8F7116E3F1AC4F31ABE50C8AC" import="0">Uluru.xml</File>
+    <File md5="FC7781880BB042DE8943BAF1E209FD2A" import="0">BarringerCrater.xml</File>
+    <File md5="3769BDDAEE0D1DAD15B43C3CA3894D17" import="0">ElDorado.xml</File>
+    <File md5="AE7802B1430D644A5B6BA178AC3A0B99" import="0">FountainOfYouth.xml</File>
+    <File md5="957454FDEC3DD45FDFC8FB1AA114477B" import="0">Fuji.xml</File>
+    <File md5="4122A9BE663AF4F83C9957E78387CB1B" import="0">GrandMesa.xml</File>
+    <File md5="DC3873F66B4C36B30DDE1ACD029A4CC1" import="0">GreatBarrierReef.xml</File>
+    <File md5="7018D5D413CDD43992CE478430845E78" import="0">Kilimanjaro.xml</File>
+    <File md5="C77E83BE068E1E6797DBFE40289FE7E7" import="0">Krakatoa.xml</File>
+    <File md5="62B2A817730404CA02CDE43DB85965CB" import="0">LakeVictoria.xml</File>
+    <File md5="B2D920B5630C21ED2C944FAF072609B3" import="0">MtKailash.xml</File>
+    <File md5="FD22896AA1E6FFC67DDDA61944AB9A65" import="0">MtSinai.xml</File>
+    <File md5="F2520BB0450D87325857B4A4D44DBC1C" import="0">OldFaithful.xml</File>
+    <File md5="81A9040C0D3594E1EA4BBB753A51DE1A" import="0">Potosi.xml</File>
+    <File md5="2D6707EFA987532E252AC9C0002CE11E" import="0">readme.txt</File>
+    <File md5="E649B123EBD7B75F043B104E6DC0A58D" import="0">RockOfGibraltar.xml</File>
+    <File md5="CFFEFDCD86F4E78446C5371FC976358E" import="0">SolomonsMines.xml</File>
+    <File md5="EC638DB905FABE00D4AAA012F1014FE2" import="0">SriPada.xml</File>
+    <File md5="C39F4F6A7823319583308B07B5D75CBB" import="0">Uluru.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

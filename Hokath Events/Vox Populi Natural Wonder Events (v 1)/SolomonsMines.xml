@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_NW_SOLOMONS_MINES_HELP</Help>
 			<NumChoices>5</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>5</RandomChanceDelta>
+			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>5</EventCooldown>
 			<NearbyFeature>FEATURE_SOLOMONS_MINES</NearbyFeature>
