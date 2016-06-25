@@ -20,6 +20,8 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_ULURU_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_NW_ULURU_HELP_CHOICE_1</Help>
 			<IsOneShot>false</IsOneShot>
+			<EventDuration>5</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_ULURU_CHOICE_2</Type>

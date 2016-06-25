@@ -19,6 +19,8 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_HELP_CHOICE_1</Help>
 			<IsOneShot>false</IsOneShot>
+			<EventDuration>5</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_BARRINGER_CRATER_CHOICE_2</Type>
@@ -115,7 +117,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_BARRINGER_CRATER_CHOICE_3</CityEventChoiceType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 	</CityEventChoice_ResourceQuantity>
 	<CityEventChoice_GreatPersonPoints>
@@ -190,7 +192,7 @@
 			<Text>For the next {4_Turns} nearby Villages generate +2 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold, but [ICON_STRENGTH] Crime in the City increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_HELP_CHOICE_3">
-			<Text>Invest {2_InstantYield} for a chance to discover a massive node of iron ore!</Text>
+			<Text>Allow a large-scale excavation, for a chance to purchase a massive node of iron ore for {2_InstantYield}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_HELP_CHOICE_4">
 			<Text>Allocate {2_InstantYield}, receive {4_GPChange} and a Free Spaceship Factory.</Text>
