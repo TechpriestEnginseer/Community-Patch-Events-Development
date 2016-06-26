@@ -40,6 +40,7 @@
 			<Description>TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_POLYNESIA_UE_DUMMY_2</EventBuildingClassGlobal>
 		</Row>
 		<Row>
@@ -161,6 +162,14 @@
 			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
+	<EventChoice_ResourceYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_1</EventChoiceType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_ResourceYieldChange>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
@@ -211,7 +220,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1250</Yield>
+			<Yield>250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_5</EventChoiceType>
@@ -228,7 +237,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-1250</Yield>
+			<Yield>-250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_5</EventChoiceType>
@@ -393,7 +402,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_2">
-			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food.</Text>
+			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] yield +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_3">
 			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, working Ocean Tiles yields +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture.</Text>
@@ -405,7 +414,7 @@
 			<Text>Accept the loss of {2_InstantYield} in order to modernize the economy. Fishing Boats, Harbours and Seaports yield +2 [ICON_GOLD] Gold, but [ICON_GOLD] Poverty levels increase by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_6">
-			<Text>Holidaymakers increase Cities' [ICON_TOURISM] Tourism and [ICON_GOLD] Gold outputs by 2 for every Coast Tile in workable range.</Text>
+			<Text>Holidaymakers increase Cities' [ICON_TOURISM] Tourism and [ICON_GOLD] Gold outputs by +2 for every Coast Tile in workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>Let the champion of the people challenge me for leadership. Though I will win, I shall be merciful and grant them a great reward for their bravery!</Text>

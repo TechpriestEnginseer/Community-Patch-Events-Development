@@ -147,13 +147,18 @@ Copernicus - req astronomy, cost sci&faith, free tech, academy +sci
 Voivode revolt - req military academy, +lump sum culture, resistance turns, military academy +culture+gap
 40:1 - req combined arms, req war, +strength&hp in cities, friendly lands promo 
 
+--Mayans--No Greater Gift
+Ballcourts - req arena, req kuna, -food, +faith+prod+culture IMPROVEMENT_KUNA
+holy jade - req temple, cost gold, +faith on monument, 2 copies of jade
+internal patronage - req economics, cost culture, %city connection increase per city and trade gold boost
+united states of central - req ideology, unhappy, resistance turns, lower poverty, lower illiteracy, wltkd
+syncretism - req atomic, cost faith, no religious unhappy, +% faith from temples
+
 -----To Be Completed-----
 
 --Shoshone--
 Bison pound - 
 
---Mayans--
-Ballcourt - req arena, -food, +faith+prod
 
 --Japan--
 zen - Pagoda
@@ -182,7 +187,10 @@ Casa del India -
 Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
 
 --Zulus--
+
+
 Rooibois - gain copies of tea, 
+vuvuzela -
 
 --Ottomans--
 Hamam - req holy city, baths give food and faith
@@ -206,6 +214,7 @@ Day of the Dead -
 
 --Arabia--
 desert bonus
+<ExtraLuxuries>true</ExtraLuxuries>
 Madrasah - university +faith
 
 
@@ -233,7 +242,7 @@ forum - market +culture
 thermae - baths +food +science
 alpini - mountain walking gun units
 
------
+-----modded civs------
 
 --Garamantes--
 Fossils - 
