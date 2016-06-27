@@ -48,7 +48,7 @@
 			<Description>TXT_KEY_EVENT_MAYA_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
-			<RequiresUnhappy>true</RequiresUnhappy>
+			<IsUnhappy>true</IsUnhappy>
 			<WLTKDTurns>12</WLTKDTurns>
 			<ResistanceTurns>6</ResistanceTurns>
 		</Row>
