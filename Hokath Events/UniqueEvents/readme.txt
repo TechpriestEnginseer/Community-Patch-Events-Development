@@ -208,9 +208,12 @@ columbus
 el sid
 
 
---Aztec--
-sacraficial altar - courthouse gain +faith
-Day of the Dead - 
+--Aztec--What Has Been Set In Motion
+sacraficial altar - req courthouse, cost faith, courthouse gain +faith+prod
+ometeotl - req philosophy, cost science, cities get +% writer birth and writers guilds get faith per city
+hacienda - req banking, plantation -gold +prod+food
+rurales - req rifling, cost gold, free fusilier, -crime
+Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
 
 --Arabia--
 desert bonus

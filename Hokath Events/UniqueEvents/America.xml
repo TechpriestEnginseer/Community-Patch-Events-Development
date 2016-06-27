@@ -361,7 +361,7 @@
 			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1">
-			<Text>*It is an idea of brilliance!* I'd like the record to show that this has the full support of the American government.</Text>
+			<Text>*It is an idea of brilliance!*[NEWLINE]I'd like the record to show that this has the full support of the American government.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_2">
 			<Text>*The presentation details how wild Horses, hunted to near extinction, could be repopulated. The long term benefits are significant*[NEWLINE]We must secure the ecological and cultural heritage of our children.</Text>
