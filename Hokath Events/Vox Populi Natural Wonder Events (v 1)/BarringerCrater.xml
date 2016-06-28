@@ -183,7 +183,7 @@
 			<Text>Earthshattering Kaboom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_HELP">
-			<Text>Merchants seeking to exploit the situation surrounding the Barringer Crater have come seeking your support in their venture.</Text>
+			<Text>Merchants, seeking to exploit the situation surrounding the Barringer Crater, have come seeking your support in their venture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_BARRINGER_CRATER_HELP_CHOICE_1">
 			<Text>The Natural Wonder permenantly yields +1 [ICON_RESEARCH] Science, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>

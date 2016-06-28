@@ -194,7 +194,7 @@
 			<Text>Nec Plus Ultra</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_GIBRALTAR_HELP">
-			<Text>Your Advisors have returned from their visit to Gibraltar, Greatness.[NEWLINE]Will you take lunch with him in the blue drawing room?</Text>
+			<Text>Your Advisors have returned from their visit to Gibraltar, Greatness.[NEWLINE]Will you take lunch with them in the drawing room?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_GIBRALTAR_HELP_CHOICE_1">
 			<Text>The Natural Wonder permenantly yields +1 [ICON_Gold] Gold, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>

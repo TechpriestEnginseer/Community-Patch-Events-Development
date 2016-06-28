@@ -174,7 +174,7 @@
 			<Text>The Fountain's waters are distributed via Aqueducts, Baths and Grocers. All these buildings yield +3 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_FOUNTAIN_YOUTH_HELP_CHOICE_3">
-			<Text>The Fountain loses up to -10 [ICON_FOOD] Food. A Cathedral is erect atop the ruins, and 75% of the City converts to your majority religion.</Text>
+			<Text>The Fountain loses up to -10 [ICON_FOOD] Food. A Cathedral is erected atop the ruins, and 75% of the City converts to your majority religion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_FOUNTAIN_YOUTH_HELP_CHOICE_4">
 			<Text>Nearby Farms provide +2 [ICON_FOOD] Food; this effect has a Maintenance of -5 [ICON_GOLD] Gold.</Text>
