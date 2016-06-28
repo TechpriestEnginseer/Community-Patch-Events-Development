@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_POLYNESIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>1000</RandomChance>
-			<EventCooldown>50</EventCooldown>
+			<EventCooldown>30</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_POLYNESIA</RequiredCiv>
@@ -19,6 +19,7 @@
 			<Description>TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
+			<IsOneShot>true</IsOneShot>
 		</Row>
 		<Row>
 			<Type>EVENT_POLYNESIA_UE_CHOICE_2</Type>
@@ -26,6 +27,7 @@
 			<Description>TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AQUEDUCT</RequiredAnywhereBuildingClass>
+			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_POLYNESIA_UE_CHOICE_3</Type>
@@ -215,7 +217,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>500</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>
@@ -232,7 +234,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-500</Yield>
+			<Yield>-200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>
@@ -402,7 +404,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_2">
-			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] yield +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] Fish yield +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_3">
 			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, working Ocean Tiles yields +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture.</Text>

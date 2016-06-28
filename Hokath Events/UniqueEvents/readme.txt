@@ -1,7 +1,7 @@
 When you hit the classical era +30pop the event pops (around first half classical usually),
-and every x turns thereafter.
-There is always an option to get a great person, and that will be probably be the only one
-you can choose the first time (so you can mouse over others to see what they require)
+and can pop every x turns thereafter (if an option is available). If this happens you must invoke it (WIP)
+All civs have an option to get a great person, and that will be probably be the only one
+you can choose the first time (so you can mouse over others to see what they do and require)
 
 -----Completed-----
 
@@ -154,6 +154,13 @@ internal patronage - req economics, cost culture, %city connection increase per 
 united states of central - req ideology, unhappy, resistance turns, lower poverty, lower illiteracy, wltkd
 syncretism - req atomic, cost faith, no religious unhappy, +% faith from temples
 
+--Aztec--What Has Been Set In Motion
+sacraficial altar - req courthouse, cost faith, courthouse gain +faith+prod
+ometeotl - req philosophy, cost science, cities get +% writer birth and writers guilds get faith per city
+hacienda - req banking, plantation -gold +prod+food
+rurales - req rifling, cost gold, free fusilier, -crime
+Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
+
 -----To Be Completed-----
 
 --Shoshone--
@@ -208,12 +215,6 @@ columbus
 el sid
 
 
---Aztec--What Has Been Set In Motion
-sacraficial altar - req courthouse, cost faith, courthouse gain +faith+prod
-ometeotl - req philosophy, cost science, cities get +% writer birth and writers guilds get faith per city
-hacienda - req banking, plantation -gold +prod+food
-rurales - req rifling, cost gold, free fusilier, -crime
-Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
 
 --Arabia--
 desert bonus

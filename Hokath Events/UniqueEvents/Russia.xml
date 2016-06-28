@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_RUSSIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>1000</RandomChance>
-			<EventCooldown>50</EventCooldown>
+			<EventCooldown>30</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_RUSSIA</RequiredCiv>
@@ -19,6 +19,7 @@
 			<Description>TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
+			<IsOneShot>true</IsOneShot>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_2</Type>

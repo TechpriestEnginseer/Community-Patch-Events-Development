@@ -20,6 +20,7 @@
 			<Description>TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
+			<IsOneShot>true</IsOneShot>
 		</Row>
 		<Row>
 			<Type>EVENT_IROQUOIS_UE_CHOICE_2</Type>

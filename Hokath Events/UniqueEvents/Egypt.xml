@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>1000</RandomChance>
-			<EventCooldown>50</EventCooldown>
+			<EventCooldown>30</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -27,6 +27,7 @@
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_1</Help>
 			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_1</Description>
 			<FreeGreatPeople>1</FreeGreatPeople>
+			<IsOneShot>true</IsOneShot>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_3</Type>
