@@ -5,10 +5,10 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SWEDEN_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>1000</RandomChance>
-			<EventCooldown>30</EventCooldown>
+			<RandomChance>100</RandomChance>
+			<RandomChanceDelta>10</RandomChanceDelta>
+			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
-			
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_SWEDEN</RequiredCiv>
 			<MinimumNationalPopulation>30</MinimumNationalPopulation>
@@ -20,7 +20,8 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
-			<IsOneShot>true</IsOneShot>
+			<EventDuration>150</EventDuration>
+			<IsOneShot>false</IsOneShot>
 		</Row>
 		<Row>
 			<Type>EVENT_SWEDEN_UE_CHOICE_2</Type>
@@ -34,7 +35,7 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiresWar>true</RequiresWar>
-			<EventDuration>75</EventDuration>
+			<EventDuration>150</EventDuration>
 			<Expires>true</Expires>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AMPHITHEATER</RequiredAnywhereBuildingClass>
@@ -47,7 +48,7 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
-			<EventDuration>75</EventDuration>
+			<EventDuration>150</EventDuration>
 			<Expires>true</Expires>
 			<PlayerHappiness>-5</PlayerHappiness>
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>

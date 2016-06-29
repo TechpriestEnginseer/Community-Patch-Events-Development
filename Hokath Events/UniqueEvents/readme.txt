@@ -3,7 +3,7 @@ and can pop every x turns thereafter (if an option is available). If this happen
 All civs have an option to get a great person, and that will be probably be the only one
 you can choose the first time (so you can mouse over others to see what they do and require)
 
------Completed-----
+-----Completed-----23 done--
 
 --England--Mightier Yet
 Grand Tourney - req circus max., obsolete industrial, yields& WLTKD & longbows
@@ -161,7 +161,14 @@ hacienda - req banking, plantation -gold +prod+food
 rurales - req rifling, cost gold, free fusilier, -crime
 Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
 
------To Be Completed-----
+--Brazil--The Men Of Tomorrow
+jungle tribes - req national epic, min feat jung, jungle +food+gold, sugar/bananas/cocoa/spices +food
+luminary emperor - req education, cost cult&faith, university +cult, -illit
+gold rush - req banking, pop gain, copy gold, unhappiness per city
+pracinhas - req flight, req war, one per city 
+biofuel - req plastic, cost sci&gold, plantation +science+prod+GAP
+
+-----To Be Completed-----20 to go---
 
 --Shoshone--
 Bison pound - 
@@ -204,10 +211,6 @@ Hamam - req holy city, baths give food and faith
 
 --Byzantium--
 
---Brazil--
-jungle tribes - jungle tile boost
-prachinas - 
-biofuel - plantation boost science and prod
 
 --Spain--
 Basilica - Free cathedrals
@@ -218,7 +221,7 @@ el sid
 
 --Arabia--
 desert bonus
-<ExtraLuxuries>true</ExtraLuxuries>
+grand souk - <ExtraLuxuries>true</ExtraLuxuries> in capital
 Madrasah - university +faith
 
 
