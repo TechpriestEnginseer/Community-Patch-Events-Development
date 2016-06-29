@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_NW_LAKE_VICTORIA_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>25</RandomChanceDelta>
+			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>5</EventCooldown>
 			<NearbyFeature>FEATURE_LAKE_VICTORIA</NearbyFeature>
@@ -44,6 +44,7 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_LAKE_VICTORIA_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClass>BUILDINGCLASS_HYDRO_PLANT</EventBuildingClass>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>

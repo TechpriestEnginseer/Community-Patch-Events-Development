@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_NW_GIBRALTAR_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>25</RandomChanceDelta>
+			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>5</EventCooldown>
 			<NearbyFeature>FEATURE_GIBRALTAR</NearbyFeature>
