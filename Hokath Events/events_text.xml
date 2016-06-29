@@ -60,7 +60,7 @@
 			<Text>They say this man hordes his fortune in a rare type of Pearl. It would be unfortunate if someone were to... commandeer it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_1">
-			<Text>20% chance for the one turn of [ICON_RESISTANCE] Rioting.</Text>
+			<Text>One turn of [ICON_RESISTANCE] Rioting.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_2">
 			<Text>Spend 400 [ICON_GOLD] Gold to gain a Corvette.</Text>
