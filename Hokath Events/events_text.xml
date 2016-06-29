@@ -15,7 +15,7 @@
 			<Text>A man of a minority faith has come forward, confessing his involvement in a plot to blow up the Palace. He begs for repentence, but doesn't know enough to bring down the plotters.[NEWLINE][NEWLINE]What should we do, Your Excellence?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_1">
-			<Text>50% chance for {5_Turns} turns of [ICON_RESISTANCE] Resistance.</Text>
+			<Text>50% chance for 5 turns of [ICON_RESISTANCE] Resistance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_2">
 			<Text>Convert 60% of followers to your Religion, but lose -2 [ICON_CITIZEN] Population.</Text>
@@ -66,7 +66,7 @@
 			<Text>Spend 400 [ICON_GOLD] Gold to gain a Corvette.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_3">
-			<Text>For {4_Turns} the Harbor gains +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism, but nearby Fishing Boats lose -1 [ICON_GOLD] Gold and -1 [ICON_FOOD] Food.</Text>
+			<Text>For {5_Turns} the Harbor gains +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism, but nearby Fishing Boats lose -1 [ICON_GOLD] Gold and -1 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_4">
 			<Text>Up to 2 Fishing Boats and the Harbor are destroyed. A [ICON_WAR] Barbarian Unit spawns. Gain a copy of the [ICON_RES_PEARLS] Pearls resource.</Text>
