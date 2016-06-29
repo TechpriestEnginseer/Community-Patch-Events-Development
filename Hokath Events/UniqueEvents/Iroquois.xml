@@ -6,9 +6,8 @@
 			<Help>TXT_KEY_EVENT_IROQUOIS_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>1000</RandomChance>
-			<EventCooldown>50</EventCooldown>
+			<EventCooldown>30</EventCooldown>
 			<IsOneShot>false</IsOneShot>
-			
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_IROQUOIS</RequiredCiv>
 			<MinimumNationalPopulation>30</MinimumNationalPopulation>

@@ -8,7 +8,6 @@
 			<RandomChance>1000</RandomChance>
 			<EventCooldown>30</EventCooldown>
 			<IsOneShot>false</IsOneShot>
-			
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_ENGLAND</RequiredCiv>
 			<MinimumNationalPopulation>30</MinimumNationalPopulation>
