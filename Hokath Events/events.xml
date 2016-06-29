@@ -153,11 +153,11 @@
                         <Description>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_DESCRIPTION</Description>
                         <Help>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP</Help>
                         <NumChoices>4</NumChoices>
-                        <RandomChance>10</RandomChance>
+                        <RandomChance>30</RandomChance>
                         <IsOneShot>true</IsOneShot>
                         <RequiredBuildingClass>BUILDINGCLASS_HARBOR</RequiredBuildingClass>
                         <EventCooldown>25</EventCooldown>
-                        <RandomChanceDelta>1</RandomChanceDelta>
+                        <RandomChanceDelta>0</RandomChanceDelta>
                         <RequiredEra>ERA_MEDIEVAL</RequiredEra>
                         <ObsoleteEra>ERA_MODERN</ObsoleteEra>
                 </Row>
@@ -167,7 +167,6 @@
                     <Type>CITY_EVENT_NOTORIOUS_PIRATE_CHOICE_1</Type>
                     <Description>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_DESCRIPTION_CHOICE_1</Description>
                     <Help>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_1</Help>
-                    <EventChance>200</EventChance>
                     <ResistanceTurns>1</ResistanceTurns>
                 </Row>
                 <Row>
