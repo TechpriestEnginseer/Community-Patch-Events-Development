@@ -23,7 +23,8 @@
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_1</Help>
 			<EventChance>500</EventChance>
-			<ResistanceTurns>5</ResistanceTurns>
+			<ResistanceTurns>4</ResistanceTurns>
+			<EventDuration>4</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_2</Type>
@@ -167,7 +168,8 @@
                     <Type>CITY_EVENT_NOTORIOUS_PIRATE_CHOICE_1</Type>
                     <Description>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_DESCRIPTION_CHOICE_1</Description>
                     <Help>TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_1</Help>
-                    <ResistanceTurns>1</ResistanceTurns>
+                    <ResistanceTurns>2</ResistanceTurns>
+                    <EventDuration>2</EventDuration>
                 </Row>
                 <Row>
                         <Type>CITY_EVENT_NOTORIOUS_PIRATE_CHOICE_2</Type>
@@ -329,6 +331,8 @@
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_4</Description>
 			<WLTKDTurns>10</WLTKDTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 			<IsOneShot>false</IsOneShot>
 		</Row>
 	</CityEventChoices>
