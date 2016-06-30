@@ -10,6 +10,7 @@
 			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>5</EventCooldown>
+			<EventDuration>5</EventDuration>
 			<NearbyFeature>FEATURE_VOLCANO</NearbyFeature>
 		</Row>
 	</CityEvents>
@@ -28,7 +29,8 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_VOLCANO_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<CityLacksPlayerMajorityReligion>true</CityLacksPlayerMajorityReligion>
-			<WLTKDTurns>30</WLTKDTurns>
+			<EventDuration>15</EventDuration>
+			<WLTKDTurns>15</WLTKDTurns>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_VOLCANO_CHOICE_3</Type>

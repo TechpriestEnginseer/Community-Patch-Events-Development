@@ -10,6 +10,7 @@
 			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>5</EventCooldown>
+			<EventDuration>5</EventDuration>
 			<NearbyFeature>FEATURE_SOLOMONS_MINES</NearbyFeature>
 		</Row>
 	</CityEvents>
