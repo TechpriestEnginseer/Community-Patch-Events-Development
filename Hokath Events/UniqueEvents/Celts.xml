@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_CELTS_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_CELTS_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -64,6 +64,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STADIUM</RequiredAnywhereBuildingClass>
 			<WLTKDTurns>20</WLTKDTurns>
+			<EventDuration>20</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

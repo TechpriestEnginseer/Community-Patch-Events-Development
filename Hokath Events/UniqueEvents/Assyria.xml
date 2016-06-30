@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ASSYRIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -56,6 +56,8 @@
 			<IsOneShot>true</IsOneShot>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LANDMARK</ImprovementAnywhereRequired>
 			<WLTKDTurns>15</WLTKDTurns>
+			<EventDuration>15</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_6</Type>

@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_KOREA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_KOREA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -38,6 +38,8 @@
 			<Expires>true</Expires>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_UNIVERSITY</RequiredAnywhereBuildingClass>
+			<EventDuration>15</EventDuration>
+			<Expires>false</Expires>
 			<GoldenAgeTurns>15</GoldenAgeTurns>
 		</Row>
 		<Row>
@@ -70,6 +72,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 			<MinimumNationalPopulation>120</MinimumNationalPopulation>
+			<EventDuration>15</EventDuration>
+			<Expires>false</Expires>
 			<GoldenAgeTurns>15</GoldenAgeTurns>
 		</Row>
 	</EventChoices>

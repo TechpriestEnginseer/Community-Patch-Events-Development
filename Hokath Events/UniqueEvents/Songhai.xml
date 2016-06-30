@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SONGHAI_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -39,6 +39,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 			<EventBuildingClassGlobal>BUILDINGCLASS_MOSQUE</EventBuildingClassGlobal>
 		</Row>
 		<Row>

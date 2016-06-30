@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_CHINA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_CHINA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -57,7 +57,9 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
 			<RequiresWar>true</RequiresWar>
-			<ResistanceTurns>1</ResistanceTurns>
+			<ResistanceTurns>2</ResistanceTurns>
+			<EventDuration>2</EventDuration>
+			<Expires>false</Expires>
 			<EventBuildingClassGlobal>BUILDINGCLASS_MONASTERY</EventBuildingClassGlobal>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 		</Row>
@@ -68,6 +70,8 @@
 			<EraScaling>true</EraScaling>
 			<IsOneShot>true</IsOneShot>
 			<ResistanceTurns>10</ResistanceTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 			<MinimumNationalPopulation>120</MinimumNationalPopulation>
 		</Row>

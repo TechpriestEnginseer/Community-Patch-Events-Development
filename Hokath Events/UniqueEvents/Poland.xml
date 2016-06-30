@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_POLAND_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_POLAND_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -55,6 +55,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MILITARY_ACADEMY</RequiredAnywhereBuildingClass>
 			<ResistanceTurns>5</ResistanceTurns>
+			<EventDuration>5</EventDuration>
+			<Expires>false</Expires>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>

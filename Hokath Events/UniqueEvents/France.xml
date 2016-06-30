@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_FRANCE_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_FRANCE_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -47,6 +47,8 @@
 			<LosingMoney>true</LosingMoney>
 			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
 			<ResistanceTurns>10</ResistanceTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 			<EventFreePolicies>1</EventFreePolicies>
 		</Row>
 		<Row>

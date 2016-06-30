@@ -165,8 +165,15 @@ Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
 jungle tribes - req national epic, min feat jung, jungle +food+gold, sugar/bananas/cocoa/spices +food
 luminary emperor - req education, cost cult&faith, university +cult, -illit
 gold rush - req banking, pop gain, copy gold, unhappiness per city
-pracinhas - req flight, req war, one per city 
+pracinhas - req flight, req war, one per city. +prod during wltkd
 biofuel - req plastic, cost sci&gold, plantation +science+prod+GAP
+
+--Denmark--Odin Owns Us All
+Longhouse - req metal casting, cost culture, barracks +culture+food
+stave churches - req x forests, req theology, temple +gold+culture+production
+dominis baltici - req gunpowder, req war minor, cost castle/harbour/citadel +gap
+ski infantry - req rifling, req war, 1 per city. production per snow tile in range
+hans christian etc - req radio, cost gold, writers guilds +%culture, jelling stones +tourism
 
 -----To Be Completed-----20 to go---
 
@@ -224,9 +231,6 @@ desert bonus
 grand souk - <ExtraLuxuries>true</ExtraLuxuries> in capital
 Madrasah - university +faith
 
-
---Denmark--
-Longhouse - barracks +
 
 --Ethiopia--
 Monolithic Church - 

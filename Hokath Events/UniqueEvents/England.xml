@@ -5,8 +5,8 @@
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ENGLAND_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>500</RandomChance>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -31,6 +31,8 @@
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<IsOneShot>true</IsOneShot>
 			<WLTKDTurns>10</WLTKDTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_3</Type>
@@ -49,6 +51,8 @@
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<RandomBarbarianSpawn>3</RandomBarbarianSpawn>
 			<ResistanceTurns>7</ResistanceTurns>
+			<EventDuration>7</EventDuration>
+			<Expires>false</Expires>
 			<IsOneShot>true</IsOneShot>
 			<EventFreePolicies>1</EventFreePolicies>
 		</Row>
