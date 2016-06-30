@@ -15,7 +15,7 @@
 			<Text>A man of a minority faith has come forward, confessing his involvement in a plot to blow up the Palace. He begs for repentence, but doesn't know enough to bring down the plotters.[NEWLINE][NEWLINE]What should we do, Your Excellence?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_1">
-			<Text>50% chance for 5 turns of [ICON_RESISTANCE] Resistance.</Text>
+			<Text>50% chance for {5_Turns} turns of [ICON_RESISTANCE] Resistance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_2">
 			<Text>Convert 60% of followers to your Religion, but lose -2 [ICON_CITIZEN] Population.</Text>
@@ -60,7 +60,7 @@
 			<Text>They say this man hordes his fortune in a rare type of Pearl. It would be unfortunate if someone were to... commandeer it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_1">
-			<Text>One turn of [ICON_RESISTANCE] Rioting.</Text>
+			<Text>{5_Turns} of [ICON_RESISTANCE] Rioting.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_2">
 			<Text>Spend 400 [ICON_GOLD] Gold to gain a Corvette.</Text>
