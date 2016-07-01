@@ -9,8 +9,8 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
-			<EventCooldown>5</EventCooldown>
-			<EventDuration>5</EventDuration>
+			<EventCooldown>30</EventCooldown>
+			
 			<NearbyFeature>FEATURE_GIBRALTAR</NearbyFeature>
 		</Row>
 	</CityEvents>
@@ -20,7 +20,7 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_GIBRALTAR_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_NW_GIBRALTAR_HELP_CHOICE_1</Help>
 			<IsOneShot>false</IsOneShot>
-			<EventDuration>5</EventDuration>
+			
 			<Expires>false</Expires>
 		</Row>
 		<Row>
