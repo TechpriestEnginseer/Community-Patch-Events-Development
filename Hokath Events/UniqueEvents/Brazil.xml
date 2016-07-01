@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_BRAZIL_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -54,7 +54,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventBuildingClass>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClass>
+			<EventBuildingClassGlobal>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClassGlobal>
 		</Row>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_6</Type>

@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_POLAND_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -28,7 +28,7 @@
 			<Help>TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredBuildingClass>BUILDINGCLASS_TEMPLE</RequiredBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TEMPLE</RequiredAnywhereBuildingClass>
 		</Row>
 		<Row>
 			<Type>EVENT_POLAND_UE_CHOICE_3</Type>
@@ -66,8 +66,7 @@
 			<RequiresWar>true</RequiresWar>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
-			<RequiresWar>true</RequiresWar>
-			<EventBuildingClass>BUILDINGCLASS_POLAND_UE_DUMMY</EventBuildingClass>
+			<EventBuildingClassGlobal>BUILDINGCLASS_POLAND_UE_DUMMY</EventBuildingClassGlobal>
 			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
 		</Row>
 	</EventChoices>

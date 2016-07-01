@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_POLYNESIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>

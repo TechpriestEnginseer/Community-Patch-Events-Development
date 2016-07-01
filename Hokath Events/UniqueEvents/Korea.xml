@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_KOREA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -35,7 +35,6 @@
 			<Help>TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<Expires>true</Expires>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_UNIVERSITY</RequiredAnywhereBuildingClass>
 			<EventDuration>15</EventDuration>

@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_MAYA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -28,7 +28,7 @@
 			<Help>TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_MAYA_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_ARENA</RequiredAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COLOSSEUM</RequiredAnywhereBuildingClass>
 		</Row>
 		<Row>
 			<Type>EVENT_MAYA_UE_CHOICE_3</Type>

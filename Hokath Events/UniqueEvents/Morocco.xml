@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_MOROCCO_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -366,7 +366,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_2">
-			<Text>{3_PlayerName} negotiates the inclusion of Desert and Mountain tribes into his Empire!</Text>
+			<Text>{3_PlayerName} negotiates the inclusion of isolated Berber tribes into his Empire!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_3_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
@@ -384,7 +384,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_5">
-			<Text>{3_PlayerName}'s makes a deal with several infamous pirate captains!</Text>
+			<Text>{3_PlayerName} makes a deal with several infamous pirate captains!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_6_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>

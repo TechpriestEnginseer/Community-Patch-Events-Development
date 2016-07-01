@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_EVENT_SONGHAI_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>500</RandomChance>
-			<RandomChanceDelta>100</RandomChanceDelta>
+			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -264,6 +264,24 @@
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
 	</EventChoice_ImprovementYieldChange>
 
 	<EventChoiceFlavors>
@@ -423,7 +441,7 @@
 			<Text>Spend {2_InstantYield} in order to protect 3 copies of [ICON_RES_GOLD] Gold. Your Constabularies boost [ICON_GOLD] Gold income by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_5">
-			<Text>Pour {2_InstantYield} worth of resources into the [ICON_RES_OIL] Oil sector, gaining 5 copies and gaining +3 [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_GOLDEN_AGE] Golden Age Points from every Well Improvement.</Text>
+			<Text>Pour {2_InstantYield} worth of resources into the [ICON_RES_OIL] Oil sector, gaining 5 copies and gaining +3 [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_GOLDEN_AGE] Golden Age Points from every Well and Offshore Platform.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_6">
 			<Text>Implement widespread policies to combat climate change. Cities gain +2 [ICON_RESEARCH] Science, [ICON_FOOD] Food and [ICON_TOURISM] Tourism for every Desert Tile within working range.</Text>

@@ -175,6 +175,14 @@ dominis baltici - req gunpowder, req war minor, cost castle/harbour/citadel +gap
 ski infantry - req rifling, req war, 1 per city. production per snow tile in range
 hans christian etc - req radio, cost gold, writers guilds +%culture, jelling stones +tourism
 
+--Arabia--No God But God
+desert bonus - req oasis, req amphitheatre, desert +food+prod, oasis +culture
+grand souk - req customs house, <ExtraLuxuries>true</ExtraLuxuries> in capital, gold during WLTKD
+Madrasah - req architecture, req academy, cost culture, academy&university +faith
+ulema - req ideology, req holy city, cost culture, constable and police station+faith, -crime, +religious division
+oil control - req postmodern, req well, gain x copies of oil, well produce +gold-production
+
+
 -----To Be Completed-----20 to go---
 
 --Shoshone--
@@ -223,14 +231,6 @@ Hamam - req holy city, baths give food and faith
 Basilica - Free cathedrals
 columbus
 el sid
-
-
-
---Arabia--
-desert bonus
-grand souk - <ExtraLuxuries>true</ExtraLuxuries> in capital
-Madrasah - university +faith
-
 
 --Ethiopia--
 Monolithic Church - 
