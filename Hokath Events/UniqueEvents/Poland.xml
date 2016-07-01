@@ -375,5 +375,9 @@
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_6">
 			<Text>*War raises its ugly head again over Poland. Will she survive this onslaught?*[NEWLINE]While a single Pole lives, so too does Poland! We will fight and die for all that is just and good in this world!</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_POLAND_UE_DUMMY">
+			<Text></Text>
+		</Row>
 	</Language_en_US>
 </GameData>
