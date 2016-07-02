@@ -304,7 +304,7 @@
 			<Text>Expend {1_YieldCost} for {4_GPChange} and {5_Turns} of WLTKD.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COOLSUMMER_CHOICE_2">
-			<Text>Tell them it’s the heavenly punishment for them being so lazy. Only if they work hard will the heat go away.</Text>
+			<Text>Tell them this is a heavenly punishment, brought about by their sloth! Only if they work hard will the heat go away.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COOLSUMMER_CHOICE_2_HELP">
 			<Text>Utilise your authority over Religion to expend {1_YieldCost} to gain {2_InstantYield}.</Text>
