@@ -119,20 +119,6 @@
 			<NukeImmune>true</NukeImmune>
 		</Row>
 	</Buildings>
-	<Building_BuildingClassYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_NETHERLANDS_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_NETHERLANDS_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</Building_BuildingClassYieldChanges>
 	<Building_SpecificGreatPersonRateModifier>
 		<Row>
 			<BuildingType>BUILDING_NETHERLANDS_UE_DUMMY</BuildingType>
@@ -140,6 +126,14 @@
 			<Modifier>20</Modifier>
 		</Row>
 	</Building_SpecificGreatPersonRateModifier>
+
+	<Building_YieldFromPurchase>
+		<Row>
+			<BuildingType>BUILDING_NETHERLANDS_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldFromPurchase>
 
 
 	<EventChoice_ResourceQuantity>
@@ -380,7 +374,7 @@
 			<Text>The East India Company demands -5 [ICON_GOLD] Gold and -5 [ICON_GOLDEN_AGE] Golden Age Points per turn. In exchange you gain access to a copy of [ICON_RES_SUGAR] Sugar, [ICON_RES_TOBACCO] Tobacco, [ICON_RES_COCOA] Cocoa, [ICON_RES_TEA] Tea, and [ICON_RES_COFFEE] Coffee.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_4">
-			<Text>Use up to {2_InstantYield}. All Cities have a 20% increased [ICON_GREAT_MERCHANT] Great Merchant Birth Rate, and give +1 [ICON_TOURISM] Tourism and +1 [ICON_GOLDEN_AGE] Golden Age Points to [ICON_GREAT_ARTIST] Artist's Guilds.</Text>
+			<Text>Use up to {2_InstantYield}. All Cities have a 20% increased [ICON_GREAT_MERCHANT] Great Merchant Birth Rate, and convert 10% of [ICON_GOLD] Gold to [ICON_CULTURE] Culture when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_5">
 			<Text>Siphon -15 [ICON_FOOD] Food and -5 [ICON_GOLDEN_AGE] Golden Age Points from all Cities with a Courthouse for {4_Turns}. During this time, all Cities experience WLTKD.</Text>

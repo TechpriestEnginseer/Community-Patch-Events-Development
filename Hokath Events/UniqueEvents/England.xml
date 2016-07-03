@@ -32,6 +32,8 @@
 			<IsOneShot>true</IsOneShot>
 			<WLTKDTurns>10</WLTKDTurns>
 			<EventDuration>10</EventDuration>
+			<EraScaling>true</EraScaling>
+			<EventBuildingClassGlobal>BUILDINGCLASS_ENGLAND_UE_DUMMY</EventBuildingClassGlobal>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -75,7 +77,10 @@
 			<EventPromotion>PROMOTION_INTERCEPTION_3</EventPromotion>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BROADCAST_TOWER</RequiredAnywhereBuildingClass>
 			<EventDuration>15</EventDuration>
+			<WLTKDTurns>15</WLTKDTurns>
 			<Expires>false</Expires>
+			<EraScaling>true</EraScaling>
+			<EventBuildingClassGlobal>BUILDINGCLASS_ENGLAND_UE_DUMMY_2</EventBuildingClassGlobal>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -104,28 +109,67 @@
 			<EventType>EVENT_ENGLAND_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-	<EventChoice_InstantYield>
+
+	<BuildingClasses>
 		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_6</EventChoiceType>
+			<Type>BUILDINGCLASS_ENGLAND_UE_DUMMY</Type>
+			<DefaultBuilding></DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ENGLAND_UE_DUMMY_2</Type>
+			<DefaultBuilding></DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ENGLAND_UE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_ENGLAND_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_ENGLAND_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+		<Row>
+			<Type>BUILDING_ENGLAND_UE_DUMMY_2</Type>
+			<BuildingClass>BUILDINGCLASS_ENGLAND_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_ENGLAND_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_WLTKDYieldMod>
+		<Row>
+			<BuildingType>BUILDING_ENGLAND_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1000</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>250</Yield>
+			<BuildingType>BUILDING_ENGLAND_UE_DUMMY_2</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
 		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>250</Yield>
-		</Row>
+	</Building_WLTKDYieldMod>
+	
+	
+	<EventChoice_EventYieldCost>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>250</Yield>
+			<Yield>350</Yield>
 		</Row>
-	</EventChoice_InstantYield>
+		<Row>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>400</Yield>
+		</Row>
+	</EventChoice_EventYieldCost>
 	<EventChoice_FreeUnitClasses>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
@@ -161,6 +205,8 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
+	
+	
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_1</EventChoiceType>
@@ -170,16 +216,11 @@
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
@@ -209,7 +250,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_6</EventChoiceType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 	</EventChoiceFlavors>
@@ -304,7 +345,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_2">
-			<Text>Receive {2_InstantYield}. All Cities enter WLTKD for {4_Turns} and a Longbowman spawns nearby.</Text>
+			<Text>Spend {1_YieldCost} to host a Grand Tourney. All Cities enter WLTKD for {4_Turns} and a Longbowman spawns nearby. This and future WLTKD also increase [ICON_CULTURE] Culture generation by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3">
 			<Text>The Grand Temple costs 10 [ICON_GOLD] Maintenance, but pilgrims found a free Church in every City.</Text>
@@ -316,7 +357,7 @@
 			<Text>A [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Plantations gain +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_6">
-			<Text>Receive {2_InstantYield}. All Fighters, and those constructed in the next {4_Turns}, gain the Interception III Promotion.</Text>
+			<Text>Exert {1_YieldCost} of cultural influence to enter {4_Turns} of WLTKD. This and future WLTKD also increase [ICON_PRODUCTION] Production by 15%. All Fighters, and those constructed in the next {4_Turns}, gain the Interception III Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_1">
 			<Text>*Your are petitioned by your lords to recognise a Great Person.*[NEWLINE]We and our subjects are of one mind. This champion of the common folk shall be knighted without further delay.</Text>
@@ -335,6 +376,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The Prime Minister has personally requested you to make a speech to the nation*[NEWLINE]Of course. For the sake of all that we ourselves hold dear, and of the world order and peace, it is unthinkable that we should refuse to meet the challenge.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_ENGLAND_UE_DUMMY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENGLAND_UE_DUMMY_2">
+			<Text></Text>
 		</Row>
 	</Language_en_US>
 </GameData>

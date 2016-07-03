@@ -122,7 +122,7 @@
 	
 	<EventChoice_FreeUnits>
 		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_5</EventChoiceType>
 			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
 			<Quantity>1</Quantity>
 		</Row>
@@ -136,7 +136,7 @@
 	</EventChoice_MinimumFeatureRequired>
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Modifier>15</Modifier>
@@ -144,21 +144,15 @@
 	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
@@ -171,7 +165,13 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_4</EventChoiceType>
@@ -189,12 +189,12 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>3</YieldChange>
@@ -351,7 +351,7 @@
 			<Text>Odin Owns Us All</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP">
-			<Text>Your helm and axe, Great Thane! A rabble approaches the palace, drunk on fire. They say you must give in to their political or be deposed![NEWLINE]You would have thought they would know better than to challenge the great Bluetooth!</Text>
+			<Text>Your helm and axe, High Thane! A rabble approaches the palace, drunk on fire. They say you must give in to their political or be deposed![NEWLINE]You would have thought they would know better than to challenge the great Bluetooth!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -360,16 +360,16 @@
 			<Text>Introduce Longhouses for {1_YieldCost}, which upgrade Barracks to generate an additional +2 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_3">
-			<Text>Move away from stone Temples to Stave Churches from the plentiful resource of wood. Temple gain +2 [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture.</Text>
+			<Text>Move away from stone Temples to Stave Churches from the plentiful resource of wood. Temple pay for their maintenance, repay +1 [ICON_PRODUCTION] Production per turn and generate +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_4">
 			<Text>The policy of naval dominance causes Harbours and Castles to yield +1 [ICON_GOLDEN_AGE] Golden Age Points, and for Citadels to yield +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_5">
-			<Text>A Ski Infantry is recruited in every City. The new military expansion allows Cities to generate +3 [ICON_PRODUCTION] for every Snow tile in workable range.</Text>
+			<Text>A Guerilla is recruited in every City. The new military expansion allows Cities to generate +3 [ICON_PRODUCTION] for every Snow tile in workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_6">
-			<Text>Spend {1_YieldCost} promoting Danish culture. Writers' Guilds increase [ICON_CULTURE] Culture generation by 15%. Jelling Stones generate +3 [ICON_TOURISM] Tourism.</Text>
+			<Text>Spend {1_YieldCost} promoting Danish culture. Writers' Guilds increase [ICON_CULTURE] Culture generation by 15%. Jelling Stones generate +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_1">
 			<Text>I haven't fought a good single combat in many moons. Come, there must be a Great Man amongst them who will challenge me!</Text>

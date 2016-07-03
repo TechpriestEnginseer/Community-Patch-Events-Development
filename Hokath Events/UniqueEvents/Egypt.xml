@@ -60,6 +60,7 @@
 			<Expires>false</Expires>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 			<IsOneShot>true</IsOneShot>
+			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_6</Type>

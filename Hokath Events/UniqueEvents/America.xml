@@ -51,6 +51,8 @@
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_POLICE_STATION</RequiredAnywhereBuildingClass>
+			<EventDuration>75</EventDuration>
+			<Expires>true</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_AMERICA_UE_CHOICE_6</Type>
@@ -356,7 +358,7 @@
 			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5">
-			<Text>Receive a copy of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 20%</Text>
+			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 20%. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6">
 			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
@@ -371,13 +373,13 @@
 			<Text>*Population density is identified as highly irregular. Encouraging resettlement could increase our prosperity tenfold!*[NEWLINE]The conflicts with our neighbours are pointless when we can find all we need here, at home.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector.*[NEWLINE]This plan is both elegant and timely.</Text>
+			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5">
-			<Text>*The benefits of a dry state have been made clear.*[NEWLINE]We must prevent temptation from corrupting good Americans. If there's a small bit of bootlegging as a result, well... business is business.</Text>
+			<Text>*The benefits of a dry state have been made clear*[NEWLINE]We must prevent temptation from corrupting good Americans. If there's a small bit of bootlegging as a result, well... business is business.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*This entrepreneur believes the music industry could become unthinkably profitable, and requests legal assistance to aid his vision.*[NEWLINE]I don't see why the emergency law against public gatherings can't be relaxed for this remote 'music fair'. If all the hoppies are sitting in some field, they can't be protesting the war!</Text>
+			<Text>*This entrepreneur believes the music industry could become unthinkably profitable, and requests legal assistance to aid his vision*[NEWLINE]I don't see why the emergency law against public gatherings can't be relaxed for this remote 'music fair'. If all the hoppies are sitting in some field, they can't be protesting the war!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_UE_DUMMY">

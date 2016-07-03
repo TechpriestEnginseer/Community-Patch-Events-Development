@@ -3,28 +3,41 @@ and can pop every x turns thereafter (if an option is available). If this happen
 All civs have an option to get a great person, and that will be probably be the only one
 you can choose the first time (so you can mouse over others to see what they do and require)
 
------Completed-----23 done--
+-----Completed-----
 
 --England--Mightier Yet
-Grand Tourney - req circus max., obsolete industrial, yields& WLTKD & longbows
+Grand Tourney - req circus max., cost gold, WLTKD, WLTKD+%culture & longbows
 Thomas Becket - Req grand temple, losing money, yields -gold from grand temple and free churches
 Civil War - req unhappy, barbarians and anarchy, gain two free policies
 Imperial Unrest - req 7 coastal cities & unhappy, barbarians, gain plantation and courthouse yields
-King's Speech - req war and broadcast tower, gain culture boost and intercept III for fighters
+King's Speech - req war and broadcast tower, cost culture and intercept III for fighters, WLTKD +%production
+
+England naturally has bonuses to war and spying, the events seek to expand on the imperial legacy of england by promoting a wide
+aggressive play. Free units, churches and courthouse yields all do this.
+WLTKD bonuses natural synergise with having access to many luxes from wide conquest.
+Policies help make up for the increase policy cost of wide, barbarian spawn a gift in disguise if authority.
 
 --Egypt--A Child of the Nile--
 Shadaf and Nilometer - req  watermill & 2 city w/ floodplains, gain +%food watermill and culture from flood plains
 Jihad - req war & holy city, gain faith and faith+friendly combat promo 
 Assassinate Mamluks - req unhappy and printing press, gain +sci chancery and +%culture printing press
 Egyptian Carpets - req manufactory & economics & losing money, gain yields on cotton, incense and perfume, +tour stoneworks
-Arab Spring - req ideology and unhappy, barbarians, gain policy and golden age.
+Arab Spring - req ideology, postmodern and unhappy, barbarians&militia gain policy and golden age.
+
+Egypt naturally has bonuses to wonders and cultural sub systems, the events seek to promote a culture win.
+Two choices with bonuses to desert (resources that spawn on desert) promote turtling that terrain
+while working tall with %food,%culture boosts on these cities.
+Sci to help get those wonder techs and tourism on stoneworks for a culture victory boost.
+faith promo meant to aid turtle and get some faith for GP purchase, final choice to golden age and turtle to victory.
 
 --America--Out of Many, One
 Mustangs - req stables, horses, costs horses but gives them culture and gold
 Gold Rush & Saloon - req war minor, min nat pop, gives 1 free fur and gold, 1 tourism on villages, +poverty
 Ranches - req agribusiness & cavalry, culture and food from pastures
-Prohibition - req police station, gives free sugar and villages gain +gold, +crime
+Prohibition - req police station, gives free sugar and villages gain +gold, +crime for 75turns
 Woodstock - req nuke & war, musicians' guilds gain +gold+tourism from cities
+
+America naturally
 
 --Sweden--From Midgard to Valhalla
 -add back in tundra bias
@@ -129,7 +142,7 @@ Tourist Industry - req airport, tourism&gold per coast tiles
 --Netherlands--A Miracle Mirrored
 great market - cost culture, req nat mon, nat. monument +food+tour+gold, WLTKD
 dutch east india - req east india, east india -% stuff, gain coffee, tea, cacao, tobacco, sugar
-Painters - req navigation, cost GAP, +great merchant rate, artist guilds +GAP+tourism
+Painters - req navigation, cost GAP, +great merchant rate, 10% gold to culture on purchase
 forced planting - req courthouse, req industrialization, courthouse -food-gap, WLTKD for x turns
 ontzuiling - req ideology, cost culture, WLTKD, happiness per city
 
@@ -177,21 +190,26 @@ hans christian etc - req radio, cost gold, writers guilds +%culture, jelling sto
 
 --Arabia--No God But God
 desert bonus - req oasis, req amphitheatre, desert +food+prod, oasis +culture
-grand souk - req customs house, <ExtraLuxuries>true</ExtraLuxuries> in capital, gold during WLTKD
+grand souk - req customs house, <ExtraLuxuries>true</ExtraLuxuries> in capital, faith from purchases
 Madrasah - req architecture, req academy, cost culture, academy&university +faith
 ulema - req ideology, req holy city, cost culture, constable and police station+faith, -crime, +religious division
 oil control - req postmodern, req well, gain x copies of oil, well produce +gold-production
 
+--Japan--Land Of The Rising Sun
+zen - req temple, req cost faith and culture, Pagoda in all city
+court music - req castle, castle +culture-gold, WLTKD +%faith, +% great musician generation
+patronize theaters - req opera house, increase boredom, enter WLTKD, WLTKD +% culture
+shale plant - req coal plant, gives copies oil, coal plants -gold-food
+yamato cannon - req battleship, req war, free TXT_KEY_PROMOTION_BOMBARDMENT_4
 
------To Be Completed-----20 to go---
+--Shoshone--Be Careful With Greatness
+Bison pound - req engineering, req x bison, bison give +gold+faith+culture+gap
+counting coup - req war, req national epic, promo that gives culture on kill and extra xp
+burial ground - req architecture, cost faith, encampment +faith+gap
+code talkers - req radio, cost science, all units sentry
+renewable energy - req ecology, req science&gold, solar panels in all cities
 
---Shoshone--
-Bison pound - 
-
-
---Japan--
-zen - Pagoda
-shale plant - 
+-----To Be Completed-----
 
 --Siam--
 Stupas - 
