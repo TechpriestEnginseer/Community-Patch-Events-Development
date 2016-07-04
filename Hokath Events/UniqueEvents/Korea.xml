@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_KOREA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_KOREA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -74,6 +74,7 @@
 			<EventDuration>15</EventDuration>
 			<Expires>false</Expires>
 			<GoldenAgeTurns>15</GoldenAgeTurns>
+			<LosingMoney>true</LosingMoney>
 		</Row>
 	</EventChoices>
 	<UnitPromotions>
@@ -419,7 +420,7 @@
 			<Text>*The queen has been assassinated. The councillors call for capitulation.*[NEWLINE]These traitors... we will never accede to the pathetic, imperialistic delusions of foreign devils! BRING ME THEIR HEADS!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The councillors, in a spiteful move to dethrone you, call for reforms which would destroy both their own power, and yours.*[NEWLINE]So it has come to this... It is no matter. With these reforms, the full potential of my people shall finally be unleashed!</Text>
+			<Text>*The councillors, in a spiteful move to dethrone you at this difficult time for our economy, call for reforms which would destroy both their own power, and yours.*[NEWLINE]So it has come to this... It is no matter. With these reforms, the full potential of my people shall finally be unleashed!</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_UE_TURTLE_SHELL">

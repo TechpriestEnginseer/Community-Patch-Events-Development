@@ -33,7 +33,7 @@ faith promo meant to aid turtle and get some faith for GP purchase, final choice
 --America--Out of Many, One
 Mustangs - req stables, horses, costs horses but gives them culture and gold
 Gold Rush & Saloon - req war minor, min nat pop, gives 1 free fur and gold, 1 tourism on villages, +poverty
-Ranches - req agribusiness & cavalry, culture and food from pastures
+Ranches - req agribusiness & cavalry, <LosingMoney>true</LosingMoney> culture and food from pastures
 Prohibition - req police station, gives free sugar and villages gain +gold, +crime for 75turns
 Woodstock - req nuke & war, musicians' guilds gain +gold+tourism from cities
 
@@ -44,7 +44,7 @@ America naturally
 Sami Peoples - req x deer, tundra&snow&ice gives food and culture
 Varangian Epic - req war & steel & amphitheatre, receive berserker per city, rivers gain +gold (expires).
 Great Reduction - req renais.& lose money, (long) temp unhappy, lump sum gold, chancery food/prod/sci
-Forest Economy - req x forest & indust. forest +prod+sci, lmill +gold.
+Forest Economy - req x forest & indust., unhappy, forest +prod+sci, lmill +gold.
 Socialism - req ideology & min nat pop, no poverty unhappy, -1g on village
 
 --France--To All Talents--
@@ -59,7 +59,7 @@ changdeokgung & celdon pottery - cost gold, req chivalry, palace % culture gold 
 hangul - req printing press & uni, cost culture, farms give +1 science, 15 turn golden age
 turtle ship - req war and metallurgy, melee boat -50% ranged dmg promo, prod boost
 assassination attempts - req industrial, mint -gold -tourism, free unit and units get 25% friendly lands boost
-'market economy' - postmodern. stock market +%gold, -20% boredom. 15 turn golden age
+'market economy' - postmodern. <LosingMoney>true</LosingMoney> stock market +%gold, -20% boredom. 15 turn golden age
 
 --Germany--Germany, Over All Else--
 Forest Tribes - req x forests, 75 turn woodsmen, culture on forest
@@ -73,7 +73,7 @@ berber tribes - req nat epic, req 1 oasis, mountain and desert +food+culture
 arabesque, zellige - req academy & art guild, pay gold, +2 culture on temples, academy, holy site
 black guard - req couthouse, req war, capital defence promo and -crime rate
 barbary pirates - req harbor and navigation, gift of the pharoh type promo, gold from harbor, crime increase
-casablanca - kasbah, mountains +tourism, hotel +gold
+casablanca - kasbah, <LosingMoney>true</LosingMoney>, mountains +tourism, hotel +gold
 
 --China--Mandate of Heaven
 warring states - req war minor, req chivalry, obs indust., temp POLICY_MERCHANT_NAVY
@@ -137,13 +137,13 @@ Fish pond - req x fish, aqueduct, cost science, lighthouse +food
 Over the rainbow - req 2 atoll, harbor, +boredom, culture and faith on *ocean*
 kahuna - req economics, cost faith, 20% GP increase, +2 culture from workshop
 westernisation - cost culture, req industrialisation, +poverty, +2gold fishing boats,harbour,seaport
-Tourist Industry - req airport, tourism&gold per coast tiles
+Tourist Industry - req airport, <LosingMoney>true</LosingMoney>, tourism&gold per coast tiles
 
 --Netherlands--A Miracle Mirrored
 great market - cost culture, req nat mon, nat. monument +food+tour+gold, WLTKD
 dutch east india - req east india, east india -% stuff, gain coffee, tea, cacao, tobacco, sugar
 Painters - req navigation, cost GAP, +great merchant rate, 10% gold to culture on purchase
-forced planting - req courthouse, req industrialization, courthouse -food-gap, WLTKD for x turns
+forced planting - req courthouse, req industrialization, <LosingMoney>true</LosingMoney>, courthouse -food-gap, WLTKD for x turns
 ontzuiling - req ideology, cost culture, WLTKD, happiness per city
 
 --India--Heart Without Words
@@ -207,7 +207,14 @@ Bison pound - req engineering, req x bison, bison give +gold+faith+culture+gap
 counting coup - req war, req national epic, promo that gives culture on kill and extra xp
 burial ground - req architecture, cost faith, encampment +faith+gap
 code talkers - req radio, cost science, all units sentry
-renewable energy - req ecology, req science&gold, solar panels in all cities
+renewable energy - req ecology, req losing money, req science&gold, solar panels in all cities
+
+--Persia--A Generous God
+melting pot empire - req metal casting, req war minor, promotion to capture defeated enemies
+exotic warriors - req currency, cost gold, 2 copies of ivory, gives copies siam UU
+ink of a scholar - req building_printingpress, cost faith, chancery +sci, sci boost during golden age
+carpets - req factory, cost gold&culture, 3 copy cotton, culture from workshops
+white revolution - req modern, cost gap, golden age + golden age points from purchase
 
 -----To Be Completed-----
 
@@ -218,11 +225,6 @@ Stupas -
 agora - 
 
 
-
---Persia--
-
-
-exotic warriors - copies of ivory, gives copies siam UU
 
 --Carthage--
 Tyrian Purple - 

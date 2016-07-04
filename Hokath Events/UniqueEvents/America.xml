@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -44,6 +44,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STOCKYARD</RequiredAnywhereBuildingClass>
 			<UnitClassRequired>UNITCLASS_CAVALRY</UnitClassRequired>
+			<LosingMoney>true</LosingMoney>
 		</Row>
 		<Row>
 			<Type>EVENT_AMERICA_UE_CHOICE_5</Type>

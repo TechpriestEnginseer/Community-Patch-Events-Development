@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ARABIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -127,14 +127,13 @@
 			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<GreatPeopleRateModifier>20</GreatPeopleRateModifier>
 		</Row>
 	</Buildings>
 	<Building_YieldFromPurchase>
 		<Row>
 			<BuildingType>BUILDING_ARABIA_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>15</Yield>
+			<Yield>25</Yield>
 		</Row>
 	</Building_YieldFromPurchase>
 	
@@ -419,7 +418,7 @@
 			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. Oasis tiles yield +3 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_3">
-			<Text>The Grand Souk is erected in the [ICON_CAPITAL] Capital. Gain an additional copy of every Luxury Resource in the City, and convert +15% of [ICON_GOLD] Gold to [ICON_PEACE] Faith when purchasing.</Text>
+			<Text>The Grand Souk is erected in the [ICON_CAPITAL] Capital. Gain an additional copy of every Luxury Resource in the City, and convert +25% of [ICON_GOLD] Gold to [ICON_PEACE] Faith when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_4">
 			<Text>Exert {1_YieldCost} worth of cultural influence to bring your centres of learning under religious leadership. These Universities and Academies yield +4 [ICON_PEACE] Faith, but -1 [ICON_RESEARCH] Science.</Text>

@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_GERMANY_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>

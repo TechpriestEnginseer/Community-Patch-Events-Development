@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_SHOSHONE_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SHOSHONE_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
@@ -64,6 +64,7 @@
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_SOLAR_PLANT</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<LosingMoney>true</LosingMoney>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -96,10 +97,10 @@
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_UE_COUNTING_COUP</Type>
-			<Description>TXT_KEY_PROMOTION_UE_TURTLE_SHELL</Description>
+			<Description>TXT_KEY_PROMOTION_UE_COUNTING_COUP</Description>
 			<CannotBeChosen>true</CannotBeChosen>
 			<RangedDefenseMod>50</RangedDefenseMod>
-			<Help>TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_UE_COUNTING_COUP_HELP</Help>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
@@ -314,7 +315,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SHOSHONE_UE_CHOICE_3">
-			<Text>{3_PlayerName} promotes the practise of Counting Coup!</Text>
+			<Text>{3_PlayerName} promotes the practice of Counting Coup!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SHOSHONE_UE_CHOICE_4_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>

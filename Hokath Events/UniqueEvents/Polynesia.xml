@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_POLYNESIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -61,6 +61,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_POLYNESIA_UE_DUMMY</EventBuildingClassGlobal>
+			<LosingMoney>true</LosingMoney>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -436,7 +437,7 @@
 			<Text>*Our subsistence economy could benefit much from foreign techniques and ideas, though much could also be lost*[NEWLINE]Though we live peaceful, happy lives, the world becomes smaller around us. Soon it will not be possible to live as we do, and the other great Empires of the world will swallow us up. We must engage them on their own terms or disappear forever.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*We are blessed with beauty and paradise, foreigners will give much for just a taste of our happiness*[NEWLINE]With these new airplanes, the peoples of the world are only hours away from our cities. This is paradise on Earth, sooner or later, they will come. If we are to prosper, we must use this opportunity wisely.</Text>
+			<Text>*We are blessed with beauty and paradise, foreigners will give much for just a taste of our happiness*[NEWLINE]With these new airplanes, the peoples of the world are only hours away from our cities. This is paradise on Earth, sooner or later, they will come. If we are to prosper again, we must use this opportunity wisely.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY">

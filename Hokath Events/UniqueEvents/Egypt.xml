@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -57,6 +57,7 @@
 			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
 			<GoldenAgeTurns>20</GoldenAgeTurns>
 			<EventDuration>20</EventDuration>
+			<EraScaling>true</EraScaling>
 			<Expires>false</Expires>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 			<IsOneShot>true</IsOneShot>
@@ -109,11 +110,12 @@
 			<EventType>EVENT_EGYPT_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
+	
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
+			<Yield>150</Yield>
 		</Row>
 	</EventChoice_InstantYield>
 	<EventChoice_ResourceYieldChange>
@@ -207,6 +209,15 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
+	<EventChoice_EventCostYield>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>200</Yield>
+		</Row>
+	</EventChoice_EventCostYield>
+	
+	
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_UE_JIHAD</Type>
@@ -423,7 +434,7 @@
 			<Text>Stone Works provide +3 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_5">
-			<Text>Enter a [ICON_GOLDEN_AGE] Golden Age. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
+			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_6">
 			<Text>Receive {2_InstantYield} faith. Existing Military Units, and those trained during the next {4_Turns}, gain [ICON_PEACE] Faith from kills and a [ICON_STRENGTH] Combat Bonus in Friendly territory.</Text>

@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_MOROCCO_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -62,6 +62,7 @@
 			<Description>TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
+			<LosingMoney>true</LosingMoney>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -432,7 +433,7 @@
 			<Text>*The salt-stained envelope contains stories from the navy, and a request for a great many letters of marque...*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The telegraph relays how your friend has become something of a celebrity abroad. A great many people have become interested in visiting Morocco.*</Text>
+			<Text>*The telegraph relays how your friend has become something of a celebrity abroad. A great many people have become interested in visiting Morocco.*[NEWLINE]No doubt the current exchange rate also has something to do with it...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_PIRATE_SLAVER">
 			<Text>Pirate Slaver</Text>

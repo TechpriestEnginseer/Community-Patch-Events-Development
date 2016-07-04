@@ -5,7 +5,7 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SWEDEN_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>500</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
@@ -60,6 +60,7 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<IsUnhappy>true</IsUnhappy>
 		</Row>
 		<Row>
 			<Type>EVENT_SWEDEN_UE_CHOICE_6</Type>
@@ -96,6 +97,8 @@
 			<EventType>EVENT_SWEDEN_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
+	
+
 	<EventChoice_FreeUnits>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_3</EventChoiceType>
