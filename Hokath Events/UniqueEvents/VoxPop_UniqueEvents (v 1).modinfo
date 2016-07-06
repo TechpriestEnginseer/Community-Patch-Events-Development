@@ -23,7 +23,7 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="0BFF1460DEA2146C755AA04E6DD3D122" import="0">America.xml</File>
+    <File md5="8658C4A1C11963663381A4671940D223" import="0">America.xml</File>
     <File md5="7732AFF8C5FCE3D362516A609F53DC7C" import="0">Arabia.xml</File>
     <File md5="872E1F7A48FF9FF9E9744DEE1C9F0E73" import="0">Assyria.xml</File>
     <File md5="3A74D2D22F913C0304C6D555499C98C6" import="0">Aztec.xml</File>
@@ -48,12 +48,13 @@
     <File md5="72FB1B93B92ECB8296A1D1C6CFC56A7D" import="0">Persia.xml</File>
     <File md5="AE99C5C66AE1A2E70D6F330205FE890A" import="0">Poland.xml</File>
     <File md5="033680B2222E06989A9DC47A2A3732D6" import="0">Polynesia.xml</File>
-    <File md5="76CBACFE838BED2370536E46696797AF" import="0">readme.txt</File>
+    <File md5="AC7E7650417870EED29FB0366BE830B7" import="0">Portugal.xml</File>
+    <File md5="79CB9B7A8B93E0E121B5B9159CCDED32" import="0">readme.txt</File>
     <File md5="5A44BF82B8C49D433562E01E18C0DCDF" import="0">Russia.xml</File>
     <File md5="B7ED64F3A381EF3836D65201E64910A7" import="0">Shoshone.xml</File>
     <File md5="473A1F34F61E64F791B0143B0740E337" import="0">Siam.xml</File>
     <File md5="4FF878DE886DE587413364ECAB11CE58" import="0">Songhai.xml</File>
-    <File md5="ECEF9904052BF5A56908157591DE1836" import="0">Sweden.xml</File>
+    <File md5="F23AD92DB378C797E5F04D64FC87AC31" import="0">Sweden.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -85,6 +86,7 @@
       <UpdateDatabase>Shoshone.xml</UpdateDatabase>
       <UpdateDatabase>Songhai.xml</UpdateDatabase>
       <UpdateDatabase>Sweden.xml</UpdateDatabase>
+      <UpdateDatabase>Portugal.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

@@ -33,7 +33,7 @@
 			<Type>EVENT_AMERICA_UE_CHOICE_3</Type>
 			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_3</Description>
-			<MinimumNationalPopulation>50</MinimumNationalPopulation>
+			<MinimumNationalPopulation>60</MinimumNationalPopulation>
 			<RequiresWarMinor>true</RequiresWarMinor>
 			<IsOneShot>true</IsOneShot>
 		</Row>
@@ -332,7 +332,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5">
-			<Text>{3_PlayerName} bans alcohol!</Text>
+			<Text>{3_PlayerName} bans alcohol, leading to an instantaneous rise in Crime and partying!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>

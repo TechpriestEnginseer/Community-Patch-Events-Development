@@ -424,7 +424,7 @@
 			<Text>Forest Lumbermills gain +1 [ICON_GOLD] Gold, [ICON_RESEARCH] Science, and [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_6">
-			<Text>Villages lose 1 [ICON_GOLD] Gold and Towns lose 3 [ICON_GOLD] Gold. In exchange, Poverty no longer causes [ICON_HAPPINESS_3] Unhappiness.</Text>
+			<Text>Villages lose -1 [ICON_GOLD] Gold and Towns lose -3 [ICON_GOLD] Gold. In exchange, Poverty no longer causes [ICON_HAPPINESS_3] Unhappiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_1">
 			<Text>In times of trouble, we look to the stalwart spirit of the Swedish people to triumph over adversity.</Text>
@@ -436,7 +436,7 @@
 			<Text>*The war has seen violent factions of listless warriors battling on the streets*[NEWLINE]Society cannot hold this much hate. Our warriors are restlessless is just: they yearn for an epic tale, with a glorious death. We can offer them this, whether it be at the end of the mighty river or across the frozen straights.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The finances of the country become as moribund as the nobles responsible for them*[NEWLINE]A Great Reduction will revitalize our land; the gifted and engaged have but to gain from this. The torpid, however...</Text>
+			<Text>*The finances of the country become as moribund as the nobles responsible for them*[NEWLINE]A Great Reduction will revitalize our land; the gifted and engaged have but to gain from this! The torpid, however... I expect they will not make this easy for me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_5">
 			<Text>*Everyday more of my people leave their Fatherland searching for new opportunities and greener pastures*[NEWLINE]We cannot face these other industrialised nations on their own terms. If we are going to become a dynamic, modern country it must be on our terms, with our resources, and the skills we have honed over the ages.</Text>

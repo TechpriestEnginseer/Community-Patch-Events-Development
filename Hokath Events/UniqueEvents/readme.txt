@@ -223,6 +223,13 @@ Stupas - req architecture, cost gold&faith, stupa in all cities
 Golden trees - req metallurgy, losing money, +gold from trade routes, +% diplomat points
 river kwai - req railroad, req war, trainstation +prod+food+gold for x turns, diplomat in each city
 
+--Portugal--Mother Of Wisdom
+Vandals - req metal casting, req lighthouse, cost pop, Building_DomainProductionModifiers, city connection %
+Battle of Ourique - req steel, req war, cost faith, gain prod per turn & stalwart for x turns
+Age of Discovery - req caravel, cost culture&gold, golden age, free explorer in every city, free scouting_3
+Porto wine - req fertilizer, losing money, 2 copies wine, +gold+food from village, town, feitoria
+lusotropicalism - req modern, req courthouse, +illiteracy, +harbour gold,food,gap per city
+
 -----To Be Completed-----
 
 --Greece--
@@ -230,9 +237,6 @@ agora -
 
 --Carthage--
 Tyrian Purple - 
-
---Portugal--
-Casa del India -
 
 --Austria--
 Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
