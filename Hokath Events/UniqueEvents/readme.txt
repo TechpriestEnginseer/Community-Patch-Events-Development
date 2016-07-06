@@ -33,7 +33,7 @@ faith promo meant to aid turtle and get some faith for GP purchase, final choice
 --America--Out of Many, One
 Mustangs - req stables, horses, costs horses but gives them culture and gold
 Gold Rush & Saloon - req war minor, min nat pop, gives 1 free fur and gold, 1 tourism on villages, +poverty
-Ranches - req agribusiness & cavalry, <LosingMoney>true</LosingMoney> culture and food from pastures
+Ranches - req agribusiness & cavalry, losing money culture and food from pastures
 Prohibition - req police station, gives free sugar and villages gain +gold, +crime for 75turns
 Woodstock - req nuke & war, musicians' guilds gain +gold+tourism from cities
 
@@ -59,7 +59,7 @@ changdeokgung & celdon pottery - cost gold, req chivalry, palace % culture gold 
 hangul - req printing press & uni, cost culture, farms give +1 science, 15 turn golden age
 turtle ship - req war and metallurgy, melee boat -50% ranged dmg promo, prod boost
 assassination attempts - req industrial, mint -gold -tourism, free unit and units get 25% friendly lands boost
-'market economy' - postmodern. <LosingMoney>true</LosingMoney> stock market +%gold, -20% boredom. 15 turn golden age
+'market economy' - postmodern. losing money stock market +%gold, -20% boredom. 15 turn golden age
 
 --Germany--Germany, Over All Else--
 Forest Tribes - req x forests, 75 turn woodsmen, culture on forest
@@ -73,9 +73,9 @@ berber tribes - req nat epic, req 1 oasis, mountain and desert +food+culture
 arabesque, zellige - req academy & art guild, pay gold, +2 culture on temples, academy, holy site
 black guard - req couthouse, req war, capital defence promo and -crime rate
 barbary pirates - req harbor and navigation, gift of the pharoh type promo, gold from harbor, crime increase
-casablanca - kasbah, <LosingMoney>true</LosingMoney>, mountains +tourism, hotel +gold
+casablanca - kasbah, losing money, mountains +tourism, hotel +gold
 
---China--Mandate of Heaven
+--China--The Dragon Throne
 warring states - req war minor, req chivalry, obs indust., temp POLICY_MERCHANT_NAVY
 tea pavillion - req opera house and gold, +food opera house, 3 sources of tea
 oracle bones - req archaeology, herbalist, temple, holysite, landmark +faith+gold+tourism, +illiteracy
@@ -137,18 +137,18 @@ Fish pond - req x fish, aqueduct, cost science, lighthouse +food
 Over the rainbow - req 2 atoll, harbor, +boredom, culture and faith on *ocean*
 kahuna - req economics, cost faith, 20% GP increase, +2 culture from workshop
 westernisation - cost culture, req industrialisation, +poverty, +2gold fishing boats,harbour,seaport
-Tourist Industry - req airport, <LosingMoney>true</LosingMoney>, tourism&gold per coast tiles
+Tourist Industry - req airport, losing money, tourism&gold per coast tiles
 
 --Netherlands--A Miracle Mirrored
 great market - cost culture, req nat mon, nat. monument +food+tour+gold, WLTKD
 dutch east india - req east india, east india -% stuff, gain coffee, tea, cacao, tobacco, sugar
-Painters - req navigation, cost GAP, +great merchant rate, 10% gold to culture on purchase
-forced planting - req courthouse, req industrialization, <LosingMoney>true</LosingMoney>, courthouse -food-gap, WLTKD for x turns
+Painters - req navigation, cost GAP, +great merchant rate, 10% gold to culture on purchase
+forced planting - req courthouse, req industrialization, losing money, courthouse -food-gap, WLTKD for x turns
 ontzuiling - req ideology, cost culture, WLTKD, happiness per city
 
 --India--Heart Without Words
 Ashokan Pillar - req courthouse, cost faith, monument +faith+%food
-hinduism - req grand temple, cost gold&culture, Mandir (i know) in all cities
+hinduism - req grand temple, cost gold&culture, Mandir in all cities
 Architectural Majesty - req architecture, -gold&culture, +tourism+culture+GAP from castles
 Adnyapatra - req rifling, req war, -3pop, 2fusiliers, starts GA
 Satyagraha - req ideology&modern, cost faith, resistance turns, reduces unhappy from illiteracy&poverty&minority
@@ -216,15 +216,17 @@ ink of a scholar - req building_printingpress, cost faith, chancery +sci, sci bo
 carpets - req factory, cost gold&culture, 3 copy cotton, culture from workshops
 white revolution - req modern, cost gap, golden age + golden age points from purchase
 
------To Be Completed-----
+--Siam--Gilding The Back Of The Buddha
+Elephants - req (old)construction, req town, cost culture, copy ivory, emissary in each city
+sangkalok - req workshop, req manufactory, cost gold, 3 copy porcelain, +2 culture from workshops
+Stupas - req architecture, cost gold&faith, stupa in all cities
+Golden trees - req metallurgy, losing money, +gold from trade routes, +% diplomat points
+river kwai - req railroad, req war, trainstation +prod+food+gold for x turns, diplomat in each city
 
---Siam--
-Stupas - 
+-----To Be Completed-----
 
 --Greece--
 agora - 
-
-
 
 --Carthage--
 Tyrian Purple - 
@@ -236,16 +238,13 @@ Casa del India -
 Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
 
 --Zulus--
-
-
 Rooibois - gain copies of tea, 
 vuvuzela -
 
 --Ottomans--
 Hamam - req holy city, baths give food and faith
-
+.............................
 --Byzantium--
-
 
 --Spain--
 Basilica - Free cathedrals
@@ -267,7 +266,7 @@ Glassworks
 
 --Huns--
 Yurt
-
+............................
 --Rome--
 forum - market +culture
 thermae - baths +food +science

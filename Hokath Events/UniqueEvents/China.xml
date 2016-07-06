@@ -395,7 +395,7 @@
 			<Text>{3_PlayerName} begins a series of chaotic policies, with the result of bringing the country under unprecendented control!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_DESCRIPTION">
-			<Text>Mandate of Heaven</Text>
+			<Text>The Dragon Throne</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP">
 			<Text>Great Empress, beloved of Heaven, your servant kneels before you. A messenger awaits you in the courtyard![NEWLINE][NEWLINE]Will you receive them?</Text>

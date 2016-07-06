@@ -369,7 +369,7 @@
 			<Text>Melee and Gun Units gain the Incorporation promotion, allowing them to capture defeated enemies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_3">
-			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and a Narusan's Elephant in every City.</Text>
+			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and a Naresuan's Elephant in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_4">
 			<Text>Suppress {1_YieldCost} of religious influence over the Empire. Chanceries yield +3 [ICON_RESEARCH] Science, and Cities generate 20% additional [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.</Text>
