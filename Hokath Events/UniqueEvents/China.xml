@@ -113,13 +113,13 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
@@ -131,13 +131,13 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_HERBALIST</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_HERBALIST</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
@@ -158,7 +158,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
@@ -170,7 +170,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
-			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
@@ -410,7 +410,7 @@
 			<Text>Pay {2_InstantYield}. Opera Houses provide +3 [ICON_FOOD] Food. Receive 3 copies of [ICON_RES_TEA] Tea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_4">
-			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_GOLD] Gold, [ICON_PEACE] Faith, and [ICON_TOURISM]. However, the [ICON_RESEARCH] Illiteracy threshold increases by 15%.</Text>
+			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_FOOD] FOOD, [ICON_PEACE] Faith, and [ICON_CULTURE]. However, the [ICON_RESEARCH] Illiteracy threshold increases by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_5">
 			<Text>After 1 turn of [ICON_RESISTANCE] Anarchy, every City receives a free Monastery and Unit.</Text>

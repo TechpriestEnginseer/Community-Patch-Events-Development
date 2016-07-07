@@ -133,6 +133,11 @@
 			<Yield>10</Yield>
 		</Row>
 		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>20</Yield>
@@ -356,7 +361,7 @@
 			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_4">
-			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures.</Text>
+			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5">
 			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 20%. Effects last {4_Turns}.</Text>
@@ -374,7 +379,7 @@
 			<Text>*Population density is identified as highly irregular. Encouraging resettlement could increase our prosperity tenfold!*[NEWLINE]The conflicts with our neighbours are pointless when we can find all we need here, at home.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely.</Text>
+			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely. Integrating these men into urban society would be a nightmare.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5">
 			<Text>*The benefits of a dry state have been made clear*[NEWLINE]We must prevent temptation from corrupting good Americans. If there's a small bit of bootlegging as a result, well... business is business.</Text>

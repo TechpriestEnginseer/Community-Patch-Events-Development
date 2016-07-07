@@ -1,7 +1,36 @@
-When you hit the classical era +30pop the event pops (around first half classical usually),
-and can pop every x turns thereafter (if an option is available). If this happens you must invoke it (WIP)
-All civs have an option to get a great person, and that will be probably be the only one
+This folder adds a unique event to every civ!
+(and also some of my favourite modded ones, at some point)
+
+The event works like this:
+When you hit the classical era & +30pop the event pops (around first half classical usually),
+If this happens you must invoke one choice (there is no do-nothing option at the moment)
+All civs have Choice 1 - get a great person, and that will probably be the only one
 you can choose the first time (so you can mouse over others to see what they do and require)
+Choice 1 is not one-shot, and has a {150} turn cooldown on standard, all the others are.
+
+Below is listed:
+"""--Civ--Name of Event
+choice 2 - prereqs, costs, bonuses
+choice 3 - "
+choice 4 - "
+choice 5 - "
+choice 6 - "
+
+Design notes"""
+
+Disclaimer:
+First round these are very unbalanced and some probably far too heavy handed.
+I've tried to make these historically flavourful, but ofc some times i couldn't fit in everything I wanted to
+other times there wasn't enough good material (Babylon didn't stick around to see the atomic era)
+So please forgive me for destroying the history of these various cultures in an attempt to make the game more flavourful
+I will of course take any and all feedback.
+
+I have not used:
+NumFreeTradeRoutes over concerns w/ corporation balance
+LUA,sql - this runs purely from Gazebos triggers in xml, its super easy for the user to edit! (and for me to write, lolz)
+
+This took a *long* time to do. Hope you enjoy, and as always have fun with Vox Populi!
+
 
 -----Completed-----
 
@@ -12,10 +41,12 @@ Civil War - req unhappy, barbarians and anarchy, gain two free policies
 Imperial Unrest - req 7 coastal cities & unhappy, barbarians, gain plantation and courthouse yields
 King's Speech - req war and broadcast tower, cost culture and intercept III for fighters, WLTKD +%production
 
-England naturally has bonuses to war and spying, the events seek to expand on the imperial legacy of england by promoting a wide
-aggressive play. Free units, churches and courthouse yields all do this.
-WLTKD bonuses natural synergise with having access to many luxes from wide conquest.
+England naturally has bonuses to war(naval) and spying, the events seek to expand on the imperial legacy of england by promoting a wide aggressive play. 
+Free units, churches and courthouse yields all fit in with this theme. Churches hopefully helping to alleviate the religious unhappiness that can 
+come from conquest of a heathen. The coastal city requirement encouraging use of the navy. Long live the Queen.
+WLTKD bonuses naturally synergise with having access to many luxes from wide conquest. The motivation for many British exploits.
 Policies help make up for the increase policy cost of wide, barbarian spawn a gift in disguise if authority.
+Final choice also has the bonus to aircraft, which of course also helps out late game navies with carriers.
 
 --Egypt--A Child of the Nile--
 Shadaf and Nilometer - req  watermill & 2 city w/ floodplains, gain +%food watermill and culture from flood plains
@@ -33,11 +64,15 @@ faith promo meant to aid turtle and get some faith for GP purchase, final choice
 --America--Out of Many, One
 Mustangs - req stables, horses, costs horses but gives them culture and gold
 Gold Rush & Saloon - req war minor, min nat pop, gives 1 free fur and gold, 1 tourism on villages, +poverty
-Ranches - req agribusiness & cavalry, losing money culture and food from pastures
-Prohibition - req police station, gives free sugar and villages gain +gold, +crime for 75turns
+Ranches - req agribusiness & cavalry, losing money, culture and food from pastures +illiteracy
+Prohibition - req police station, gives 2 sugar and villages gain +gold, +crime for 75turns
 Woodstock - req nuke & war, musicians' guilds gain +gold+tourism from cities
 
-America naturally
+America naturally has (semi indirect) bonuses to wide and warfare, along with the ability to steal tiles.
+Bonuses to tile improvements such as villages, pastures (and horses) attempts to tap into this style.
+Extra luxes can help with monopoly choices as well as happiness/gold, and final choice converts wide into 
+heavy tourism boost to help with a possible culture win (like IRL, amirite?)
+Downsides are mainly in increased needs - requires good economic management to keep America rolling.
 
 --Sweden--From Midgard to Valhalla
 -add back in tundra bias
@@ -45,7 +80,13 @@ Sami Peoples - req x deer, tundra&snow&ice gives food and culture
 Varangian Epic - req war & steel & amphitheatre, receive berserker per city, rivers gain +gold (expires).
 Great Reduction - req renais.& lose money, (long) temp unhappy, lump sum gold, chancery food/prod/sci
 Forest Economy - req x forest & indust., unhappy, forest +prod+sci, lmill +gold.
-Socialism - req ideology & min nat pop, no poverty unhappy, -1g on village
+Socialism - req ideology & min nat pop, no poverty unhappy, -2g on village -4g on town
+
+Sweden naturally has major bonuses to warfare, with a small economy boost in the skola.
+Sweden receive their tundra start again, as I feel this gives you a prime military location (without flanks), 
+to compensate the economic drawbacks, the first choice boosts tiles only found at the poles.
+Choices seek to mirror the natural bonuses, with help with war early, transitioning to economic boosts later on.
+Socilism is quite radical in this iteration.
 
 --France--To All Talents--
 Gaul - req lose money, forges give tourism and gold, 1 jewelry
@@ -54,12 +95,22 @@ Revolution - req ind era & lose money, anarchy and lose pop, free policy
 Art - req modern era, req hermitage, artist guilds gain culture and tourism
 Cuisine - req atomic era, farms give +gold and culture, agri +gold
 
+France naturally has bonuses to warfare and culture. The Chateau is the coolest UI imho, as it synergises perfectly with that.
+I wanted to get some more of that Louis XIV swag, so these choices aim to boost culture&tourism throughout the game
+(so hotels are less of the off/on switch for France), and of course the French Revolution must be in there. 
+Common agricultural policy it up in the atomic era to go culture-mad. Hon hon. La baguette.
+
 --Korea--A Pinfeather Thrust
 changdeokgung & celdon pottery - cost gold, req chivalry, palace % culture gold science modifiers + porcelain
 hangul - req printing press & uni, cost culture, farms give +1 science, 15 turn golden age
-turtle ship - req war and metallurgy, melee boat -50% ranged dmg promo, prod boost
+turtle ship - req war and metallurgy, melee boat -50% ranged dmg promo, prod boost for 15 turns
 assassination attempts - req industrial, mint -gold -tourism, free unit and units get 25% friendly lands boost
 'market economy' - postmodern. losing money stock market +%gold, -20% boredom. 15 turn golden age
+
+Korea naturally has bonuses to tall, science and golden ages. It can feel a bit fragile, so I wanted to reinforce the cool theme.
+The early choices boost tall and science respectively in a way that hopefully emphasises growth and a monster capital more, with a free GA.
+Then we have two war choices that are designed to be defensive, giving away yields to weaken culture victory. Science or bust.
+A big steroid at the end to offset gold and culture issues arising in the late game.
 
 --Germany--Germany, Over All Else--
 Forest Tribes - req x forests, 75 turn woodsmen, culture on forest
@@ -68,19 +119,39 @@ High Culture - req great musician, m. guild give %culture, opera house +gold
 Scientific Dominance - req academy, research lab, get tech, culture and gold on acad
 Blitzkrieg - req trainstation & modern & manufactory, blitz
 
+Germany has rounded bonuses to CS subsystem. Sending trade routes to CS's of course obviates one of the main drawbacks of largescale warfare.
+Germany's bonuses take a while to kick in, so I wanted the more active choices to kick in early on and spice things up.
+The mid game choices are boosts to culture and gold (like the UA), solidifying your position to...
+take over the world, as Blitzkrieg comes in with the UU (panzer) to wage the sort of large scale conflict we all know and love.
+
 --Morocco--Men of Tamazgha 
 berber tribes - req nat epic, req 1 oasis, mountain and desert +food+culture
 arabesque, zellige - req academy & art guild, pay gold, +2 culture on temples, academy, holy site
-black guard - req couthouse, req war, capital defence promo and -crime rate
-barbary pirates - req harbor and navigation, gift of the pharoh type promo, gold from harbor, crime increase
+black guard - req couthouse, req war, req renaissance, capital defence promo and -crime rate
+barbary pirates - req harbor and navigation, req industrial, gift of the pharoh type promo, gold&prod from harbor, crime increase
 casablanca - kasbah, losing money, mountains +tourism, hotel +gold
+
+Morocco naturally very broad bonuses, this made life difficult. They promote receiving trade routes and defending your cities. 
+Kasbah dont care about where they are placed. I wanted to emphasise the ballsy placement of trade hubs in inhospitable terrain
+ like deserts and mountain ranges (the terrain of morocco) that I think is unique to the civ. Hence choices 1 and 6.
+Choices 4 and 5 are based around war, firstly a strongly defensive choice and then later the more aggressive choice, which removes
+one of the bonuses from the previous (happiness boost).
+Choice 3 is a culture boost that can be scaled by a broad range of systems: wide, tall and religious,
+and boosts to great person improvements scale well when enemy heartlands are conquered later on.
 
 --China--The Dragon Throne
 warring states - req war minor, req chivalry, obs indust., temp POLICY_MERCHANT_NAVY
 tea pavillion - req opera house and gold, +food opera house, 3 sources of tea
-oracle bones - req archaeology, herbalist, temple, holysite, landmark +faith+gold+tourism, +illiteracy
+oracle bones - req archaeology, herbalist, temple, holysite +faith+food+culture, +illiteracy
 boxer rebellion - req ideo, req war, anarchy, free unit, free monastery
 cultural revolution - req postmodern, req min nat pop, cost culture, anarchy, pop loss, gain +8% to gold/prod/science/food from factories
+
+China naturally has bonuses to tall play, WLTKD and Golden Ages. I didn't want to go overboard on the WLTKD and GA boosts, so they are not 
+seen here, since I think it is a bit boring to have a civ revolve purely around those systems.
+The first two choices promote tall play, with Exploitation policy giving a big boost to farms (p.s. I loved the tea pavillion :'( )
+Birthing prophets to trigger to UA is a must, so I felt there was a place for some faith bonuses, as well as the transition to a wider
+style a la China IRL that naturally occurs when the cho ko nu have been let loose for a while. Choice 5 especially supports this expansion.
+Choice 6 is then the steroid that turns China into a monster, but with a heavy initial cost. No victory type is promoted extensively.
 
 --Assyria--The Tablet of Destiny
 Sumerian Vultures - req war minor, monument +prod, Soldiers gain amphibious
@@ -89,12 +160,25 @@ Conquered Peoples - req arsenal, unhappiness per city, free Synagogues
 Archaeological Effort - req landmark, WLTKD, all landmark gain +faith+sci+prod
 Paratrooper Regiment - req radio, req war, free paras, para strength promo
 
+Assyria natural have bonuses to war and science. I've additionally added in faith because I don't see how we can have no mesopotamian civ without
+some kind of bonus to faith, but this could be removed if its all a bit too much. Effectively I've rolled in a Sumeria vibe to them.
+Event 2 with the amphibious bonus is the most direct borrow from Sumeria mods, I love it too much to leave out. Everything else is a clear boost
+to wide, with the landmark bonus promoting taking them over artifacts, disfavouring a culture win slightly, perhaps (certainly no boosts to it)
+Syrian paratroopers make an appearence in choice 6 with the execute + heavy charge promotion spicing up late game warfare.
+
 --Celts--The Stars Align
 tin trading - req metal casting, req cargo ship, mines +1gold
 clan castles - req castle, req war, +yields to castles and citadels, free longswords
 Uilleann pipes - req great musician, req acoustics, fear and culture on kill promo
 medical school - req scienctific theory, cost science, oxford uni food and tourism
 riverdance - req stadium, cost gold, tourism boost (instant yield)
+
+The Celts naturally have a unique faith focus, with the smaller ceilidh hall benefits to culture (musicians).
+The idea of the faith to me is flexibility, with the removal of pressure directing the attention away from large scale proselytising.
+I wanted to flesh out the early war necessary to get the most out of the UU with the clan castle choice (scotland the brave)
+Choice 4 synergises war with the musician boost for an interesting promotion.
+The last to choices are peaceful, settling down for the victory after the bloodthirsty early game. The preference is for the cultural victory,
+musicians make this a must to my way of thinking.
 
 --Babylon--The Eyes of Tiamat
 Ziggurat - req temple, +food, +science on temple, illiteracy increase
@@ -230,6 +314,21 @@ Age of Discovery - req caravel, cost culture&gold, golden age, free explorer in 
 Porto wine - req fertilizer, losing money, 2 copies wine, +gold+food from village, town, feitoria
 lusotropicalism - req modern, req courthouse, +illiteracy, +harbour gold,food,gap per city
 
+--Mongolia--They Call Him Temujin
+silk road - req caravansary, cost gold, 3 copies silk, give and get more from trade routes
+uyghur script - req education, req courthouse, courthouse -gold-culture, -poverty -religious division
+tea road - req economics, losing money, 2 copies tea, land trade route bonus, land distance bonus
+seal-holding saints - req ideology, req holy city, cost faith, monastery in every city, monasteries +faith+culture
+mineral wealth - req atomic theory, cost gold, mines +prod, copies iron,coal,aluminium,uranium
+
+Mongolia naturally has bonuses the warfare and early religion, with the unique ability to sieze city states without war.
+I felt as if Mongolia fits their niche well already, and wanted to flesh out Genghis' other achievements in order to differentiate them
+from other warmongers. Since you can take cities without going to war with your neighbours, trade routes are slightly better for 
+genghis than other warmongers. I wanted to build on this within the frame of Mongol history, hence the two trade route choices.
+The happiness from resources offsets conquering burdens and gives you some more diplomatic leverage.
+The monastery choice extends the religion theme (that is otherwise stand alone) later into the game, synergising with wide.
+The final choice is a production boost, helping grap strategic monopolies and of course covering unit and building costs.
+
 -----To Be Completed-----
 
 --Greece--
@@ -244,10 +343,10 @@ Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
 --Zulus--
 Rooibois - gain copies of tea, 
 vuvuzela -
-
+.........................
 --Ottomans--
 Hamam - req holy city, baths give food and faith
-.............................
+
 --Byzantium--
 
 --Spain--
@@ -257,9 +356,6 @@ el sid
 
 --Ethiopia--
 Monolithic Church - 
-
---Mongolia--
-silk road
 
 --Indonesia--
 Wayang

@@ -141,7 +141,7 @@
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>-2</YieldChange>
+			<YieldChange>-4</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_2</EventChoiceType>
@@ -165,12 +165,14 @@
 			<Yield>-20</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
-	<EventChoice_InstantYield>
+	<EventChoice_CityYield>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>50</Yield>
+			<Yield>4</Yield>
 		</Row>
+	</EventChoice_CityYield>
+	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -396,10 +398,10 @@
 			<Text>Pay {2_InstantYield}. Farms yields +1 [ICON_RESEARCH] Science. Enter a Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_4">
-			<Text>Rush {2_InstantYield}. Existing Melee Ships, and those trained within the next {4_Turns}, take 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks.</Text>
+			<Text>Existing Melee Ships, and those trained within the next {4_Turns}, take 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. During this time, all Cities rush an additional {3_CityYield} per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_5">
-			<Text>A Free Unit appears near every City. For the next {4_Turns}, Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory. However, Customs Houses reduce [ICON_GOLD] Gold by 4 and [ICON_TOURISM] Tourism by 2.</Text>
+			<Text>A Free Unit appears near every City. For the next {4_Turns}, Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory. However, Customs Houses reduce [ICON_GOLD] Gold by -4 and [ICON_TOURISM] Tourism by -4.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_6">
 			<Text>Stock Exchanges provide +20% [ICON_GOLD] Gold in Cities, and the [ICON_CULTURE] Boredom threshold is reduced by 20%. Enter a Golden Age for {4_Turns}.</Text>

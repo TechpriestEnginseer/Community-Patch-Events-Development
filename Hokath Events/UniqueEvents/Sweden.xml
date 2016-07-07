@@ -152,13 +152,13 @@
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_6</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>-1</YieldChange>
+			<YieldChange>-2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_6</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>-3</YieldChange>
+			<YieldChange>-4</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_5</EventChoiceType>
@@ -424,7 +424,7 @@
 			<Text>Forest Lumbermills gain +1 [ICON_GOLD] Gold, [ICON_RESEARCH] Science, and [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_6">
-			<Text>Villages lose -1 [ICON_GOLD] Gold and Towns lose -3 [ICON_GOLD] Gold. In exchange, Poverty no longer causes [ICON_HAPPINESS_3] Unhappiness.</Text>
+			<Text>Villages lose -2 [ICON_GOLD] Gold and Towns lose -4 [ICON_GOLD] Gold. In exchange, Poverty no longer causes [ICON_HAPPINESS_3] Unhappiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_1">
 			<Text>In times of trouble, we look to the stalwart spirit of the Swedish people to triumph over adversity.</Text>

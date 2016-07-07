@@ -112,7 +112,7 @@
 			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<TradeRouteRecipientBonus>3</TradeRouteRecipientBonus>
+			<TradeRouteRecipientBonus>5</TradeRouteRecipientBonus>
 		</Row>
 	</Buildings>
 	<Building_SpecificGreatPersonRateModifier>
@@ -359,7 +359,7 @@
 			<Text>For the cost of {1_YieldCost}, construct a Stupa in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_5">
-			<Text>Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +3 [ICON_GOLD] Gold. Cities generate +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points. </Text>
+			<Text>Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +5 [ICON_GOLD] Gold. Cities generate +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_6">
 			<Text>For the next {4_Turns}, your prisoners of war work your railways: Train Stations generate +5 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold. The ensuing diplomatic crisis requires the recruitment of a Diplomat in every City.</Text>
