@@ -415,7 +415,7 @@
 			<MinimumCityPopulation>20</MinimumCityPopulation>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<RequiredActivePlayerEventChoiceOtherPlayer>EVENT_MOTABA_VIRUS_CHOICE_1</RequiredActivePlayerEventChoiceOtherPlayer>
-			<RequiredNoActivePlayerEventChoice>PLAYER_EVENT_MOTABA_OUTBREAK_CHOICE_1</RequiredNoActivePlayerEventChoice>
+			<RequiredNoActiveCityEventChoiceAnywhere>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</RequiredNoActiveCityEventChoiceAnywhere>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -483,7 +483,7 @@
 			<IsWorldEvent>true</IsWorldEvent>
 		</Row>
 	</CityEventChoice_Notification>
-	<!-- Motaba Immunize   Chains off choice 2-->
+	<!-- Motaba Immunize   Chains off choice 2 no longer needed due to new element. kept for backup
 	<Events>
 		<Row>
 			<Type>PLAYER_EVENT_MOTABA_OUTBREAK</Type>
@@ -505,7 +505,7 @@
 			<EventChoiceType>PLAYER_EVENT_MOTABA_OUTBREAK_CHOICE_1</EventChoiceType>
 			<EventType>PLAYER_EVENT_MOTABA_OUTBREAK</EventType>
 		</Row>
-	</Event_ParentEvents>
+	</Event_ParentEvents> -->
 	<!-- Pipeline Explosion -->
 	<CityEvents>
 		<Row>
