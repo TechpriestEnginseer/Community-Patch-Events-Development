@@ -158,9 +158,10 @@
                         <IsOneShot>true</IsOneShot>
                         <RequiredBuildingClass>BUILDINGCLASS_HARBOR</RequiredBuildingClass>
                         <EventCooldown>25</EventCooldown>
-                        <RandomChanceDelta>0</RandomChanceDelta>
+                        <RandomChanceDelta>1</RandomChanceDelta>
                         <RequiredEra>ERA_MEDIEVAL</RequiredEra>
                         <ObsoleteEra>ERA_MODERN</ObsoleteEra>
+                        <RequiredNoActiveCityEventAnywhere>CITY_EVENT_NOTORIOUS_PIRATE</RequiredNoActiveCityEventAnywhere>
                 </Row>
         </CityEvents>
         <CityEventChoices>
@@ -301,7 +302,7 @@
 			<IsOneShot>false</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredBuildingClass>
 			<EventCooldown>25</EventCooldown>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChanceDelta>2</RandomChanceDelta>
 			<HasTradeConnection>true</HasTradeConnection>
 			<RequiredNoActiveCityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</RequiredNoActiveCityEventChoice>
 		</Row>
