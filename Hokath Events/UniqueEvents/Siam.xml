@@ -155,6 +155,12 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_STUPA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -356,7 +362,7 @@
 			<Text>Invest {1_YieldCost} into the Porcelain industry. Receive 3 copies of [ICON_RES_PORCELAIN] Porcelain, and all Workshops yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_4">
-			<Text>For the cost of {1_YieldCost}, construct a Stupa in every City.</Text>
+			<Text>For the cost of {1_YieldCost}, construct a Stupa in every City. Stupa gain +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_5">
 			<Text>Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +5 [ICON_GOLD] Gold. Cities generate +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points. </Text>

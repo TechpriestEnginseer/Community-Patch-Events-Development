@@ -114,7 +114,7 @@ A big steroid at the end to offset gold and culture issues arising in the late g
 
 --Germany--Germany, Over All Else--
 Forest Tribes - req x forests, 75 turn woodsmen, culture on forest
-Teutonic Knights - req war and medieval, obs industrial, gives free orders in all cities
+Teutonic Knights - req war and medieval, obs industrial, gives orders in all cities with 3 maintenance
 High Culture - req great musician, m. guild give %culture, opera house +gold
 Scientific Dominance - req academy, research lab, get tech, culture and gold on acad
 Blitzkrieg - req trainstation & modern & manufactory, blitz
@@ -167,11 +167,11 @@ to wide, with the landmark bonus promoting taking them over artifacts, disfavour
 Syrian paratroopers make an appearence in choice 6 with the execute + heavy charge promotion spicing up late game warfare.
 
 --Celts--The Stars Align
-tin trading - req metal casting, req cargo ship, mines +1gold
+tin trading - req metal casting, req cargo ship, mines +1gold, +gold to/from trade routes
 clan castles - req castle, req war, +yields to castles and citadels, free longswords
-Uilleann pipes - req great musician, req acoustics, fear and culture on kill promo
+Uilleann pipes - req great musician, req acoustics, fear and culture on kill promo, +% musician rate
 medical school - req scienctific theory, cost science, oxford uni food and tourism
-riverdance - req stadium, cost gold, tourism boost (instant yield)
+riverdance - req stadium, cost gold, tourism boost (instant yield), WLTKD, Golden Age
 
 The Celts naturally have a unique faith focus, with the smaller ceilidh hall benefits to culture (musicians).
 The idea of the faith to me is flexibility, with the removal of pressure directing the attention away from large scale proselytising.
@@ -232,7 +232,7 @@ ontzuiling - req ideology, cost culture, WLTKD, happiness per city
 
 --India--Heart Without Words
 Ashokan Pillar - req courthouse, cost faith, monument +faith+%food
-hinduism - req grand temple, cost gold&culture, Mandir in all cities
+hinduism - req grand temple, cost gold&culture, Mandir in all cities +food+faith
 Architectural Majesty - req architecture, -gold&culture, +tourism+culture+GAP from castles
 Adnyapatra - req rifling, req war, -3pop, 2fusiliers, starts GA
 Satyagraha - req ideology&modern, cost faith, resistance turns, reduces unhappy from illiteracy&poverty&minority
@@ -303,7 +303,7 @@ white revolution - req modern, cost gap, golden age + golden age points from pur
 --Siam--Gilding The Back Of The Buddha
 Elephants - req (old)construction, req town, cost culture, copy ivory, emissary in each city
 sangkalok - req workshop, req manufactory, cost gold, 3 copy porcelain, +2 culture from workshops
-Stupas - req architecture, cost gold&faith, stupa in all cities
+Stupas - req architecture, cost gold&faith, stupa in all cities, stupa gain +2 culture
 Golden trees - req metallurgy, losing money, +gold from trade routes, +% diplomat points
 river kwai - req railroad, req war, trainstation +prod+food+gold for x turns, diplomat in each city
 
@@ -329,10 +329,20 @@ The happiness from resources offsets conquering burdens and gives you some more 
 The monastery choice extends the religion theme (that is otherwise stand alone) later into the game, synergising with wide.
 The final choice is a production boost, helping grap strategic monopolies and of course covering unit and building costs.
 
------To Be Completed-----
+--Greece--To The Ends Of The World
+agora - req baths, cost culture, markets +culture+food+faith, +%great people
+renaissance - req university, req war, free tech
+filiki eteria - req wire service, losing money, cost culture, free diplomat
+katharevousa - req modern, req unhappy, printing press +% culture&science&gold, decrease illiteracy
+olympic restoration - req globalism, cost gold, tourism boost, free ambassador
 
---Greece--
-agora - 
+Greece naturally has bonuses to CSs and war (with a sideline in culture). The early UU benefits most from early aggression.
+The first choice is therefore to aid all round empire building in the early game, the +%GP aids diplomats especially later.
+The second choice helps catch up on science which must necessarly be neglected to wage an early war (especially if engaging with CS)
+Choices 4 and 6 have free diplo units, but there is also the tourism boost if the culture victory looks preferable.
+Choice 5 benefits both wide and tall, and is an all round boost for the mid-late game
+
+-----To Be Completed-----
 
 --Carthage--
 Tyrian Purple - 
@@ -368,7 +378,7 @@ Glassworks
 Yurt
 ............................
 --Rome--
-forum - market +culture
+forum - req baths, cost culture, markets +culture+food+faith, PlotCultureCostModifier
 thermae - baths +food +science
 alpini - mountain walking gun units
 

@@ -123,6 +123,18 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
+			<EventChoiceType>EVENT_INDIA_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_INDIA_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
@@ -373,7 +385,7 @@
 			<Text>Monuments of the conquest generate +1 [ICON_PEACE] Faith, and increase [ICON_FOOD] Growth by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_3">
-			<Text>Allow the priests {2_InstantYield}. A Mandir is constructed in every City.</Text>
+			<Text>Allow the priests {2_InstantYield}. A Mandir is constructed in every City. All Mandirs these generate +1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_4">
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
@@ -391,7 +403,7 @@
 			<Text>*The conquest of foreign lands still breeds contempt among old enemies*[NEWLINE]We must start a campaign for truth and forgiveness! Let us remember that we are more similar than we are different, that we might learn to love one another again.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_3">
-			<Text>*The priest of the Grand Temple malign the state of worship in India. They wish to see great spires erect for the glory of heaven!*[NEWLINE]We must do whatever we can to lead men towards heaven. Let it be.</Text>
+			<Text>*The priest of the Grand Temple malign the state of worship in India. They wish to see great spires erected for the glory of heaven!*[NEWLINE]We must do whatever we can to lead men towards heaven. Let it be.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_4">
 			<Text>*Our Engineers believe that with new technologies, many of the old fortifications which are falling into disuse can be renovated in the new style*[NEWLINE]To see these bastions of war transformed into palaces of holiness and protection brings great joy to my soul.</Text>
