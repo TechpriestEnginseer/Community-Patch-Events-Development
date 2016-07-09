@@ -356,7 +356,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_2">
-			<Text>Supply an alternative source of {2_InstantYield}. Textiles produced from [ICON_RES_SHEEP] Sheep tiles produce +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.</Text>
+			<Text>Supply an alternative source of {2_InstantYield}. Textiles produced from [ICON_RES_SHEEP] Sheep Tiles produce +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_3">
 			<Text>Establish the Wak'a trail. Mountains produce +1 [ICON_PEACE] Faith, and you receive two copies of [ICON_RES_DYE] Dye.</Text>

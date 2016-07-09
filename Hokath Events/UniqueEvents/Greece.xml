@@ -163,6 +163,32 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
@@ -348,10 +374,10 @@
 			<Text>Markets change to Agora, which generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, all your Cities generate +15% [ICON_GREAT_PEOPLE] Great People Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_3">
-			<Text>The return of your scholars from the countryside triggers a renaissance of scholarship: choose a free tech.</Text>
+			<Text>The return of your scholars from the countryside triggers a renaissance of scholarship: choose a [ICON_GREAT_SCIENTIST] Free Tech. Universities generate +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_4">
-			<Text>Mobilise {1_YieldCost} to spawn a Diplomat in every City.</Text>
+			<Text>Mobilise {1_YieldCost} to spawn a Diplomat in every City. Banks procure additional holdings, worth +2 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_5">
 			<Text>The Printing Press boosts [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture by +10%. The [ICON_RESEARCH] Illiteracy threshold is everywhere reduced by 10%.</Text>

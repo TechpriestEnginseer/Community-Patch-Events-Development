@@ -399,7 +399,7 @@
 			<Text>Spend {2_InstantYield}. Receieve a free Observatory in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_5">
-			<Text>Lose {2_InstantYield}. Cities gain +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from their River tiles. Hydro Plants gain +5 [ICON_GOLD] Gold.</Text>
+			<Text>Lose {2_InstantYield}. Cities gain +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from their River Tiles. Hydro Plants gain +5 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_6">
 			<Text>Reallocate {2_InstantYield}. Receive 6 copies of [ICON_RES_URANIUM] Uranium. Hospitals provide +5 [ICON_FOOD] Food and +5 [ICON_RESEARCH] Science.</Text>

@@ -71,6 +71,9 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<MinimumNationalPopulation>100</MinimumNationalPopulation>
 			<EventPromotion>PROMOTION_BLITZ</EventPromotion>
+			<EventDuration>20</EventDuration>
+			<GoldenAgeTurns>20</GoldenAgeTurns>
+			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -321,10 +324,10 @@
 			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Cities with [ICON_GREAT_MUSICIAN] Musician's Guilds produce +10% [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_5">
-			<Text>Receive a free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
+			<Text>Receive a [ICON_GREAT_SCIENTIST] Free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_6">
-			<Text>Eligible Units receive the Blitz promotion.</Text>
+			<Text>Eligible Units, and those produced within {4_Turns}, receive the Blitz promotion. You enter a [ICON_GOLDEN_AGE] Golden Age during this time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_1">
 			<Text>If agreement cannot be found on these trivial issues, I will personally invest a Chancellor.</Text>

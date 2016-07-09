@@ -53,10 +53,13 @@
 			<Help>TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_NAVIGATION</PrereqTech>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HARBOR</RequiredAnywhereBuildingClass>
-			<EventPromotion>PROMOTION_UE_PIRATE_SLAVER</EventPromotion>
-			<EraRequired>ERA_INDUSTRIAL</EraRequired>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<RequiresWar>true</RequiresWar>
+			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
+			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
+			<GoldenAgeTurns>10</GoldenAgeTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_MOROCCO_UE_CHOICE_6</Type>
@@ -102,40 +105,14 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<CapitalDefenseModifier>35</CapitalDefenseModifier>
-			<CapitalDefenseFalloff>-3</CapitalDefenseFalloff>
+			<CapitalDefenseFalloff>-5</CapitalDefenseFalloff>
 			<PortraitIndex>59</PortraitIndex>
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_BLACK_GUARD</PediaEntry>
 		</Row>
-		<Row>
-			<Type>PROMOTION_UE_PIRATE_SLAVER</Type>
-			<Description>TXT_KEY_PROMOTION_UE_PIRATE_SLAVER</Description>
-			<CannotBeChosen>true</CannotBeChosen>
-			<Help>TXT_KEY_PROMOTION_UE_PIRATE_SLAVER_HELP</Help>
-			<PortraitIndex>6</PortraitIndex>
-			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
-			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_UE_PIRATE_SLAVER</PediaEntry>
-		</Row>
 	</UnitPromotions>
-	<UnitPromotions_YieldFromKills>
-		<Row>
-			<PromotionType>PROMOTION_UE_PIRATE_SLAVER</PromotionType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_PIRATE_SLAVER</PromotionType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
-		</Row>
-	</UnitPromotions_YieldFromKills>
 	<UnitPromotions_UnitCombats>
-		<Row>
-			<PromotionType>PROMOTION_UE_PIRATE_SLAVER</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
-		</Row>
 		<Row>
 			<PromotionType>PROMOTION_UE_BLACK_GUARD</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -198,26 +175,14 @@
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
-	</EventChoice_TerrainYieldChange>
-	<EventChoice_BuildingClassYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
 		</Row>
+	</EventChoice_TerrainYieldChange>
+	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
@@ -296,18 +261,13 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>2</Flavor>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-3</Flavor>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>-2</Flavor>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>4</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_6</EventChoiceType>
@@ -393,7 +353,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_5">
-			<Text>{3_PlayerName} makes a deal with several infamous pirate captains!</Text>
+			<Text>{3_PlayerName} is forced to contend with a rebellion while already at war!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_6_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
@@ -420,10 +380,10 @@
 			<Text>Your Black Guard reduce [ICON_STRENGTH] Crime in Cities by 20%. Melee and Gun Units near the Capital are reinforced, gaining up to 35% [ICON_STRENGTH] Strength.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_5">
-			<Text>Barbary Pirates exhange [ICON_GOLD] Gold and [ICON_PRODUCTION] Production for the shipwrecks of your enemies. Harbor's gain +3 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production per turn for this, but [ICON_STRENGTH] Crime increases by 20%.</Text>
+			<Text>2 [ICON_WAR] Barbarians spawn near every City, along with 1 loyal militia. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_6">
-			<Text>Your Kasbah and Mountain Tiles yield +2 [ICON_TOURISM] Tourism. Hotels generate an additional +5 [ICON_GOLD] Gold.</Text>
+			<Text>Your Kasbah, Desert and Mountain Tiles yield +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_1">
 			<Text>*The letter explains how the bearer saved your friends life. He is a brilliant man who deserves the opportunities of your court.*</Text>
@@ -438,16 +398,10 @@
 			<Text>*Your friend is on the way to the Capital with a host of tribesmen from previously conquered lands, now pledged to protect the kingdom!*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_5">
-			<Text>*The salt-stained envelope contains stories from the navy, and a request for a great many letters of marque...*</Text>
+			<Text>*The letter contains a warning. The armies of a cadet branch of House Saadi are being readied for a coup. They plan to detain you when you visit their seat as part of the campaign!*[NEWLINE]Those traitors! While we are in midst of a conflict that threatens our very destruction! When their treasonous plans are revealed, the people will surely flock to me in support.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The telegraph relays how your friend has become something of a celebrity abroad. A great many people have become interested in visiting Morocco.*[NEWLINE]No doubt the current exchange rate also has something to do with it...</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_UE_PIRATE_SLAVER">
-			<Text>Pirate Slaver</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_UE_PIRATE_SLAVER_HELP">
-			<Text>Kills reward Gold and Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_BLACK_GUARD">
 			<Text>Black Guard</Text>

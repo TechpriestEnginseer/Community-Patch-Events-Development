@@ -88,12 +88,17 @@
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_TURTLE_SHELL</PediaEntry>
+			<MovesChange>-1</MovesChange>
 		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
 		<Row>
 			<PromotionType>PROMOTION_UE_TURTLE_SHELL</PromotionType>
 			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_TURTLE_SHELL</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN</PromotionType>
@@ -267,7 +272,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
@@ -395,10 +400,10 @@
 			<Text>Pay {2_InstantYield}. The Palace provides +5% to [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_RESEARCH] Science. Receive a copy of [ICON_RES_PORCELAIN] Porcelain.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_3">
-			<Text>Pay {2_InstantYield}. Farms yields +1 [ICON_RESEARCH] Science. Enter a Golden Age for {4_Turns}.</Text>
+			<Text>Pay {2_InstantYield}. Farms yield +1 [ICON_RESEARCH] Science. Enter a Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_4">
-			<Text>Existing Melee Ships, and those trained within the next {4_Turns}, take 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. During this time, all Cities rush an additional {3_CityYield} per turn.</Text>
+			<Text>Existing Ships, and those trained within the next {4_Turns}, take 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks, but lose -1 [ICON_MOVES] Movement. During this time, all Cities rush an additional {3_CityYield} per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_5">
 			<Text>A Free Unit appears near every City. For the next {4_Turns}, Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory. However, Customs Houses reduce [ICON_GOLD] Gold by -4 and [ICON_TOURISM] Tourism by -4.</Text>
@@ -429,7 +434,7 @@
 			<Text>Turtle Armour</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP">
-			<Text>Receive 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks.</Text>
+			<Text>Receive 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. -1 Movement.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

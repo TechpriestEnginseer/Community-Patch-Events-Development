@@ -415,7 +415,7 @@
 			<Text>Incorporate native peoples. Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Snow and Ice yields +3 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_3">
-			<Text>A Berserker spawns near every City. Cities receive +1 [ICON_GOLD] Gold from River tiles for {4_Turns}.</Text>
+			<Text>A Berserker spawns near every City. Cities receive +1 [ICON_GOLD] Gold from River Tiles for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_4">
 			<Text>Receive {2_InstantYield}. However, scheming at court causes 5 [ICON_HAPPINESS_3] Unhappiness for {4_Turns}. During this time, Chanceries provide +2 [ICON_FOOD] Food, [ICON_RESEARCH] Science, and [ICON_PRODUCTION] Production.</Text>

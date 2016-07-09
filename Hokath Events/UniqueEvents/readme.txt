@@ -117,25 +117,25 @@ Forest Tribes - req x forests, 75 turn woodsmen, culture on forest
 Teutonic Knights - req war and medieval, obs industrial, gives orders in all cities with 3 maintenance
 High Culture - req great musician, m. guild give %culture, opera house +gold
 Scientific Dominance - req academy, research lab, get tech, culture and gold on acad
-Blitzkrieg - req trainstation & modern & manufactory, blitz
+Blitzkrieg - req trainstation & modern & manufactory, blitz and golden age for 20 turns
 
 Germany has rounded bonuses to CS subsystem. Sending trade routes to CS's of course obviates one of the main drawbacks of largescale warfare.
 Germany's bonuses take a while to kick in, so I wanted the more active choices to kick in early on and spice things up.
 The mid game choices are boosts to culture and gold (like the UA), solidifying your position to...
 take over the world, as Blitzkrieg comes in with the UU (panzer) to wage the sort of large scale conflict we all know and love.
+The free golden age for the production boost, and of course the culture can help with a war-driven culture victory.
 
 --Morocco--Men of Tamazgha 
 berber tribes - req nat epic, req 1 oasis, mountain and desert +food+culture
 arabesque, zellige - req academy & art guild, pay gold, +2 culture on temples, academy, holy site
 black guard - req couthouse, req war, req renaissance, capital defence promo and -crime rate
-barbary pirates - req harbor and navigation, req industrial, gift of the pharoh type promo, gold&prod from harbor, crime increase
-casablanca - kasbah, losing money, mountains +tourism, hotel +gold
+Ksar El Kebir - req military science, req war, barbarians, free units, golden age
+casablanca - kasbah, losing money, mountains,kasbah,desert +tourism
 
 Morocco naturally very broad bonuses, this made life difficult. They promote receiving trade routes and defending your cities. 
 Kasbah dont care about where they are placed. I wanted to emphasise the ballsy placement of trade hubs in inhospitable terrain
  like deserts and mountain ranges (the terrain of morocco) that I think is unique to the civ. Hence choices 1 and 6.
-Choices 4 and 5 are based around war, firstly a strongly defensive choice and then later the more aggressive choice, which removes
-one of the bonuses from the previous (happiness boost).
+Choices 4 and 5 are based around war, specifically around defense.
 Choice 3 is a culture boost that can be scaled by a broad range of systems: wide, tall and religious,
 and boosts to great person improvements scale well when enemy heartlands are conquered later on.
 
@@ -331,8 +331,8 @@ The final choice is a production boost, helping grap strategic monopolies and of
 
 --Greece--To The Ends Of The World
 agora - req baths, cost culture, markets +culture+food+faith, +%great people
-renaissance - req university, req war, free tech
-filiki eteria - req wire service, losing money, cost culture, free diplomat
+renaissance - req university, req war, free tech, uni +culture+sci
+filiki eteria - req wire service, losing money, cost culture, free diplomat, banks +gold+prod
 katharevousa - req modern, req unhappy, printing press +% culture&science&gold, decrease illiteracy
 olympic restoration - req globalism, cost gold, tourism boost, free ambassador
 
@@ -342,10 +342,14 @@ The second choice helps catch up on science which must necessarly be neglected t
 Choices 4 and 6 have free diplo units, but there is also the tourism boost if the culture victory looks preferable.
 Choice 5 benefits both wide and tall, and is an all round boost for the mid-late game
 
------To Be Completed-----
+--Carthage--She Who Must Be Obeyed
+Tyrian Purple - req currency, req fishing boat, cost gold, 2 copy crab, fishing boat +gold+culture
+Hannibal - req metal casting, req great general, cost gold, elephant, mountain move
+arab rule - req metallurgy, req war, cost faith, janissary, temple&constable&policestation +faith, +religious hate
+barbary pirates - req harbor and navigation, req industrial, gift of the pharoh type promo, gold&prod from harbor, crime increase
+french rule - replaceable parts, losing money, cost GAP, foreign legion, mint&bank&stock exchange +gold
 
---Carthage--
-Tyrian Purple - 
+-----To Be Completed-----
 
 --Austria--
 Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
