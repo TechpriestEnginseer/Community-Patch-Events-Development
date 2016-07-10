@@ -158,7 +158,7 @@
 	</Building_WLTKDYieldMod>
 	
 	
-	<EventChoice_EventYieldCost>
+	<EventChoice_EVENTCOSTYIELD>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -169,7 +169,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>400</Yield>
 		</Row>
-	</EventChoice_EventYieldCost>
+	</EventChoice_EVENTCOSTYIELD>
 	<EventChoice_FreeUnitClasses>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>

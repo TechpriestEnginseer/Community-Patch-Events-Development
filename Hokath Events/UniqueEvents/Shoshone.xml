@@ -104,7 +104,7 @@
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_COUNTING_COUP</PediaEntry>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_COUNTING_COUP</PediaEntry>
 			<ExperiencePercent>25</ExperiencePercent>
 		</Row>
 	</UnitPromotions>

@@ -214,7 +214,7 @@
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 	
-	<EventChoice_EventYieldCost>
+	<EventChoice_EVENTCOSTYIELD>
 		<Row>
 			<EventChoiceType>EVENT_MONGOLIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -230,7 +230,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>400</Yield>
 		</Row>
-	</EventChoice_EventYieldCost>
+	</EventChoice_EVENTCOSTYIELD>
 
 	<EventChoiceFlavors>
 		<Row>

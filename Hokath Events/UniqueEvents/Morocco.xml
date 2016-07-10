@@ -45,7 +45,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventPromotion>PROMOTION_UE_BLACK_GUARD</EventPromotion>
 			<RequiresWar>true</RequiresWar>
-			<EraRequired>ERA_RENAISSANCE</EraRequired>
+			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>			
 		</Row>
 		<Row>

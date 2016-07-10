@@ -71,7 +71,7 @@
 			<Help>TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_PORTUGAL_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<EraRequired>ERA_MODERN</EraRequired>
+			<RequiredEra>ERA_MODERN</RequiredEra>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PORTUGAL_UE_DUMMY</EventBuildingClassGlobal>
 		</Row>
@@ -237,7 +237,7 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
-	<EventChoice_EventYieldCost>
+	<EventChoice_EVENTCOSTYIELD>
 		<Row>
 			<EventChoiceType>EVENT_PORTUGAL_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
@@ -258,7 +258,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>250</Yield>
 		</Row>
-	</EventChoice_EventYieldCost>
+	</EventChoice_EVENTCOSTYIELD>
 	
 	
 	<EventChoiceFlavors>

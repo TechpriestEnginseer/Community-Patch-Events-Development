@@ -127,7 +127,7 @@
 			<Yield>4000</Yield>
 		</Row>
 	</EventChoice_InstantYield>
-	<EventChoice_EventYieldCost>
+	<EventChoice_EVENTCOSTYIELD>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -143,7 +143,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>300</Yield>
 		</Row>
-	</EventChoice_EventYieldCost>
+	</EventChoice_EVENTCOSTYIELD>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_2</EventChoiceType>

@@ -354,6 +354,9 @@ french rule - replaceable parts, losing money, cost GAP, foreign legion, mint&ba
 --Austria--
 Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
 
+
+
+
 --Zulus--
 Rooibois - gain copies of tea, 
 vuvuzela -

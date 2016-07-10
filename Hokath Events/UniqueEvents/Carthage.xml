@@ -56,7 +56,7 @@
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HARBOR</RequiredAnywhereBuildingClass>
 			<EventPromotion>PROMOTION_UE_PIRATE_SLAVER</EventPromotion>
-			<EraRequired>ERA_INDUSTRIAL</EraRequired>
+			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_CARTHAGE_UE_CHOICE_6</Type>
@@ -275,7 +275,7 @@
 			<Yield>20</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
-	<EventChoice_EventYieldCost>
+	<EventChoice_EVENTCOSTYIELD>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -291,7 +291,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>300</Yield>
 		</Row>
-	</EventChoice_EventYieldCost>
+	</EventChoice_EVENTCOSTYIELD>
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
