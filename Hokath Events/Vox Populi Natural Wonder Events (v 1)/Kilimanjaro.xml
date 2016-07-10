@@ -187,7 +187,7 @@
 			<Text>The Natural Wonder permenantly yields +1 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_KILIMANJARO_HELP_CHOICE_2">
-			<Text>The husbandry program allows nearby [ICON_RES_COW] COW to produce +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>The husbandry program allows nearby [ICON_RES_COW] Cattle to produce +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_KILIMANJARO_HELP_CHOICE_3">
 			<Text>Allow the excavation, costing -3 [ICON_PRODUCTION] Production per turn. Receive two copies of [ICON_RES_IVORY] Ivory.</Text>
