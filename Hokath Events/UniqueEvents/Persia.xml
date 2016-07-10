@@ -156,7 +156,7 @@
 			<PortraitIndex>59</PortraitIndex>
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_INCORPORATE</PediaEntry>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_INCORPORATE</PediaEntry>
 			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
 		</Row>
 	</UnitPromotions>
@@ -398,7 +398,13 @@
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>Endless princes and princesses to apoint to the top positions in my kingdom. I grow tired of this patronage, it is time the country learned to govern itself, for one day I shall no longer be here to guide it.</Text>
 		</Row>
-
+		
+		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY_2">
+			<Text></Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_INCORPORATE">
 			<Text>Incorporate</Text>
 		</Row>

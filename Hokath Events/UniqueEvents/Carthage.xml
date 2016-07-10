@@ -186,7 +186,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
-			<UnitType>UNIT_CARTHAGINIAN_FRENCH_FOREIGNLEGION</UnitType>
+			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>

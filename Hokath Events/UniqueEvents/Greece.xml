@@ -47,7 +47,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_WIRE_SERVICE</RequiredAnywhereBuildingClass>
 			<LosingMoney>true</LosingMoney>
-			<EraScaling></EraScaling>
+			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_GREECE_UE_CHOICE_5</Type>
@@ -62,7 +62,7 @@
 			<Help>TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_GLOBALISM</PrereqTech>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

@@ -141,19 +141,19 @@
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_PORTUGAL_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORTUGAL_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORTUGAL_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>

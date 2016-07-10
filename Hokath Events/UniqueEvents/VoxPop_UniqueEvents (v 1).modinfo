@@ -30,15 +30,15 @@
     <File md5="B1F102E7AAB41A082D628051FB47AA04" import="0">Babylon.xml</File>
     <File md5="38A7D1417541D2F87616DE662AF90798" import="0">Brazil.xml</File>
     <File md5="3A851E554BD09A5ECCC80D9035B51A76" import="0">BuildingCatchupEvents.xml</File>
-    <File md5="1E75D9DB9E44224CEFBDC069E5D0C211" import="0">Carthage.xml</File>
+    <File md5="F59E5CB6A04DE0C28F8AA56A1AB5A4E6" import="0">Carthage.xml</File>
     <File md5="EFF03F7269B14434BF887884724BBBEB" import="0">Celts.xml</File>
     <File md5="0004D5EA630584B6F5C1704BC4D39AED" import="0">China.xml</File>
     <File md5="45B19B4DFF1BD9269EB9692196BF4DDE" import="0">Denmark.xml</File>
-    <File md5="0C4D81A7EC518E3100D7ECB4EFA483A2" import="0">Greece.xml</File>
+    <File md5="4CAE5312DD6E021AC85941A728B7EB55" import="0">Greece.xml</File>
     <File md5="90F5F98875D3A38099F36F99C3FA4B5F" import="0">India.xml</File>
     <File md5="F1495EE370204D3FD7C39AC407B654B2" import="0">Japan.xml</File>
     <File md5="94D082C5A1440DE8C2EEEA6288ED5D92" import="0">Maya.xml</File>
-    <File md5="F47023B0F87CFF94646D4639E02E437F" import="0">Mongolia.xml</File>
+    <File md5="38556F6E5789238B0C378CB2593F4C75" import="0">Mongolia.xml</File>
     <File md5="4A8E0FB0C420FE17FED60E434F24D3D9" import="0">Netherlands.xml</File>
     <File md5="2E5737899C7440092D55EC1008608262" import="0">Egypt.xml</File>
     <File md5="3E010349E6A52F0FB30C95B869F89E01" import="0">England.xml</File>
@@ -48,10 +48,10 @@
     <File md5="5B7BC86CDDD64E6FA11F3DF091F5B661" import="0">Iroquois.xml</File>
     <File md5="8F19E8EB11335C8566FD7923BC0485EB" import="0">Korea.xml</File>
     <File md5="72C6034A2F38CE99119606B1C32DECF0" import="0">Morocco.xml</File>
-    <File md5="EE4B9A4C46015B9DF51977117F868B7A" import="0">Persia.xml</File>
+    <File md5="C9AA7625ADA1338005375E4CE4C24D3F" import="0">Persia.xml</File>
     <File md5="AE99C5C66AE1A2E70D6F330205FE890A" import="0">Poland.xml</File>
     <File md5="033680B2222E06989A9DC47A2A3732D6" import="0">Polynesia.xml</File>
-    <File md5="3832F6800B8C2810BCB0C9C5B76B662E" import="0">Portugal.xml</File>
+    <File md5="BA067039D83E7E504329B86B3265F6C0" import="0">Portugal.xml</File>
     <File md5="16C15F14D0F67208A2002E100C02925C" import="0">readme.txt</File>
     <File md5="5A44BF82B8C49D433562E01E18C0DCDF" import="0">Russia.xml</File>
     <File md5="0F85380513EE6BBEA3970C493DF4AE2D" import="0">Shoshone.xml</File>
