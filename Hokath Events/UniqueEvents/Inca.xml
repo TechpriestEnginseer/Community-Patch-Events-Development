@@ -61,7 +61,7 @@
 			<Help>TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_INCA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TOURISM_CENTER</RequiredAnywhereBuildingClass>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -149,9 +149,9 @@
 	</EventChoice_ResourceQuantity>
 	<EventChoice_MinimumResourceRequired>
 	<Row>
-		<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
-		<ResourceType>RESOURCE_SHEEP</ResourceType>
-		<Quantity>5</Quantity>
+			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<Quantity>5</Quantity>
 	</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>

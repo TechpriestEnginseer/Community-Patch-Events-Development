@@ -214,7 +214,7 @@
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 	
-	<EventChoice_EVENTCOSTYIELD>
+	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_MONGOL_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -230,7 +230,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>400</Yield>
 		</Row>
-	</EventChoice_EVENTCOSTYIELD>
+	</EventChoice_EventCostYield>
 
 	<EventChoiceFlavors>
 		<Row>
@@ -408,7 +408,7 @@
 			<Text>In all these audiences we have yet to come across a single man of merit. These men accomplished much, there must be at least one Great Person among them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MONGOL_UE_DESCRIPTION_CHOICE_2">
-			<Text>*This tribe specialised in rearing silk worms, but their trade was limited in scope and they could not survive an incursion with Mongolian culture*[NEWLINE]You once weaved fine Silks and lived peaceful, fulfilling lives. You will again, if you serve under the Great Khan, he will see that you flourish.</Text>
+			<Text>*This tribe specialised in rearing silk worms, but their trade was limited in scope and they could not survive an incursion with Mongolian culture*[NEWLINE]You once weaved fine Silks and lived peaceful, fulfilling lives. You can again! If you serve under the Great Khan, he will see that you flourish.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MONGOL_UE_DESCRIPTION_CHOICE_3">
 			<Text>*Another people devastated by contact with the Horde. We cannot rule over destroyed lands*[NEWLINE]Guard, fetch me the Economic Advisor. We must do something about this predicament immediately.</Text>

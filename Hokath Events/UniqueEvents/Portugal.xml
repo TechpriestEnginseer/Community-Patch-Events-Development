@@ -237,7 +237,7 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
-	<EventChoice_EVENTCOSTYIELD>
+	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_PORTUGAL_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
@@ -258,7 +258,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>250</Yield>
 		</Row>
-	</EventChoice_EVENTCOSTYIELD>
+	</EventChoice_EventCostYield>
 	
 	
 	<EventChoiceFlavors>

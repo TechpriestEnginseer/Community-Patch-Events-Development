@@ -199,7 +199,7 @@ Alpaca Wool - req x sheep & village, cost faith, sheep gain +gold+culture
 Wak'a - req grand temple, mountains +faith,  +2 copy of dyes
 Mineral Exploration - req dynamite, cost gold, mountains +2production, +silver+gold+copper
 Ochenio - req modern era & unhappy, Free social policy, WLTKD, +poverty+crime
-Natural Beauty - req ecology, cost culture, mountains +tourism+culture
+Natural Beauty - req visitor center, cost culture, mountains +tourism+culture
 
 --Russia--The Less We Love
 -add back in Tundra bias
@@ -261,7 +261,7 @@ Day of the Dead - req ideology, cost faith, holy site +culture+tourism+food
 --Brazil--The Men Of Tomorrow
 jungle tribes - req national epic, min feat jung, jungle +food+gold, sugar/bananas/cocoa/spices +food
 luminary emperor - req education, cost cult&faith, university +cult, -illit
-gold rush - req banking, pop gain, copy gold, unhappiness per city
+gold rush - req banking, pop gain, copies gold, unhappiness per city for x turns
 pracinhas - req flight, req war, one per city. +prod during wltkd
 biofuel - req plastic, cost sci&gold, plantation +science+prod+GAP
 
@@ -334,7 +334,7 @@ agora - req baths, cost culture, markets +culture+food+faith, +%great people
 renaissance - req university, req war, free tech, uni +culture+sci
 filiki eteria - req wire service, losing money, cost culture, free diplomat, banks +gold+prod
 katharevousa - req modern, req unhappy, printing press +% culture&science&gold, decrease illiteracy
-olympic restoration - req globalism, cost gold, tourism boost, free ambassador
+olympic restoration - req globalisation, cost gold, tourism boost, free ambassador
 
 Greece naturally has bonuses to CSs and war (with a sideline in culture). The early UU benefits most from early aggression.
 The first choice is therefore to aid all round empire building in the early game, the +%GP aids diplomats especially later.
@@ -342,24 +342,31 @@ The second choice helps catch up on science which must necessarly be neglected t
 Choices 4 and 6 have free diplo units, but there is also the tourism boost if the culture victory looks preferable.
 Choice 5 benefits both wide and tall, and is an all round boost for the mid-late game
 
---Carthage--She Who Must Be Obeyed
+--Carthage--Quenchless Fate
 Tyrian Purple - req currency, req fishing boat, cost gold, 2 copy crab, fishing boat +gold+culture
 Hannibal - req metal casting, req great general, cost gold, elephant, mountain move
 arab rule - req metallurgy, req war, cost faith, janissary, temple&constable&policestation +faith, +religious hate
 barbary pirates - req harbor and navigation, req industrial, gift of the pharoh type promo, gold&prod from harbor, crime increase
 french rule - replaceable parts, losing money, cost GAP, foreign legion, mint&bank&stock exchange +gold
 
+--Austria--The Blue Danube
+accumulation - req medieval era, cost culture, large boost of culture_local, emissary
+waltzes in vienna - req opera house, cost culture&gold, %culture%tourism during WLTKD in the capital, WLTKD turns
+battle of vienna - req metallurgy, req war, cost pop, capital defense promo, random units
+1848 - req ideology, unhappy, resistance turns, %prod%food during WLTKD, WLTKD turns
+Ski Resorts - req tourist centre, cost gold, +gold+tourism for every nearby mountain
+
+--Zulus--Many More Hills To Climb
+khosi heritage - req camp, req drama, cost culture, +food+production for every x plains tiles in range 
+mfecane - req gunpowder, cost pop, farms -food for x turns, spawn UNITCLASS_TERCIO, overrun promo
+Rooibois - req chemistry, cost gold, gain copies of tea, village +1 food
+blood diamonds - req dynamite, pop gain, copies gems, unhappiness per city, for x turns
+rainbow nation - req stadium, is unhappy, reduced boredom, cathedral in every city
+
 -----To Be Completed-----
 
---Austria--
-Ski Resorts - req. x mountains, +gold+tourism for every nearby mountain
 
 
-
-
---Zulus--
-Rooibois - gain copies of tea, 
-vuvuzela -
 .........................
 --Ottomans--
 Hamam - req holy city, baths give food and faith

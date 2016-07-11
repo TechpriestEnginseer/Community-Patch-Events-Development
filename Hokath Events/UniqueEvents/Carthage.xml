@@ -275,7 +275,7 @@
 			<Yield>20</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
-	<EventChoice_EVENTCOSTYIELD>
+	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -291,7 +291,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>300</Yield>
 		</Row>
-	</EventChoice_EVENTCOSTYIELD>
+	</EventChoice_EventCostYield>
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
@@ -434,7 +434,7 @@
 			<Text>{3_PlayerName} consults the World Congress Monetary Fund on her current financial woes!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION">
-			<Text>She Who Must Be Obeyed</Text>
+			<Text>Quenchless Fate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP">
 			<Text>Your Imperial Majesty! Elissa, Icon of our People, Visage of Beauty, Protector of the Weak, Mother of-[NEWLINE]*You cough*[NEWLINE]W-well y-your Grace, it... it's the matter of your re-marriage. Your advisors are a-a-anxious for a new consort. The King's d-death, while sudden, was s-some time ago now.</Text>

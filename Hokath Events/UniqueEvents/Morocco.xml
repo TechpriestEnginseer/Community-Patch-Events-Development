@@ -43,7 +43,7 @@
 			<Help>TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
-			<EventPromotion>PROMOTION_UE_BLACK_GUARD</EventPromotion>
+			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
 			<RequiresWar>true</RequiresWar>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>			
@@ -96,32 +96,6 @@
 			<EventType>EVENT_MOROCCO_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-
-	<UnitPromotions>
-		<Row>
-			<Type>PROMOTION_UE_BLACK_GUARD</Type>
-			<Description>TXT_KEY_PROMOTION_UE_BLACK_GUARD</Description>
-			<Help>TXT_KEY_PROMOTION_UE_BLACK_GUARD_HELP</Help>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<CannotBeChosen>true</CannotBeChosen>
-			<CapitalDefenseModifier>35</CapitalDefenseModifier>
-			<CapitalDefenseFalloff>-5</CapitalDefenseFalloff>
-			<PortraitIndex>59</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
-			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_UE_BLACK_GUARD</PediaEntry>
-		</Row>
-	</UnitPromotions>
-	<UnitPromotions_UnitCombats>
-		<Row>
-			<PromotionType>PROMOTION_UE_BLACK_GUARD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_BLACK_GUARD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-		</Row>
-	</UnitPromotions_UnitCombats>
 	
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
@@ -377,7 +351,7 @@
 			<Text>Pay {2_InstantYield}. Gain +2 [ICON_CULTURE] Culture from Temples, Academies and Holy Sites.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_4">
-			<Text>Your Black Guard reduce [ICON_STRENGTH] Crime in Cities by 20%. Melee and Gun Units near the Capital are reinforced, gaining up to 35% [ICON_STRENGTH] Strength.</Text>
+			<Text>Your Black Guard reduce [ICON_STRENGTH] Crime in Cities by 20%. Eligible Units receive the Homeland Guardian Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_5">
 			<Text>2 [ICON_WAR] Barbarians spawn near every City, along with 1 loyal militia. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
@@ -402,12 +376,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The telegraph relays how your friend has become something of a celebrity abroad. A great many people have become interested in visiting Morocco.*[NEWLINE]No doubt the current exchange rate also has something to do with it...</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_UE_BLACK_GUARD">
-			<Text>Black Guard</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_UE_BLACK_GUARD_HELP">
-			<Text>Gain +35% [ICON_STRENGTH] Strength near the [ICON_CAPITAL] Capital. Falls off with distance.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

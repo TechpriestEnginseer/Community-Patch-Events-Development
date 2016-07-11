@@ -142,7 +142,7 @@
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
-			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>-10</Yield>
 		</Row>
@@ -207,7 +207,7 @@
 	</EventChoice_FeatureYieldChange>
 	<EventChoice_ResourceQuantity>
 		<Row>
-			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>

@@ -115,9 +115,9 @@
 		</Row>
 		<Row>
 			<Type>BUILDING_POLYNESIA_UE_DUMMY_2</Type>
-			<BuildingClass>BUILDINGCLASS_POLYNESIA_UE_DUMMY</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_POLYNESIA_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY</Description>
+			<Description>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_2</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
 			<GreatWorkCount>-1</GreatWorkCount>
