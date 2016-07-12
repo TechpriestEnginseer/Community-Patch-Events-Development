@@ -358,10 +358,10 @@ Ski Resorts - req tourist centre, cost gold, +gold+tourism for every nearby moun
 
 --Zulus--Many More Hills To Climb
 khosi heritage - req camp, req drama, cost culture, +food+production for every x plains tiles in range 
-mfecane - req gunpowder, cost pop, farms -food for x turns, spawn UNITCLASS_TERCIO, overrun promo
-Rooibois - req chemistry, cost gold, gain copies of tea, village +1 food
-blood diamonds - req dynamite, pop gain, copies gems, unhappiness per city, for x turns
-rainbow nation - req stadium, is unhappy, reduced boredom, cathedral in every city
+mfecane - req gunpowder, req war, cost pop, farms -food for x turns, spawn UNITCLASS_TERCIO, overrun promo
+Rooibois - req chemistry, cost gold, gain copies of tea, village +1 food&production
+blood diamonds - req dynamite, req war minor, copies gems and gold
+rainbow nation - req stadium, is unhappy, reduced boredom, church in every city
 
 -----To Be Completed-----
 

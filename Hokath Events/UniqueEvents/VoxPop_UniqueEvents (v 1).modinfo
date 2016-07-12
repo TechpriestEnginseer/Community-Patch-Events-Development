@@ -29,7 +29,7 @@
     <File md5="0B00D8A64A8A00312F5F24F6CD7818E2" import="0">Austria.xml</File>
     <File md5="3A74D2D22F913C0304C6D555499C98C6" import="0">Aztec.xml</File>
     <File md5="B1F102E7AAB41A082D628051FB47AA04" import="0">Babylon.xml</File>
-    <File md5="16AD7C5AC36FFB179399EC153E070720" import="0">Brazil.xml</File>
+    <File md5="085FA21B635766D7E33C2B8C18336903" import="0">Brazil.xml</File>
     <File md5="3A851E554BD09A5ECCC80D9035B51A76" import="0">BuildingCatchupEvents.xml</File>
     <File md5="6FDBEEE321EFF3AE4AFF0E7A71CF1092" import="0">Carthage.xml</File>
     <File md5="EFF03F7269B14434BF887884724BBBEB" import="0">Celts.xml</File>
@@ -53,13 +53,13 @@
     <File md5="AE99C5C66AE1A2E70D6F330205FE890A" import="0">Poland.xml</File>
     <File md5="910575F73DBC44F291D81C0E31A29E72" import="0">Polynesia.xml</File>
     <File md5="735BD956132182626D373DDD6AB5743E" import="0">Portugal.xml</File>
-    <File md5="47FA45ACEC354B10082421AA20B5026B" import="0">readme.txt</File>
+    <File md5="2FF6693AE7A7D505A08C408A6AB78199" import="0">readme.txt</File>
     <File md5="5A44BF82B8C49D433562E01E18C0DCDF" import="0">Russia.xml</File>
     <File md5="0F85380513EE6BBEA3970C493DF4AE2D" import="0">Shoshone.xml</File>
     <File md5="172B614228CE5491370AA889B780BF69" import="0">Siam.xml</File>
     <File md5="4FF878DE886DE587413364ECAB11CE58" import="0">Songhai.xml</File>
     <File md5="2ABE41EE0AAEA2D2C978196EBAC92F28" import="0">Sweden.xml</File>
-    <File md5="F72810EA114382E5EE4DC8018AD25A94" import="0">Zulu.xml</File>
+    <File md5="87683293CFBC2A13CD95F4A93917EF93" import="0">Zulu.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

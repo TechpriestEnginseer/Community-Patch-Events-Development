@@ -43,7 +43,7 @@
 			<Description>TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_BANKING</PrereqTech>
-			<HappinessPerCity>-2</HappinessPerCity>
+			<HappinessPerCity>-1</HappinessPerCity>
 			<EventDuration>150</EventDuration>
 			<Expires>true</Expires>
 		</Row>
@@ -422,7 +422,7 @@
 			<Text>Against the elites and the clergy, spend {1_YieldCost} to reduce [ICON_RESEARCH] Illiteracy thresholds by 10%. All Universities generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_4">
-			<Text>You receive two copies of [ICON_RES_GOLD] Gold. An influx of migrants boosts population by {2_InstantYield}, but also causes +2 [ICON_HAPPINESS_3], in each City. Effects last {4_Turns}.</Text>
+			<Text>You receive two copies of [ICON_RES_GOLD] Gold. An influx of migrants boosts population by {2_InstantYield}, but also causes +1 [ICON_HAPPINESS_3], in each City. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_5">
 			<Text>A Pracinha is recruited in every City. During WLTKD, Cities produce +10% [ICON_PRODUCTION] Production.</Text>
