@@ -158,17 +158,17 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-15</Yield>
+			<Yield>-25</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-15</Yield>
+			<Yield>-25</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-15</Yield>
+			<Yield>-25</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	
@@ -394,7 +394,7 @@
 			<Text>Conscript {2_InstantYield} in every City into Fusiliers. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_6">
-			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 15%.</Text>
+			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A recent birth has been identified as the reincarnation of a Great Person*[NEWLINE]A Great Soul is returned to us! Make the necessary arrangements.</Text>

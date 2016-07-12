@@ -41,7 +41,7 @@
 			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
 			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY</EventBuildingClassGlobal>
-			<CapitalOnly>true</CapitalOnly>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -62,7 +62,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<IsUnhappy>true</IsUnhappy>
 			<ResistanceTurns>5</ResistanceTurns>
-			<CapitalOnly>true</CapitalOnly>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<WLTKDTurns>20</WLTKDTurns>
 			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EventDuration>20</EventDuration>
@@ -73,7 +73,7 @@
 			<Help>TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_AUSTRIA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<BuildingClassAnywhereRequired>BUILDINGCLASS_TOURISM_CENTER</BuildingClassAnywhereRequired>
+			<BuildingClassAnywhereRequired>BUILDINGCLASS_TOURIST_CENTER</BuildingClassAnywhereRequired>
 			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY_3</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 		</Row>

@@ -61,7 +61,7 @@
 			<Help>TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_INCA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TOURISM_CENTER</RequiredAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TOURIST_CENTER</RequiredAnywhereBuildingClass>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
