@@ -182,6 +182,11 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>-100</Yield>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>-10</Yield>
+		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
@@ -428,7 +433,7 @@
 			<Text>Leverage {1_YieldCost} to demand tribute from your subjects. The Palace generates +1 [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_FOOD] Food, [ICON_PEACE] Faith for every City under your control. All Ships receive the Supply Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_HELP_CHOICE_6">
-			<Text>Bring about social and educational reforms using {1_YieldCost}. You no longer suffer [ICON_RELIGION] Religious Divisons. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Bring about social and educational reforms using {1_YieldCost}. You no longer suffer [ICON_RELIGION] Religious Divisons and [ICON_RESEARCH] Illiteracy thresholds are reduced by 10%. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_DESCRIPTION_CHOICE_1">
 			<Text>God is merciful. I, however, am not. Find me a replacement.</Text>
