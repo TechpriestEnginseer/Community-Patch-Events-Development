@@ -374,37 +374,37 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_1">
-			<Text>{3_PlayerName} appoints a new Marquis! The old one has mysteriously disappeared...</Text>
+			<Text>{3_PlayerName} executes his Grand Vizier!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_2_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_2">
-			<Text>{3_PlayerName} bids fairwell to the Vandal peoples, guests in her lands.</Text>
+			<Text>{3_PlayerName} sets up a network of Caravanserai.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_3_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_3">
-			<Text>{3_PlayerName} is visited by an angel, proof of worthiness to conquer her enemies!</Text>
+			<Text>{3_PlayerName} introduces regulations for business in accordance with religious law.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_4_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_4">
-			<Text>{3_PlayerName} backs a daring plan to explore the far corners of the globe!</Text>
+			<Text>{3_PlayerName} devolves judicial duties for grievances within religious minority groups.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_5_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_5">
-			<Text>{3_PlayerName} siezes the aristocracy's remaining power in a move to reform OTTOMAN's economy!</Text>
+			<Text>{3_PlayerName} demands additional tribute from his vassals!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_6_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_6">
-			<Text>{3_PlayerName} naturalises all her citizens, finalising decades of social reform!</Text>
+			<Text>{3_PlayerName} disbands his historic council of advisors in favour of modernising reform!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_DESCRIPTION">
 			<Text>Does Any Rose Lack Thorns?</Text>
