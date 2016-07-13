@@ -366,7 +366,7 @@ rainbow nation - req stadium, is unhappy, reduced boredom, church in every city
 --Ottomans--Does Any Rose Lack Thorns?
 Sultanate of Rum - req less than max trade, req currency, cost gold, caravansary in all cities, cara +culture+faith
 Hamam - req holy city, req theology, cost faith, baths +food+faith
-slavery - req economics, req war, cost faith, cities have +prod+food per religion
+millet system - req economics, req war, cost faith, cities have +prod+food per religion
 Naval dominance - req navigation, req war, cost gold&culture, supply promo, palace yield per city
 Ataturk - req postmodern, req unhappy, cost culture&science, -religious unhappy, golden age turns
 
