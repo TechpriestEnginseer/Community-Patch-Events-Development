@@ -348,7 +348,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_5">
-			<Text>{3_PlayerName} protects traditional Persian craft industry in the face of Industrialization.</Text>
+			<Text>{3_PlayerName} protects the traditional Persian carpet industry in the face of Industrialization.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_6_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
@@ -375,7 +375,7 @@
 			<Text>Suppress {1_YieldCost} of religious influence over the Empire. Chanceries yield +3 [ICON_RESEARCH] Science, and Cities generate 20% additional [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_5">
-			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 3 copies of [ICON_RES_COTTON] and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 3 copies of [ICON_RES_COTTON] Cotton, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_6">
 			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. Cities convert 10% of [ICON_GOLD] Gold to [ICON_GOLDEN_AGE] Golden Age Points when purchasing.</Text>

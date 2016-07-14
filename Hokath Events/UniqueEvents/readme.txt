@@ -378,12 +378,19 @@ War means if you dont secure a holy city you can acquire one, and so hamam can b
 Naval dominance is a nod to that naval flavour from vanilla, and allows your economy to synergise with wide (trade routes dont, really)
 The last choice is a slightly boring steroid, which notably eliminates all religious unhappiness.
 
---Rome--Veni, Vidi, Vici
+--Rome----------Veni, Vidi, Vici-----------------------------
 forum - req courthouse, cost culture, markets +culture+food+faith, PlotCultureCostModifier
 thermae - req education, cost science, baths +food +science
 condottieri - req renaissance, req war, cost gold, UNIT_GERMAN_LANDSKNECHT, envoy
 risorgimento - req ideology, req war minor, infiltrators PROMOTION_BARRAGE_4, embassy +yields
 alpini - req replaceable parts, req war, -pop, riflemen in all city, mountain walking gun and artillery units
+
+--Venice----------La Dominante-----------------------------
+Canals - req aqueduct, cost gold, coastal city, great galleas, garden
+basillica san marco - req theology, req nat epic, cathedral in the capital
+Venician music - req musicians guild, req great musician, capital generate +culture per citizen, +% to culture GP
+Glassworks - req factory, cost gold&culture, 3 copies glass, workshop +culture
+subsidence - req ecology, cost gold, spending in capital give food
 
 -----To Be Completed-----
 --Byzantium--
@@ -398,10 +405,6 @@ Monolithic Church -
 
 --Indonesia--
 Wayang
-
---Venice--
-Canals
-Glassworks
 
 --Huns--
 Yurt

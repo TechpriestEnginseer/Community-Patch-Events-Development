@@ -50,17 +50,18 @@
     <File md5="8F19E8EB11335C8566FD7923BC0485EB" import="0">Korea.xml</File>
     <File md5="597030119CEBA5D23C6E9F04818A270E" import="0">Morocco.xml</File>
     <File md5="C5CFEBD46357CE56EEB646F1FF1A3C90" import="0">Ottoman.xml</File>
-    <File md5="C9AA7625ADA1338005375E4CE4C24D3F" import="0">Persia.xml</File>
+    <File md5="9840C0885A2BE1E5A388A68CB23AC2D1" import="0">Persia.xml</File>
     <File md5="AE99C5C66AE1A2E70D6F330205FE890A" import="0">Poland.xml</File>
     <File md5="910575F73DBC44F291D81C0E31A29E72" import="0">Polynesia.xml</File>
     <File md5="735BD956132182626D373DDD6AB5743E" import="0">Portugal.xml</File>
-    <File md5="7FF8DAF3309A41027E34D00D6C85C41C" import="0">readme.txt</File>
-    <File md5="628E9740889C761DC489EA52B00D39E0" import="0">Rome.xml</File>
+    <File md5="F02ED732E9CB6385194984D0A4A9E065" import="0">readme.txt</File>
+    <File md5="CCA7EA4203FB28F00D4C3A34E41544CA" import="0">Rome.xml</File>
     <File md5="5A44BF82B8C49D433562E01E18C0DCDF" import="0">Russia.xml</File>
     <File md5="0F85380513EE6BBEA3970C493DF4AE2D" import="0">Shoshone.xml</File>
     <File md5="172B614228CE5491370AA889B780BF69" import="0">Siam.xml</File>
     <File md5="4FF878DE886DE587413364ECAB11CE58" import="0">Songhai.xml</File>
     <File md5="2ABE41EE0AAEA2D2C978196EBAC92F28" import="0">Sweden.xml</File>
+    <File md5="C3848FCDDD529407AB704802EB7EBC9B" import="0">Venice.xml</File>
     <File md5="87683293CFBC2A13CD95F4A93917EF93" import="0">Zulu.xml</File>
   </Files>
   <Actions>

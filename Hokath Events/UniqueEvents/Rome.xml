@@ -394,7 +394,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ROME_UE_CHOICE_6">
-			<Text>{3_PlayerName} forms the Alpini regiments to fight the enemies of the Republic.</Text>
+			<Text>{3_PlayerName} forms the Alpini regiments to fight the enemies of the Republic!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_DESCRIPTION">
 			<Text>Vini, Vidi, Vici</Text>
