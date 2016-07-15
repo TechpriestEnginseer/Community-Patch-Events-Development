@@ -248,7 +248,7 @@
 		<Row>
 			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>250</Yield>
+			<Yield>400</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 

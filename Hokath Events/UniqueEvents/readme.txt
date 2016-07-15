@@ -93,7 +93,7 @@ Gaul - req lose money, forges give tourism and gold, 1 jewelry
 Salon - req min nat pop, gardens gain sci and %culture
 Revolution - req ind era & lose money, anarchy and lose pop, free policy
 Art - req modern era, req hermitage, artist guilds gain culture and tourism
-Cuisine - req atomic era, farms give +gold and culture, agri +gold
+Cuisine - req atomic era, cost gold, farms give +gold and culture, agri +gold
 
 France naturally has bonuses to warfare and culture. The Chateau is the coolest UI imho, as it synergises perfectly with that.
 I wanted to get some more of that Louis XIV swag, so these choices aim to boost culture&tourism throughout the game
@@ -390,23 +390,27 @@ Canals - req aqueduct, cost gold, coastal city, great galleas, garden
 basillica san marco - req theology, req nat epic, cathedral in the capital
 Venician music - req musicians guild, req great musician, capital generate +culture per citizen, +% to culture GP
 Glassworks - req factory, cost gold&culture, 3 copies glass, workshop +culture
-subsidence - req ecology, cost gold, spending in capital give food
+subsidence - req ecology, cost gold, purchasing in capital give food
+
+--Ethiopia----------Lion of Zion-----------------------------
+Aksumite - req currency, req cara, cost gold, less than max trade, caravansary +faith+gap
+Monolithic Church - req temple, req x stone, stone&temple +faith+GAP
+Shewa Oromo - req industrial, req war, free impi
+Zewditu reform - req ideology, req unhappy, -GAP, golden age, purchase to culture
+Bread basket - req atomic era, cost science, farms&plantations +food, agri +gold
 
 -----To Be Completed-----
---Byzantium--
+--Byzantium----------
 
---Spain--
+--Spain----------
 Basilica - Free cathedrals
 columbus
 el sid
 
---Ethiopia--
-Monolithic Church - 
-
---Indonesia--
+--Indonesia----------
 Wayang
 
---Huns--
+--Huns----------
 Yurt
 
 -----modded civs------

@@ -203,7 +203,7 @@
 		<Row>
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>350</Yield>
+			<Yield>500</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 
@@ -353,7 +353,7 @@
 			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 3 copies of [ICON_RES_GLASS] Glass, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_6">
-			<Text>Spending [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital generates [ICON_FOOD] Food equal to 50% of that spent.</Text>
+			<Text>The [ICON_CAPITAL] Capital converts 50% of [ICON_GOLD] Gold spent to [ICON_FOOD] Food when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_DESCRIPTION_CHOICE_1">
 			<Text>Let me think. We have heard of a fascinating Commendatore travelling the world. They would cause something of a stir in The City of Masks.</Text>

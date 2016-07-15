@@ -58,6 +58,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</RequiredAnywhereBuildingClass>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_CELTS_UE_CHOICE_6</Type>
@@ -179,7 +180,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-1200</Yield>
+			<Yield>-500</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
@@ -196,7 +197,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1200</Yield>
+			<Yield>500</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>

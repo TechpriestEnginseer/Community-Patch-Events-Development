@@ -220,7 +220,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>200</Yield>
+			<Yield>250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>
@@ -237,7 +237,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-200</Yield>
+			<Yield>-250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_4</EventChoiceType>

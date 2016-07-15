@@ -128,7 +128,7 @@
 			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_STOCKYARD</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>5</YieldChange>
@@ -171,7 +171,7 @@
 		<Row>
 			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-200</Yield>
+			<Yield>-400</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_4</EventChoiceType>
