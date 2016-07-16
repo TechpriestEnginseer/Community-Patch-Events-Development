@@ -399,13 +399,15 @@ Shewa Oromo - req industrial, req war, free impi
 Zewditu reform - req ideology, req unhappy, -GAP, golden age, purchase to culture
 Bread basket - req atomic era, cost science, farms&plantations +food, agri +gold
 
+--Spain----------Deliver Us From Evil--------------------------------
+el Cid - req theology, req war, mounted promo +<SameTileHealChange>, faithfromkill
+Basilica - req grand temple, cost faith&gold, free cathedrals
+columbus - req conqusitador, cost faith&gold, free corvette in ports, copy gold
+criollo rights - req ideology, req courthouse, req unhappy, plantation -gold+culture, courthouse -gold+culture
+tourist industry - req airport, losing money, cost GAP, castle&citadel&holysite +tourism+gold
+
 -----To Be Completed-----
 --Byzantium----------
-
---Spain----------
-Basilica - Free cathedrals
-columbus
-el sid
 
 --Indonesia----------
 Wayang
