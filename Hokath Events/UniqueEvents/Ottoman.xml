@@ -38,7 +38,7 @@
 			<Description>TXT_KEY_EVENT_OTTOMAN_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiresHolyCity>true</RequiresHolyCity>
-			<PrereqTech>true</PrereqTech>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -140,12 +140,12 @@
 		<Row>
 			<BuildingType>BUILDING_OTTOMAN_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>3</YieldChange>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OTTOMAN_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>3</YieldChange>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChangesPerReligion>
 	<Building_BuildingClassYieldChanges>
@@ -210,7 +210,7 @@
 		<Row>
 			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BATH</BuildingClassType>
-			<YieldType>YIELD_FATH</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>

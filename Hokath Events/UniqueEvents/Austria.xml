@@ -40,7 +40,7 @@
 			<WLTKDTurns>20</WLTKDTurns>
 			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
-			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY</EventBuildingClassGlobal>
+			<EventBuildingClassGlobal>BUILDINGCLASS_AUSTRIA_UE_DUMMY</EventBuildingClassGlobal>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EraScaling>true</EraScaling>
 		</Row>
@@ -64,7 +64,7 @@
 			<ResistanceTurns>5</ResistanceTurns>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<WLTKDTurns>20</WLTKDTurns>
-			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventBuildingClassGlobal>BUILDINGCLASS_AUSTRIA_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
 		</Row>
@@ -74,7 +74,7 @@
 			<Description>TXT_KEY_EVENT_AUSTRIA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TOURIST_CENTER</RequiredAnywhereBuildingClass>
-			<EventBuildingClassGlobal>BUILDING_AUSTRIA_UE_DUMMY_3</EventBuildingClassGlobal>
+			<EventBuildingClassGlobal>BUILDINGCLASS_AUSTRIA_UE_DUMMY_3</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</EventChoices>
@@ -310,7 +310,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_5</EventChoiceType>
-			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>

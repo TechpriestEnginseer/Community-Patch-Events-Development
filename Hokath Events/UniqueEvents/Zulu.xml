@@ -67,7 +67,7 @@
 			<IsOneShot>true</IsOneShot>
 			<IsUnhappy>true</IsUnhappy>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CHURCH</EventBuildingClassGlobal>
-			<BuildingClassAnywhereRequired>BUILDINGCLASS_STADIUM</BuildingClassAnywhereRequired>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STADIUM</RequiredAnywhereBuildingClass>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -155,13 +155,13 @@
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_6</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_6</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>

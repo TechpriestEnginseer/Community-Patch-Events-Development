@@ -29,7 +29,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AQUEDUCT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_GARDEN</EventBuildingClassGlobal>
-			<AffectCoastalCitiesOnly>true</AffectCoastalCitiesOnly>
+			<AffectsCoastalCitiesOnly>true</AffectsCoastalCitiesOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_3</Type>

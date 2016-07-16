@@ -66,7 +66,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventPromotion>PROMOTION_ALPINI</EventPromotion>
+			<EventPromotion>PROMOTION_UE_ALPINI</EventPromotion>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -208,11 +208,6 @@
 	<EventChoice_FreeUnitClasses>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_4</EventChoiceType>
-			<UnitClassType>UNITCLASS_GERMAN_LANDSKNECHT</UnitClassType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ROME_UE_CHOICE_4</EventChoiceType>
 			<UnitClassType>UNITCLASS_ENVOY</UnitClassType>
 			<Quantity>1</Quantity>
 		</Row>
@@ -222,6 +217,13 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
+	<EventChoice_FreeUnits>
+		<Row>
+			<EventChoiceType>EVENT_ROME_UE_CHOICE_4</EventChoiceType>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_FreeUnits>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_5</EventChoiceType>

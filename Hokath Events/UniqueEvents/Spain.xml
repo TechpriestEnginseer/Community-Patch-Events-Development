@@ -28,7 +28,7 @@
 			<Help>TXT_KEY_EVENT_SPAIN_UE_HELP_CHOICE_2</Help>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventPromotion>PROMOTION_IBERIAN_FERVOR</EventPromotion>
+			<EventPromotion>PROMOTION_UE_IBERIAN_FERVOR</EventPromotion>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>10</EventDuration>
 			<Expires>false</Expires>
@@ -67,7 +67,7 @@
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<LosingMoney>true</LosingMoney>
-			<RequiresAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiresAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</EventChoices>
