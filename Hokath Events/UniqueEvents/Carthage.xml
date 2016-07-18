@@ -318,7 +318,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_3</EventChoiceType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -328,7 +328,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
@@ -348,7 +348,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 	</EventChoiceFlavors>

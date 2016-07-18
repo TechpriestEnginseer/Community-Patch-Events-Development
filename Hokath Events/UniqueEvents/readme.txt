@@ -406,14 +406,21 @@ columbus - req conqusitador, cost faith&gold, free corvette in ports, copy gold
 criollo rights - req ideology, req courthouse, req unhappy, plantation -gold+culture, courthouse -gold+culture
 tourist industry - req airport, losing money, cost GAP, castle&citadel&holysite +tourism+gold
 
+--Byzantium----------Nova Roma------------------------------------------
+hunnic mercenaries - req currency, req war minor, req x horses, cost gold, horse archer in every city
+theodosian walls - req castle, req machinery, strength and hp in capital, +% engineer points
+chrysargyron tax - req economics, req losing money, goldenageturns, wltkd
+iconodulism - req ideology, cost faith, artist guild +faith+culture for every city
+crusade - req combined arms, cost faith, req war, freeunitstechappropriate, earn faith from kills promo
+
 -----To Be Completed-----
---Byzantium----------
 
 --Indonesia----------
 Wayang
 
 --Huns----------
 Yurt
+battering ram
 
 -----modded civs------
 

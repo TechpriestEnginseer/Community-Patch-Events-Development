@@ -110,7 +110,64 @@
 			<EventType>EVENT_EGYPT_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-	
+
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_UE_JIHAD</Type>
+			<Description>TXT_KEY_PROMOTION_UE_JIHAD</Description>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FriendlyLandsModifier>15</FriendlyLandsModifier>
+			<Help>TXT_KEY_PROMOTION_UE_JIHAD_HELP</Help>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_JIHAD</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_YieldFromKills>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</UnitPromotions_YieldFromKills>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_6</EventChoiceType>
@@ -217,61 +274,6 @@
 		</Row>
 	</EventChoice_EventCostYield>
 	
-	
-	<UnitPromotions>
-		<Row>
-			<Type>PROMOTION_UE_JIHAD</Type>
-			<Description>TXT_KEY_PROMOTION_UE_JIHAD</Description>
-			<CannotBeChosen>true</CannotBeChosen>
-			<FriendlyLandsModifier>15</FriendlyLandsModifier>
-			<Help>TXT_KEY_PROMOTION_UE_JIHAD_HELP</Help>
-			<PortraitIndex>15</PortraitIndex>
-			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
-			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_UE_JIHAD</PediaEntry>
-		</Row>
-	</UnitPromotions>
-	<UnitPromotions_YieldFromKills>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>50</Yield>
-		</Row>
-	</UnitPromotions_YieldFromKills>
-	<UnitPromotions_UnitCombats>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
-			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-		</Row>
-	</UnitPromotions_UnitCombats>
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_1</EventChoiceType>
@@ -437,7 +439,7 @@
 			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_6">
-			<Text>Receive {2_InstantYield} faith. Existing Military Units, and those trained during the next {4_Turns}, gain [ICON_PEACE] Faith from kills and a [ICON_STRENGTH] Combat Bonus in Friendly territory.</Text>
+			<Text>Receive {2_InstantYield} faith. Existing Military Units, and those trained during the next {4_Turns}, gain the Jihad Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_2">
 			<Text>*Their ideas and inventions pertaining to the farming of our wonderous rivers amaze me*[NEWLINE]Construct these... 'Nilometers'.</Text>
@@ -457,6 +459,7 @@
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_6">
 			<Text>*Their religious fervour will ignite the fires of our people in defense of our Holiest of Holies*[NEWLINE]If Egypt can win this war, then to God goes the glory!</Text>
 		</Row>
+		
 		<Row Tag="TXT_KEY_PROMOTION_UE_JIHAD">
 			<Text>Jihadist</Text>
 		</Row>

@@ -242,13 +242,8 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_4</EventChoiceType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_4</EventChoiceType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>5</Flavor>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_5</EventChoiceType>

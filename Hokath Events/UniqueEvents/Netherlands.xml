@@ -384,7 +384,7 @@
 			<Text>Abolish {2_InstantYield} worth of outdated practices. All Cities enter WLTKD and gain +2 [ICON_HAPPINESS_1] Happiness for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_1">
-			<Text>*The hungry and hateful nations of the world look to devour our happy country*[NEWLINE] I need my advisors to seek out possible political marriages that might be made in the hope of avoiding conflict. I wish to review the options a week from now. Go.</Text>
+			<Text>*The hungry and hateful nations of the world look to devour our happy country*[NEWLINE]I need my advisors to seek out possible political marriages that might be made in the hope of avoiding conflict. I wish to review the options a week from now. Go.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_2">
 			<Text>*The other nations of the world claim warlike, mythological histories. Not so for we Dutch*[NEWLINE]The story of the Dutch people is of ingenuity, trade, and peace. I want to celebrate that. Call on every farmer, fisherman, trader: let it be known that in the National Square we shall hold the greatest market these lowlands have ever seen!</Text>
