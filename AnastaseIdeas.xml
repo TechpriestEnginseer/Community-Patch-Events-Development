@@ -148,7 +148,7 @@
 			<Text>A worker in the City's Mines saw a glint in the darkness. The miners are too afraid to continue working there.[NEWLINE]Who shall we send to investigate this?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP_CHOICE_1">
-			<Text>The scouts discovered a gang of bandits hiding out in the Mines. A barbarian spawns next to the City.</Text>
+			<Text>The scouts discovered a gang of bandits hiding out in the Mines. A [ICON_WAR] Barbarian spawns next to the City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP_CHOICE_2">
 			<Text>The ritual is a success! Offerings at the Shrine yields +1 [ICON_PEACE] Faith.</Text>
@@ -411,6 +411,181 @@
 		
 		<Row Tag="TXT_KEY_BUILDING_AA_OLYMPICGAMES_DUMMY">
 			<Text></Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Anastase Farm Bones Event -->
+	<CityEvents>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES</Type>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION</Description>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP</Help>
+			<NumChoices>5</NumChoices>
+			<RandomChance>20</RandomChance>
+			<RandomChanceDelta>1</RandomChanceDelta>
+			<IsOneShot>true</IsOneShot>
+			<ImprovementRequired>IMPROVEMENT_FARM</ImprovementRequired>
+		</Row>
+	</CityEvents>
+	<CityEventChoices>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_1</Type>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_1</Help>
+			<WLTKDTurns>10</WLTKDTurns>
+			<EventDuration>10</EventDuration>
+			<RequiresGarrison>true</RequiresGarrison>
+			<RequiredEra>ERA_ANCIENT</RequiredEra>
+			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_2</Type>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_2</Description>
+			<RequiresPantheon>true</RequiresPantheon>
+			<RequiredBuildingClass>BUILDINGCLASS_SHRINE</RequiredBuildingClass>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_3</Type>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_3</Help>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_3</Description>
+			<RequiredBuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</RequiredBuildingClass>
+			<EraScaling>true<EraScaling>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_4</Type>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_4</Help>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_4</Description>
+			<RequiredBuildingClass>BUILDINGCLASS_MUSEUM</RequiredBuildingClass>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_5</Type>
+			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_5</Help>
+			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_5</Description>
+			<EventDuration>20</EventDuration>
+			<Expires>true</Expires>
+		</Row>
+	</CityEventChoices>
+	<CityEvent_ParentEvents>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_1</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AA_FARMBONES</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_2</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AA_FARMBONES</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_3</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AA_FARMBONES</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_4</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AA_FARMBONES</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_5</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AA_FARMBONES</CityEventType>
+		</Row>
+	</CityEvent_ParentEvents>
+
+	<CityEventChoice_CityUnhappinessNeedMod>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_5</CityEventChoiceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</CityEventChoice_CityUnhappinessNeedMod>
+	<CityEventChoice_InstantYield>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_3</CityEventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>200</Yield>
+		</Row>
+	</CityEventChoice_InstantYield>
+	<CityEventChoice_BuildingClassYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_2</CityEventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_4</CityEventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_4</CityEventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</CityEventChoice_BuildingClassYieldChange>
+
+
+	<CityEventChoiceFlavors>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_1</CityEventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_3</CityEventChoiceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AA_FARMBONES_CHOICE_4</CityEventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</CityEventChoiceFlavors>
+
+	<!-- TEXT  -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION">
+			<Text>Postmortem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP">
+			<Text>A local farmer has uncovered the bones of some kind of huge creature unlike any seen in living memory. Would you like us to send some men to acquire these remains?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_1">
+			<Text>Begin {5_Turns} of WLTKD.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_2">
+			<Text>The interment at the Shrine permenantly yields +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_3">
+			<Text>Scientists make {2_InstantYield} worth of discoveries from studying the fossil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_4">
+			<Text>The new exhibit yields +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_5">
+			<Text>Word of the unprotected remains attracts relic hunters, increasing the [ICON_STRENGTH] Crime threshold by 25% for {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_1">
+			<Text>Have the skeleton paraded through the City by our troops. Let it be known that brave soldiers killed the beast in an epic battle to rescue a damsel in distress!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_2">
+			<Text>This ancient creation clearly met disfavour with our maker. Seal it away beneath the Shrine!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_3">
+			<Text>Looks like one of them dinosaurs to me. Send it to the University for analysis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_4">
+			<Text>Dinosaurs are so inspirational. We should open a new exhibit at the Museum with this find taking centre stage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_5">
+			<Text>I do not believe we can spare any manpower in that district at the moment. The bones will have to sit around a bit longer.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
