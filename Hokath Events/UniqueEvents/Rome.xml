@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_ROME_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_ROME_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ROME_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -31,6 +32,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_ROME_UE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ROME_UE_CHOICE_3</Type>
@@ -39,6 +41,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ROME_UE_CHOICE_4</Type>
@@ -49,6 +52,7 @@
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ROME_UE_CHOICE_5</Type>
@@ -58,6 +62,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<RequiresWarMinor>true</RequiresWarMinor>
 			<EventPromotion>PROMOTION_BARRAGE_4</EventPromotion>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ROME_UE_CHOICE_6</Type>
@@ -67,6 +72,7 @@
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EventPromotion>PROMOTION_UE_ALPINI</EventPromotion>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_KOREA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_KOREA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_KOREA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -29,6 +30,7 @@
 			<Description>TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_KOREA_UE_CHOICE_3</Type>

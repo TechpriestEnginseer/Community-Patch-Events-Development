@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_ARABIA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ARABIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -29,6 +30,7 @@
 			<Description>TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AMPHITHEATER</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_3</Type>
@@ -38,6 +40,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MINT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_ARABIA_UE_DUMMY</EventBuildingClassGlobal>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_4</Type>
@@ -47,6 +50,7 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_5</Type>
@@ -57,6 +61,7 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_ARABIA_UE_DUMMY_2</EventBuildingClassGlobal>
 			<RequiresHolyCity>true</RequiresHolyCity>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_6</Type>
@@ -65,6 +70,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 			<ImprovementAnywhereRequired>IMPROVEMENT_WELL</ImprovementAnywhereRequired>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

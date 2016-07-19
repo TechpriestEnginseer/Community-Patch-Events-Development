@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_FRANCE_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_FRANCE_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_FRANCE_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<IsOneShot>true</IsOneShot>
 			<LosingMoney>true</LosingMoney>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_FORGE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_FRANCE_UE_CHOICE_3</Type>
@@ -38,6 +40,7 @@
 			<IsOneShot>true</IsOneShot>
 			<MinimumNationalPopulation>50</MinimumNationalPopulation>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GARDEN</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_FRANCE_UE_CHOICE_4</Type>
@@ -59,6 +62,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HERMITAGE</RequiredAnywhereBuildingClass>
 			<RequiredEra>ERA_MODERN</RequiredEra>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_FRANCE_UE_CHOICE_6</Type>
@@ -67,6 +71,7 @@
 			<EraScaling>true</EraScaling>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

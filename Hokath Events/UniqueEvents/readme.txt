@@ -413,14 +413,26 @@ chrysargyron tax - req economics, req losing money, goldenageturns, wltkd
 iconodulism - req ideology, cost faith, artist guild +faith+culture for every city
 crusade - req combined arms, cost faith, req war, freeunitstechappropriate, earn faith from kills promo
 
+--Huns----------The Blood Oath--------------------------------------
+verszerzodes - req drama, req war, cost faith&culture, battering rams, culture from deaths
+vegvar - req castle, req citadel, cost gold, castles&forts&citadels +prod+gold
+arquebusier - req gunpowder, cost science, get the metallurgy tech, golden age turns
+12 points - req ideology, unhappy, resistanceturns, p.press&hermitage&scriveners +%gold+%prod
+franz - req replaceable parts, req war minor, cost gold, forts&citadels +prod+gold, +% military training
+
+The Huns naturally have bonuses to warfare and border expansion.
+
 -----To Be Completed-----
 
---Indonesia----------
-Wayang
+--Indonesia----------Topeng Manis, Topeng Kras-----------------------------
+Trade culture - req lighthouse, req currency, cost culture, cities gain gold based on #coast tiles, +%merchant
+Wayang - req amphitheatre, req bison, cost culture, amphitheatre +culture+faith
+Gamelan - req acoustics, cost iron, opera house&amphitheatre&musicians guild +culture+tourism
+new order investment - req atomic, losing money, +gold from incoming trade routes, gold from WLTKD
+deforestation - req ecology, req junglemill, cost gold, zoo +sci+culture, junglemill -food+gold
 
---Huns----------
-Yurt
-battering ram
+Indonesia naturally have bonuses to Happiness, culture&faith via WLTKD, and a very fun UU.
+
 
 -----modded civs------
 

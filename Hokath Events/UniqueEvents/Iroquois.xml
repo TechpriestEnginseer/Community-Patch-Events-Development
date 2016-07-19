@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_IROQUOIS_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_IROQUOIS_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<IsOneShot>true</IsOneShot>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LUMBERMILL</ImprovementAnywhereRequired>
 			<EventBuildingClassGlobal>BUILDINGCLASS_MONUMENT</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_IROQUOIS_UE_CHOICE_3</Type>
@@ -48,6 +50,7 @@
 			<Description>TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_IROQUOIS_UE_CHOICE_5</Type>
@@ -55,6 +58,7 @@
 			<Description>TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_FACTORY</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_IROQUOIS_UE_CHOICE_6</Type>
@@ -62,6 +66,7 @@
 			<Description>TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STADIUM</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -160,12 +165,12 @@
 			<Quantity>3</Quantity>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_5</EventChoiceType>
 			<ResourceType>RESOURCE_JEWELRY</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_5</EventChoiceType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
@@ -366,7 +371,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_2">
-			<Text>Woodcarvers erect a free Monument in all Cities. Monuments produce an additional point of [ICON_CULTURE] Culture and boost overall [ICON_CULTURE] in Cities by 5%.</Text>
+			<Text>Woodcarvers erect a Monument in all Cities. Monuments produce an additional point of [ICON_CULTURE] Culture and boost overall [ICON_CULTURE] in Cities by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_3">
 			<Text>All Melee and Gun Units, as well as those trained in the next {4_Turns}, generate [ICON_FOOD] Food when they defeat an Enemy.</Text>

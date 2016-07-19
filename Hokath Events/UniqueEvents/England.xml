@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_ENGLAND_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ENGLAND_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -44,6 +45,7 @@
 			<LosingMoney>true</LosingMoney>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CHURCH</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_4</Type>
@@ -52,8 +54,8 @@
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<RandomBarbarianSpawn>3</RandomBarbarianSpawn>
-			<ResistanceTurns>7</ResistanceTurns>
-			<EventDuration>7</EventDuration>
+			<ResistanceTurns>8</ResistanceTurns>
+			<EventDuration>8</EventDuration>
 			<Expires>false</Expires>
 			<IsOneShot>true</IsOneShot>
 			<EventFreePolicies>1</EventFreePolicies>
@@ -67,6 +69,7 @@
 			<RandomBarbarianSpawn>1</RandomBarbarianSpawn>
 			<IsOneShot>true</IsOneShot>
 			<MinimumNumCoastalCities>7</MinimumNumCoastalCities>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_6</Type>

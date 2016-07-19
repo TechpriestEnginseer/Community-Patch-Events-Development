@@ -32,6 +32,7 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<EraScaling>true</EraScaling>
 			<RequiresWarMinor>true</RequiresWarMinor>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_3</Type>
@@ -42,6 +43,7 @@
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_BYZANTIUM_UE_DUMMY</EventBuildingClassGlobal>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_4</Type>
@@ -63,6 +65,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<EventBuildingClassGlobal>BUILDINGCLASS_UE_BYZANTIUM_DUMMY_2</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_6</Type>
@@ -404,7 +407,7 @@
 			<Text>For the sum of {1_YieldCost}, a Hunnic Horse Archer is recruited in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_3">
-			<Text>The improvement of the [ICON_CAPITAL] Capital's defenses provides +10 [ICON_STRENGTH] Strength, +200 HP and +33% [ICON_GREAT_ENGINEER] Great Engineer Points</Text>
+			<Text>The improvement of the [ICON_CAPITAL] Capital's defenses provides +10 [ICON_STRENGTH] Strength, +200 HP and +33% [ICON_GREAT_ENGINEER] Great Engineer Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_4">
 			<Text>Repeal ineffectual taxation to stimulate the economy: the Empire enters a [ICON_GOLDEN_AGE] Golden Age and WLTKD for {4_Turns}.</Text>

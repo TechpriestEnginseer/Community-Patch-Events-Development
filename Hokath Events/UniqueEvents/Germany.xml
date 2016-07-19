@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_GERMANY_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_GERMANY_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -42,6 +43,7 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_ORDER</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_GERMANY_UE_CHOICE_4</Type>
@@ -50,6 +52,7 @@
 			<IsOneShot>true</IsOneShot>
 			<UnitClassRequired>UNITCLASS_MUSICIAN</UnitClassRequired>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MUSICIANS_GUILD</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_GERMANY_UE_CHOICE_5</Type>
@@ -59,6 +62,7 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_LABORATORY</RequiredAnywhereBuildingClass>
 			<EventFreeTechs>1</EventFreeTechs>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_GERMANY_UE_CHOICE_6</Type>

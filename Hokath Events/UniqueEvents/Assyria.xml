@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ASSYRIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -39,6 +40,7 @@
 			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_4</Type>
@@ -48,6 +50,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_ARSENAL</RequiredAnywhereBuildingClass>
 			<HappinessPerCity>-1</HappinessPerCity>
 			<EventBuildingClassGlobal>BUILDINGCLASS_SYNAGOGUE</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_5</Type>
@@ -67,6 +70,7 @@
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EventPromotion>PROMOTION_UE_WINGED_VALOR</EventPromotion>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

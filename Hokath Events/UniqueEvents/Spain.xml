@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_SPAIN_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SPAIN_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -41,6 +42,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CATHEDRAL</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SPAIN_UE_CHOICE_4</Type>
@@ -51,6 +53,7 @@
 			<IsOneShot>true</IsOneShot>
 			<AffectsCoastalCitiesOnly>true</AffectsCoastalCitiesOnly>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SPAIN_UE_CHOICE_5</Type>
@@ -60,6 +63,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SPAIN_UE_CHOICE_6</Type>
@@ -69,6 +73,7 @@
 			<LosingMoney>true</LosingMoney>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

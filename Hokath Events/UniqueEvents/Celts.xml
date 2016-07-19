@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_CELTS_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_CELTS_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_CELTS_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -32,6 +33,7 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_MINE</ImprovementAnywhereRequired>
 			<UnitClassRequired>UNITCLASS_CARGO_SHIP</UnitClassRequired>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CELTS_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_CELTS_UE_CHOICE_3</Type>
@@ -40,6 +42,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CASTLE</RequiredAnywhereBuildingClass>
 			<RequiresWar>true</RequiresWar>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_CELTS_UE_CHOICE_4</Type>
@@ -50,6 +53,7 @@
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 			<EventPromotion>PROMOTION_UE_BAGPIPES</EventPromotion>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CELTS_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_CELTS_UE_CHOICE_5</Type>
@@ -59,6 +63,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</RequiredAnywhereBuildingClass>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_CELTS_UE_CHOICE_6</Type>

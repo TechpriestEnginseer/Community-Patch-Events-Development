@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_OTTOMAN_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_OTTOMAN_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -31,6 +32,7 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CARAVANSARY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE_CHOICE_3</Type>
@@ -40,6 +42,7 @@
 			<RequiresHolyCity>true</RequiresHolyCity>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE_CHOICE_4</Type>
@@ -50,6 +53,7 @@
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_OTTOMAN_UE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE_CHOICE_5</Type>
@@ -61,6 +65,7 @@
 			<EraScaling>true</EraScaling>
 			<EventPromotion>PROMOTION_SUPPLY</EventPromotion>
 			<EventBuildingClassGlobal>BUILDINGCLASS_OTTOMAN_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE_CHOICE_6</Type>

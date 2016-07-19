@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_ZULU_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_ZULU_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_ZULU_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -32,6 +33,7 @@
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_ZULU_UE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ZULU_UE_CHOICE_3</Type>
@@ -51,6 +53,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ZULU_UE_CHOICE_5</Type>
@@ -59,6 +62,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<RequiresWarMinor>true</RequiresWarMinor>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_ZULU_UE_CHOICE_6</Type>
@@ -68,6 +72,7 @@
 			<IsUnhappy>true</IsUnhappy>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CHURCH</EventBuildingClassGlobal>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STADIUM</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

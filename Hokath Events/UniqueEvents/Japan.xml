@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_JAPAN_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_JAPAN_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -31,6 +32,7 @@
 			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PAGODA</EventBuildingClassGlobal>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TEMPLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_3</Type>
@@ -39,6 +41,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_JAPAN_UE_DUMMY</EventBuildingClassGlobal>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CASTLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_4</Type>
@@ -47,6 +50,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_JAPAN_UE_DUMMY_2</EventBuildingClassGlobal>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_5</Type>
@@ -54,6 +58,7 @@
 			<Description>TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COAL_PLANT</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_6</Type>
@@ -63,6 +68,7 @@
 			<RequiresWar>true</RequiresWar>
 			<UnitClassRequired>UNITCLASS_BATTLESHIP</UnitClassRequired>
 			<EventPromotion>PROMOTION_BOMBARDMENT_4</EventPromotion>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

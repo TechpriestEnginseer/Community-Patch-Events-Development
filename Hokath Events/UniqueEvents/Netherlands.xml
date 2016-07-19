@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_NETHERLANDS_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_NETHERLANDS_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -40,6 +41,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_TREASURY</RequiredAnywhereBuildingClass>
 			<!-- This is the east india trading co.-->
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_NETHERLANDS_UE_CHOICE_4</Type>
@@ -49,6 +51,7 @@
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_ARTISTS_GUILD</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_NETHERLANDS_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_NETHERLANDS_UE_CHOICE_5</Type>

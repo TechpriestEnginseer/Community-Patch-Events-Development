@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_DENMARK_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_DENMARK_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_3</Type>
@@ -37,6 +39,7 @@
 			<Description>TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_4</Type>
@@ -45,6 +48,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresWarMinor>true</RequiresWarMinor>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_5</Type>
@@ -54,6 +58,7 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EventBuildingClassGlobal>BUILDINGCLASS_DENMARK_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_6</Type>
@@ -62,6 +67,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

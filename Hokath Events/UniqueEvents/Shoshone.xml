@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_SHOSHONE_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SHOSHONE_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -28,6 +29,7 @@
 			<Description>TXT_KEY_EVENT_SHOSHONE_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE_CHOICE_3</Type>
@@ -37,6 +39,7 @@
 			<EventPromotion>PROMOTION_UE_COUNTING_COUP</EventPromotion>
 			<RequiresWar>true</RequiresWar>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_EPIC</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE_CHOICE_4</Type>
@@ -45,6 +48,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE_CHOICE_5</Type>
@@ -55,6 +59,7 @@
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE_CHOICE_6</Type>
@@ -65,6 +70,7 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_SOLAR_PLANT</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 			<LosingMoney>true</LosingMoney>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

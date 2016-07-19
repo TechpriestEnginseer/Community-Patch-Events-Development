@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_BABYLON_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_BABYLON_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_BABYLON_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -29,6 +30,7 @@
 			<Description>TXT_KEY_EVENT_BABYLON_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TEMPLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BABYLON_UE_CHOICE_3</Type>
@@ -36,6 +38,7 @@
 			<Description>TXT_KEY_EVENT_BABYLON_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BABYLON_UE_CHOICE_4</Type>
@@ -44,6 +47,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_OBSERVATORY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BABYLON_UE_CHOICE_5</Type>
@@ -52,6 +56,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HYDRO_PLANT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_BABYLON_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_BABYLON_UE_CHOICE_6</Type>
@@ -59,6 +64,7 @@
 			<Description>TXT_KEY_EVENT_BABYLON_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HOSPITAL</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

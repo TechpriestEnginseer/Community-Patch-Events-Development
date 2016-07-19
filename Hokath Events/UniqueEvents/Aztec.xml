@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_AZTEC_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_AZTEC_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AZTEC_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_AZTEC_UE_CHOICE_3</Type>
@@ -39,6 +41,7 @@
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_AZTEC_UE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_AZTEC_UE_CHOICE_4</Type>
@@ -46,6 +49,7 @@
 			<Description>TXT_KEY_EVENT_AZTEC_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_BANKING</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_AZTEC_UE_CHOICE_5</Type>
@@ -55,6 +59,7 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<EraScaling>true</EraScaling>
 			<MinimumNationalPopulation>90</MinimumNationalPopulation>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_AZTEC_UE_CHOICE_6</Type>

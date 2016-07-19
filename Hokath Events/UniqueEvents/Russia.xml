@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_RUSSIA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_RUSSIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BATH</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_RUSSIA_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_3</Type>
@@ -37,6 +39,7 @@
 			<Description>TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_4</Type>
@@ -46,6 +49,7 @@
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_5</Type>
@@ -55,6 +59,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<IsUnhappy>true</IsUnhappy>
 			<EventBuildingClassGlobal>BUILDINGCLASS_RUSSIA_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_6</Type>
@@ -62,6 +67,7 @@
 			<Description>TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<UnitClassRequired>UNITCLASS_ATOMIC_BOMB</UnitClassRequired>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_SONGHAI_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SONGHAI_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -31,6 +32,7 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<HappinessPerCity>-1</HappinessPerCity>
 			<EventPromotion>PROMOTION_UE_SOFA</EventPromotion>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SONGHAI_UE_CHOICE_3</Type>
@@ -49,6 +51,7 @@
 			<Description>TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SONGHAI_UE_CHOICE_5</Type>
@@ -58,6 +61,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<IsUnhappy>true</IsUnhappy>
 			<ImprovementAnywhereRequired>IMPROVEMENT_WELL</ImprovementAnywhereRequired>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SONGHAI_UE_CHOICE_6</Type>
@@ -65,6 +69,7 @@
 			<Description>TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

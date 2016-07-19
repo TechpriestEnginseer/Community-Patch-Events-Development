@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_INDIA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_INDIA_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_INDIA_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -38,6 +39,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_INDIA_UE_CHOICE_4</Type>
@@ -47,6 +49,7 @@
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CASTLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_INDIA_UE_CHOICE_5</Type>
@@ -66,8 +69,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
 			<RequiredEra>ERA_MODERN</RequiredEra>
-			<ResistanceTurns>3</ResistanceTurns>
-			<EventDuration>3</EventDuration>
+			<ResistanceTurns>4</ResistanceTurns>
+			<EventDuration>4</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>

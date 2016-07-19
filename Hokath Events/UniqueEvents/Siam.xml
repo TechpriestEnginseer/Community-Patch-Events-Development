@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_SIAM_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_SIAM_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_SIAM_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -31,6 +32,7 @@
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<ImprovementAnywhereRequired>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementAnywhereRequired>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SIAM_UE_CHOICE_3</Type>
@@ -39,6 +41,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_WORKSHOP</RequiredAnywhereBuildingClass>
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SIAM_UE_CHOICE_4</Type>
@@ -48,6 +51,7 @@
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_STUPA</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SIAM_UE_CHOICE_5</Type>
@@ -56,6 +60,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_SIAM_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_SIAM_UE_CHOICE_6</Type>

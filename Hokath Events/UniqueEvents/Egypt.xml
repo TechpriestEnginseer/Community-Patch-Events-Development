@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_EGYPT_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -29,6 +30,7 @@
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_2</Help>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_WATERMILL</RequiredAnywhereBuildingClass>
 			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_3</Type>
@@ -38,6 +40,7 @@
 			<IsUnhappy>true</IsUnhappy>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CHANCERY</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_4</Type>
@@ -47,6 +50,7 @@
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_5</Type>

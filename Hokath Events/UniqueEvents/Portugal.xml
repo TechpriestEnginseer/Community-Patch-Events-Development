@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_PORTUGAL_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_PORTUGAL_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_PORTUGAL_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_LIGHTHOUSE</RequiredAnywhereBuildingClass>
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PORTUGAL_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_PORTUGAL_UE_CHOICE_3</Type>
@@ -74,6 +76,7 @@
 			<RequiredEra>ERA_MODERN</RequiredEra>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PORTUGAL_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

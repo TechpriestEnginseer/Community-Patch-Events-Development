@@ -2,6 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_VENICE_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
 			<Description>TXT_KEY_EVENT_VENICE_UE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_VENICE_UE_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -30,6 +31,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AQUEDUCT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_GARDEN</EventBuildingClassGlobal>
 			<AffectsCoastalCitiesOnly>true</AffectsCoastalCitiesOnly>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_3</Type>
@@ -39,6 +41,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CATHEDRAL</RequiredAnywhereBuildingClass>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_4</Type>
@@ -49,6 +52,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MUSICIANS_GUILD</RequiredAnywhereBuildingClass>
 			<UnitClassRequired>UNITCLASS_MUSICIAN</UnitClassRequired>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_5</Type>
@@ -57,6 +61,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_FACTORY</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_6</Type>
@@ -66,6 +71,7 @@
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventBuildingClassGlobal>BUILDINGCLASS_VENICE_UE_DUMMY_2</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
