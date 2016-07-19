@@ -3,6 +3,7 @@
 	<CityEvents>
 		<Row>
 			<Type>CITY_EVENT_AA_MINEGLINT</Type>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
 			<Description>TXT_KEY_CITY_EVENT_AA_MINEGLINT_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP</Help>
 			<NumChoices>6</NumChoices>
@@ -188,6 +189,7 @@
 	<CityEvents>
 		<Row>
 			<Type>CITY_EVENT_AA_OLYMPICGAMES</Type>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
 			<Description>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP</Help>
 			<NumChoices>6</NumChoices>
