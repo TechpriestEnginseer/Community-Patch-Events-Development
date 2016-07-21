@@ -38,7 +38,7 @@
 			<Help>TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_VENICE_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CATHEDRAL</RequiredAnywhereBuildingClass>
+			<EventBuildingClassGlobal>BUILDINGCLASS_CATHEDRAL</EventBuildingClassGlobal>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
@@ -347,7 +347,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_2">
-			<Text>Send {1_YieldCost} to beatify our Coastal Cities. They receive a Garden and a Great Galleass.</Text>
+			<Text>Send {1_YieldCost} to beautify our Coastal Cities. They receive a Garden and a Great Galleass.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_3">
 			<Text>On the Piazzo St Marco, a Cathedral is constructed.</Text>

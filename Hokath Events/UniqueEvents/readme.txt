@@ -422,13 +422,11 @@ franz - req replaceable parts, req war minor, cost gold, forts&citadels +prod+go
 
 The Huns naturally have bonuses to warfare and border expansion.
 
------To Be Completed-----
-
 --Indonesia----------Topeng Manis, Topeng Kras-----------------------------
-Trade culture - req lighthouse, req currency, cost culture, cities gain gold based on #coast tiles, +%merchant
+Trade culture - req lighthouse, req currency, cost culture, coastal cities gain gold based on #coast tiles, +%merchant
 Wayang - req amphitheatre, req bison, cost culture, amphitheatre +culture+faith
 Gamelan - req acoustics, cost iron, opera house&amphitheatre&musicians guild +culture+tourism
-new order investment - req atomic, losing money, +gold from incoming trade routes, gold from WLTKD
+new order investment - req modern, losing money, +gold from incoming trade routes, gold from WLTKD
 deforestation - req ecology, req junglemill, cost gold, zoo +sci+culture, junglemill -food+gold
 
 Indonesia naturally have bonuses to Happiness, culture&faith via WLTKD, and a very fun UU.

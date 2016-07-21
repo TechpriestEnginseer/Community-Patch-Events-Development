@@ -30,7 +30,7 @@
     <File md5="4BA3A3AFC71949C5BA1BF01E18B5404F" import="0">Aztec.xml</File>
     <File md5="A11DD36FBDCD266880DFECD3052C0305" import="0">Babylon.xml</File>
     <File md5="D076F1C44E8D1E01262F06C5AA7FB8EA" import="0">Brazil.xml</File>
-    <File md5="3A851E554BD09A5ECCC80D9035B51A76" import="0">BuildingCatchupEvents.xml</File>
+    <File md5="D41D8CD98F00B204E9800998ECF8427E" import="0">BuildingCatchupEvents.xml</File>
     <File md5="1724A26616EA719E157B7EA2F6365C79" import="0">Byzantium.xml</File>
     <File md5="EEC43571F5F808F9B5E1F1E44563328D" import="0">Carthage.xml</File>
     <File md5="4545B0BEAB99EFF502A1415842E30976" import="0">Celts.xml</File>
@@ -38,10 +38,11 @@
     <File md5="BC1C769E614068D2A01065C8D3BFA24B" import="0">Denmark.xml</File>
     <File md5="206E191F8B1674396817C642811C6275" import="0">Ethiopia.xml</File>
     <File md5="587A46720AF87581ADF30813D6C41FEB" import="0">Greece.xml</File>
-    <File md5="0A8F14C2E24901160BDF9BFBF9A640A0" import="0">Huns.xml</File>
+    <File md5="ADBBF1A4F583019EB4DE555BBB910369" import="0">Huns.xml</File>
     <File md5="EE7540E49D3191EA7F171D0670159C72" import="0">India.xml</File>
+    <File md5="9D51F132E6FD476BBAF9CF91FB590F1C" import="0">Indonesia.xml</File>
     <File md5="69A9FBB8742DFBEA46B644A447217829" import="0">Japan.xml</File>
-    <File md5="E543FEE43DE0367A1D3ABB5477C2531A" import="0">Maya.xml</File>
+    <File md5="491693A88708B20271C7E2A4E5270701" import="0">Maya.xml</File>
     <File md5="706B40608A63E8AE83A5AB8B8BA86C7D" import="0">Mongolia.xml</File>
     <File md5="DEE4A937137622011DCE4DB32F3DEA5A" import="0">Netherlands.xml</File>
     <File md5="306C78750F32686784B92E9CD81919B2" import="0">Egypt.xml</File>
@@ -57,7 +58,7 @@
     <File md5="B4A8C8032EEC513E0F93510DCC12E3D6" import="0">Poland.xml</File>
     <File md5="B3A91E098E9F878FE91DDF7F1D3856EA" import="0">Polynesia.xml</File>
     <File md5="DEDE44728A067E9E53050D13B76634CC" import="0">Portugal.xml</File>
-    <File md5="B077A7062A7A475D81188429C410A5EA" import="0">readme.txt</File>
+    <File md5="470D9F5D45AC41CB4C337D2C808B7396" import="0">readme.txt</File>
     <File md5="5F3A8D083035F2C77050D4BDC937BC92" import="0">Rome.xml</File>
     <File md5="EB5A84BCD6753AB86937ED9392A858F2" import="0">Russia.xml</File>
     <File md5="9378C53292FF74EE81725D473420AFA0" import="0">Shoshone.xml</File>
@@ -65,7 +66,7 @@
     <File md5="B16A0D946A2145C47C68ADBC90783C0F" import="0">Songhai.xml</File>
     <File md5="A929023F5AAF7C03ACB1811FFFAB75AC" import="0">Spain.xml</File>
     <File md5="5E61191E462C5342FB1EC7067D89E9A3" import="0">Sweden.xml</File>
-    <File md5="2B7D524618FB843E6533398AB2922352" import="0">Venice.xml</File>
+    <File md5="0B0FE2570A5ECE43ED657A7D036EDE39" import="0">Venice.xml</File>
     <File md5="30532FEA85C973C0D74CDCF99C83EAA7" import="0">Zulu.xml</File>
   </Files>
   <Actions>
@@ -90,6 +91,7 @@
       <UpdateDatabase>Greece.xml</UpdateDatabase>
       <UpdateDatabase>Huns.xml</UpdateDatabase>
       <UpdateDatabase>Inca.xml</UpdateDatabase>
+      <UpdateDatabase>Indonesia.xml</UpdateDatabase>
       <UpdateDatabase>India.xml</UpdateDatabase>
       <UpdateDatabase>Iroquois.xml</UpdateDatabase>
       <UpdateDatabase>Japan.xml</UpdateDatabase>

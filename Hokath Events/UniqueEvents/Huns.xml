@@ -465,7 +465,7 @@
 			<Text>Invest {1_YieldCost} into border defences. Castles, Forts and Citadels generate +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_4">
-			<Text>Funnel {1_YieldCost} into discovering Metallurgy. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Funnel {1_YieldCost} into discovering [ICON_GREAT_SCIENTIST] Metallurgy. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_5">
 			<Text>Give in to the demands of your people, entering {4_Turns} of [ICON_RESISTANCE] Anarchy. The Scrivener's Office, Printing Press and Hermitage generate +10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD].</Text>
