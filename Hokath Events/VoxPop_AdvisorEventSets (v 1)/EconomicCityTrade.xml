@@ -10,7 +10,7 @@
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ImprovementRequired>IMPROVEMENT_TRADING_POST</ImprovementRequired>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -95,37 +95,37 @@
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_4</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_5</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_6</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</CityEventChoice_ImprovementYieldChange>
 	<CityEventChoice_EventCostYield>

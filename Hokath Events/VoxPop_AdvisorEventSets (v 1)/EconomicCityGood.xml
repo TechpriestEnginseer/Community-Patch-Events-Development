@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>

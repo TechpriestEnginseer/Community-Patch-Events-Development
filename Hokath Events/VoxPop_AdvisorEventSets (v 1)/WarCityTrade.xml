@@ -10,7 +10,7 @@
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_ARSENAL</RequiredBuildingClass>
-			<RequiresActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -121,7 +121,7 @@
 			<CityEventChoiceType>CITY_EVENT_AES_WAR_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>-1</Yield>
+			<YieldChange>-1</YieldChange>
 		</Row>
 	</CityEventChoice_ImprovementYieldChange>
 	<CityEventChoice_FeatureYieldChange>
@@ -129,7 +129,7 @@
 			<CityEventChoiceType>CITY_EVENT_AES_WAR_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>-1</Yield>
+			<YieldChange>-1</YieldChange>
 		</Row>
 	</CityEventChoice_FeatureYieldChange>
 
@@ -161,13 +161,13 @@
 		</Row>
 
 
-		<Row Tag="TXT_KEY_AES_WAR_CITY_TRADE_DUMMY">
+		<Row Tag="TXT_KEY_BUILDING_AES_WAR_CITY_TRADE_DUMMY">
 			<Text></Text>
 		</Row>
-		<Row Tag="TXT_KEY_AES_WAR_CITY_TRADE_DUMMY_2">
+		<Row Tag="TXT_KEY_BUILDING_AES_WAR_CITY_TRADE_DUMMY_2">
 			<Text></Text>
 		</Row>
-		<Row Tag="TXT_KEY_AES_WAR_CITY_TRADE_DUMMY_3">
+		<Row Tag="TXT_KEY_BUILDING_AES_WAR_CITY_TRADE_DUMMY_3">
 			<Text></Text>
 		</Row>
 	</Language_en_US>

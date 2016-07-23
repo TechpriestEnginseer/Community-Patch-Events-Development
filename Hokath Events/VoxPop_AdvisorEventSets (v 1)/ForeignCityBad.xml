@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -28,19 +28,19 @@
 
 	<CityEventChoice_InstantYield>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_3</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>-100</Yield>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_4</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>-50</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_4</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_1</CityEventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<Points>-200</Points>
 		</Row>

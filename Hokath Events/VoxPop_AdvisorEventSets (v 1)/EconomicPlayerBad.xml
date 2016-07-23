@@ -9,7 +9,7 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -32,7 +32,7 @@
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_BAD_CHOICE_1</EventChoiceType>
-			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Modifier>-25</Modifier>
 		</Row>

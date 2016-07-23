@@ -9,7 +9,7 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>

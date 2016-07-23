@@ -9,7 +9,7 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -64,31 +64,31 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>
 		<Row>
-			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP_CHOICE_1</Help>
+			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_1</Type>
+			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 		</Row>
 		<Row>
-			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION_CHOICE_2</Description>
-			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP_CHOICE_2</Help>
+			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_2</Type>
+			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
-			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION_CHOICE_3</Description>
-			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP_CHOICE_3</Help>
+			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_3</Type>
+			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_3</Help>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_RIFLING</PrereqTech>

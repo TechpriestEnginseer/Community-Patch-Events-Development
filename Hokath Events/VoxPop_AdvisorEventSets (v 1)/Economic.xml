@@ -2,7 +2,7 @@
 	<Events>
 		<Row>
 			<Type>EVENT_AES_ECONOMIC</Type>
-			<EventClass>EVENT_NEUTRAL</EventClass>
+			<EventClass>EVENT_CLASS_NEUTRAL</EventClass>
 			<Description>TXT_KEY_EVENT_AES_ECONOMIC_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_ECONOMIC_HELP</Help>
 			<NumChoices>2</NumChoices>

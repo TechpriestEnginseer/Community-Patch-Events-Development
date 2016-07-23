@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -28,11 +28,13 @@
 		</Row>
 	</CityEvent_ParentEvents>
 
-	<CityEvent_CityUnhappinessNeedMod>
-		<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_BAD_CHOICE_1</CityEventChoiceType>
-		<YieldType>YIELD_PRODUCTION</YieldType>
-		<Yield>20</Yield>
-	</CityEvent_CityUnhappinessNeedMod>
+	<CityEventChoice_CityUnhappinessNeedMod>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_BAD_CHOICE_1</CityEventChoiceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</CityEventChoice_CityUnhappinessNeedMod>
 
 	<!-- TEXT  -->
 	<Language_en_US>

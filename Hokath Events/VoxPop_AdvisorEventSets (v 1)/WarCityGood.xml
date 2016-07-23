@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -76,7 +76,7 @@
 			<Text>Memorial To The Fallen</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_AES_WAR_CITY_GOOD_DUMMY">
+		<Row Tag="TXT_KEY_BUILDING_AES_WAR_CITY_GOOD_DUMMY">
 			<Text></Text>
 		</Row>
 	</Language_en_US>

@@ -10,7 +10,7 @@
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_WALLS</RequiredBuildingClass>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -77,19 +77,19 @@
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</CityEventChoice_ImprovementYieldChange>
 	<CityEventChoice_CityUnhappinessNeedMod>

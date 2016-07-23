@@ -9,7 +9,7 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -33,13 +33,13 @@
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_GOOD_CHOICE_1</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_GOOD_CHOICE_1</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 

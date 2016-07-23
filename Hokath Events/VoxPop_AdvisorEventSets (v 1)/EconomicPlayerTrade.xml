@@ -9,7 +9,7 @@
 			<RandomChance>100</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<Event_MinimumStartYield>
@@ -119,39 +119,39 @@
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 		
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_2</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_2</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 	<EventChoice_TerrainYieldChange>
@@ -159,7 +159,7 @@
 			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_3</EventChoiceType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_TerrainYieldChange>
 	

@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -19,7 +19,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_SOLAR_PLANT</RequiredAnywhereBuildingClass>
-			<ImprovementAnywhereRequried>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequried>
+			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_2</Type>
@@ -27,7 +27,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
-			<ImprovementAnywhereRequried>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequried>
+			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -37,7 +37,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</RequiredAnywhereBuildingClass>
-			<ImprovementAnywhereRequried>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequried>
+			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_4</Type>
@@ -45,7 +45,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_4</Help>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
-			<ImprovementAnywhereRequried>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequried>
+			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</EventChoices>

@@ -8,7 +8,7 @@
 			<NumChoices>3</NumChoices>
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
-			<RequiresActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -17,7 +17,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
-			<BuildingClassRequired>BUILDINGCLASS_TRAINSTATION</BuildingClassRequired>
+			<RequiredBuildingClass>BUILDINGCLASS_TRAINSTATION</RequiredBuildingClass>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<EraScaling>true</EraScaling>
 		</Row>
@@ -26,7 +26,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_2</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
-			<BuildingClassRequried>BUILDINGCLASS_TRAINSTATION</BuildingClassRequried>
+			<BuildingClassRequired>BUILDINGCLASS_TRAINSTATION</BuildingClassRequired>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<EraScaling>true</EraScaling>
 			

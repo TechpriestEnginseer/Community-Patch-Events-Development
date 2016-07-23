@@ -9,7 +9,7 @@
 			<RandomChance>70</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
-			<RequiresActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -65,28 +65,28 @@
 	<CityEventChoice_BuildingClassYieldChange>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_1</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>8</Yield>
+			<YieldChange>8</YieldChange>
 		</Row>
 		
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_3</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_HYDRO_PLANT</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_3</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_HYDRO_PLANT</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</CityEventChoice_BuildingClassYieldChange>
 	<CityEventChoice_BuildingClassYieldModifier>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_2</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_WELL</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_WELL</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Modifier>5</Modifier>
 		</Row>

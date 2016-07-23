@@ -10,7 +10,7 @@
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<HasTradeConnection>true</HasTradeConnection>
-			<RequiresActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiresActiveEventChoice>
+			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>
@@ -66,27 +66,27 @@
 	<CityEventChoice_BuildingClassYieldChange>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_GOOD_CHOICE_1</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_GOOD_CHOICE_2</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_GOOD_CHOICE_3</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_GOOD_CHOICE_4</CityEventChoiceType>
-			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</CityEventChoice_BuildingClassYieldChange>
 	
