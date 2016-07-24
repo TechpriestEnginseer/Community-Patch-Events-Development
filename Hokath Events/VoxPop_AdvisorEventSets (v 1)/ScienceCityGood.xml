@@ -108,28 +108,28 @@
 
 	<CityEventChoiceFlavors>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
-			<FlavorType>YIELD_GROWTH</FlavorType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_1</CityEventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
-			<FlavorType>YIELD_GROWTH</FlavorType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
-			<FlavorType>YIELD_PRODUCTION</FlavorType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_3</CityEventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
-			<FlavorType>YIELD_GOLD</FlavorType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_3</CityEventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_4</CityEventChoiceType>
-			<FlavorType>YIELD_CULTURE</FlavorType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_4</CityEventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 	</CityEventChoiceFlavors>

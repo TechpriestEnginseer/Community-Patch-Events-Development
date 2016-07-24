@@ -39,10 +39,10 @@
     <File md5="6B40E685A6E8BBD369147D6435454CF8" import="0">Foreign.xml</File>
     <File md5="A5A02141C301992394A8D649184E1FCD" import="0">Science.xml</File>
     <File md5="BB20917B13DF8BE7D25125C39DEEEC48" import="0">ScienceCityBad.xml</File>
-    <File md5="3D2AE1278A53CA7CECE2BF4C79A529E7" import="0">ScienceCityGood.xml</File>
-    <File md5="9F7CD4ECEEC16EC3221C94FA66F35AEC" import="0">ScienceCityTrade.xml</File>
+    <File md5="FF1548535D318A9303646911D4A4C072" import="0">ScienceCityGood.xml</File>
+    <File md5="E241194A98CDD0E591DB9A0E0F22E9CF" import="0">ScienceCityTrade.xml</File>
     <File md5="2132563EBA10DED654BDE2CEC31D5E95" import="0">SciencePlayerBad.xml</File>
-    <File md5="EEA1FE9A9D31B1EE5BB0D2124B7F18AC" import="0">SciencePlayerGood.xml</File>
+    <File md5="87E6AAB6A1157CAEF283B75A1C85F9CA" import="0">SciencePlayerGood.xml</File>
     <File md5="6875529409B8CF62FC74423299093EC4" import="0">SciencePlayerTrade.xml</File>
     <File md5="07F3A33D66D5297CD097F6887F205AE1" import="0">War.xml</File>
     <File md5="67F3C0E2FE0E8BA4CB22F433636AA7B8" import="0">WarCityBad.xml</File>

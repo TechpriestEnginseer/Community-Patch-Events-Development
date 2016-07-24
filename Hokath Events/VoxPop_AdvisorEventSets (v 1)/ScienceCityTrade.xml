@@ -26,7 +26,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_2</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
-			<BuildingClassRequired>BUILDINGCLASS_TRAINSTATION</BuildingClassRequired>
+			<RequiredBuildingClass>BUILDINGCLASS_TRAINSTATION</RequiredBuildingClass>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<EraScaling>true</EraScaling>
 			
@@ -121,12 +121,12 @@
 	<CityEventChoiceFlavors>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
-			<FlavorType>YIELD_SCIENCE</FlavorType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
-			<FlavorType>YIELD_GROWTH</FlavorType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>-1</Flavor>
 		</Row>
 	</CityEventChoiceFlavors>
@@ -162,10 +162,10 @@
 	<!-- choice 3 upgrade-->
 	<CityEvents>
 		<Row>
-			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE</Type>
+			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP</Type>
 			<EventClass>EVENT_CLASS_TRADE</EventClass>
-			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION</Description>
-			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP</Help>
+			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_DESCRIPTION</Description>
+			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_HELP</Help>
 			<NumChoices>1</NumChoices>
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
@@ -174,9 +174,9 @@
 	</CityEvents>
 	<CityEventChoices>
 		<Row>
-			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</Type>
-			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_1</Help>
+			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</Type>
+			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<ImprovementRequired>IMPROVEMENT_PLANTATION</ImprovementRequired>
@@ -185,21 +185,21 @@
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
-			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE</CityEventType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP</CityEventType>
 		</Row>
 	</CityEvent_ParentEvents>
 
 	<CityEventChoice_CityYield>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</CityEventChoiceType>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<Points>50</Points>
 		</Row>
@@ -207,16 +207,16 @@
 
 	<!-- TEXT  -->
 	<Language_en_US>
-		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION">
+		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_DESCRIPTION">
 			<Text>Sugar Rush Hour</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP">
+		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_HELP">
 			<Text>The bus service increased efficiency, but the saved space simply let us pack even more cars into our City. Now, scientists have designed a biofuel which can be harvested from renewable crop sources.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_1">
+		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_HELP_CHOICE_1">
 			<Text>Scientists have designed a biofuel which can be harvested from renewable crop sources, gain {4_GPChange}! Now, buses no longer cause significant pollution, {3_CityYield}!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_1">
+		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_DESCRIPTION_CHOICE_1">
 			<Text>Sugar-Rush Hour</Text>
 		</Row>
 	</Language_en_US>

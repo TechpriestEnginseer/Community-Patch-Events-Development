@@ -19,7 +19,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_SOLAR_PLANT</RequiredAnywhereBuildingClass>
-			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
+			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_2</Type>
@@ -27,7 +27,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
-			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
+			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -37,7 +37,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</RequiredAnywhereBuildingClass>
-			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
+			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_4</Type>
@@ -45,7 +45,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_GOOD_HELP_CHOICE_4</Help>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
-			<ImprovementAnywhereRequired>IMRPOVEMENT_ACADEMY</ImprovementAnywhereRequired>
+			<ImprovementAnywhereRequired>IMPROVEMENT_ACADEMY</ImprovementAnywhereRequired>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</EventChoices>
@@ -122,43 +122,43 @@
 
 	<EventChoiceFlavors>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_1</EventChoiceType>
-			<FlavorType>YIELD_PRODUCTION</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_1</EventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_1</EventChoiceType>
-			<FlavorType>YIELD_GOLD</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_1</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_2</EventChoiceType>
-			<FlavorType>YIELD_PRODUCTION</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_2</EventChoiceType>
-			<FlavorType>YIELD_GOLD</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_2</EventChoiceType>
-			<FlavorType>YIELD_GROWTH</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_3</EventChoiceType>
-			<FlavorType>YIELD_PRODUCTION</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_3</EventChoiceType>
-			<FlavorType>YIELD_SCIENCE</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_TRADE_CHOICE_4</EventChoiceType>
-			<FlavorType>YIELD_PRODUCTION</FlavorType>
+			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_GOOD_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 	</EventChoiceFlavors>
