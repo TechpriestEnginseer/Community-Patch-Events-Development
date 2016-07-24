@@ -63,7 +63,7 @@
 			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
-			<EventBuildingClassGlobal>BUILDINGCLASS_UE_BYZANTIUM_DUMMY_2</EventBuildingClassGlobal>
+			<EventBuildingClassGlobal>BUILDINGCLASS_BYZANTIUM_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>

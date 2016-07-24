@@ -234,13 +234,13 @@
 
 		<Row>
 			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_ZOO</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
@@ -462,7 +462,7 @@
 			<Text>*The economy is spiraling out of control, the nobles demand you guarantee that their holding are secure!*[NEWLINE]I can fix the economy or I can sieze assets. Seeing as there is no point in having worthless investments, I will prioritize the economy. I apologise in advance if I fail.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDONESIA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*Palm oil has made the elite very wealthy, but now that the ecological consequences are becoming clear, they are blaming you*[NEWLINE]How wise are my lords. I have a rather large report for them to digest, outlining what can be done.</Text>
+			<Text>*The expanding palm oil industry has made the elite very wealthy, but now that the ecological consequences are becoming clear, they are blaming you*[NEWLINE]How wise are my lords. I have a rather large report for them to digest, outlining what can be done.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_INDONESIA_UE_DUMMY">
