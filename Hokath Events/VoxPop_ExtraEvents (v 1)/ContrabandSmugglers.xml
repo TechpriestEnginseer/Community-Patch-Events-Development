@@ -1,0 +1,151 @@
+<GameData>
+	<!-- Contraband Smuggler (Constable) -->
+	<CityEvents>
+		<Row>
+			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS</Type>
+			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION</Description>
+			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP</Help>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
+			<NumChoices>4</NumChoices>
+			<RandomChance>50</RandomChance>
+			<IsOneShot>false</IsOneShot>
+			<RequiredBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredBuildingClass>
+			<EventCooldown>25</EventCooldown>
+			<RandomChanceDelta>2</RandomChanceDelta>
+			<HasTradeConnection>true</HasTradeConnection>
+			<RequiredNoActiveCityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</RequiredNoActiveCityEventChoice>
+		</Row>
+	</CityEvents>
+	<CityEventChoices>
+		<Row>
+			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</Type>
+			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1</Help>
+			<IsOneShot>false</IsOneShot>
+			<EraScaling>true</EraScaling>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</Type>
+			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_2</Description>
+			<IsOneShot>true</IsOneShot>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</Type>
+			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_3</Help>
+			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_3</Description>
+			<IsOneShot>false</IsOneShot>
+		</Row>
+		<Row>
+			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</Type>
+			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4</Help>
+			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_4</Description>
+			<WLTKDTurns>10</WLTKDTurns>
+			<EventDuration>10</EventDuration>
+			<Expires>false</Expires>
+			<IsOneShot>false</IsOneShot>
+		</Row>
+	</CityEventChoices>
+	<CityEvent_ParentEvents>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</CityEventChoiceType>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+		</Row>
+	</CityEvent_ParentEvents>
+	<CityEventChoice_InstantYield>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>-200</Yield>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</CityEventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</CityEventChoice_InstantYield>
+	<CityEventChoice_BuildingClassYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</CityEventChoice_BuildingClassYieldChange>
+	<CityEventChoice_CityUnhappinessNeedMod>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-10</Yield>
+		</Row>
+	</CityEventChoice_CityUnhappinessNeedMod>
+	<CityEventChoiceFlavors>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</CityEventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</CityEventChoiceFlavors>
+
+	<!-- Text  -->
+	<!-- Contraband Smuggler (Constable) -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION">
+			<Text>Black Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP">
+			<Text>The authorities have intercepted a small scale operation smuggling contraband into the city.[NEWLINE][NEWLINE]The Governor thinks they might be of use...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1">
+			<Text>Gain {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2">
+			<Text>Lose {2_InstantYield} Golden Age Points. The threshold for [ICON_STRENGTH] Crime is permentantly reduced by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_3">
+			<Text>The Constabulary gains +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4">
+			<Text>Gain 10 turns of WLTKD in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1">
+			<Text>No deals. The law is clear on their punishment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_2">
+			<Text>Talk of corruption in my very presence?! I am the law. Find me a new Governor, and hang the old one beside these criminals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_3">
+			<Text>I agree. There will always be crime; it would be useful to have friends on the other side of the law.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_4">
+			<Text>Banning these goods is, I think, a little old-fashioned. Pardon the smugglers and legalise these products.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

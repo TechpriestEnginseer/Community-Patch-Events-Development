@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="afa0c0b2-aa59-468d-8c91-3b133b863be3" version="1">
+  <Properties>
+    <Name>VoxPop_ExtraEvents</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Add to CP events.</Teaser>
+    <Description>Add to CP events.</Description>
+    <Authors>Hokath</Authors>
+    <SpecialThanks>G, JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E833AAD168D682A7A9EB2448868D83FA" import="0">FakePainting.xml</File>
+    <File md5="BABCDA21BC8DD3180F8B3F22146E4DF1" import="0">FreedomDoctrine.xml</File>
+    <File md5="DB5F5D7C8A828B907CF83980F1929814" import="0">FreedomPartisansAutocracy.xml</File>
+    <File md5="F0F7A777FACE2C843C4E1099AFAC2523" import="0">FreedomPartisansOrder.xml</File>
+    <File md5="A3821E05483E540F87CD63B36B07E0F3" import="0">Pipeline.xml</File>
+    <File md5="7B8B4267A21DA755DF41805A81DE2B3F" import="0">DoubleAgents.xml</File>
+    <File md5="34577B00072DF2CC1CE19B74EB3EFFDD" import="0">OilExplosion.xml</File>
+    <File md5="4189CC823B3B944266EE8C318DE70BFD" import="0">GunpowderPlot.xml</File>
+    <File md5="4829F6D659A90DF6407D79BAA67339D2" import="0">Motaba.xml</File>
+    <File md5="9C60F2E546672C6AA61CB4F5FDFFC7C8" import="0">ContrabandSmugglers.xml</File>
+    <File md5="82733BB8A485E477A5B757A4F990893D" import="0">NotoriousPirate.xml</File>
+    <File md5="4263D517D4CAD3120DD3846FD8657CE4" import="0">VirusOutbreak.xml</File>
+    <File md5="015C32F8DF66842DD4D057D6869026DB" import="0">WarMaterials.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>WarMaterials.xml</UpdateDatabase>
+      <UpdateDatabase>Motaba.xml</UpdateDatabase>
+      <UpdateDatabase>VirusOutbreak.xml</UpdateDatabase>
+      <UpdateDatabase>FreedomDoctrine.xml</UpdateDatabase>
+      <UpdateDatabase>FreedomPartisansAutocracy.xml</UpdateDatabase>
+      <UpdateDatabase>FreedomPartisansOrder.xml</UpdateDatabase>
+      <UpdateDatabase>GunpowderPlot.xml</UpdateDatabase>
+      <UpdateDatabase>NotoriousPirate.xml</UpdateDatabase>
+      <UpdateDatabase>ContrabandSmugglers.xml</UpdateDatabase>
+      <UpdateDatabase>FakePainting.xml</UpdateDatabase>
+      <UpdateDatabase>Pipeline.xml</UpdateDatabase>
+      <UpdateDatabase>OilExplosion.xml</UpdateDatabase>
+      <UpdateDatabase>DoubleAgents.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
