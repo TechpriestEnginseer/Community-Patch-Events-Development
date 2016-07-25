@@ -66,6 +66,7 @@
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsUnhappy>true</IsUnhappy>
 			<UnitClassRequired>UNITCLASS_RIFLEMAN</UnitClassRequired>
+			<EventPromotion>PROMOTION_SUN_NEVER_SETS</EventPromotion>
 			<RandomBarbarianSpawn>1</RandomBarbarianSpawn>
 			<IsOneShot>true</IsOneShot>
 			<MinimumNumCoastalCities>7</MinimumNumCoastalCities>
@@ -159,8 +160,33 @@
 			<Yield>15</Yield>
 		</Row>
 	</Building_WLTKDYieldMod>
-	
-	
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_UE_SUN_NEVER_SETS</Type>
+			<Description>TXT_KEY_PROMOTION_UE_SUN_NEVER_SETS</Description>
+			<Help>TXT_KEY_PROMOTION_UE_SUN_NEVER_SETS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CapitalDefenseModifier>0</CapitalDefenseModifier>
+			<CapitalDefenseFalloff>1</CapitalDefenseFalloff>
+			<PortraitIndex>40</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_SUN_NEVER_SETS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UE_SUN_NEVER_SETS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_SUN_NEVER_SETS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
 	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
@@ -188,26 +214,18 @@
 			<YieldChange>-10</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
-	<EventChoice_ImprovementYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</EventChoice_ImprovementYieldChange>
 	
 	
 	<EventChoiceFlavors>
@@ -357,7 +375,7 @@
 			<Text>Three [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Choose a Free Policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_5">
-			<Text>A [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Plantations gain +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>A [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Gun and Siege Units gain the Sun Never Sets Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_6">
 			<Text>Exert {1_YieldCost} of cultural influence to enter {4_Turns} of WLTKD. This and future WLTKD also increase [ICON_PRODUCTION] Production by 15%. All Fighters, and those constructed in the next {4_Turns}, gain the Interception III Promotion.</Text>
@@ -375,10 +393,17 @@
 			<Text>*The Commons request royal assent for the beheading of one of your closest supporters!*[NEWLINE]Rally the loyal! This man, and the puritanical faction he represents, seek the destruction of the state as we know it. I pray for strength in what is to come.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_5">
-			<Text>*A populist leader in one of your imperial holdings has requested independence!*[NEWLINE]The fringes of our great Empire are often disposed to such bouts of fancy and self-importance. Crush this upstart rebellion.</Text>
+			<Text>*A populist leader in one of your imperial holdings has requested independence!*[NEWLINE]The fringes peoples of our Empire are prone to these bouts of fancy. Crush this upstart rebellion and ready the troops for further conquest. Wider still shalt our bounds be set!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The Prime Minister has personally requested you to make a speech to the nation*[NEWLINE]Of course. For the sake of all that we ourselves hold dear, and of the world order and peace, it is unthinkable that we should refuse to meet the challenge.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_UE_VIENNA_RELIEF">
+			<Text>Sun Never Sets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UE_VIENNA_RELIEF_HELP">
+			<Text>Gain +1% [ICON_STRENGTH] Strength for every Tile from the [ICON_CAPITAL] Capital this Unit is.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ENGLAND_UE_DUMMY">
