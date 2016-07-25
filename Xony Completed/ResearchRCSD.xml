@@ -6,6 +6,7 @@
 			<Type>EVENT_RESEARCHAIR</Type>
 			<Description>TXT_KEY_EVENT_RESEARCHAIR_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_RESEARCHAIR_HELP</Help>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<EventArt>AirBalloon.dds</EventArt>
 			<NumChoices>3</NumChoices>
 			<RandomChance>200</RandomChance>
@@ -18,7 +19,9 @@
 		</Row>
 		<Row>
 			<Type>EVENT_RESEARCHAIR_SABO</Type>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
 			<Description>TXT_KEY_EVENT_RESEARCHAIR_SABO_DESCRIPTION</Description>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<Help>TXT_KEY_EVENT_RESEARCHAIR_SABO_HELP</Help>
 			<EventArt>AirBalloon.dds</EventArt>
 			<NumChoices>2</NumChoices>
@@ -34,6 +37,7 @@
 		</Row>
 		<Row>
 			<Type>EVENT_RESEARCHAIR_SUCCESS</Type>
+			<EventClass>EVENT_CLASS_GOOD</EventClass>
 			<EventArt>AirBalloon.dds</EventArt>
 			<NumChoices>1</NumChoices>
 			<RandomChance>240</RandomChance>
@@ -47,6 +51,7 @@
 		</Row>
 		<Row>
 			<Type>EVENT_RESEARCHAIR_FAIL</Type>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<EventArt>AirBalloon.dds</EventArt>
 			<NumChoices>1</NumChoices>
 			<RandomChance>500</RandomChance>
@@ -232,7 +237,7 @@
 			<Text>As you have surely heard, another civilization is aiming for the skies.[NEWLINE][NEWLINE]May I propose our newest project...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RESEARCHAIR_SABO_HELP_CHOICE_1">
-			<Text>{1_EventCost} for the sabotage plan.</Text>
+			<Text>Allocate {1_YieldCost} to the sabotage plan.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RESEARCHAIR_SABO_HELP_CHOICE_2">
 			<Text>Do nothing.</Text>
@@ -268,7 +273,7 @@
 			<Text>We don't have free money lying around here.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RESEARCHAIR_SUCCESS_DESCRIPTION_CHOICE_1">
-			<Text>We got an hot air balloon off the ground!</Text>
+			<Text>We got a hot air balloon off the ground!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RESEARCHAIR_SUCCESS_HELP_CHOICE_1">
 			<Text>The experiements are an success and we are one step closer to human flight. The people are in awe. Gain {2_InstantYield} and 5 Turns of [ICON_GOLDEN_AGE] Golden Age.</Text>
@@ -323,21 +328,22 @@
 		</Row>
 	</Language_en_US>
 	<CityEvents>
-    <Row>
-		<Type>CITY_EVENT_COOLSUMMER</Type>
-		<Description>TXT_KEY_CITY_EVENT_COOLSUMMER_DESCRIPTION</Description>
-		<Help>TXT_KEY_CITY_EVENT_COOLSUMMER_HELP</Help>
-		<CityEventArt>SunHeat.dds</CityEventArt>
-		<CityEventAudio>NULL</CityEventAudio>
-		<RandomChance>80</RandomChance>
-		<RandomChanceDelta>0</RandomChanceDelta>
-		<IsOneShot>true</IsOneShot>
-		<EraScaling>false</EraScaling>
-		<EventCooldown>60</EventCooldown>
-		<NumChoices>4</NumChoices>
-		<RequiredActiveEvent>PLAYER_EVENT_HEAT_WAVE</RequiredActiveEvent>
-		<ObsoleteEra>ERA_MODERN</ObsoleteEra>
-	</Row>
+    		<Row>
+			<Type>CITY_EVENT_COOLSUMMER</Type>
+			<Description>TXT_KEY_CITY_EVENT_COOLSUMMER_DESCRIPTION</Description>
+			<Help>TXT_KEY_CITY_EVENT_COOLSUMMER_HELP</Help>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
+			<CityEventArt>SunHeat.dds</CityEventArt>
+			<CityEventAudio>NULL</CityEventAudio>
+			<RandomChance>80</RandomChance>
+			<RandomChanceDelta>0</RandomChanceDelta>
+			<IsOneShot>true</IsOneShot>
+			<EraScaling>false</EraScaling>
+			<EventCooldown>60</EventCooldown>
+			<NumChoices>4</NumChoices>
+			<RequiredActiveEvent>PLAYER_EVENT_HEAT_WAVE</RequiredActiveEvent>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
+		</Row>
 	</CityEvents>
 	<CityEvent_ParentEvents>
 		<Row>
