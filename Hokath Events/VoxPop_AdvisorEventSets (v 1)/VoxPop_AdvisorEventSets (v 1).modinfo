@@ -23,34 +23,34 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="13DE550F54FA55D53BA23C0FA5BA405E" import="0">Economic.xml</File>
-    <File md5="DB75BB820CB6CA2CAAA2EBADCF64EFF5" import="0">EconomicCityBad.xml</File>
-    <File md5="DF4CB17A9B622501AD6C9A8049386057" import="0">EconomicCityGood.xml</File>
+    <File md5="4F1F91F4179FE1063DFA8D87B2010528" import="0">Economic.xml</File>
+    <File md5="67B2972508438CDAC56A0C7C6B9D3DE3" import="0">EconomicCityBad.xml</File>
+    <File md5="650A42878255660246C854D289F4D004" import="0">EconomicCityGood.xml</File>
     <File md5="0264A614A96BAF04A1598DF91EB184F6" import="0">EconomicCityTrade.xml</File>
-    <File md5="FF59FD24C59280FD751EB081415FDFC8" import="0">EconomicPlayerBad.xml</File>
+    <File md5="CAAA7201004A2D0AFF7559BFD41188FD" import="0">EconomicPlayerBad.xml</File>
     <File md5="A414AB80ED5FFC9947DF49B324084949" import="0">EconomicPlayerGood.xml</File>
     <File md5="84A867AC07A02315426E98CCB5337BB1" import="0">EconomicPlayerTrade.xml</File>
-    <File md5="A4BBDBBA90D296EEECFD86CB3222E6B6" import="0">ForeignCityBad.xml</File>
+    <File md5="02183114C7EF9FB245461E9CBBDE6096" import="0">ForeignCityBad.xml</File>
     <File md5="79EEDE8A6DAA579261F047EB635BBE9E" import="0">ForeignCityGood.xml</File>
-    <File md5="C5C3849FF910A14B391E6F07BB1E6066" import="0">ForeignCityTrade.xml</File>
-    <File md5="ADE5756AF064A7A46A100A65A2A45FF8" import="0">ForeignPlayerBad.xml</File>
-    <File md5="8AA821EB7E888EBD9984D78236271E20" import="0">ForeignPlayerGood.xml</File>
+    <File md5="3688F24B85C352EA2FC34263817E9EBE" import="0">ForeignCityTrade.xml</File>
+    <File md5="CBEB9BE2C5B16AEED1122C37EB075D87" import="0">ForeignPlayerBad.xml</File>
+    <File md5="484397F47EDA02E58158B0B704A23035" import="0">ForeignPlayerGood.xml</File>
     <File md5="EC1BAF4C4FFD77859CCEB1F299EBC3E7" import="0">ForeignPlayerTrade.xml</File>
-    <File md5="6B40E685A6E8BBD369147D6435454CF8" import="0">Foreign.xml</File>
-    <File md5="A5A02141C301992394A8D649184E1FCD" import="0">Science.xml</File>
-    <File md5="BB20917B13DF8BE7D25125C39DEEEC48" import="0">ScienceCityBad.xml</File>
-    <File md5="FF1548535D318A9303646911D4A4C072" import="0">ScienceCityGood.xml</File>
-    <File md5="E241194A98CDD0E591DB9A0E0F22E9CF" import="0">ScienceCityTrade.xml</File>
-    <File md5="2132563EBA10DED654BDE2CEC31D5E95" import="0">SciencePlayerBad.xml</File>
+    <File md5="193E87D965E9335B4CA800062CB43450" import="0">Foreign.xml</File>
+    <File md5="173B7F4EA56E9EECB389153EE67DE3E5" import="0">Science.xml</File>
+    <File md5="93C91470C570827061B4F12D99B0DB4D" import="0">ScienceCityBad.xml</File>
+    <File md5="42D29B810F33A1B194EAB20BBAB3C92D" import="0">ScienceCityGood.xml</File>
+    <File md5="BB7660B5842F5CD7620272196BFB4BB9" import="0">ScienceCityTrade.xml</File>
+    <File md5="03133D457BA042170A74B6C5A56D24B5" import="0">SciencePlayerBad.xml</File>
     <File md5="87E6AAB6A1157CAEF283B75A1C85F9CA" import="0">SciencePlayerGood.xml</File>
     <File md5="6875529409B8CF62FC74423299093EC4" import="0">SciencePlayerTrade.xml</File>
-    <File md5="07F3A33D66D5297CD097F6887F205AE1" import="0">War.xml</File>
-    <File md5="67F3C0E2FE0E8BA4CB22F433636AA7B8" import="0">WarCityBad.xml</File>
+    <File md5="CD9D3078FC94180E510306D8E6E121C9" import="0">War.xml</File>
+    <File md5="9EA89DD6C30633BC577149AB86652DFE" import="0">WarCityBad.xml</File>
     <File md5="9E5F3734B395B46CA26285DF2692B11F" import="0">WarCityGood.xml</File>
     <File md5="72EF8315F4B898F86B588208DEF2C1DE" import="0">WarCityTrade.xml</File>
     <File md5="5B8EF4BA0D01126DD5F4C19BFDC8B7BC" import="0">WarPlayerBad.xml</File>
     <File md5="14E4D192B315B52DC73077149E124680" import="0">WarPlayerGood.xml</File>
-    <File md5="08607D0D8834A94AAE42B91BD711C8FB" import="0">WarPlayerTrade.xml</File>
+    <File md5="CB1DCF533DB9C0C7E707E9F730D292FC" import="0">WarPlayerTrade.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

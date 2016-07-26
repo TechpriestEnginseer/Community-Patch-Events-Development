@@ -46,7 +46,7 @@
 	<!-- TEXT  -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_BAD_DESCRIPTION">
-			<Text></Text>
+			<Text>Lab Fire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_BAD_HELP">
 			<Text></Text>

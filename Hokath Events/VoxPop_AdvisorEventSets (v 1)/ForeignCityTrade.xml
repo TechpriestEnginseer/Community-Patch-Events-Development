@@ -7,10 +7,11 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_HELP</Help>
 			<NumChoices>3</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>2</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_WALLS</RequiredBuildingClass>
 			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
+			<RequiredNoActiveCityEventAnywhere>CITY_EVENT_AES_FOREIGN_CITY_TRADE</RequiredNoActiveCityEventAnywhere>
 		</Row>
 	</CityEvents>
 	<CityEventChoices>

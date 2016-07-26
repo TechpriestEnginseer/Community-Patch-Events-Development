@@ -44,7 +44,7 @@
 	<!-- TEXT  -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_DESCRIPTION">
-			<Text></Text>
+			<Text>Vogue</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_HELP">
 			<Text></Text>

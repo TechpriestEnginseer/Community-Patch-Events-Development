@@ -6,8 +6,8 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_HELP</Help>
 			<NumChoices>1</NumChoices>
-			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>2</RandomChanceDelta>
+			<RandomChance>20</RandomChance>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
@@ -49,16 +49,16 @@
 	<!-- TEXT  -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_DESCRIPTION">
-			<Text></Text>
+			<Text>Foreigner Murdered!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_HELP_CHOICE_1">
-			<Text>Pay {2_InstantYield} in compensation and lose {4_GPChange} to further relations.</Text>
+			<Text>Pay {2_InstantYield} in compensation and {4_GPChange} harms further relations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_BAD_DESCRIPTION_CHOICE_1">
-			<Text>Foreign Diplomat Assassinated!</Text>
+			<Text>Foreigner Murdered!</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

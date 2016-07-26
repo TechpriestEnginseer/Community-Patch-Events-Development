@@ -161,7 +161,7 @@
 			<Text>There is a considerable amount of water that is not making it to the local basin in good time. By gently altering the landscape of the nearby mountains, we can produce both water and power in high abundance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_GOOD_HELP_CHOICE_4">
-			<Text>Converting abandoned Quarries into reservoirs allows them to generate +2 [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
+			<Text>Converting abandoned Quarries into reservoirs allows them to generate +2 [ICON_FOOD] Food and +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_GOOD_DESCRIPTION_CHOICE_4">
 			<Text>We find it difficult to store water, but such sites are available all around. Not only would converting them increase our supply, we would also regenerate the areas to wildlife, creating areas of natural beauty.</Text>

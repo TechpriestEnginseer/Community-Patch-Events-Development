@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP</Help>
 			<NumChoices>3</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
@@ -97,24 +97,24 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<Points>50</Points>
+			<Points>100</Points>
 		</Row>
 	</CityEventChoice_GreatPersonPoints>
 	<CityEventChoice_EventCostYield>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>300</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>200</Yield>
+			<Yield>150</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
+			<Yield>75</Yield>
 		</Row>
 	</CityEventChoice_EventCostYield>
 

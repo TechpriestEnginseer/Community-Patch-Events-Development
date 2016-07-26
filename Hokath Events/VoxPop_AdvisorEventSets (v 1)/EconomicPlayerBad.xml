@@ -40,7 +40,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_EVENT_AES_ECONOMIC_PLAYER_BAD_DESCRIPTION">
-			<Text></Text>
+			<Text>Bank Run</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_ECONOMIC_PLAYER_BAD_HELP">
 			<Text></Text>

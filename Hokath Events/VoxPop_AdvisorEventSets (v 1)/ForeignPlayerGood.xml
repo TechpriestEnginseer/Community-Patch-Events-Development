@@ -191,7 +191,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_DESCRIPTION_CHOICE_1">
-			<Text>Send that we wish her to return with representatives from this Plains tribe of hunters she describes.</Text>
+			<Text>Send off for her to return with representatives of this Plains tribe of hunters.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_DESCRIPTION_CHOICE_2">
 			<Text>I am interested to hear how the knowledge of this Jungle tribe can improve our planting methods.</Text>
@@ -200,7 +200,7 @@
 			<Text>The description of this Fishermen tribe is fantastical. I must see their techniques with my own eyes!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_DESCRIPTION_CHOICE_4">
-			<Text>Clearly this Desert tribe of craftsmen has the expertise we need the most.</Text>
+			<Text>Clearly this Desert tribe of craftsmen has the expertise we need seek.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

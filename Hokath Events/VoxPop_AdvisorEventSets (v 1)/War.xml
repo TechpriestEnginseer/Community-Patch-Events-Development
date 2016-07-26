@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_EVENT_AES_WAR_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_WAR_HELP</Help>
 			<NumChoices>2</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>70</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
