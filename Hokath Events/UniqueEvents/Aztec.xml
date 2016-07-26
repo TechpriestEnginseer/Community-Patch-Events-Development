@@ -200,6 +200,12 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>4</YieldChange>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_2</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_EventCostYield>
 		<Row>
@@ -372,7 +378,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_2">
-			<Text>The sacrifice of criminals generates +4 [ICON_PEACE] Faith and +4 [ICON_PRODUCTION] in Courthouses.</Text>
+			<Text>The sacrifice of criminals generates +4 [ICON_PEACE] Faith, [ICON_PRODUCTION] and [ICON_FOOD] Food in Courthouses.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_3">
 			<Text>Discover new philosophical concepts using {1_YieldCost}. All Cities generate [ICON_GREAT_WRITER] Great Writers 20% faster. Writers' Guilds generate +1 [ICON_PEACE] Faith for every City.</Text>

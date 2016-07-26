@@ -117,7 +117,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<CapitalDefenseModifier>50</CapitalDefenseModifier>
-			<CapitalDefenseFalloff>-10</CapitalDefenseFalloff>
+			<CapitalDefenseFalloff>-7</CapitalDefenseFalloff>
 			<PortraitIndex>40</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
@@ -270,7 +270,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>400</Yield>
+			<Yield>350</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 
@@ -427,7 +427,7 @@
 			<Text>Conscript {1_YieldCost} into the military in every City. Melee, Gun and Mounted Units gain up to 50% extra [ICON_STRENGTH] near the [ICON_CAPITAL], falling off with distance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_5">
-			<Text>Enter a period of reformation. This triggers {4_Turns} of WLTKD, but you spend the first half of this time in [ICON_RESISTANCE] Anarchy. This and future WLTKD also increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital by 25%.</Text>
+			<Text>Enter a period of reformation. This triggers {4_Turns} of WLTKD, but you spend the first quarter of this time in [ICON_RESISTANCE] Anarchy. This and future WLTKD also increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_6">
 			<Text>Invest {1_YieldCost} in Ski Resorts. Every City gains +3 [ICON_TOURISM] Tourism and +3 [ICON_GOLD] Gold for every Mountain Tile within range.</Text>
