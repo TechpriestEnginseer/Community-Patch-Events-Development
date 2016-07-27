@@ -10,7 +10,6 @@
 			<RandomChance>50</RandomChance>
 			<IsOneShot>false</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredBuildingClass>
-			<EventCooldown>25</EventCooldown>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<HasTradeConnection>true</HasTradeConnection>
 			<RequiredNoActiveCityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</RequiredNoActiveCityEventChoice>
@@ -29,6 +28,7 @@
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</Type>
@@ -40,10 +40,11 @@
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</Type>
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_4</Description>
-			<WLTKDTurns>10</WLTKDTurns>
-			<EventDuration>10</EventDuration>
+			<WLTKDTurns>20</WLTKDTurns>
+			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
-			<IsOneShot>false</IsOneShot>
+			<IsOneShot>true</IsOneShot>
+			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
@@ -133,7 +134,7 @@
 			<Text>The Constabulary gains +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4">
-			<Text>Gain 10 turns of WLTKD in the city.</Text>
+			<Text>Gain {5_Turns} of WLTKD in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1">
 			<Text>No deals. The law is clear on their punishment.</Text>
