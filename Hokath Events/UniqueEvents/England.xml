@@ -65,7 +65,7 @@
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsUnhappy>true</IsUnhappy>
 			<UnitClassRequired>UNITCLASS_RIFLEMAN</UnitClassRequired>
-			<EventPromotion>PROMOTION_SUN_NEVER_SETS</EventPromotion>
+			<EventPromotion>PROMOTION_UE_SUN_NEVER_SETS</EventPromotion>
 			<RandomBarbarianSpawn>1</RandomBarbarianSpawn>
 			<IsOneShot>true</IsOneShot>
 			<MinimumNumCoastalCities>7</MinimumNumCoastalCities>
@@ -406,10 +406,10 @@
 			<Text>*The Prime Minister has personally requested you to make a speech to the nation*[NEWLINE]Of course. For the sake of all that we ourselves hold dear, and of the world order and peace, it is unthinkable that we should refuse to meet the challenge.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_UE_VIENNA_RELIEF">
+		<Row Tag="TXT_KEY_PROMOTION_UE_SUN_NEVER_SETS">
 			<Text>Sun Never Sets</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_UE_VIENNA_RELIEF_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_UE_SUN_NEVER_SETS_HELP">
 			<Text>Gain +1% [ICON_STRENGTH] Strength for every Tile from the [ICON_CAPITAL] Capital this Unit is.</Text>
 		</Row>
 
