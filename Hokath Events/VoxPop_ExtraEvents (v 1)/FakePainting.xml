@@ -5,7 +5,7 @@
 			<Type>CITY_EVENT_FAKE_PAINTING</Type>
 			<Description>TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP</Help>
-			<NumChoices>3</NumChoices>
+			<NumChoices>2</NumChoices>
 			<RandomChance>10</RandomChance>
 			<EventClass>EVENT_CLASS_BAD</EventClass>
 			<IsOneShot>true</IsOneShot>
@@ -29,14 +29,6 @@
 			<Description>TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_2</Description>
 			<EraScaling>true</EraScaling>
 		</Row>
-		<Row>
-			<Type>CITY_EVENT_FAKE_PAINTING_CHOICE_3</Type>
-			<Help>TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_3</Help>
-			<Description>TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_3</Description>
-			<RequiredPolicy>POLICY_CULTURAL_DIPLOMACY</RequiredPolicy>
-			<RequiredNoActiveCityEventChoiceAnywhere>CITY_EVENT_FAKE_PAINTING_CHOICE_3</RequiredNoActiveCityEventChoiceAnywhere>
-			<EventDuration>-1</EventDuration>
-		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
 		<Row>
@@ -47,18 +39,7 @@
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
 			<CityEventType>CITY_EVENT_FAKE_PAINTING</CityEventType>
 		</Row>
-		<Row>
-			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_3</CityEventChoiceType>
-			<CityEventType>CITY_EVENT_FAKE_PAINTING</CityEventType>
-		</Row>
 	</CityEvent_ParentEvents>
-	<CityEventChoice_ResourceQuantity>
-		<Row>
-			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
-			<ResourceType>RESOURCE_GLASS</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-	</CityEventChoice_ResourceQuantity>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_1</CityEventChoiceType>
@@ -84,11 +65,6 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>-20</Flavor>
 		</Row>
-		<Row>
-			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_3</CityEventChoiceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
 	</CityEventChoiceFlavors>
 	
 	<!-- Text  -->
@@ -106,17 +82,11 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_2">
 			<Text>Lose {2_InstantYield} Culture.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_3">
-			<Text>Gain a copy of the [ICON_RES_GLASS] Glass resource.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_1">
 			<Text>This is going to severely damage the reputation of the City's Artists' Guild...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_2">
 			<Text>Oh well. Isn't all Art a lie?</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_3">
-			<Text>Fortunately, a City State Museum has been after that painting for ages. Tell them they can have it for that one stained-glass statue I like.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
