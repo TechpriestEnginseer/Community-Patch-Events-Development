@@ -27,13 +27,15 @@
 			<Type>CITY_EVENT_FAKE_PAINTING_CHOICE_2</Type>
 			<Help>TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_2</Description>
-
+			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_FAKE_PAINTING_CHOICE_3</Type>
 			<Help>TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_3</Description>
 			<RequiredPolicy>POLICY_CULTURAL_DIPLOMACY</RequiredPolicy>
+			<RequiredNoActiveCityEventChoiceAnywhere>CITY_EVENT_FAKE_PAINTING_CHOICE_3</RequiredNoActiveCityEventChoiceAnywhere>
+			<EventDuration>-1</EventDuration>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
@@ -61,26 +63,26 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_1</CityEventChoiceType>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<Points>75</Points>
+			<Points>-75</Points>
 		</Row>
 	</CityEventChoice_GreatPersonPoints>
 	<CityEventChoice_InstantYield>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_1</CityEventChoiceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-75</Yield>
-		</Row>
-		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>-500</Yield>
+			<Yield>-50</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoiceFlavors>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>-20</Flavor>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_3</CityEventChoiceType>
@@ -99,7 +101,7 @@
 			<Text>New, 'non-destructive' analysis is all the rage in our galleries. Unfortunately, our Cultural Advisor believes at least one of our paintings is, in fact, a fake.[NEWLINE][NEWLINE]They are going to find out...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_1">
-			<Text>Spend {2_InstantYield} to gain the same amount of [ICON_GREAT_ARTIST] Great Artist points.</Text>
+			<Text>Lose {3_GPChange}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_2">
 			<Text>Lose {2_InstantYield} Culture.</Text>
@@ -108,7 +110,7 @@
 			<Text>Gain a copy of the [ICON_RES_GLASS] Glass resource.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_1">
-			<Text>We must protect the reputation of our Artists. Pay off whoever you need to.</Text>
+			<Text>This is going to severely damage the reputation of the City's Artists' Guild...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_2">
 			<Text>Oh well. Isn't all Art a lie?</Text>

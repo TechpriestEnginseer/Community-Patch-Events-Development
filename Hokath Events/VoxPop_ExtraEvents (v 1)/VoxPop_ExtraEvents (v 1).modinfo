@@ -25,7 +25,7 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="E833AAD168D682A7A9EB2448868D83FA" import="0">FakePainting.xml</File>
+    <File md5="AA60F04BF4CD7326B96F3F4DC490990F" import="0">FakePainting.xml</File>
     <File md5="BABCDA21BC8DD3180F8B3F22146E4DF1" import="0">FreedomDoctrine.xml</File>
     <File md5="DB5F5D7C8A828B907CF83980F1929814" import="0">FreedomPartisansAutocracy.xml</File>
     <File md5="F0F7A777FACE2C843C4E1099AFAC2523" import="0">FreedomPartisansOrder.xml</File>
@@ -34,7 +34,7 @@
     <File md5="34577B00072DF2CC1CE19B74EB3EFFDD" import="0">OilExplosion.xml</File>
     <File md5="4189CC823B3B944266EE8C318DE70BFD" import="0">GunpowderPlot.xml</File>
     <File md5="4829F6D659A90DF6407D79BAA67339D2" import="0">Motaba.xml</File>
-    <File md5="F61FE948EE8D3922E39966DC1D7CDA71" import="0">ContrabandSmugglers.xml</File>
+    <File md5="475F6ED9F913D42D4B5713311E45BC09" import="0">ContrabandSmugglers.xml</File>
     <File md5="82733BB8A485E477A5B757A4F990893D" import="0">NotoriousPirate.xml</File>
     <File md5="4263D517D4CAD3120DD3846FD8657CE4" import="0">VirusOutbreak.xml</File>
     <File md5="015C32F8DF66842DD4D057D6869026DB" import="0">WarMaterials.xml</File>

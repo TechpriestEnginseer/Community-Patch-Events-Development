@@ -5,7 +5,7 @@
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS</Type>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP</Help>
-			<EventClass>EVENT_CLASS_GOOD</EventClass>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
 			<IsOneShot>false</IsOneShot>
@@ -77,6 +77,13 @@
 			<Yield>50</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
+	<CityEventChoice_GreatPersonPoints>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<Points>-75</Points>
+		</Row>
+	</CityEventChoice_GreatPersonPoints>
 	<CityEventChoice_BuildingClassYieldChange>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
@@ -85,11 +92,24 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</CityEventChoice_BuildingClassYieldChange>
+	<CityEventChoice_SpecialistYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</CityEventChoice_SpecialistYieldChange>
 	<CityEventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>-10</Yield>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_3</CityEventChoiceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
 		</Row>
 	</CityEventChoice_CityUnhappinessNeedMod>
 	<CityEventChoiceFlavors>
@@ -125,13 +145,13 @@
 			<Text>The authorities have intercepted a small scale operation smuggling contraband into the city.[NEWLINE][NEWLINE]The Governor thinks they might be of use...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1">
-			<Text>Gain {2_InstantYield}.</Text>
+			<Text>Sieze {2_InstantYield} worth of goods. Merchants in the City lose out to the tune of {3_GPChange}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2">
 			<Text>Lose {2_InstantYield} Golden Age Points. The threshold for [ICON_STRENGTH] Crime is permentantly reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_3">
-			<Text>The Constabulary gains +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Every [ICON_GREAT_MERCHANT] Merchant in the City generates +1 [ICON_GOLD] Gold, and the Constabulary generates +2 [ICON_PRODUCTION]. However, the [ICON_STRENGTH] Crime threshold increases by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4">
 			<Text>Gain {5_Turns} of WLTKD in the city.</Text>
