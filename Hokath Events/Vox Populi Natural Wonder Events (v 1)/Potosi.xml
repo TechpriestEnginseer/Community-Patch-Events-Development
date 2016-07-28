@@ -140,6 +140,14 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</CityEventChoice_FeatureYieldChange>
+	<CityEventChoice_SpecialistYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_NW_POTOSI_CHOICE_4</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</CityEventChoice_SpecialistYieldChange>
 
 
 	<CityEventChoiceFlavors>
@@ -188,7 +196,7 @@
 			<Text>River dredging costs -5 [ICON_PRODUCTION] Production per turn, but nearby River Tiles yield +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_HELP_CHOICE_4">
-			<Text>Advanced smelting allows you to extract 1 copy of [ICON_RES_COPPER] Copper from the mountain ore.</Text>
+			<Text>Advanced smelting allows you to extract 1 copy of [ICON_RES_COPPER] Copper from the mountain ore. [ICON_GREAT_ENGINEER] Engineers in the City generate +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_POTOSI_DESCRIPTION_CHOICE_1">
 			<Text>*Migrants flock to the local town, looking for work*[NEWLINE]More men for the mountain...</Text>

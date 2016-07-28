@@ -10,7 +10,6 @@
 			<RandomChanceDelta>15</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>30</EventCooldown>
-			
 			<NearbyFeature>FEATURE_FUJI</NearbyFeature>
 		</Row>
 	</CityEvents>
@@ -20,7 +19,6 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_FUJI_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_NW_FUJI_HELP_CHOICE_1</Help>
 			<IsOneShot>false</IsOneShot>
-			
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -73,11 +71,19 @@
 			<Quantity>2</Quantity>
 		</Row>
 	</CityEventChoice_FreeUnits>
+	<CityEventChoice_SpecialistYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_NW_FUJI_CHOICE_2</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</CityEventChoice_SpecialistYieldChange>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_FUJI_CHOICE_2</CityEventChoiceType>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<Points>200</Points>
+			<Points>100</Points>
 		</Row>
 	</CityEventChoice_GreatPersonPoints>
 	<CityEventChoice_BuildingClassYieldChange>
@@ -164,7 +170,7 @@
 			<Text>The Natural Wonder permenantly yields +1 [ICON_PEACE] Faith, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_FUJI_HELP_CHOICE_2">
-			<Text>The man's reputation is restored, gain {4_GPChange}.</Text>
+			<Text>The man's reputation is restored, gain {4_GPChange}. His school of painting flourishes, [ICON_GREAT_ARTIST] Artists in the City generate +2 [ICON_CULTURE] Culture!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_FUJI_HELP_CHOICE_3">
 			<Text>The City's Barracks yields +2 [ICON_PEACE] Faith, and two Samurai are recruited.</Text>

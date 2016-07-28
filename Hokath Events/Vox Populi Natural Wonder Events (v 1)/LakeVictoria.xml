@@ -115,12 +115,6 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_2</CityEventChoiceType>
-			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>5</YieldChange>
-		</Row>
-		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_3</CityEventChoiceType>
 			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -133,6 +127,20 @@
 			<YieldChange>3</YieldChange>
 		</Row>
 	</CityEventChoice_FeatureYieldChange>
+	<CityEventChoice_SpecialistYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_2</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_2</CityEventChoiceType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</CityEventChoice_SpecialistYieldChange>
 	<CityEventChoice_MinimumStartYield>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_4</CityEventChoiceType>
@@ -194,7 +202,7 @@
 			<Text>The Natural Wonder permenantly yields +1 [ICON_GOLD] Gold, [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_LAKE_VICTORIA_HELP_CHOICE_2">
-			<Text>The University expands to the Lake, costing an additional -2 [ICON_GOLD] Maintenance and yielding +5 [ICON_RESEARCH] Science.</Text>
+			<Text>The University expands to the Lake, costing an additional -2 [ICON_GOLD] Maintenance and allowing [ICON_GREAT_SCIENTIST] Scientists in the City to produce +1 [ICON_RESEARCH] Science and +1 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_LAKE_VICTORIA_HELP_CHOICE_3">
 			<Text>The new species of [ICON_RES_FISH] Fish in the Lake yield +3 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold. However, local fishermen suffer, increasing the [ICON_GOLD] Poverty threshold by 10%.</Text>

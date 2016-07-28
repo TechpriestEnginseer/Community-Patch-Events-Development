@@ -106,13 +106,15 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
+	</CityEventChoice_BuildingClassYieldChange>
+	<CityEventChoice_SpecialistYieldChange>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_EL_DORADO_CHOICE_2</CityEventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
-	</CityEventChoice_BuildingClassYieldChange>
+	</CityEventChoice_SpecialistYieldChange>
 	<CityEventChoice_ResourceQuantity>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_EL_DORADO_CHOICE_2</CityEventChoiceType>
@@ -193,7 +195,7 @@
 			<Text>Mining expeditions supply you with one copy of [ICON_RES_GOLD] Gold, and all nearby Mines yield +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_EL_DORADO_HELP_CHOICE_3">
-			<Text>Word of your curiosity reaches far and wide: two Bandeirantes are recruited in the City and the Caravansary produces +2 [ICON_GOLD] Gold.</Text>
+			<Text>Word of your curiosity reaches far and wide: two Bandeirantes are recruited in the City and [ICON_GREAT_MERCHANT] Merchants in the City produce +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_EL_DORADO_HELP_CHOICE_4">
 			<Text>After reassigning {2_InstantYield}, an Archaeologist appears in the City. Their discoveries at El Dorado endow a new faculty at the University: +3 [ICON_RESEARCH] Science and +3 [ICON_CULTURE] Culture.</Text>
