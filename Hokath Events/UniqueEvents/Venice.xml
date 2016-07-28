@@ -350,7 +350,7 @@
 			<Text>Send {1_YieldCost} to beautify our Coastal Cities. They receive a Garden and a Great Galleass.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_3">
-			<Text>On the Piazzo St Marco, a Cathedral is constructed.</Text>
+			<Text>On the Piazzo St. Marco, a Cathedral is constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_4">
 			<Text>The patronage of art in the [ICON_CAPITAL] Capital generates +15% [ICON_GREAT_MUSICIAN] Great Musician, [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_WRITER] Great Writer Points. Receive +1 [ICON_CULTURE] Culture for every 2 [ICON_POPULATION] Citizens in the [ICON_CAPITAL] Capital.</Text>

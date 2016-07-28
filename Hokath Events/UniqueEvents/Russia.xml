@@ -50,6 +50,7 @@
 			<RequiresWar>true</RequiresWar>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_5</Type>

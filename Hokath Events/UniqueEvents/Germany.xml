@@ -106,7 +106,21 @@
 			<EventType>EVENT_GERMANY_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-	
+
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_2</EventChoiceType>
@@ -134,14 +148,6 @@
 			<YieldChange>-3</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
-	<EventChoice_BuildingClassYieldModifier>
-		<Row>
-			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Modifier>10</Modifier>
-		</Row>
-	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_5</EventChoiceType>
@@ -325,7 +331,7 @@
 			<Text>Receive an Order in every City, they cost 3 [ICON_GOLD] Maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4">
-			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Cities with [ICON_GREAT_MUSICIAN] Musician's Guilds produce +10% [ICON_CULTURE] Culture.</Text>
+			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +4 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_5">
 			<Text>Receive a [ICON_GREAT_SCIENTIST] Free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>

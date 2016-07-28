@@ -63,7 +63,6 @@
 			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
-			<EventBuildingClassGlobal>BUILDINGCLASS_BYZANTIUM_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -114,10 +113,6 @@
 			<Type>BUILDINGCLASS_BYZANTIUM_UE_DUMMY</Type>
 			<DefaultBuilding></DefaultBuilding>
 		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_BYZANTIUM_UE_DUMMY_2</Type>
-			<DefaultBuilding></DefaultBuilding>
-		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -133,17 +128,6 @@
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 		</Row>
-		<Row>
-			<Type>BUILDING_BYZANTIUM_UE_DUMMY_2</Type>
-			<BuildingClass>BUILDINGCLASS_BYZANTIUM_UE_DUMMY_2</BuildingClass>
-			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY_2</Description>
-			<FaithCost>-1</FaithCost>
-			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
-			<NukeImmune>true</NukeImmune>
-		</Row>
 	</Buildings>
 	<Building_SpecificGreatPersonRateModifier>
 		<Row>
@@ -152,20 +136,6 @@
 			<Modifier>33</Modifier>
 		</Row>
 	</Building_SpecificGreatPersonRateModifier>
-	<Building_BuildingClassYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_BYZANTIUM_UE_DUMMY_2</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BYZANTIUM_UE_DUMMY_2</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</Building_BuildingClassYieldChanges>
 
 	<UnitPromotions>
 		<Row>
@@ -222,6 +192,26 @@
 		</Row>
 	</UnitPromotions_UnitCombats>
 
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_5</EventChoiceType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_5</EventChoiceType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_5</EventChoiceType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_FreeUnits>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_2</EventChoiceType>
@@ -413,7 +403,7 @@
 			<Text>Repeal ineffectual taxation to stimulate the economy: the Empire enters a [ICON_GOLDEN_AGE] Golden Age and WLTKD for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_5">
-			<Text>Leverage {1_YieldCost} to restore iconography to the Empire. Every City contributes +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith to [ICON_GREAT_ARTIST] Artist's Guilds.</Text>
+			<Text>Leverage {1_YieldCost} to restore iconography to the Empire. Every [ICON_GREAT_ARTIST] Artist generates an additional +3 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_6">
 			<Text>By calling upon {1_YieldCost}, start a crusade against your enemies. A random Unit is recruited near every City, and all Units, as well as those recruited in the next {4_Turns}, receive the Deus Veult Promotion.</Text>
@@ -445,9 +435,6 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY">
-			<Text></Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY_2">
 			<Text></Text>
 		</Row>
 	</Language_en_US>

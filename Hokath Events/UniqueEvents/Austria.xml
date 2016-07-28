@@ -32,6 +32,7 @@
 			<EraScaling>true</EraScaling>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_EPIC</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_AUSTRIA_UE_CHOICE_3</Type>
@@ -56,6 +57,7 @@
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_AUSTRIA_UE_CHOICE_5</Type>
@@ -238,12 +240,17 @@
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_CULTURE_LOCAL</YieldType>
-			<Yield>1000</Yield>
+			<Yield>400</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>250</Yield>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_POPULATION</YieldType>
+			<Yield>-1</Yield>
 		</Row>
 	</EventChoice_InstantYield>
 	<EventChoice_EventCostYield>
@@ -261,11 +268,6 @@
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>150</Yield>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_4</EventChoiceType>
-			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_6</EventChoiceType>
@@ -418,13 +420,13 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_2">
-			<Text>Leverage {1_YieldCost} to recruit an Emissary in every City and marry into {2_InstantYield}.</Text>
+			<Text>Leverage {1_YieldCost} to recruit an Emissary and marry into {2_InstantYield} in every City .</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_3">
 			<Text>Utilise {1_YieldCost} to attract high society to Vienna. For {4_Turns} you experience WLTKD. This and future WLTKD also increase [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_4">
-			<Text>Conscript {1_YieldCost} into the military in every City. Melee, Gun and Mounted Units gain up to 50% extra [ICON_STRENGTH] near the [ICON_CAPITAL], falling off with distance.</Text>
+			<Text>Conscript {1_InstantYield} into the military in every City. Melee, Gun and Mounted Units gain up to 50% extra [ICON_STRENGTH] near the [ICON_CAPITAL], falling off with distance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_5">
 			<Text>Enter a period of reformation. This triggers {4_Turns} of WLTKD, but you spend the first quarter of this time in [ICON_RESISTANCE] Anarchy. This and future WLTKD also increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital by 25%.</Text>

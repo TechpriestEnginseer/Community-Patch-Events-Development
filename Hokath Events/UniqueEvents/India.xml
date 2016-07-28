@@ -61,6 +61,7 @@
 			<GoldenAgeTurns>20</GoldenAgeTurns>
 			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_INDIA_UE_CHOICE_6</Type>

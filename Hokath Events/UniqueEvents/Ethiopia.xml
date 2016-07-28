@@ -147,19 +147,6 @@
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-
-		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -170,15 +157,28 @@
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>1</YieldChange>
-		</Row>
-
-		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_STOCKYARD</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
@@ -258,12 +258,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 	</EventChoiceFlavors>
 	<EventChoice_Notification>
@@ -357,7 +352,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_2">
-			<Text>Mint {1_YieldCost} special coinage for your traders. Caravansary provide +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>Mint {1_YieldCost} special coinage for your traders. Every [ICON_GREAT_MERCHANT] Merchant provides +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_3">
 			<Text>Monolithic architecture allows Temples and sources of [ICON_RES_STONE] Stone to generate +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
@@ -369,7 +364,7 @@
 			<Text>Expend up to {2_InstantYield} to enter a {4_Turns} [ICON_GOLDEN_AGE] Golden Age. Reforms allow Cities to convert 10% of [ICON_GOLD] Gold spent to [ICON_CULTURE] Culture when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_6">
-			<Text>Divert {1_YieldCost} into agricultural science. Farms and Plantations generate +2 [ICON_FOOD] Food, and Agribusinesses generate +5 [ICON_GOLD] Gold.</Text>
+			<Text>Divert {1_YieldCost} into agricultural science. Farms and Plantations generate +2 [ICON_FOOD] Food, and [ICON_GREAT_MERCHANT] Merchants generate +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>When good men do nothing, evil triumphs. I call upon each citizen to do their duty. Together, through cooperation and faith, we shall enough peace, righteousness and prosperity.</Text>

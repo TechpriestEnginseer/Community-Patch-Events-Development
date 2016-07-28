@@ -32,6 +32,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PORTUGAL_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_PORTUGAL_UE_CHOICE_3</Type>
@@ -240,12 +241,14 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
-	<EventChoice_EventCostYield>
+	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_PORTUGAL_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>1</Yield>
+			<Yield>-1</Yield>	
 		</Row>
+	</EventChoice_InstantYield>
+	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_PORTUGAL_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -407,7 +410,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_2">
-			<Text>{1_YieldCost} emigrate to set up colonies abroad. The infrastructure of their travel permenantly increases [ICON_PRODUCTION] Production of Sea Units by 15%, and [ICON_CONNECTED] City Connections provide 2% additional [ICON_GOLD] Gold for every City.</Text>
+			<Text>{1_InstantYield} emigrate to set up colonies abroad. The infrastructure of their travel permenantly increases [ICON_PRODUCTION] Production of Sea Units by 15%, and [ICON_CONNECTED] City Connections provide 2% additional [ICON_GOLD] Gold for every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_3">
 			<Text>Call upon {1_YieldCost} of religious fervour to defeat your foes. For {4_Turns} your Cities produce {3_CityYield}, and existing Melee and Gun Units (as well as those produced in this time) receive the Stalwart Promotion.</Text>

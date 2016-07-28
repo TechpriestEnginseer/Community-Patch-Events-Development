@@ -30,8 +30,7 @@
 			<Description>TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_EPIC</RequiredAnywhereBuildingClass>
-			<WLTKDTurns>15</WLTKDTurns>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -139,7 +138,20 @@
 		</Row>
 	</Building_YieldFromPurchase>
 
-
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_3</EventChoiceType>
@@ -168,24 +180,6 @@
 		</Row>
 	</EventChoice_ResourceQuantity>
 	<EventChoice_BuildingClassYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>5</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>5</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
-		</Row>
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
@@ -336,7 +330,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_NETHERLANDS_UE_CHOICE_2">
-			<Text>{3_PlayerName} sets up an enormous Royal Market, attracting traders from all over the known world!</Text>
+			<Text>{3_PlayerName} attracts traders from all over the known world!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_NETHERLANDS_UE_CHOICE_3_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
@@ -372,7 +366,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_2">
-			<Text>National Pride sparks {4_Turns} of WLTKD. The National Epic yields +5 [ICON_FOOD] Food, [ICON_GOLD] Gold, and [ICON_TOURISM] Tourism.</Text>
+			<Text>Every [ICON_GREAT_MERCHANT] Merchant also provides +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_3">
 			<Text>The East India Company demands -5 [ICON_GOLD] Gold and -5 [ICON_GOLDEN_AGE] Golden Age Points per turn. In exchange you gain access to a copy of [ICON_RES_SUGAR] Sugar, [ICON_RES_TOBACCO] Tobacco, [ICON_RES_COCOA] Cocoa, [ICON_RES_TEA] Tea, and [ICON_RES_COFFEE] Coffee.</Text>
@@ -390,7 +384,7 @@
 			<Text>*The hungry and hateful nations of the world look to devour our happy country*[NEWLINE]I need my advisors to seek out possible political marriages that might be made in the hope of avoiding conflict. I wish to review the options a week from now. Go.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The other nations of the world claim warlike, mythological histories. Not so for we Dutch*[NEWLINE]The story of the Dutch people is of ingenuity, trade, and peace. I want to celebrate that. Call on every farmer, fisherman, trader: let it be known that in the National Square we shall hold the greatest market these lowlands have ever seen!</Text>
+			<Text>*The other nations of the world claim warlike, mythological histories. Not so for we Dutch*[NEWLINE]The story of the Dutch people is of ingenuity, trade, and peace. I want to celebrate that. Call on every farmer, fisherman, trader: let it be known that the Netherlands are open for business!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_3">
 			<Text>*Your Economic Advisor's business interest - the East India Company - has become extremely influence. She would have it more so*[NEWLINE]While I do not wish to show favouritism, there is something very attractive about large amounts of luxury goods. While I hear my other advisors, I am ready to conceed the 'irregularities' that may be associated with their acquisition.</Text>

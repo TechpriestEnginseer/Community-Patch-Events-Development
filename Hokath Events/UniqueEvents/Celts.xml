@@ -396,7 +396,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CELTS_UE_HELP_CHOICE_2">
-			<Text>Mines yield +1 [ICON_GOLD] Gold. Additionally,[ICON_INTERNATIONAL_TRADE] Trade Routes with your Cities generate +2 [ICON_GOLD] Gold for both you and the sender.</Text>
+			<Text>Mines yield +1 [ICON_GOLD] Gold. Additionally, [ICON_INTERNATIONAL_TRADE] Trade Routes with your Cities generate +2 [ICON_GOLD] Gold for both you and the sender.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CELTS_UE_HELP_CHOICE_3">
 			<Text>Receive a free Longswordsman in each City. Castles and Citadels produce +2 [ICON_CULTURE] Culture.</Text>

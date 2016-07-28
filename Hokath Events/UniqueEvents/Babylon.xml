@@ -57,6 +57,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HYDRO_PLANT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_BABYLON_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_BABYLON_UE_CHOICE_6</Type>
@@ -103,7 +104,7 @@
 		<Row>
 			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-2000</Yield>
+			<Yield>-150</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_4</EventChoiceType>
@@ -130,9 +131,23 @@
 		<Row>
 			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2000</Yield>
+			<Yield>150</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_BABYLON_UE_CHOICE_3</EventChoiceType>
@@ -396,16 +411,16 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_2">
-			<Text>Temples produce +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science. However, [ICON_RESEARCH] Illiteracy increases by 10%.</Text>
+			<Text>Temples produce +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science and [ICON_GREAT_SCIENTIST] Scientists generate +1 [ICON_PEACE] Faith. However, [ICON_RESEARCH] Illiteracy increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_3">
 			<Text>Your project increases [ICON_GOLD] Poverty levels by 10%. In return, receieve two copies of [ICON_RES_LAPIS] Lapis Lazuli, and the Palace provides +2 [ICON_CULTURE] Culture and +10% [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_4">
-			<Text>Spend {2_InstantYield}. Receieve a free Observatory in every City.</Text>
+			<Text>Spend {2_InstantYield}. Receieve a free Observatory in every City and [ICON_GREAT_SCIENTIST] Scientists generate +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_5">
-			<Text>Lose {2_InstantYield}. Cities gain +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from their River Tiles. Hydro Plants gain +5 [ICON_GOLD] Gold.</Text>
+			<Text>Lose {2_InstantYield} in every City. Cities gain +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from their River Tiles. Hydro Plants gain +5 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BABYLON_UE_HELP_CHOICE_6">
 			<Text>Reallocate {2_InstantYield}. Receive 6 copies of [ICON_RES_URANIUM] Uranium. Hospitals provide +5 [ICON_FOOD] Food and +5 [ICON_RESEARCH] Science.</Text>

@@ -73,6 +73,7 @@
 			<RequiresWar>true</RequiresWar>
 			<EventPromotion>PROMOTION_UE_ALPINI</EventPromotion>
 			<EventDuration>-1</EventDuration>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -172,12 +173,14 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>400</Yield>
 		</Row>
+	</EventChoice_EventCostYield>
+	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>2</Yield>
+			<Yield>-2</Yield>
 		</Row>
-	</EventChoice_EventCostYield>
+	</EventChoice_InstantYield>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_2</EventChoiceType>
@@ -426,7 +429,7 @@
 			<Text>All eligible Units, as well as those produced in the future, gain the Infiltrators Promotion. All Embassies under your control yield +5 [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_6">
-			<Text>Conscript {1_YieldCost} into a Riflemen battalion in every City. Your Gun and Siege Units receive the Alpini Promotion.</Text>
+			<Text>Conscript {2_InstantYield} into a Riflemen battalion in every City. Your Gun and Siege Units receive the Alpini Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_DESCRIPTION_CHOICE_1">
 			<Text>None of these candidates bear any ill will toward my leadership. The Republic welcomes them equally.</Text>

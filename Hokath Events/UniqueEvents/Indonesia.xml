@@ -196,43 +196,6 @@
 		</Row>
 
 		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-
-		<Row>
 			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -259,6 +222,20 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_INDONESIA_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	
 	<EventChoice_EventCostYield>
 		<Row>
@@ -438,7 +415,7 @@
 			<Text>Support Wayang with {1_YieldCost}. Amphitheaters generate +1 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDONESIA_UE_HELP_CHOICE_4">
-			<Text>Condone the melting down of 4 [ICON_RES_IRON] Iron into instruments for Musicians across the Empire. Amphitheaters, Opera Houses and Musicians' Guilds generate +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism.</Text>
+			<Text>Condone the melting down of 4 [ICON_RES_IRON] Iron into instruments, [ICON_GREAT_MUSICIAN] Musicians generate +3 [ICON_CULTURE] Culture and +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDONESIA_UE_HELP_CHOICE_5">
 			<Text>Encourage foreign investment by allowing [ICON_INTERNATIONAL_TRADE] Trade Routes with you to generate +5 [ICON_GOLD] Gold. Cities celebrating WLTKD generate +15% [ICON_GOLD] Gold.</Text>

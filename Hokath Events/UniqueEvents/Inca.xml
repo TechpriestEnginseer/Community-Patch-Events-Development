@@ -370,7 +370,7 @@
 			<Text>Invest {2_InstantYield} in mineral exploration. Mountains produce +2 [ICON_PRODUCTION], and you receive a copy of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver and [ICON_RES_COPPER] Copper.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_5">
-			<Text>Forcibly enact a free Social Policy. All Cities enter {4_Turns} of WLTKD as a result, but [ICON_STRENGTH] Crime and [ICON_GOLD] Poverty thresholds permenantly increase by 10%.</Text>
+			<Text>Forcibly enact a free Social Policy. All Cities enter {4_Turns} of WLTKD, but [ICON_STRENGTH] Crime and [ICON_GOLD] Poverty thresholds permenantly increase by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_6">
 			<Text>Allow international access to your hertiage sites, losing {2_InstantYield}. In return, Mountains produce +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism.</Text>

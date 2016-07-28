@@ -45,6 +45,7 @@
 			<EventPromotion>PROMOTION_SHOCK_4</EventPromotion>
 			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_ZULU_UE_CHOICE_4</Type>
@@ -202,16 +203,18 @@
 			<Yield>300</Yield>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ZULU_UE_CHOICE_3</EventChoiceType>
-			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>400</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_InstantYield>
+		<Row>
+			<EventChoiceType>EVENT_ZULU_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_POPULATION</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+	</EventChoice_InstantYield>
 
 	<EventChoiceFlavors>
 		<Row>
@@ -364,7 +367,7 @@
 			<Text>Utilise {1_YieldCost} to encourage a return to the Plains. Cities gain +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production for every 3 Plains Tiles within workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_3">
-			<Text>Workers leave the poor arable land to join the mfecane. {1_YieldCost} becomes an Impi in every City, and Farms yield -1 [ICON_FOOD] Food for {4_Turns}.</Text>
+			<Text>Workers leave the poor arable land to join the mfecane. {2_InstantYield} becomes an Impi in every City, and Farms yield -1 [ICON_FOOD] Food for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_4">
 			<Text>Send {1_YieldCost} to support our rural communities. Villages produce +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production, and you receive 2 copies of [ICON_RES_TEA] Tea.</Text>
@@ -373,7 +376,7 @@
 			<Text>You sieze a copy of [ICON_RES_GEMS] Gems and a copy of [ICON_RES_GOLD] Gold. The spread of so much illegal material increases [ICON_STRENGTH] Crime thresholds by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_6">
-			<Text>The coming together reduces [ICON_CULTURE] Culture thresholds by -10%, and each City builds a Church.</Text>
+			<Text>The coming together reduces [ICON_CULTURE] Boredom thresholds by -10%, and each City builds a Church.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_1">
 			<Text>*There is a child, born under the blessings of all the ancestors. They have the power to both destroy and heal*[NEWLINE]We will seek out this child with the second sight. They will aid us.</Text>

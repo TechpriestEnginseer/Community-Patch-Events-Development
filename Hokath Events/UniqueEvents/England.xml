@@ -58,7 +58,6 @@
 			<EventDuration>8</EventDuration>
 			<Expires>false</Expires>
 			<IsOneShot>true</IsOneShot>
-			<EventFreePolicies>1</EventFreePolicies>
 		</Row>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_5</Type>
@@ -187,6 +186,14 @@
 		</Row>
 	</UnitPromotions_UnitCombats>
 
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
@@ -372,7 +379,7 @@
 			<Text>The Grand Temple costs 10 [ICON_GOLD] Maintenance, but pilgrims found a free Church in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_4">
-			<Text>Three [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Choose a Free Policy.</Text>
+			<Text>Three [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +3 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_5">
 			<Text>A [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Gun and Siege Units gain the Sun Never Sets Promotion.</Text>

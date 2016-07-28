@@ -224,14 +224,48 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
-	</EventChoice_FeatureYieldChange>
-	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Modifier>10</Modifier>
+			<YieldChange>1</YieldChange>
 		</Row>
+	</EventChoice_FeatureYieldChange>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_2</EventChoiceType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_3</EventChoiceType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_3</EventChoiceType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
+	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_PRINTING_PRESS</BuildingClassType>
@@ -239,20 +273,6 @@
 			<Modifier>20</Modifier>
 		</Row>
 	</EventChoice_BuildingClassYieldModifier>
-	<EventChoice_BuildingClassYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CHANCERY</BuildingClassType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
@@ -427,17 +447,17 @@
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP">
 			<Text>An orphan, raised in the temples, is maturing into an gifted, ingenious and loyal celebrity.[NEWLINE][NEWLINE]How shall we direct their energy?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_2">
-			<Text>Watermills grant 10% [ICON_FOOD] Growth in Cities. Flood Plains yield +1 [ICON_CULTURE] Culture.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_2">
+			<Text>Every [ICON_GREAT_ENGINEER] Engineer provides +2 [ICON_FOOD] Food. Flood Plains yield +1 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_3">
-			<Text>Chanceries provide +3 [ICON_RESEARCH] Science. The Printing Press increases [ICON_CULTURE] Culture by 20% in the City in which it is built.</Text>
+			<Text>Every [ICON_DIPLOMAT] Civil Servant generates +2 [ICON_PRODUCTION] Production and +2 [ICON_CULTURE] Culture. The Printing Press increases [ICON_CULTURE] Culture by 20% in the City in which it is built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_4">
-			<Text>Stone Works provide +3 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
+			<Text>Every [ICON_GREAT_ENGINEER] Engineer provides +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_5">
 			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>

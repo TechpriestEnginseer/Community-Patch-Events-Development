@@ -53,6 +53,7 @@
 			<EventDuration>10</EventDuration>
 			<Expires>false</Expires>
 			<EventFreePolicies>1</EventFreePolicies>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_FRANCE_UE_CHOICE_5</Type>

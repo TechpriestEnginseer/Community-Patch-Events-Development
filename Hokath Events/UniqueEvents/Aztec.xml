@@ -119,22 +119,28 @@
 			<NukeImmune>true</NukeImmune>
 		</Row>
 	</Buildings>
-	<Building_BuildingClassYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_AZTEC_UE_DUMMY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</Building_BuildingClassYieldChanges>
 	<Building_SpecificGreatPersonRateModifier>
 		<Row>
 			<BuildingType>BUILDING_AZTEC_UE_DUMMY</BuildingType>
 			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
-			<Modifier>20</Modifier>
+			<Modifier>33</Modifier>
 		</Row>
 	</Building_SpecificGreatPersonRateModifier>
 
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_3</EventChoiceType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_3</EventChoiceType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_FreeUnitClasses>
 		<Row>
 			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_5</EventChoiceType>
@@ -381,7 +387,7 @@
 			<Text>The sacrifice of criminals generates +4 [ICON_PEACE] Faith, [ICON_PRODUCTION] and [ICON_FOOD] Food in Courthouses.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_3">
-			<Text>Discover new philosophical concepts using {1_YieldCost}. All Cities generate [ICON_GREAT_WRITER] Great Writers 20% faster. Writers' Guilds generate +1 [ICON_PEACE] Faith for every City.</Text>
+			<Text>Discover new philosophical concepts using {1_YieldCost}. All Cities generate [ICON_GREAT_WRITER] Great Writers 33% faster. Each [ICON_GREAT_WRITER] Writer generates +2 [ICON_PEACE] Faith and +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_4">
 			<Text>Haciendados are given control over your Plantations: -2 [ICON_GOLD] Gold, but +2 [ICON_PRODUCTION] Production and +2 [ICON_FOOD] Food.</Text>

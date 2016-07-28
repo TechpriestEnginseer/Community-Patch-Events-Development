@@ -49,6 +49,7 @@
 			<HappinessPerCity>-1</HappinessPerCity>
 			<EventDuration>150</EventDuration>
 			<Expires>true</Expires>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_5</Type>
