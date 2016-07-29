@@ -74,7 +74,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_NW_REEF_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_NW_REEF_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

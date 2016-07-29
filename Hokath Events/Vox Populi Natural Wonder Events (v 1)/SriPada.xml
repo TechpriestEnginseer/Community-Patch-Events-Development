@@ -20,7 +20,6 @@
 			<Description>TXT_KEY_CITY_EVENT_NW_SRI_PADA_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_NW_SRI_PADA_HELP_CHOICE_1</Help>
 			<IsOneShot>false</IsOneShot>
-			
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -70,11 +69,11 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_NW_SRI_PADA_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_NW_SRI_PADA_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_NW_SRI_PADA_DUMMY_2</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_NW_SRI_PADA_DUMMY_2</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -91,9 +90,9 @@
 		</Row>
 		<Row>
 			<Type>BUILDING_NW_SRI_PADA_DUMMY_2</Type>
-			<BuildingClass>BUILDINGCLASS_NW_SRI_PADA_DUMMY</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_NW_SRI_PADA_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_NW_SRI_PADA_DUMMY</Description>
+			<Description>TXT_KEY_BUILDING_NW_SRI_PADA_DUMMY_2</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
 			<GreatWorkCount>-1</GreatWorkCount>
