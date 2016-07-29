@@ -46,8 +46,8 @@
     <File md5="6875529409B8CF62FC74423299093EC4" import="0">SciencePlayerTrade.xml</File>
     <File md5="CD9D3078FC94180E510306D8E6E121C9" import="0">War.xml</File>
     <File md5="9EA89DD6C30633BC577149AB86652DFE" import="0">WarCityBad.xml</File>
-    <File md5="9E5F3734B395B46CA26285DF2692B11F" import="0">WarCityGood.xml</File>
-    <File md5="72EF8315F4B898F86B588208DEF2C1DE" import="0">WarCityTrade.xml</File>
+    <File md5="66D71BC1A2C2315DE96AABA79B99BE9F" import="0">WarCityGood.xml</File>
+    <File md5="6DCCB8BF1168B6C551A8322B23F8B487" import="0">WarCityTrade.xml</File>
     <File md5="5B8EF4BA0D01126DD5F4C19BFDC8B7BC" import="0">WarPlayerBad.xml</File>
     <File md5="14E4D192B315B52DC73077149E124680" import="0">WarPlayerGood.xml</File>
     <File md5="CB1DCF533DB9C0C7E707E9F730D292FC" import="0">WarPlayerTrade.xml</File>

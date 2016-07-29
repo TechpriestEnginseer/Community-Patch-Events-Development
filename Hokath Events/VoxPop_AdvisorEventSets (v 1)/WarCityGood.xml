@@ -32,7 +32,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AES_WAR_CITY_GOOD_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AES_WAR_CITY_GOOD_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
