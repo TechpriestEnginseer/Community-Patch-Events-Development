@@ -167,11 +167,11 @@
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
 		<Row>
-			<PromotionType>PROMOTION_HOMELAND_GUARDIAN</PromotionType>
+			<PromotionType>PROMOTION_UE_INCORPORATE</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 		</Row>
 		<Row>
-			<PromotionType>PROMOTION_HOMELAND_GUARDIAN</PromotionType>
+			<PromotionType>PROMOTION_UE_INCORPORATE</PromotionType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 		</Row>
 	</UnitPromotions_UnitCombats>

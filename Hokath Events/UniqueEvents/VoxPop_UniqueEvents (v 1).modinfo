@@ -51,21 +51,21 @@
     <File md5="93436193D682AD4B53D3A6FDCC57A8A4" import="0">Germany.xml</File>
     <File md5="792F46F7D3E20506FA6C7FFFC1C6F0E8" import="0">Inca.xml</File>
     <File md5="F8787A6A3F2A5EE63BA19CBC8C5D7F2A" import="0">Iroquois.xml</File>
-    <File md5="37159DDB4D820F3A70C1071A0FF15354" import="0">Korea.xml</File>
+    <File md5="D0CB18D8B6DA88CFE0C3D2087CD2379B" import="0">Korea.xml</File>
     <File md5="C08AF8797943E61CB61953264FF9225B" import="0">Morocco.xml</File>
     <File md5="60E2137EDC8917ACD2D3AFD6EEC685C9" import="0">Ottoman.xml</File>
-    <File md5="69696F87ACC6A421D9A10CC31D44AB0E" import="0">Persia.xml</File>
+    <File md5="0DC2151DEFDB45B4E69F4B2BD5F491C7" import="0">Persia.xml</File>
     <File md5="5CB9CAB00DBBEC6CD8014B3F94232838" import="0">Poland.xml</File>
     <File md5="16E5152585FF9E576B62C956CD9098DC" import="0">Polynesia.xml</File>
     <File md5="C1B4AB0963B3ADC7BB78F9A5912AB441" import="0">Portugal.xml</File>
-    <File md5="00C0FB1727803944C10C9DE8C0798FA1" import="0">readme.txt</File>
+    <File md5="B5F4BE8E96B31DD02C1B815407310E4F" import="0">readme.txt</File>
     <File md5="4EF0EDF5800DBF46DB9424F39E51B041" import="0">Rome.xml</File>
     <File md5="7AB8779421632B0BD5580BE7EE104D74" import="0">Russia.xml</File>
-    <File md5="9378C53292FF74EE81725D473420AFA0" import="0">Shoshone.xml</File>
+    <File md5="4CFE32AD005076C178B8E5FAEC73B1AE" import="0">Shoshone.xml</File>
     <File md5="2A4925B4D7B0A85E52217105FBDDECC4" import="0">Siam.xml</File>
     <File md5="BA71EB93C032ED5EC7E4992B6BE72D2A" import="0">Songhai.xml</File>
     <File md5="A929023F5AAF7C03ACB1811FFFAB75AC" import="0">Spain.xml</File>
-    <File md5="FD879AD6302A7155E3404998DB8C3F61" import="0">Sweden.xml</File>
+    <File md5="6F5006D1017E9DFDC51B42A53C557E36" import="0">Sweden.xml</File>
     <File md5="39B19C6E7263CA851EE1ECAD7EAEC74D" import="0">Venice.xml</File>
     <File md5="AB29F5698557837817D726BC8839B5CC" import="0">Zulu.xml</File>
   </Files>

@@ -102,6 +102,7 @@
 			<PromotionType>PROMOTION_UE_TURTLE_SHELL</PromotionType>
 			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
+		<!-- Adds homeland guardian to melee and gun class upon eventchoice, affects other events too! -->
 		<Row>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>

@@ -71,7 +71,7 @@
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
-			<MinimumNationalPopulation>120</MinimumNationalPopulation>
+			<MinimumNationalPopulation>200</MinimumNationalPopulation>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>

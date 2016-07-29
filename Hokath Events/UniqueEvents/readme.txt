@@ -338,60 +338,60 @@ new order investment - req modern, losing money, +gold from incoming trade route
 deforestation - req ecology, req junglemill, cost gold, zoo +sci+culture, junglemill -food+gold
 
 
------modded civs------
+-----modded civs------you'll have to ask me for these files if you want them
 
---Garamantes--
-chariot routes
-desert agriculture
-moroccan brothers
-Fossils - 
-oil revenue
+--Tomatkeh (Old) Garamantes--Home Of The Zephyr
+chariot routes - req trade, war chariot each city
+desert agriculture - req machinery, req plantation, cost sci, +food per desert tile in range
+moroccan brothers - req military science, req war, cost faith, berber cavalry
+Fossils - req archaeology, cost sci, aquifer +culture+tourism
+oil revenue - req well, well&aquifer +gold, spending gold +production
 
---Khmer--
-bayon temple
-khmer script
-ecological catastrophe
-foreign mercs
-textile industry
+--LS Khmer--The Wheel Turns Again
+bayon temple - req theology, req grand temple, cost gold&faith, engineer+culture, grand temple+%culture+%faith
+khmer script - req education, req academy, free tech, nat college +%faith
+ecological catastrophe - req chemistry, req junglemill, farms&jungle -food for x turns, engineers +prod+culture for x turns
+foreign protectorate - req replaceable parts, req war, foreign legions
+textile industry - req plastics, req manufactory, cost GAP, manu+gold engineer+gold
 
---Duranni--The Force Of The Wind
+--LS Duranni--The Force Of The Wind
 places of power - req nat epic, cost faith, cities +faith per mountain
 shrine of the cloak - req theology, req holy city, capital +tourism on death
 qizilbash - req metallurgy, req war, cost faith, janissary in each city
 zamburak - req dynamite, cost science, promo for gatling gun & machine gun +move+desert
 Opium trade - req penicillin, 2copies tobacco, plantation -food++gold, crime increase
 
---Zimbabwe--A Bull Has But One Herd
-mapungubwe - req caravansary, cost gold, copy ivory, copy gold
-mutapa - 
-rozwi -
-africa police -
-gukurahundi -
+--LS Zimbabwe--A Bull Has But One Herd
+mapungubwe - req currency, cost gold, copy ivory, 2copy gold
+mutapa - req civil service, cost gold&culture, req war minor, 2copy copper, merchant of venice
+rozwi - req gunpowder, req war, cost sci, buffalo promo, impi in each city
+open doors - req rifling, give extra gold to trade route owners, merchants +gold+food
+gukurahundi - req postmodern, turns anarchy, farms&pastures -food, mercenaries
 
---Bulgaria--The Rampant Lion
+--LS Bulgaria--The Rampant Lion
 khan heritage - req courthouse, get a khan
 inspired writing - req theology, cost faith, writers +faith
 order of war - req guilds, req heroic epic, kills +sci+cult in capital
 agrarianism - req fertilizer, req ideology, merchants&engineers -yields, farms +culture
 bulkan prussia - req replaceable parts, req manufactory, req war, march and wltkd
 
---Tibet--Dharma King
+--LS Tibet--Dharma King
 yaks - req engineering, req x bison, bison +food+prod+GAP
 potala palace - req theology, cost faith&gold, palace +food+faith+GAP
 rice cultivation - req chemistry, cost sci, farm +food, mountain tile can be worked for 5food
-reincarnation - req ideology, cost faith, +exp promo
+reincarnation - req ideology, cost faith, +exp promo, combat on hills
 roof of the world - req ecology, cost sci&gold, mountains +GAP+gold+sci
 
---Minoa--Blessings Of Ariadne
+--LS Minoa--Blessings Of Ariadne
 bull leaping - req temple, req x bison, bison +faith+culture
 great laberynth - req machinery, cost gold, +faith+culture+great engineer% in capital
 venician period - req economics, req war minor, great merchant of venice
 positional importance - req replaceable parts, req x coastal, cost GAP, cities get gold per coast tile
 windy - req ecology, cost science&gold, wind plant in all cities
 
---Flanders--Strength Through Unity
+--LS Flanders--Strength Through Unity
 sheep - req x sheep, req town, sheep +gold+culture, 2 copy tapestry
-belfort - req castle, cost culture, customs house +tour+faith+food
+belfort - req castle, cost culture, customs house&bourg +tour+faith+food
 chocolate - req economics, cost gold, workshop +cult, copies cocoa
-export beer - req biology, cost faith, wheat&sugar +gold+culture+tourism
+export beer - req biology, cost faith, wheat&sugar&bourg +gold+culture+tourism
 treaty organisation - req replaceable parts, req war, foreign legions, friendly lands promo
