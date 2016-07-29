@@ -101,7 +101,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_GREECE_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_GREECE_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

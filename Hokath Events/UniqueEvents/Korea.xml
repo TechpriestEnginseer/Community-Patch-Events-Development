@@ -137,6 +137,7 @@
 			<EventType>EVENT_KOREA_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
+	
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>

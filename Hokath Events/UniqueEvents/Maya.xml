@@ -100,7 +100,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_MAYA_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_MAYA_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

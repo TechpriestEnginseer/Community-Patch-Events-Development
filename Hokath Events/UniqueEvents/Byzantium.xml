@@ -111,7 +111,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_BYZANTIUM_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_BYZANTIUM_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

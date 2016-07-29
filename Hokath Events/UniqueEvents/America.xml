@@ -100,7 +100,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AMERICA_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AMERICA_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

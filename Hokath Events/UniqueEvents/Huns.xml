@@ -109,11 +109,11 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_HUNS_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_HUNS_UE_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_HUNS_UE_DUMMY_2</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_HUNS_UE_DUMMY_2</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

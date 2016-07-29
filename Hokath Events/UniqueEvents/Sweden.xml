@@ -101,7 +101,33 @@
 			<EventType>EVENT_SWEDEN_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-	
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SWEDEN_UE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_SWEDEN_UE_DUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SWEDEN_UE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_SWEDEN_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_SWEDEN_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_RiverPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SWEDEN_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_RiverPlotYieldChanges>
 
 	<EventChoice_FreeUnits>
 		<Row>
@@ -223,34 +249,6 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_FeatureYieldChange>
-
-	<BuildingClasses>
-		<Row>
-			<Type>BUILDINGCLASS_SWEDEN_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
-		</Row>
-	</BuildingClasses>
-	<Buildings>
-		<Row>
-			<Type>BUILDING_SWEDEN_UE_DUMMY</Type>
-			<BuildingClass>BUILDINGCLASS_SWEDEN_UE_DUMMY</BuildingClass>
-			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_SWEDEN_UE_DUMMY</Description>
-			<FaithCost>-1</FaithCost>
-			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
-			<NukeImmune>true</NukeImmune>
-		</Row>
-	</Buildings>
-	<Building_RiverPlotYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_SWEDEN_UE_DUMMY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_RiverPlotYieldChanges>
-	
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_4</EventChoiceType>
@@ -258,6 +256,8 @@
 			<Yield>500</Yield>
 		</Row>
 	</EventChoice_InstantYield>
+	
+	
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_1</EventChoiceType>

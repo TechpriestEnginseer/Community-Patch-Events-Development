@@ -103,7 +103,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AZTEC_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AZTEC_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

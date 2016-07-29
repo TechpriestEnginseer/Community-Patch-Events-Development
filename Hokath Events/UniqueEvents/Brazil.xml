@@ -100,7 +100,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_BRAZIL_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_BRAZIL_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

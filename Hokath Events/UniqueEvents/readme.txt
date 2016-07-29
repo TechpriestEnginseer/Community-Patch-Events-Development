@@ -341,16 +341,57 @@ deforestation - req ecology, req junglemill, cost gold, zoo +sci+culture, jungle
 -----modded civs------
 
 --Garamantes--
+chariot routes
+desert agriculture
+moroccan brothers
 Fossils - 
+oil revenue
+
 --Khmer--
---Duranni--
-Opium trade - plantation++
---Zimbabwe--
---Bulgaria--
---Tibet--
-yaks
-palace
---Minoa--
---Flanders--
-sheep
-belfort
+bayon temple
+khmer script
+ecological catastrophe
+foreign mercs
+textile industry
+
+--Duranni--The Force Of The Wind
+places of power - req nat epic, cost faith, cities +faith per mountain
+shrine of the cloak - req theology, req holy city, capital +tourism on death
+qizilbash - req metallurgy, req war, cost faith, janissary in each city
+zamburak - req dynamite, cost science, promo for gatling gun & machine gun +move+desert
+Opium trade - req penicillin, 2copies tobacco, plantation -food++gold, crime increase
+
+--Zimbabwe--A Bull Has But One Herd
+mapungubwe - req caravansary, cost gold, copy ivory, copy gold
+mutapa - 
+rozwi -
+africa police -
+gukurahundi -
+
+--Bulgaria--The Rampant Lion
+khan heritage - req courthouse, get a khan
+inspired writing - req theology, cost faith, writers +faith
+order of war - req guilds, req heroic epic, kills +sci+cult in capital
+agrarianism - req fertilizer, req ideology, merchants&engineers -yields, farms +culture
+bulkan prussia - req replaceable parts, req manufactory, req war, march and wltkd
+
+--Tibet--Dharma King
+yaks - req engineering, req x bison, bison +food+prod+GAP
+potala palace - req theology, cost faith&gold, palace +food+faith+GAP
+rice cultivation - req chemistry, cost sci, farm +food, mountain tile can be worked for 5food
+reincarnation - req ideology, cost faith, +exp promo
+roof of the world - req ecology, cost sci&gold, mountains +GAP+gold+sci
+
+--Minoa--Blessings Of Ariadne
+bull leaping - req temple, req x bison, bison +faith+culture
+great laberynth - req machinery, cost gold, +faith+culture+great engineer% in capital
+venician period - req economics, req war minor, great merchant of venice
+positional importance - req replaceable parts, req x coastal, cost GAP, cities get gold per coast tile
+windy - req ecology, cost science&gold, wind plant in all cities
+
+--Flanders--Strength Through Unity
+sheep - req x sheep, req town, sheep +gold+culture, 2 copy tapestry
+belfort - req castle, cost culture, customs house +tour+faith+food
+chocolate - req economics, cost gold, workshop +cult, copies cocoa
+export beer - req biology, cost faith, wheat&sugar +gold+culture+tourism
+treaty organisation - req replaceable parts, req war, foreign legions, friendly lands promo

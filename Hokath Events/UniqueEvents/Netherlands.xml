@@ -50,6 +50,8 @@
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_ARTISTS_GUILD</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_NETHERLANDS_UE_DUMMY</EventBuildingClassGlobal>
+			<MinimumNumCoastalCities>3</MinimumNumCoastalCities>
+			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -106,7 +108,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_NETHERLANDS_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_NETHERLANDS_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -184,13 +186,13 @@
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>-5</YieldChange>
+			<YieldChange>-10</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<YieldChange>-5</YieldChange>
+			<YieldChange>-10</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_5</EventChoiceType>
@@ -217,7 +219,7 @@
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<Yield>-600</Yield>
+			<Yield>-250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_NETHERLANDS_UE_CHOICE_6</EventChoiceType>
@@ -336,7 +338,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_NETHERLANDS_UE_CHOICE_3">
-			<Text>{3_PlayerName} gives substantial powers to their East India Company!</Text>
+			<Text>{3_PlayerName} gives substantial powers to his East India Company!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_NETHERLANDS_UE_CHOICE_4_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
@@ -369,7 +371,7 @@
 			<Text>Every [ICON_GREAT_MERCHANT] Merchant also provides +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_3">
-			<Text>The East India Company demands -5 [ICON_GOLD] Gold and -5 [ICON_GOLDEN_AGE] Golden Age Points per turn. In exchange you gain access to a copy of [ICON_RES_SUGAR] Sugar, [ICON_RES_TOBACCO] Tobacco, [ICON_RES_COCOA] Cocoa, [ICON_RES_TEA] Tea, and [ICON_RES_COFFEE] Coffee.</Text>
+			<Text>The East India Company demands -10 [ICON_GOLD] Gold and -10 [ICON_GOLDEN_AGE] Golden Age Points per turn. In exchange you gain access to a copy of [ICON_RES_SUGAR] Sugar, [ICON_RES_TOBACCO] Tobacco, [ICON_RES_COCOA] Cocoa, [ICON_RES_TEA] Tea, and [ICON_RES_COFFEE] Coffee.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_4">
 			<Text>Use up to {2_InstantYield}. All Cities have a 20% increased [ICON_GREAT_MERCHANT] Great Merchant Birth Rate, and convert 10% of [ICON_GOLD] Gold to [ICON_CULTURE] Culture when purchasing.</Text>

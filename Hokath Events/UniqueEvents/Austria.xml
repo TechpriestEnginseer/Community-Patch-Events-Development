@@ -145,15 +145,15 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AUSTRIA_UE_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY_2</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AUSTRIA_UE_DUMMY_2</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY_3</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AUSTRIA_UE_DUMMY_3</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

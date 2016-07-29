@@ -106,7 +106,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_ROME_UE_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_ROME_UE_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
