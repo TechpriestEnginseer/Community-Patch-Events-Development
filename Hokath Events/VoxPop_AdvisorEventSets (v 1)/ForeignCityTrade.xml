@@ -122,7 +122,7 @@
 			<Text>There is plenty of room for new citizens. However, we should warn them that their particular sect will make them many enemies among the faithful.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_HELP_CHOICE_3">
-			<Text>Gain {2_InstantYield} from the people's supplies. 3 [ICON_WAR] Barbarians spawn around the City.</Text>
+			<Text>Gain {2_InstantYield} from the people's supplies. Up to 3 [ICON_WAR] Barbarians spawn around the City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_DESCRIPTION_CHOICE_3">
 			<Text>Sanctuary? We have barely enough as it is. Sieze their supplies, kill those who resist.</Text>
