@@ -19,7 +19,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_WAR_CITY_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<RequiresWar>true</RequiresWar>
-			<EventBuildingClass>BULDINGCLASS_AES_WAR_CITY_GOOD_DUMMY</EventBuildingClass>
+			<EventBuildingClass>BUILDINGCLASS_AES_WAR_CITY_GOOD_DUMMY</EventBuildingClass>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
