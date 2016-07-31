@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{7102e647-8ac9-4e6b-a480-ae774f432ec7}</ProjectGuid>
-    <Name>Vox Populi Natural Wonder Events</Name>
+    <Name>VoxPop_NaturalWonderEvents</Name>
     <Guid>ec984dfa-899f-47b7-960b-103eb66aeddf</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
