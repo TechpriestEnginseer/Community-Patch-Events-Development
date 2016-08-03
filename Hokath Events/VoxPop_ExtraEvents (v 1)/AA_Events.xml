@@ -194,6 +194,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>30</RandomChance>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ObsoleteEra>ERA_MEDIEVAL</ObsoleteEra>
