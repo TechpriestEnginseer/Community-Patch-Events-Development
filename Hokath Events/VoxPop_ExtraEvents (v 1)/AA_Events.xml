@@ -160,7 +160,7 @@
 			<Text>The glint was a node of ore, receive a copy of [ICON_RES_IRON] Iron.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP_CHOICE_5">
-			<Text>The glint was a small outcrop of , the City's Market yields +2 [ICON_GOLD] Gold.</Text>
+			<Text>The glint was a small outcrop of precious stone, the City's Market yields +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP_CHOICE_6">
 			<Text>The Mine is pillaged.</Text>
