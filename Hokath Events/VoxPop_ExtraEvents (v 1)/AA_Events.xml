@@ -193,7 +193,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>30</RandomChance>
+			<RandomChance>15</RandomChance>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
@@ -277,7 +277,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AA_OLYMPICGAMES_DUMMY</Type>
-			<DefaultBuilding></DefaultBuilding>
+			<DefaultBuilding>BUILDING_AA_OLYMPICGAMES_DUMMY</DefaultBuilding>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -374,22 +374,22 @@
 			<Text>Warriors have gathered from all over the Empire to fight in a tournament being held in the City. Everything is ready, it remains for you to open the games, Your Magnificence.[NEWLINE]To what ends shall we make use of this event?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_1">
-			<Text>The surviving gladiators enlist in the army. Gain an appropriate unit.</Text>
+			<Text>The surviving gladiators enlist in the army. Gain an appropriate Unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_2">
 			<Text>The games are the most memorable event in living memory, the Arena gains +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_3">
-			<Text>The ferocity of our warriors is sure to earn the respect of the local City States: an Emissary is recruited.</Text>
+			<Text>The ferocity of our warriors is sure to earn the respect of the local City States: an [COLOR_POSITIVE_TEXT]Emissary[ENDCOLOR] is recruited.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_4">
-			<Text>A rivalry between two teams erupts into a full blown conflict, spilling out into the suburbs. Two [ICON_WAR] Barbarians spawn.</Text>
+			<Text>A rivalry between two teams erupts into a full blown conflict, spilling out into the suburbs. Up to two [ICON_WAR] Barbarians spawn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_5">
 			<Text>Increased trade from the event boosts yields in the City: +5 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science for {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_6">
-			<Text>Offerings from the festival generate +1 [ICON_PEACE] Faith for every 2 [ICON_POPULATION] Population for {5_Turns}.</Text>
+			<Text>Offerings from the festival generate +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Population for {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION_CHOICE_1">
 			<Text>I'm a melee man myself. Let's offer an impressive military position to the victor and their chosen companions.</Text>
