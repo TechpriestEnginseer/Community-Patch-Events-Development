@@ -21,6 +21,7 @@
 			<Help>TXT_KEY_EVENT_SPAIN_UE_HELP_CHOICE_1</Help>
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_1</Description>
 			<FreeGreatPeople>1</FreeGreatPeople>
+			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
 		</Row>
 		<Row>
