@@ -157,8 +157,8 @@
 			<NearbyEnemyCombatMod>-10</NearbyEnemyCombatMod>
 			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
 			<Help>TXT_KEY_PROMOTION_UE_BAGPIPES_HELP</Help>
-			<PortraitIndex>15</PortraitIndex>
-			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_BAGPIPES</PediaEntry>
 		</Row>

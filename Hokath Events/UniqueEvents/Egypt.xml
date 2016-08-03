@@ -123,8 +123,8 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<FriendlyLandsModifier>15</FriendlyLandsModifier>
 			<Help>TXT_KEY_PROMOTION_UE_JIHAD_HELP</Help>
-			<PortraitIndex>15</PortraitIndex>
-			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_JIHAD</PediaEntry>
 		</Row>

@@ -30,6 +30,7 @@
 			<Description>TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COLOSSEUM</RequiredAnywhereBuildingClass>
 			<HappinessPerCity>-1</HappinessPerCity>
 			<EventPromotion>PROMOTION_UE_SOFA</EventPromotion>
 			<EventDuration>-1</EventDuration>

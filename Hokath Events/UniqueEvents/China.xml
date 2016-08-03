@@ -365,7 +365,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_CHINA_UE_CHOICE_1">
-			<Text>{3_PlayerName} rewards a loyal subject with a wealth and lands!</Text>
+			<Text>{3_PlayerName} rewards a loyal subject with wealth and lands!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_CHINA_UE_CHOICE_2_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>

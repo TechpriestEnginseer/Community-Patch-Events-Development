@@ -107,8 +107,8 @@
 			<Help>TXT_KEY_PROMOTION_UE_MOUNTAIN_TACTICS_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<PortraitIndex>59</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<CanMoveImpassable>true</CanMoveImpassable>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_MOUNTAIN_TACTICS</PediaEntry>

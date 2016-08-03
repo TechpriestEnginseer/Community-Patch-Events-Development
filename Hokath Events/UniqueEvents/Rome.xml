@@ -132,8 +132,8 @@
 			<Help>TXT_KEY_PROMOTION_UE_ALPINI_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<PortraitIndex>59</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<CanMoveImpassable>true</CanMoveImpassable>
 			<RoughDefense>20</RoughDefense>

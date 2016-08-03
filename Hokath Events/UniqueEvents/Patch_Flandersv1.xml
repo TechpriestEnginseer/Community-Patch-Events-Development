@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_FLANDERS_LS_MOD</Type>
+			<Description>TXT_KEY_FLANDERS_LS_MOD_DESC</Description>
+			<ShortDescription>TXT_KEY_FLANDERS_LS_MOD_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_FLANDERS_LS_MOD_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIVLOPEDIA_FLANDERS_LS_MOD</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_FLANDERS_LS_MOD</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<DerivativeCiv></DerivativeCiv>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_MOD_LS_13_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_MOD_ALPHA_LS_13_ATLAS</AlphaIconAtlas>
+			<MapImage>MapFlandersLSMod.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_DAWN_OF_MAN_FLANDERS_LS_MOD_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DoMFlandersLSMod.dds</DawnOfManImage>
+			<SoundtrackTag>NETHERLANDS</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<LeaderheadType>LEADER_FLANDERS_LS_MOD_ROBERTIII</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+			<UnitType>UNIT_LS_GOEDENDAG</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_FLANDERS_LS_MOD_ICON</Type>
+			<Red>0.0627</Red>
+			<Green>0.0823</Green>
+			<Blue>0.2627</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_FLANDERS_LS_MOD_BACKGROUND</Type>
+			<Red>1</Red>
+			<Green>0.9176</Green>
+			<Blue>0.1568</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_FLANDERS_LS_MOD</Type>
+			<PrimaryColor>COLOR_PLAYER_FLANDERS_LS_MOD_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_FLANDERS_LS_MOD_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_16</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_17</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANDERS_LS_MOD_18</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLANDERS_LS_MOD_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- ----------------------------------------UNIQUE EVENTS------------------------------------------------- -->
+	<Events>
+		<Row>
+			<Type>EVENT_FLANDERS_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION</Description>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP</Help>
+			<NumChoices>6</NumChoices>
+			<RandomChance>125</RandomChance>
+			<RandomChanceDelta>125</RandomChanceDelta>
+			<EventCooldown>0</EventCooldown>
+			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_CLASSICAL</RequiredEra>
+			<RequiredCiv>CIVILIZATION_FLANDERS_LS_MOD</RequiredCiv>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
+		</Row>
+	</Events>
+	<EventChoices>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_1</Type>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_1</Help>
+			<FreeGreatPeople>1</FreeGreatPeople>
+			<EventDuration>150</EventDuration>
+			<IsOneShot>false</IsOneShot>
+		</Row>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_2</Type>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_2</Description>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+			<ImprovementAnywhereRequired>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementAnywhereRequired>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<EraScaling>true</EraScaling>
+		</Row>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_3</Type>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_3</Help>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_3</Description>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MINT</RequiredAnywhereBuildingClass>
+			<ImprovementAnywhereRequired>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementAnywhereRequired>
+			<EraScaling>true</EraScaling>
+		</Row>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_4</Type>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_4</Help>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_4</Description>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<EraScaling>true</EraScaling>
+			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HARBOR</RequiredAnywhereBuildingClass>
+		</Row>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_5</Type>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_5</Help>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_5</Description>
+			<IsOneShot>true</IsOneShot>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
+			<EraScaling>true</EraScaling>
+		</Row>
+		<Row>
+			<Type>EVENT_FLANDERS_UE_CHOICE_6</Type>
+			<Help>TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_6</Help>
+			<Description>TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_6</Description>
+			<IsOneShot>true</IsOneShot>
+			<RequiredEra>ERA_POSTMODERN</RequiredEra>
+			<RequiresWar>true</RequiresWar>
+			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
+			<EventDuration>-1</EventDuration>
+		</Row>
+	</EventChoices>
+	<Event_ParentEvents>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_1</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
+			<EventType>EVENT_FLANDERS_UE</EventType>
+		</Row>
+	</Event_ParentEvents>
+
+	<EventChoice_FreeUnits>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
+			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_FreeUnits>
+	<EventChoice_MinimumResourceRequired>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+	</EventChoice_MinimumResourceRequired>
+	<EventChoice_BuildingClassYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_BuildingClassYieldChange>
+	<EventChoice_ImprovementYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_ImprovementYieldChange>
+	<EventChoice_ResourceYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_ResourceYieldChange>
+	<EventChoice_ResourceQuantity>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_LS_TAPESTRY</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+	</EventChoice_ResourceQuantity>
+	<EventChoice_EventCostYield>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>400</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_EventCostYield>
+
+	<EventChoiceFlavors>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_1</EventChoiceType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+	</EventChoiceFlavors>
+	<EventChoice_Notification>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_1</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_1</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_1_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_2</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_2_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_3</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_3_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_4</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_4</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_4_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_5</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_5_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_6</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_6_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+	</EventChoice_Notification>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_1_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_1">
+			<Text>{3_PlayerName} uplifts a Great Person of common birth!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_2_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_2">
+			<Text>{3_PlayerName} puts into place a body to support and oversee the large Flemish [ICON_RES_LS_TAPESTRY] Tapestry industry!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_3_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_3">
+			<Text>{3_PlayerName} ensures the competance and unity of his regional authorities with improved infrastructure and status.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_4_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_4">
+			<Text>{3_PlayerName}'s mercantilist policies acquire additional source of [ICON_RES_COCOA] Cocoa for his luxury goods sector.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_5_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_5">
+			<Text>After long last, {3_PlayerName} acquires the secrets of Trappist brewing, becoming a leading exporter of beer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_6_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FLANDERS_UE_CHOICE_6">
+			<Text>Foreign interests come to {3_PlayerName}'s aid, expeditionary forces have arrived all over Flanders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION">
+			<Text>Strength Through Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP">
+			<Text>My King, your Advisors have been caught making the governing of the country needlessly complicated. Again.[NEWLINE]It would perhaps be helpful if you were to instil some kind of directive or aim - a distraction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_1">
+			<Text>Receive a Great Person of your choice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_2">
+			<Text>Expand the weaving industry for {1_YieldCost}. Receive 2 copies of [ICON_RES_LS_TAPESTRY] Tapestry and [ICON_RES_SHEEP] Sheep yield +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_3">
+			<Text>Organise {1_YieldCost} to construct administrative Belforts in your urban centers. Customs Houses and Bourgs generate +1 [ICON_PEACE] Faith, [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_4">
+			<Text>Acquire {1_YieldCost} worth of materials to fund luxury businesses. Receive 3 copies of [ICON_RES_COCOA] Cocoa, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_5">
+			<Text>Agree terms requiring {1_YieldCost} with Trappist monks to corporatise their brewing. Sources of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar and Bourgs yield +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_6">
+			<Text>A Foreign Legion comes to the aid of every City. All eligible Units receive the Homeland Guardian Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_1">
+			<Text>Oh no, they have to be stopped. I will reward the Advisor who can find me the most competent leader amongst the rural population, that should take them a while.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_2">
+			<Text>I have just the thing. Our weaving industry is blossoming, and our tapestries are desired far and wide. I need legal and economic support for this industry to be drawn up and implemented.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_3">
+			<Text>We have many populated centers which need better administration. I want plans drawn up to regiment and order the various religious, political and economic groups.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_4">
+			<Text>Our chocolatiers are doing excellent trade, but we have been unable to acquire additional suppliers of Cocoa. Perhaps we could task our Advisors with finding more, it should be extremely challenging and time consuming.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_5">
+			<Text>For centuries we have been trying to get the secret of the monks' brewing techniques. If we were to set our Advisors to the task, we would be sure to solve one of the problems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_6">
+			<Text>For the love of the Almighty. We are under attack, enemies close in all around and what are these so-called councillors contributing? Send them away, to all the friends we have left. They are to come back with reinforcements, or not at all.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
