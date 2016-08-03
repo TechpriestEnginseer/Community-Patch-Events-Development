@@ -315,7 +315,7 @@
 	</CityEventChoice_CityYield>
 	<CityEventChoice_FreeUnits>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_NW_EL_DORADO_CHOICE_3</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AA_OLYMPICGAMES_CHOICE_3</CityEventChoiceType>
 			<UnitType>UNIT_EMISSARY</UnitType>
 			<Quantity>1</Quantity>
 		</Row>
