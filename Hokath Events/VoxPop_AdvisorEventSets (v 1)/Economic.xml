@@ -41,7 +41,7 @@
 			<Text>Charity Begins At Home</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_ECONOMIC_HELP">
-			<Text>Recently, your ECONOMIC Advisor has been bombarding your office with folder upon folder of new schemes and projects.[NEWLINE]She awaits your decision.</Text>
+			<Text>Recently, your Economic Advisor has been bombarding your office with folder upon folder of new schemes and projects.[NEWLINE]She awaits your decision.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_ECONOMIC_HELP_CHOICE_1">
 			<Text>For {4_Turns}, significant events related to these schemes may occur.</Text>
@@ -53,7 +53,7 @@
 			<Text>She is the first and most accomplished governer at my disposal, it would be wise to heed her advice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_ECONOMIC_DESCRIPTION_CHOICE_2">
-			<Text>I do not believe the time is right to begin experimenting with the FOREIGNnomy. These plans will have to be put on the backburner.</Text>
+			<Text>I do not believe the time is right to begin experimenting with the economy. These plans will have to be put on the backburner.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
