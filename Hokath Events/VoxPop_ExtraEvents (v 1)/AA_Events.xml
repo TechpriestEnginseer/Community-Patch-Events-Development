@@ -84,7 +84,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AA_MINEGLINT_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>20</Yield>
+			<Yield>30</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoice_ResourceQuantity>
