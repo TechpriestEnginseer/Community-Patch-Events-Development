@@ -51,6 +51,7 @@
 			<RequiresWar>true</RequiresWar>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
+			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -226,13 +227,6 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
-	<EventChoice_FreeUnits>
-		<Row>
-			<EventChoiceType>EVENT_ROME_UE_CHOICE_4</EventChoiceType>
-			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
-			<Quantity>1</Quantity>
-		</Row>
-	</EventChoice_FreeUnits>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_5</EventChoiceType>
@@ -423,7 +417,7 @@
 			<Text>Provide {1_YieldCost} worth of material for the Thermae: Baths generate +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_4">
-			<Text>Use {1_YieldCost} to attract an Envoy and a Landsknecht to every City.</Text>
+			<Text>Use {1_YieldCost} to attract an [COLOR_POSITIVE_TEXT]Envoy[ENDCOLOR] and an appropriate [COLOR_POSITIVE_TEXT]Unit[ENDCOLOR] to every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_5">
 			<Text>All eligible Units, as well as those produced in the future, gain the Infiltrators Promotion. All Embassies under your control yield +5 [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
