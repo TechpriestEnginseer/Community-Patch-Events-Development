@@ -220,6 +220,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION_CHOICE_3</Description>
 			<RequiresGarrison>true</RequiresGarrison>
+			<PrereqTech>TECH_WRITING</PrereqTech>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_AA_OLYMPICGAMES_CHOICE_4</Type>
@@ -451,7 +452,8 @@
 			<Type>CITY_EVENT_AA_FARMBONES_CHOICE_3</Type>
 			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION_CHOICE_3</Description>
-			<RequiredBuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</RequiredBuildingClass>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<RequiredBuildingClass>BUILDINGCLASS_UNIVERSITY</RequiredBuildingClass>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
