@@ -36,7 +36,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_FOREIGN_CITY_BAD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>-100</Yield>
+			<Yield>-75</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoice_GreatPersonPoints>
