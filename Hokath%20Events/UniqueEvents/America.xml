@@ -1,0 +1,400 @@
+<GameData>
+	<Events>
+		<Row>
+			<Type>EVENT_AMERICA_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION</Description>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP</Help>
+			<NumChoices>6</NumChoices>
+			<RandomChance>125</RandomChance>
+			<RandomChanceDelta>125</RandomChanceDelta>
+			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_CLASSICAL</RequiredEra>
+			<RequiredCiv>CIVILIZATION_AMERICA</RequiredCiv>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
+		</Row>
+	</Events>
+	<EventChoices>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_1</Type>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_1</Help>
+			<FreeGreatPeople>1</FreeGreatPeople>
+			<EventDuration>150</EventDuration>
+			<IsOneShot>false</IsOneShot>
+		</Row>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_2</Type>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_2</Description>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STABLE</RequiredAnywhereBuildingClass>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+		</Row>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_3</Type>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_3</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_3</Description>
+			<MinimumNationalPopulation>60</MinimumNationalPopulation>
+			<RequiresWarMinor>true</RequiresWarMinor>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+		</Row>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_4</Type>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_4</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4</Description>
+			<IsOneShot>true</IsOneShot>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STOCKYARD</RequiredAnywhereBuildingClass>
+			<UnitClassRequired>UNITCLASS_CAVALRY</UnitClassRequired>
+			<LosingMoney>true</LosingMoney>
+			<EventDuration>-1</EventDuration>
+		</Row>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_5</Type>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5</Description>
+			<IsOneShot>true</IsOneShot>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_POLICE_STATION</RequiredAnywhereBuildingClass>
+			<EventDuration>75</EventDuration>
+			<Expires>true</Expires>
+		</Row>
+		<Row>
+			<Type>EVENT_AMERICA_UE_CHOICE_6</Type>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_6</Description>
+			<IsOneShot>true</IsOneShot>
+			<RequiresWar>true</RequiresWar>
+			<UnitClassRequired>UNITCLASS_ATOMIC_BOMB</UnitClassRequired>
+			<EventBuildingClassGlobal>BUILDINGCLASS_AMERICA_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
+		</Row>
+	</EventChoices>
+	<Event_ParentEvents>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_1</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_6</EventChoiceType>
+			<EventType>EVENT_AMERICA_UE</EventType>
+		</Row>
+	</Event_ParentEvents>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AMERICA_UE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_AMERICA_UE_DUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICA_UE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_AMERICA_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_AMERICA_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	
+	<EventChoice_CityUnhappinessNeedMod>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</EventChoice_CityUnhappinessNeedMod>
+	<EventChoice_ResourceQuantity>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>-4</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_ResourceQuantity>
+	<EventChoice_MinimumResourceRequired>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+	</EventChoice_MinimumResourceRequired>
+	<EventChoice_ResourceYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_ResourceYieldChange>
+	<EventChoice_ImprovementYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_ImprovementYieldChange>
+	<EventChoiceFlavors>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_1</EventChoiceType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_6</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_6</EventChoiceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</EventChoiceFlavors>
+	<EventChoice_Notification>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_1</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_6</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+	</EventChoice_Notification>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1">
+			<Text>{3_PlayerName} invests in a incredible invention!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2">
+			<Text>{3_PlayerName} has released horses back into the wild.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3">
+			<Text>{3_PlayerName} has sparked massive internal migration!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4">
+			<Text>{3_PlayerName} subsidises ranches across the Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5">
+			<Text>{3_PlayerName} bans alcohol, leading to an instantaneous rise in Crime and partying!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6">
+			<Text>{3_PlayerName} has experienced a popular musical awakening.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION">
+			<Text>Out of Many, One</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP">
+			<Text>A pioneer has approached the treasury seeking financial and legal backing for a daring enterprise.[NEWLINE][NEWLINE]What can this do for our country?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_1">
+			<Text>Receive a Great Person of your choice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_2">
+			<Text>Lose 4 [ICON_RES_HORSE] Horses. Gain +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold on all sources of [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_3">
+			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_4">
+			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5">
+			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 20%. Effects last {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6">
+			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1">
+			<Text>*It is an idea of brilliance!*[NEWLINE]I'd like the record to show that this has the full support of the American government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_2">
+			<Text>*The presentation details how wild Horses, hunted to near extinction, could be repopulated. The long term benefits are significant*[NEWLINE]We must secure the ecological and cultural heritage of our children.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_3">
+			<Text>*Population density is identified as highly irregular. Encouraging resettlement could increase our prosperity tenfold!*[NEWLINE]The conflicts with our neighbours are pointless when we can find all we need here, at home.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4">
+			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely. Integrating these men into urban society would be a nightmare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5">
+			<Text>*The benefits of a dry state have been made clear*[NEWLINE]We must prevent temptation from corrupting good Americans. If there's a small bit of bootlegging as a result, well... business is business.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_6">
+			<Text>*This entrepreneur believes the music industry could become unthinkably profitable, and requests legal assistance to aid his vision*[NEWLINE]I don't see why the emergency law against public gatherings can't be relaxed for this remote 'music fair'. If all the hoppies are sitting in some field, they can't be protesting the war!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_UE_DUMMY">
+			<Text></Text>
+		</Row>
+	</Language_en_US>
+</GameData>
