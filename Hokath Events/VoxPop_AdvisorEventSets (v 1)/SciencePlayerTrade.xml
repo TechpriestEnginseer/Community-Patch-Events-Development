@@ -9,10 +9,15 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</RequiredAnywhereBuildingClass>
 		</Row>
 	</Events>
+	<Event_EventLinks>
+		<Row>
+			<EventType>EVENT_AES_SCIENCE_PLAYER_TRADE</EventType>
+			<EventChoice>EVENT_AES_SCIENCE_CHOICE_1</EventChoice>
+		</Row>
+	</Event_EventLinks>
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_PLAYER_TRADE_CHOICE_1</Type>

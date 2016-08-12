@@ -9,10 +9,15 @@
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiredActiveEventChoice>
 			<RequiresWar>true</RequiresWar>
 		</Row>
 	</Events>
+	<Event_EventLinks>
+		<Row>
+			<EventType>EVENT_AES_WAR_PLAYER_BAD</EventType>
+			<EventChoice>EVENT_AES_WAR_CHOICE_1</EventChoice>
+		</Row>
+	</Event_EventLinks>
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AES_WAR_PLAYER_BAD_CHOICE_1</Type>

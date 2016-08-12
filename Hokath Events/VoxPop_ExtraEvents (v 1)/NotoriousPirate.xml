@@ -14,9 +14,15 @@
 			<RandomChanceDelta>1</RandomChanceDelta>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
-			<RequiredNoActiveCityEventAnywhere>CITY_EVENT_NOTORIOUS_PIRATE</RequiredNoActiveCityEventAnywhere>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_NOTORIOUS_PIRATE</CityEventType>
+			<CityEventLinker>CITY_EVENT_NOTORIOUS_PIRATE</CityEventLinker>
+			<CheckForActive>false</CheckForActive>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_NOTORIOUS_PIRATE_CHOICE_1</Type>

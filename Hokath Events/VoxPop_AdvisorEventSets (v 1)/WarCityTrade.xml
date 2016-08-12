@@ -9,10 +9,15 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredBuildingClass>BUILDINGCLASS_ARSENAL</RequiredBuildingClass>
-			<RequiredActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiredActiveEventChoice>
+			<RequiredBuildingClass>BUILDINGCLASS_ARMORY</RequiredBuildingClass>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_WAR_CITY_TRADE</CityEventType>
+			<EventChoice>EVENT_AES_WAR_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_WAR_CITY_TRADE_CHOICE_1</Type>

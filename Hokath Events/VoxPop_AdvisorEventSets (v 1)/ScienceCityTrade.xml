@@ -8,9 +8,14 @@
 			<NumChoices>3</NumChoices>
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>1</RandomChanceDelta>
-			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE</CityEventType>
+			<EventChoice>EVENT_AES_SCIENCE_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</Type>
@@ -169,9 +174,14 @@
 			<NumChoices>1</NumChoices>
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
-			<RequiredActiveCityEventChoice>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</RequiredActiveCityEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP</CityEventType>
+			<CityEventChoice>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</Type>

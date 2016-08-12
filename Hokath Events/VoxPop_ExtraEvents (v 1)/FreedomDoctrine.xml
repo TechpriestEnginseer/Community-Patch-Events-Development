@@ -26,7 +26,6 @@
 			<Type>EVENT_FREEDOM_DOCTRINE_CHOICE_2</Type>
 			<Help>TXT_KEY_EVENT_FREEDOM_DOCTRINE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_FREEDOM_DOCTRINE_DESCRIPTION_CHOICE_2</Description>
-			<RequiredNoActiveEventChoiceOtherPlayer>EVENT_FREEDOM_DOCTRINE_CHOICE_2</RequiredNoActiveEventChoiceOtherPlayer>
 		</Row>
 		<Row>
 			<Type>EVENT_FREEDOM_DOCTRINE_CHOICE_3</Type>
@@ -35,6 +34,14 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_POLICE_STATION</RequiredAnywhereBuildingClass>
 		</Row>
 	</EventChoices>
+	<EventChoice_EventLinks>
+		<Row>
+			<EventChoiceType>EVENT_FREEDOM_DOCTRINE_CHOICE_2</EventChoiceType>
+			<EventChoiceLinker>EVENT_FREEDOM_DOCTRINE_CHOICE_2</EventChoiceLinker>
+			<CheckForActive>false</CheckForActive>
+			<CheckKnownPlayers>true</CheckKnownPlayers>
+		</Row>
+	</EventChoice_EventLinks>
 	<Event_ParentEvents>
 		<Row>
 			<EventChoiceType>EVENT_FREEDOM_DOCTRINE_CHOICE_1</EventChoiceType>

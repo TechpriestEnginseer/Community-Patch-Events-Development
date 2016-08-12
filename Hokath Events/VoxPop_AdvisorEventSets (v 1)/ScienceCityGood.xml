@@ -9,9 +9,14 @@
 			<RandomChance>70</RandomChance>
 			<RandomChanceDelta>5</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_GOOD</CityEventType>
+			<EventChoice>EVENT_AES_SCIENCE_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_1</Type>

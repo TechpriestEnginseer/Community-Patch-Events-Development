@@ -14,9 +14,16 @@
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredIdeology>POLICY_BRANCH_ORDER</RequiredIdeology>
 			<RequiresOccupied>true</RequiresOccupied>
-			<RequiredActivePlayerEventChoiceOtherPlayer>EVENT_FREEDOM_DOCTRINE_CHOICE_2</RequiredActivePlayerEventChoiceOtherPlayer>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_FREEDOM_PARTISANS_AUTOCRACY</CityEventType>
+			<EventChoice>EVENT_FREEDOM_DOCTRINE_CHOICE_2</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>true</CheckKnownPlayers>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_FREEDOM_PARTISANS_AUTOCRACY_CHOICE_1</Type>

@@ -9,9 +9,14 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_WAR_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_WAR_CITY_GOOD</CityEventType>
+			<EventChoice>EVENT_AES_WAR_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_WAR_CITY_GOOD_CHOICE_1</Type>

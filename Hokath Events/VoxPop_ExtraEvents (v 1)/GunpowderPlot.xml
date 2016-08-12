@@ -11,12 +11,12 @@
 			<IsOneShot>true</IsOneShot>
 			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<CapitalOnly>true</CapitalOnly>
-			<EventCooldown>75</EventCooldown>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsUnhappy>true</IsUnhappy>
 		</Row>
 	</CityEvents>
+	
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_1</Type>
@@ -31,7 +31,7 @@
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION_CHOICE_2</Description>
 			<RequiredPolicy>POLICY_THEOCRACY</RequiredPolicy>
-			<ConvertToPlayerMajorityReligionPercent>60</ConvertToPlayerMajorityReligionPercent>
+			<ConvertToPlayerMajorityReligionPercent>100</ConvertToPlayerMajorityReligionPercent>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_3</Type>
@@ -167,7 +167,7 @@
 			<Text>50% chance for {5_Turns} turns of [ICON_RESISTANCE] Resistance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_2">
-			<Text>Convert 60% of followers to your Religion, but lose -2 [ICON_CITIZEN] Population.</Text>
+			<Text>Convert all [ICON_CITIZEN] Population to your [ICON_RELIGION] Religion, but lose -2 [ICON_CITIZEN] Population in the process.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_3">
 			<Text>2 [ICON_HAPPINESS_4] Unhappiness for 15 turns.</Text>

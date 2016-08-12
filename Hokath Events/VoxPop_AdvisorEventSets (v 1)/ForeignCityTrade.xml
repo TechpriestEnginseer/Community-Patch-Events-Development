@@ -7,13 +7,22 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_HELP</Help>
 			<NumChoices>3</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_WALLS</RequiredBuildingClass>
-			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
-			<RequiredNoActiveCityEventAnywhere>CITY_EVENT_AES_FOREIGN_CITY_TRADE</RequiredNoActiveCityEventAnywhere>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventType>
+			<EventChoice>EVENT_AES_FOREIGN_CHOICE_1</EventChoice>
+		</Row>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventType>
+			<CityEventLinker>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventLinker>
+			<CheckForActive>false</CheckForActive>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_FOREIGN_CITY_TRADE_CHOICE_1</Type>
@@ -21,6 +30,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<ImprovementRequired>IMPROVEMENT_PLANTATION</ImprovementRequired>
+			<EventDuration>100</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_AES_FOREIGN_CITY_TRADE_CHOICE_2</Type>
@@ -28,6 +38,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_TRADE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
 			<CityHappiness>-2</CityHappiness>
+			<EventDuration>100</EventDuration>
 			<EventBuildingClass>BUILDINGCLASS_SYNAGOGUE</EventBuildingClass>
 			<CityHasPlayerReligion>true</CityHasPlayerReligion>
 		</Row>
@@ -39,6 +50,7 @@
 			<RequiresGarrison>true</RequiresGarrison>
 			<RandomBarbarianSpawn>3</RandomBarbarianSpawn>
 			<EraScaling>true</EraScaling>
+			<EventDuration>100</EventDuration>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>

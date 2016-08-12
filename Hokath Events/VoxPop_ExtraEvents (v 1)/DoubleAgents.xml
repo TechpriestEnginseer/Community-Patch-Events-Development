@@ -108,13 +108,13 @@
 			<Text>An agent we planted in a foreign intelligence agency believes she is being fed false information.[NEWLINE][NEWLINE]How should we instruct her to continue?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DOUBLE_AGENTS_HELP_CHOICE_1">
-			<Text>Gain the Covert Action Policy for {4_Turns}.</Text>
+			<Text>Gain the [COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR] Policy for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DOUBLE_AGENTS_HELP_CHOICE_2">
-			<Text>Wire Service increase [ICON_RESEARCH] Science in Cities by 10%.</Text>
+			<Text>Wire Services increase [ICON_RESEARCH] Science in Cities by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DOUBLE_AGENTS_HELP_CHOICE_3">
-			<Text>Lose 500 [ICON_GOLDEN_AGE] Golden Age points in exchange for a Great Person.</Text>
+			<Text>Lose 500 [ICON_GOLDEN_AGE] Golden Age points in exchange for a [ICON_GREAT_PERSON] Great Person.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DOUBLE_AGENTS_DESCRIPTION_CHOICE_1">
 			<Text>Let them doctor their schematics; meanwhile we will put more people inside their Covert Action scheme.</Text>

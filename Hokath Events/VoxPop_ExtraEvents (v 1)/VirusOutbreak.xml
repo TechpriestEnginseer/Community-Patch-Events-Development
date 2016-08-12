@@ -11,10 +11,21 @@
 			<EventCooldown>25</EventCooldown>
 			<MinimumCityPopulation>20</MinimumCityPopulation>
 			<RandomChanceDelta>2</RandomChanceDelta>
-			<RequiredActivePlayerEventChoiceOtherPlayer>EVENT_MOTABA_VIRUS_CHOICE_1</RequiredActivePlayerEventChoiceOtherPlayer>
-			<RequiredNoActiveCityEventChoiceAnywhere>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</RequiredNoActiveCityEventChoiceAnywhere>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_MOTABA_OUTBREAK</CityEventType>
+			<EventChoice>EVENT_MOTABA_VIRUS_CHOICE_1</EventChoice>
+			<CheckKnownPlayers>true</CheckKnownPlayers>
+			<CheckForActive>true</CheckForActive>
+		</Row>
+		<Row>
+			<CityEventType>CITY_EVENT_MOTABA_OUTBREAK</CityEventType>
+			<CityEventChoice>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoice>
+			<CheckForActive>false</CheckForActive>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_1</Type>
@@ -103,10 +114,10 @@
 			<Text>The city has been gripped by the deadly Motaba virus. At this time, there is no available treatment. We must prepare for the worst.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_1">
-			<Text>Lose 5 [ICON_CITIZEN] Population.</Text>
+			<Text>Lose {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_HELP_CHOICE_2">
-			<Text>Lose 5 [ICON_CITIZEN] Population and 2000 [ICON_RESEARCH] Science, but become immune to such events in the future.</Text>
+			<Text>Lose {2_InstantYield}, but become immune to such events in the future.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MOTABA_OUTBREAK_DESCRIPTION_CHOICE_1">
 			<Text>Quarantine is the only option we have available.</Text>

@@ -9,9 +9,14 @@
 			<RandomChance>100</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</Events>
+	<Event_EventLinks>
+		<Row>
+			<EventType>EVENT_AES_ECONOMIC_PLAYER_TRADE</EventType>
+			<EventChoice>EVENT_AES_ECONOMIC_CHOICE_1</EventChoice>
+		</Row>
+	</Event_EventLinks>
 	<Event_MinimumStartYield>
 		<Row>
 			<EventType>EVENT_AES_ECONOMIC_PLAYER_TRADE</EventType>

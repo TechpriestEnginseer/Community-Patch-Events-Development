@@ -18,7 +18,7 @@
 			<Type>EVENT_AES_SCIENCE_CHOICE_1</Type>
 			<Description>TXT_KEY_EVENT_AES_SCIENCE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_HELP_CHOICE_1</Help>
-			<EventDuration>150</EventDuration>
+			<EventDuration>100</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_SCIENCE_CHOICE_2</Type>

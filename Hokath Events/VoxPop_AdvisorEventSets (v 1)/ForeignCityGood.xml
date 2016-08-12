@@ -7,12 +7,18 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_GOOD_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>2</RandomChanceDelta>
+			<RandomChanceDelta>0</RandomChanceDelta>
+			<RequiredBuildingClass>BUILDINGCLASS_CARAVANSARY</RequiredBuildingClass>
 			<IsOneShot>true</IsOneShot>
-			<HasTradeConnection>true</HasTradeConnection>
-			<RequiredActiveEventChoice>EVENT_AES_FOREIGN_CHOICE_1</RequiredActiveEventChoice>
+			<!-- <HasTradeConnection>true</HasTradeConnection> not convinced its working -->
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_FOREIGN_CITY_GOOD</CityEventType>
+			<EventChoice>EVENT_AES_FOREIGN_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_FOREIGN_CITY_GOOD_CHOICE_1</Type>

@@ -25,18 +25,23 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="F2671C975C86C4064922986DD414B41E" import="0">AA_Events.xml</File>
     <File md5="C3E7C33E74741588EEBC5F4B4D53B31E" import="0">FakePainting.xml</File>
-    <File md5="BABCDA21BC8DD3180F8B3F22146E4DF1" import="0">FreedomDoctrine.xml</File>
-    <File md5="DB5F5D7C8A828B907CF83980F1929814" import="0">FreedomPartisansAutocracy.xml</File>
-    <File md5="F0F7A777FACE2C843C4E1099AFAC2523" import="0">FreedomPartisansOrder.xml</File>
-    <File md5="A3821E05483E540F87CD63B36B07E0F3" import="0">Pipeline.xml</File>
-    <File md5="7B8B4267A21DA755DF41805A81DE2B3F" import="0">DoubleAgents.xml</File>
-    <File md5="34577B00072DF2CC1CE19B74EB3EFFDD" import="0">OilExplosion.xml</File>
-    <File md5="4189CC823B3B944266EE8C318DE70BFD" import="0">GunpowderPlot.xml</File>
-    <File md5="4829F6D659A90DF6407D79BAA67339D2" import="0">Motaba.xml</File>
-    <File md5="475F6ED9F913D42D4B5713311E45BC09" import="0">ContrabandSmugglers.xml</File>
-    <File md5="82733BB8A485E477A5B757A4F990893D" import="0">NotoriousPirate.xml</File>
-    <File md5="4263D517D4CAD3120DD3846FD8657CE4" import="0">VirusOutbreak.xml</File>
+    <File md5="2F9EEF05475DCBAB7CFF4EC93803946E" import="0">FirstSummit.xml</File>
+    <File md5="601F4FA5E4252541B64000F48344C660" import="0">FreedomDoctrine.xml</File>
+    <File md5="A14D65C3881A73714EB1C1A90AAA8225" import="0">FreedomPartisansAutocracy.xml</File>
+    <File md5="E3189D922C652473D6EB671CB273EEC0" import="0">FreedomPartisansOrder.xml</File>
+    <File md5="51EE74B84AAB3BD4A6A9B095673DC2C7" import="0">Musketeers.xml</File>
+    <File md5="EA1B97459CB0187A62D0F161EF443DB0" import="0">PETA.xml</File>
+    <File md5="7866FC3DD8F67F71EF0EAA753A47E5D8" import="0">Pipeline.xml</File>
+    <File md5="D8C5E945B9AB48995348885458FDC582" import="0">DoubleAgents.xml</File>
+    <File md5="F2FADC6A51388B73C250E7A5028F9E9F" import="0">OilExplosion.xml</File>
+    <File md5="19DAAF2C5D1C9E65C9595C40C216AADE" import="0">GunpowderPlot.xml</File>
+    <File md5="8860A6EBA10B39142D8D5C3D558F27F6" import="0">Motaba.xml</File>
+    <File md5="CB5857023015C4DBB9D2B73B6F5E6460" import="0">ContrabandSmugglers.xml</File>
+    <File md5="677480548FF49648EDCABCB06A2B3C33" import="0">NotoriousPirate.xml</File>
+    <File md5="2F36FBF2B5D3C1E2DE2971FC944ECAF3" import="0">PrizeHide.xml</File>
+    <File md5="60D317E45DEB77EE819897C722D2EBF4" import="0">VirusOutbreak.xml</File>
     <File md5="015C32F8DF66842DD4D057D6869026DB" import="0">WarMaterials.xml</File>
   </Files>
   <Actions>
@@ -54,6 +59,11 @@
       <UpdateDatabase>Pipeline.xml</UpdateDatabase>
       <UpdateDatabase>OilExplosion.xml</UpdateDatabase>
       <UpdateDatabase>DoubleAgents.xml</UpdateDatabase>
+      <UpdateDatabase>AA_Events.xml</UpdateDatabase>
+      <UpdateDatabase>PETA.xml</UpdateDatabase>
+      <UpdateDatabase>PrizeHide.xml</UpdateDatabase>
+      <UpdateDatabase>FirstSummit.xml</UpdateDatabase>
+      <UpdateDatabase>Musketeers.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

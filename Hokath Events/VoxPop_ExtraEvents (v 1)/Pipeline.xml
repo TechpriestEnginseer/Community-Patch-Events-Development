@@ -35,6 +35,14 @@
 			<EventTech>TECH_REFRIGERATION</EventTech>
 		</Row>
 	</EventChoices>
+	<EventChoice_EventLinks>
+		<Row>
+			<EventChoiceType>EVENT_PIPELINE_CHOICE_2</EventChoiceType>
+			<EventChoiceLinker>EVENT_PIPELINE_CHOICE_2</EventChoiceLinker>
+			<CheckForActive>false</CheckForActive>
+			<CheckKnownPlayers>true</CheckKnownPlayers>
+		</Row>
+	</EventChoice_EventLinks>
 	<Event_ParentEvents>
 		<Row>
 			<EventChoiceType>EVENT_PIPELINE_CHOICE_1</EventChoiceType>
@@ -118,7 +126,7 @@
 			<Text>Temporarily, Foreign [ICON_RES_OIL] Oil resources will be likely to explode.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PIPELINE_HELP_CHOICE_3">
-			<Text>Gain the Refridgeration technology.</Text>
+			<Text>Gain the [COLOR_POSITIVE_TEXT]Refridgeration[ENDCOLOR] Technology.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PIPELINE_DESCRIPTION_CHOICE_1">
 			<Text>With influence over trading, we should be able to make sure some of that [ICON_RES_OIL] Oil finds its way to our ports.</Text>

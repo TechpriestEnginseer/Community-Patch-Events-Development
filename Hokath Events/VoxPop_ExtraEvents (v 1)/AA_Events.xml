@@ -1,5 +1,5 @@
 <GameData>
-	<!-- Anastase Mine Event -->
+<!-- Anastase Mine -->
 	<CityEvents>
 		<Row>
 			<Type>CITY_EVENT_AA_MINEGLINT</Type>
@@ -233,7 +233,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION_CHOICE_5</Description>
 			<RequiredBuildingClass>BUILDINGCLASS_MARKET</RequiredBuildingClass>
-			<HasTradeConnection>true</HasTradeConnection>
+			<!-- <HasTradeConnection>true</HasTradeConnection> not convinced is working -->
 			<EventDuration>30</EventDuration>
 			<Expires>true</Expires>
 		</Row>
@@ -381,7 +381,7 @@
 			<Text>The games are the most memorable event in living memory, the Arena gains +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_3">
-			<Text>The ferocity of our warriors is sure to earn the respect of the local City States: an [COLOR_POSITIVE_TEXT]Emissary[ENDCOLOR] is recruited.</Text>
+			<Text>The ferocity of our warriors is sure to earn the respect of the local City States: an Emissary is recruited.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_4">
 			<Text>A rivalry between two teams erupts into a full blown conflict, spilling out into the suburbs. Up to two [ICON_WAR] Barbarians spawn.</Text>
@@ -561,7 +561,7 @@
 			<Text>A local farmer has uncovered the bones of some kind of huge creature unlike any seen in living memory. Would you like us to send some men to acquire these remains?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_1">
-			<Text>Begin {5_Turns} of WLTKD.</Text>
+			<Text>Begin {5_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP_CHOICE_2">
 			<Text>The interment at the Shrine permenantly yields +2 [ICON_PEACE] Faith.</Text>

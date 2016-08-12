@@ -7,11 +7,16 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_HELP</Help>
 			<NumChoices>1</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>2</RandomChanceDelta>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_ECONOMIC_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_ECONOMIC_CITY_GOOD</CityEventType>
+			<EventChoice>EVENT_AES_ECONOMIC_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_ECONOMIC_CITY_GOOD_CHOICE_1</Type>

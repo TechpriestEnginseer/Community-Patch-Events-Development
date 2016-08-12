@@ -7,11 +7,16 @@
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_BAD_HELP</Help>
 			<NumChoices>1</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>2</RandomChanceDelta>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
-			<RequiredActiveEventChoice>EVENT_AES_SCIENCE_CHOICE_1</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_BAD</CityEventType>
+			<EventChoice>EVENT_AES_SCIENCE_CHOICE_1</EventChoice>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_AES_SCIENCE_CITY_BAD_CHOICE_1</Type>

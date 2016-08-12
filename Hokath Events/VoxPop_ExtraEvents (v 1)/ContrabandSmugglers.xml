@@ -7,14 +7,20 @@
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP</Help>
 			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<NumChoices>4</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>20</RandomChance>
 			<IsOneShot>false</IsOneShot>
 			<RequiredBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredBuildingClass>
-			<RandomChanceDelta>2</RandomChanceDelta>
-			<HasTradeConnection>true</HasTradeConnection>
-			<RequiredNoActiveCityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</RequiredNoActiveCityEventChoice>
+			<RandomChanceDelta>1</RandomChanceDelta>
+			<!-- <HasTradeConnection>true</HasTradeConnection>  not convinced its working-->
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+			<CityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoice>
+			<CheckForActive>false</CheckForActive>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</Type>
@@ -145,7 +151,7 @@
 			<Text>The authorities have intercepted a small scale operation smuggling contraband into the city.[NEWLINE][NEWLINE]The Governor thinks they might be of use...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1">
-			<Text>Sieze {2_InstantYield} worth of goods. Merchants in the City lose out to the tune of {3_GPChange}.</Text>
+			<Text>Sieze {2_InstantYield} worth of goods. Each [ICON_GREAT_MERCHANT] Merchant in the City loses out to the tune of {3_GPChange}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2">
 			<Text>Lose {2_InstantYield} Golden Age Points. The threshold for [ICON_STRENGTH] Crime is permentantly reduced by 10%.</Text>
@@ -154,7 +160,7 @@
 			<Text>Every [ICON_GREAT_MERCHANT] Merchant in the City generates +1 [ICON_GOLD] Gold, and the Constabulary generates +2 [ICON_PRODUCTION]. However, the [ICON_STRENGTH] Crime threshold increases by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4">
-			<Text>Gain {5_Turns} of WLTKD in the city.</Text>
+			<Text>Gain {5_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1">
 			<Text>No deals. The law is clear on their punishment.</Text>
