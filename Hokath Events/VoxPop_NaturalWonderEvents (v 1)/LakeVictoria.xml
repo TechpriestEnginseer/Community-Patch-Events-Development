@@ -49,11 +49,15 @@
 			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_2</CityEventChoiceType>
 			<CityEventChoiceLinker>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_3</CityEventChoiceLinker>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_3</CityEventChoiceType>
 			<CityEventChoiceLinker>CITY_EVENT_NW_LAKE_VICTORIA_CHOICE_2</CityEventChoiceLinker>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEventChoice_EventLinks>
 	<CityEvent_ParentEvents>

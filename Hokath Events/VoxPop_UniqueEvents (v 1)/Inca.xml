@@ -331,7 +331,7 @@
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_3">
-			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYES] Dyes.</Text>
+			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYE] Dyes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_4_S">
 			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>

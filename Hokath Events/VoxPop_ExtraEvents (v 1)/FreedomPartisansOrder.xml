@@ -22,6 +22,7 @@
 			<EventChoice>EVENT_FREEDOM_DOCTRINE_CHOICE_2</EventChoice>
 			<CheckForActive>true</CheckForActive>
 			<CheckKnownPlayers>true</CheckKnownPlayers>
+			<CheckOnlyEventCity>false</CheckOnlyEventCity>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

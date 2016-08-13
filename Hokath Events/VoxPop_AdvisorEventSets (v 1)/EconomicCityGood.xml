@@ -15,6 +15,8 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_ECONOMIC_CITY_GOOD</CityEventType>
 			<EventChoice>EVENT_AES_ECONOMIC_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

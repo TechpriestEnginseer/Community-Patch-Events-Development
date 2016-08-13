@@ -25,12 +25,12 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="F2671C975C86C4064922986DD414B41E" import="0">AA_Events.xml</File>
+    <File md5="29361FD31F5E2D20439B7819860CE93E" import="0">AA_Events.xml</File>
     <File md5="C3E7C33E74741588EEBC5F4B4D53B31E" import="0">FakePainting.xml</File>
     <File md5="2F9EEF05475DCBAB7CFF4EC93803946E" import="0">FirstSummit.xml</File>
     <File md5="601F4FA5E4252541B64000F48344C660" import="0">FreedomDoctrine.xml</File>
     <File md5="A14D65C3881A73714EB1C1A90AAA8225" import="0">FreedomPartisansAutocracy.xml</File>
-    <File md5="E3189D922C652473D6EB671CB273EEC0" import="0">FreedomPartisansOrder.xml</File>
+    <File md5="5902098C59AE9071B0CA3D4C147BFE20" import="0">FreedomPartisansOrder.xml</File>
     <File md5="51EE74B84AAB3BD4A6A9B095673DC2C7" import="0">Musketeers.xml</File>
     <File md5="EA1B97459CB0187A62D0F161EF443DB0" import="0">PETA.xml</File>
     <File md5="7866FC3DD8F67F71EF0EAA753A47E5D8" import="0">Pipeline.xml</File>
@@ -38,10 +38,10 @@
     <File md5="F2FADC6A51388B73C250E7A5028F9E9F" import="0">OilExplosion.xml</File>
     <File md5="19DAAF2C5D1C9E65C9595C40C216AADE" import="0">GunpowderPlot.xml</File>
     <File md5="8860A6EBA10B39142D8D5C3D558F27F6" import="0">Motaba.xml</File>
-    <File md5="CB5857023015C4DBB9D2B73B6F5E6460" import="0">ContrabandSmugglers.xml</File>
-    <File md5="677480548FF49648EDCABCB06A2B3C33" import="0">NotoriousPirate.xml</File>
-    <File md5="2F36FBF2B5D3C1E2DE2971FC944ECAF3" import="0">PrizeHide.xml</File>
-    <File md5="60D317E45DEB77EE819897C722D2EBF4" import="0">VirusOutbreak.xml</File>
+    <File md5="BC6B69A615FB9DD09EBA4FEBD321BE07" import="0">ContrabandSmugglers.xml</File>
+    <File md5="9148CC6C8BD27698907E91D0DCAE14C9" import="0">NotoriousPirate.xml</File>
+    <File md5="81ADC139300B493A6E5677ADF53D2140" import="0">PrizeHide.xml</File>
+    <File md5="41510EDE54D00A9F4417BA82D06CA52E" import="0">VirusOutbreak.xml</File>
     <File md5="015C32F8DF66842DD4D057D6869026DB" import="0">WarMaterials.xml</File>
   </Files>
   <Actions>

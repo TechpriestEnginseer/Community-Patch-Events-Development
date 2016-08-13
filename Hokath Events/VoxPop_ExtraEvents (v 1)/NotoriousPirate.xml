@@ -21,6 +21,8 @@
 			<CityEventType>CITY_EVENT_NOTORIOUS_PIRATE</CityEventType>
 			<CityEventLinker>CITY_EVENT_NOTORIOUS_PIRATE</CityEventLinker>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>false</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

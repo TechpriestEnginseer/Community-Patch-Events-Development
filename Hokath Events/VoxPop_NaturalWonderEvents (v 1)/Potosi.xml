@@ -50,6 +50,8 @@
 			<CityEventChoiceType>CITY_EVENT_NW_POTOSI_CHOICE_4</CityEventChoiceType>
 			<CityEventChoiceLinker>CITY_EVENT_NW_POTOSI_CHOICE_2</CityEventChoiceLinker>
 			<CheckForActive>true</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEventChoice_EventLinks>
 	<CityEvent_ParentEvents>

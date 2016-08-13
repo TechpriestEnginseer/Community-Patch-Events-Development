@@ -15,6 +15,8 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_WAR_CITY_BAD</CityEventType>
 			<EventChoice>EVENT_AES_WAR_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

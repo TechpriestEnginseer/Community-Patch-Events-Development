@@ -18,6 +18,8 @@
 			<CityEventType>CITY_EVENT_NW_MT_KAILASH</CityEventType>
 			<CityEventChoice>CITY_EVENT_NW_MT_KAILASH_CHOICE_4</CityEventChoice>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

@@ -19,11 +19,14 @@
 			<EventChoice>EVENT_MOTABA_VIRUS_CHOICE_1</EventChoice>
 			<CheckKnownPlayers>true</CheckKnownPlayers>
 			<CheckForActive>true</CheckForActive>
+			<CheckOnlyEventCity>false</CheckOnlyEventCity>
 		</Row>
 		<Row>
 			<CityEventType>CITY_EVENT_MOTABA_OUTBREAK</CityEventType>
 			<CityEventChoice>CITY_EVENT_MOTABA_OUTBREAK_CHOICE_2</CityEventChoice>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>false</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

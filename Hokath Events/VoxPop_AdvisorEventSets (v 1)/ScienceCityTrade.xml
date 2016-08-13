@@ -14,6 +14,8 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE</CityEventType>
 			<EventChoice>EVENT_AES_SCIENCE_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>
@@ -180,6 +182,9 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP</CityEventType>
 			<CityEventChoice>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoice>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

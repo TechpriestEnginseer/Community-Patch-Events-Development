@@ -16,11 +16,14 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventType>
 			<EventChoice>EVENT_AES_FOREIGN_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 		<Row>
 			<CityEventType>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventType>
 			<CityEventLinker>CITY_EVENT_AES_FOREIGN_CITY_TRADE</CityEventLinker>
 			<CheckForActive>false</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

@@ -15,6 +15,8 @@
 		<Row>
 			<CityEventType>CITY_EVENT_AES_ECONOMIC_CITY_BAD</CityEventType>
 			<EventChoice>EVENT_AES_ECONOMIC_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>
@@ -23,6 +25,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_BAD_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_BAD_HELP_CHOICE_1</Help>
 			<EventDuration>30</EventDuration>
+			<RequiredBuildingClass>BUILDINGCLASS_BANK</RequiredBuildingClass>
 			<Expires>true</Expires>
 		</Row>
 	</CityEventChoices>
@@ -50,7 +53,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_BAD_HELP_CHOICE_1">
-			<Text>Economic policy has unwittingly increased the [ICON_STRENGTH] Crime threshold is increased by 20% for {5_Turns}.</Text>
+			<Text>Economic policy has unwittingly increased the [ICON_STRENGTH] Crime threshold by 20% for {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_BAD_DESCRIPTION_CHOICE_1">
 			<Text>Perverse Incentives</Text>

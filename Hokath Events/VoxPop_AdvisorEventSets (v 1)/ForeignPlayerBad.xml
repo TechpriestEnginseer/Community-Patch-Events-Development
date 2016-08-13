@@ -15,6 +15,8 @@
 		<Row>
 			<EventType>EVENT_AES_FOREIGN_PLAYER_BAD</EventType>
 			<EventChoice>EVENT_AES_FOREIGN_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</Event_EventLinks>
 	<EventChoices>
@@ -75,6 +77,8 @@
 		<Row>
 			<EventType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE</EventType>
 			<EventChoice>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</Event_EventLinks>
 	<EventChoices>

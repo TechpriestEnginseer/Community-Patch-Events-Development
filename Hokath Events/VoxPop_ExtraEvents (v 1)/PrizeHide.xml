@@ -52,7 +52,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_PRIZE_HIDE_HELP_CHOICE_1">
-			<Text>An enormous beast, responsible for deaths of many men, has finally fallen. Hunters flock see the proof of the deed, which hold pridge of place in the - now legendary - lodge. Receive {2_InstantYield}.</Text>
+			<Text>An enormous beast, responsible for deaths of many men, has finally fallen. Hunters flock to see the proof of the deed, which hold pridge of place in the - now legendary - lodge.[NEWLINE][NEWLINE]Receive {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_PRIZE_HIDE_DESCRIPTION_CHOICE_1">
 			<Text>Quite The Rug</Text>

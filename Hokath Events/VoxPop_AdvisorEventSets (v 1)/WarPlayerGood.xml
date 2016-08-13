@@ -15,6 +15,8 @@
 		<Row>
 			<EventType>EVENT_AES_WAR_PLAYER_GOOD</EventType>
 			<EventChoice>EVENT_AES_WAR_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</Event_EventLinks>
 	<EventChoices>
@@ -39,7 +41,7 @@
 	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_DESCRIPTION">
-			<Text></Text>
+			<Text>Death From Afar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_HELP">
 			<Text></Text>
@@ -47,7 +49,6 @@
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_HELP_CHOICE_1">
 			<Text>Your elite soldier program has completed the training of a class of assassins. Eligible Units, as well as those produced in the next {4_Turns} receive the Snipers Promotion.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_DESCRIPTION_CHOICE_1">
 			<Text>Death From Afar</Text>
 		</Row>

@@ -19,6 +19,8 @@
 			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
 			<CityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</CityEventChoice>
 			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>

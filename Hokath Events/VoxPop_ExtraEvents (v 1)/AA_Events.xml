@@ -420,7 +420,7 @@
 	<CityEvents>
 		<Row>
 			<Type>CITY_EVENT_AA_FARMBONES</Type>
-			<EventClass>EVENT_CLASS_GOOD</EventClass>
+			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP</Help>
 			<NumChoices>5</NumChoices>
