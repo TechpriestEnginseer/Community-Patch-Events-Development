@@ -40,6 +40,7 @@
 			<Description>TXT_KEY_EVENT_ROME_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BATH</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>

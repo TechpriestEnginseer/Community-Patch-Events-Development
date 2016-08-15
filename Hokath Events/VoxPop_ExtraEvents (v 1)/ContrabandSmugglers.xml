@@ -153,7 +153,7 @@
 			<Text>The authorities have intercepted a small scale operation smuggling contraband into the city.[NEWLINE][NEWLINE]The Governor thinks they might be of use...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1">
-			<Text>Sieze {2_InstantYield} worth of goods. Each [ICON_GREAT_MERCHANT] Merchant in the City loses out to the tune of {3_GPChange}.</Text>
+			<Text>Sieze {2_InstantYield} worth of goods. The City's [ICON_GREAT_MERCHANT] Merchants lose out. {3_GPChange}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_2">
 			<Text>Lose {2_InstantYield} Golden Age Points. The threshold for [ICON_STRENGTH] Crime is permentantly reduced by 10%.</Text>

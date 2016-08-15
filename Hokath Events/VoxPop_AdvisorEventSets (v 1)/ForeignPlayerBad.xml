@@ -73,14 +73,6 @@
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
-	<Event_EventLinks>
-		<Row>
-			<EventType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE</EventType>
-			<EventChoice>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</EventChoice>
-			<CheckForActive>true</CheckForActive>
-			<CheckKnownPlayers>false</CheckKnownPlayers>
-		</Row>
-	</Event_EventLinks>
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_1</Type>
@@ -96,7 +88,7 @@
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -124,19 +116,27 @@
 			<EventType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE</EventType>
 		</Row>
 	</Event_ParentEvents>
+	<Event_EventLinks>
+		<Row>
+			<EventType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE</EventType>
+			<EventChoice>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
+		</Row>
+	</Event_EventLinks>
 
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_1</EventChoiceType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_1</EventChoiceType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>-3</Quantity>
+			<Quantity>-4</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
 	<EventChoice_EventCostYield>
@@ -200,7 +200,7 @@
 			<Text>The pest problem that has been ravaging the countryside finally appears to have a solution! It's not entirely pleasant...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_1">
-			<Text>Hand over 3 copies of [ICON_RES_IRON] Iron to your chemists. Farms regain +1 [ICON_FOOD] Food.</Text>
+			<Text>Hand over 4 copies of [ICON_RES_IRON] Iron to your chemists. Farms regain +1 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_2">
 			<Text>Pull {1_YieldCost} worth of biologists off their current projects. Farms regain +1 [ICON_FOOD] Food.</Text>

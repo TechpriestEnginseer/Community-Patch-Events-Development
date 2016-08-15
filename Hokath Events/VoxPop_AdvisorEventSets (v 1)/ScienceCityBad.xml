@@ -47,7 +47,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_BAD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>50</Yield>
+			<Yield>150</Yield>
 		</Row>
 	</CityEventChoice_EventCostYield>
 	<!-- TEXT  -->

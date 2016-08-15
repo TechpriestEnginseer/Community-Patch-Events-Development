@@ -230,7 +230,7 @@
 			<Text>Naval Units constructed in this City gain +1 [ICON_MOVES] Movement and can Heal outside Friendly Territory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_REEF_HELP_CHOICE_3">
-			<Text>Receive two copies of [ICON_RES_CRAB] Crab for {4_Turns}.</Text>
+			<Text>Receive two copies of [ICON_RES_CRAB] Crab for {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_REEF_HELP_CHOICE_4">
 			<Text>Subsidise industry to the tune of {2_InstantYield}, losing -7 [ICON_PRODUCTION] Production in the City. In exchange receive {4_GPChange} and a free Recycling Center.</Text>

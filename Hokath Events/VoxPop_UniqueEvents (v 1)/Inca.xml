@@ -178,7 +178,7 @@
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_3</EventChoiceType>
 			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_4</EventChoiceType>
@@ -364,7 +364,7 @@
 			<Text>Supply an alternative source of {2_InstantYield}. Textiles produced from [ICON_RES_SHEEP] Sheep Tiles produce +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_3">
-			<Text>Establish the Wak'a trail. Mountains produce +1 [ICON_PEACE] Faith, and you receive two copies of [ICON_RES_DYE] Dye.</Text>
+			<Text>Establish the Wak'a trail. Mountains produce +2 [ICON_PEACE] Faith, and you receive two copies of [ICON_RES_DYE] Dye.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_4">
 			<Text>Invest {2_InstantYield} in mineral exploration. Mountains produce +2 [ICON_PRODUCTION], and you receive a copy of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver and [ICON_RES_COPPER] Copper.</Text>

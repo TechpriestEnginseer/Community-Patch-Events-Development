@@ -111,7 +111,7 @@
 			<CityEventChoiceType>CITY_EVENT_NOTORIOUS_PIRATE_CHOICE_3</CityEventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 	</CityEventChoice_BuildingClassYieldChange>
 	<CityEventChoice_ImprovementYieldChange>
@@ -181,7 +181,7 @@
 			<Text>Spend 400 [ICON_GOLD] Gold to gain a Corvette.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_3">
-			<Text>For {5_Turns} the Harbor gains +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism, but nearby Fishing Boats lose -1 [ICON_GOLD] Gold and -1 [ICON_FOOD] Food.</Text>
+			<Text>For {5_Turns} the Harbor gains +2 [ICON_CULTURE] Culture and +4 [ICON_TOURISM] Tourism, but nearby Fishing Boats lose -1 [ICON_GOLD] Gold and -1 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOTORIOUS_PIRATE_HELP_CHOICE_4">
 			<Text>Up to 2 Fishing Boats and the Harbor are destroyed. A [ICON_WAR] Barbarian Unit spawns. Gain a copy of the [ICON_RES_PEARLS] Pearls resource.</Text>

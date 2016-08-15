@@ -9,7 +9,7 @@
 			<RandomChance>30</RandomChance>
 			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
-			<RequiredBuildingClass>BUILDINGCLASS_ARMORY</RequiredBuildingClass>
+			<RequiredBuildingClass>BUILDINGCLASS_ARSENAL</RequiredBuildingClass>
 		</Row>
 	</CityEvents>
 	<CityEvent_EventLinks>

@@ -41,6 +41,7 @@
 			<Description>TXT_KEY_EVENT_CELTS_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CASTLE</RequiredAnywhereBuildingClass>
+			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -71,9 +72,7 @@
 			<Description>TXT_KEY_EVENT_CELTS_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STADIUM</RequiredAnywhereBuildingClass>
-			<WLTKDTurns>20</WLTKDTurns>
-			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<EraScaling>true</EraScaling>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -190,12 +189,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-4000</Yield>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>4000</Yield>
+			<Yield>-400</Yield>
 		</Row>
 	</EventChoice_InstantYield>
 	<EventChoice_MinimumStartYield>
@@ -207,9 +201,29 @@
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4000</Yield>
+			<Yield>400</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CELTS_UE_CHOICE_6</EventChoiceType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_3</EventChoiceType>
@@ -408,7 +422,7 @@
 			<Text>Invest {2_InstantYield}. Oxford University produces +10 [ICON_FOOD] Food, [ICON_TOURISM] Tourism, and [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CELTS_UE_HELP_CHOICE_6">
-			<Text>{2_InstantYield}. You enter a [ICON_GOLDEN_AGE] Golden Age, and all Cities enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns}.</Text>
+			<Text>Provide a source of state funding to artists, costing {2_InstantYield}. All [ICON_GREAT_MUSICIAN] Musicians, [ICON_GREAT_ARTIST] Artists and [ICON_GREAT_WRITER] Writers generate +3 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CELTS_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A child, conceived under the September equinox in a great ritual, has been born*[NEWLINE]This child is destined for greatness, it is known.</Text>

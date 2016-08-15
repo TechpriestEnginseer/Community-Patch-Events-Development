@@ -10,7 +10,7 @@
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
-			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 		</Row>
 	</Events>
 	<EventChoices>

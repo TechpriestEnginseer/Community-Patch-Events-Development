@@ -57,7 +57,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_HELP_CHOICE_1">
-			<Text>The shopping arcade becomes an international destination. The City receives {3_CityYield}.</Text>
+			<Text>The shopping arcade becomes an international destination. The City generates an additional +{3_CityYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_DESCRIPTION_CHOICE_1">
 			<Text>Vogue</Text>
