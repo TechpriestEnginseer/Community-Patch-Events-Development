@@ -412,7 +412,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_COOLSUMMER_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-30</Yield>
+			<Yield>30</Yield>
 		</Row>
 	</CityEventChoice_EventCostYield>
 	<CityEventChoice_GreatPersonPoints>
