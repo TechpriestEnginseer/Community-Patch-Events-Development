@@ -441,7 +441,7 @@
 			<Text>Melee and Gun Units gain [ICON_PRODUCTION] Production on kill. Slave auctions yield +2 [ICON_PRODUCTION] Production at Markets, but their presence increases [ICON_HAPPINESS_3] Unappiness in all Cities by +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_3">
-			<Text>Go on a great Hajj, entering a [ICON_GOLDENAGE] Golden Age for {4_Turns}, and spending {2_InstantYield} to erect a Mosque in every City.</Text>
+			<Text>Go on a great Hajj, entering a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}, and spending {2_InstantYield} to erect a Mosque in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_4">
 			<Text>Spend {2_InstantYield} in order to protect 3 copies of [ICON_RES_GOLD] Gold. Your Constabularies boost [ICON_GOLD] Gold income by 5%.</Text>

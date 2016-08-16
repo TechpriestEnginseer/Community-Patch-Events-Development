@@ -38,7 +38,7 @@
 			<Help>TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<EventPromotion>PROMOTION_UE_INCORPORATE</EventPromotion>
+			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>

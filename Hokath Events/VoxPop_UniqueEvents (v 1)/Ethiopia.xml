@@ -48,7 +48,8 @@
 			<Help>TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_ETHIOPIA_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>-1</EventDuration>
 		</Row>

@@ -63,7 +63,6 @@
 			<Type>EVENT_ENGLAND_UE_CHOICE_5</Type>
 			<Help>TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_5</Description>
-			<IsUnhappy>true</IsUnhappy>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<EventPromotion>PROMOTION_UE_SUN_NEVER_SETS</EventPromotion>
 			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
@@ -191,7 +190,7 @@
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 	</EventChoice_SpecialistYieldChange>
 	<EventChoice_EventCostYield>

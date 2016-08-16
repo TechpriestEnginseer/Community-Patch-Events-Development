@@ -21,6 +21,7 @@
 			<Description>TXT_KEY_CITY_EVENT_MUSKETEERS_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_1</Help>
 			<RequiresGarrison>true</RequiresGarrison>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_MUSKETEERS_CHOICE_2</Type>

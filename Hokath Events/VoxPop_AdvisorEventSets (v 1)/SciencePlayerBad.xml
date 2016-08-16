@@ -83,7 +83,7 @@
 	<Event_EventLinks>
 		<Row>
 			<EventType>EVENT_AES_SCIENCE_PLAYER_BAD_CURE</EventType>
-			<EventChoice>EVENT_AES_SCIENCE_PLAYER_BAD_CHOICE_1</EventChoice>
+			<EventLinker>EVENT_AES_SCIENCE_PLAYER_BAD</EventLinker>
 			<CheckForActive>true</CheckForActive>
 			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>

@@ -57,6 +57,7 @@
 			<Description>TXT_KEY_EVENT_AZTEC_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
 			<EraScaling>true</EraScaling>
 			<MinimumNationalPopulation>90</MinimumNationalPopulation>
 			<EventDuration>-1</EventDuration>

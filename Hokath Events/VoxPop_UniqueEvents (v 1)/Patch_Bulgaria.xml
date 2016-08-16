@@ -291,6 +291,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>50</EventDuration>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<RequiresWarMinor>true</RequiresWarMinor>
 		</Row>
 		<Row>

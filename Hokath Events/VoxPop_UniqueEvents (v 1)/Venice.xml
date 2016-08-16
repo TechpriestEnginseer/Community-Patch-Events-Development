@@ -31,6 +31,7 @@
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_GARDEN</EventBuildingClassGlobal>
 			<AffectsCoastalCitiesOnly>true</AffectsCoastalCitiesOnly>
+			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>

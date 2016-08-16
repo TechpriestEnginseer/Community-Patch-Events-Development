@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_GOOD_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_FOREIGN_CITY_GOOD_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>30</RandomChance>
+			<RandomChance>40</RandomChance>
 			<RandomChanceDelta>0</RandomChanceDelta>
 			<RequiredBuildingClass>BUILDINGCLASS_CARAVANSARY</RequiredBuildingClass>
 			<IsOneShot>true</IsOneShot>

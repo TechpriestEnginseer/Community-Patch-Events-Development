@@ -37,7 +37,7 @@ This took a *long* time to do. Hope you enjoy, and as always have fun with Vox P
 Grand Tourney - req circus max., cost gold, [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]+%culture & longbows
 Thomas Becket - Req grand temple, losing money, yields -gold from grand temple and free churches
 Civil War - req unhappy, barbarians and anarchy, civil servant +culture
-Imperial Unrest - req 7 coastal cities & unhappy, req rifling, barbarians, gain courthouse yields, sun never sets promo
+Imperial Unrest - req 7 coastal cities, req rifling, barbarians, gain courthouse yields, sun never sets promo
 King's Speech - req war and broadcast tower, cost culture and intercept III for fighters, [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] +%production
 
 --Egypt----------A Child of the Nile-----------------------------

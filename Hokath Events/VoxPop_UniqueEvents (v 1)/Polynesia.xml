@@ -211,6 +211,12 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_3</EventChoiceType>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_3</EventChoiceType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -410,7 +416,7 @@
 			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] Fish yield +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_3">
-			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, working Ocean Tiles yields +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, working Ocean Tiles yields +1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture and [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_4">
 			<Text>Use {2_InstantYield} to establish the Kahuna. The birth rate of [ICON_GREAT_PEOPLE] Great People increases in all Cities by 20%, and Workshops yield +2 [ICON_CULTURE].</Text>

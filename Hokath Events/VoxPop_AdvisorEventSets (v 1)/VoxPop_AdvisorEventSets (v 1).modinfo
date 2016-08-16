@@ -26,22 +26,22 @@
     <File md5="7FC2B112BBC3AB9DF22030A4C37F2B09" import="0">Economic.xml</File>
     <File md5="02C1337E5A6B874DD676568ADF39A1B2" import="0">EconomicCityBad.xml</File>
     <File md5="1DB4C8EFB08D8F0E07BB80448AF99BFF" import="0">EconomicCityGood.xml</File>
-    <File md5="3CE5F0EF8DC4397539D4B60BD6D1D55B" import="0">EconomicCityTrade.xml</File>
+    <File md5="CE40F3972F69C5DFB99A2978A6F43BCA" import="0">EconomicCityTrade.xml</File>
     <File md5="DAB1691D55563A96D7CE9AF5AEC13A29" import="0">EconomicPlayerBad.xml</File>
     <File md5="021425E2ECAB4B2BBC4C4C726E1FAD13" import="0">EconomicPlayerGood.xml</File>
     <File md5="F5D488B92F26AEC2F5033DABF21C2CAE" import="0">EconomicPlayerTrade.xml</File>
     <File md5="DE7B6FD831F63108DA73CE0C6090F1A1" import="0">ForeignCityBad.xml</File>
-    <File md5="801AD7EDA6D0CD09318A8424E3765663" import="0">ForeignCityGood.xml</File>
+    <File md5="2C0E38DB623CF84BD410FA60F3C5C177" import="0">ForeignCityGood.xml</File>
     <File md5="A2AE96A4FB6ABE0684A2637DB0914900" import="0">ForeignCityTrade.xml</File>
-    <File md5="2B79E3637028B3959B76BBAB367E9E4A" import="0">ForeignPlayerBad.xml</File>
+    <File md5="2079F08A97F50028E7C3B5790B3DB8EE" import="0">ForeignPlayerBad.xml</File>
     <File md5="687AD3D2F5DBA3EE3C2BD8E04AD80108" import="0">ForeignPlayerGood.xml</File>
     <File md5="33319546AA8D15EB3A3BEFB28D933F80" import="0">ForeignPlayerTrade.xml</File>
     <File md5="CB7FA770DB7056F655DDDF7FDE297D8E" import="0">Foreign.xml</File>
     <File md5="0A282A3859BF8AFDBADEFEA7FF2EE615" import="0">Science.xml</File>
     <File md5="DFBC53709EDE574AC51AEE3BBA63A85C" import="0">ScienceCityBad.xml</File>
-    <File md5="F29AF3C32E07A4349C3BD2185AD2013D" import="0">ScienceCityGood.xml</File>
+    <File md5="DBF83FF27F3C88A43793332500465593" import="0">ScienceCityGood.xml</File>
     <File md5="1B713780F717562B922939BF5283BF87" import="0">ScienceCityTrade.xml</File>
-    <File md5="C9F34069537B022DBB24E878B5ECE5B2" import="0">SciencePlayerBad.xml</File>
+    <File md5="1556B6F7E6A84CBC24208B751A093DE9" import="0">SciencePlayerBad.xml</File>
     <File md5="200CA995E5BEA67D9253CE0C59850236" import="0">SciencePlayerGood.xml</File>
     <File md5="48F21B8760804665E96362AAB6278BC1" import="0">SciencePlayerTrade.xml</File>
     <File md5="A024EDD6BA1468FA3701DE4E1045B157" import="0">War.xml</File>

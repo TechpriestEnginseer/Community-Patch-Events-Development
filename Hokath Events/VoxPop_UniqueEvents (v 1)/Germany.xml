@@ -32,6 +32,7 @@
 			<EventDuration>150</EventDuration>
 			<EventPromotion>PROMOTION_WOODSMAN</EventPromotion>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LUMBERMILL</ImprovementAnywhereRequired>
+			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<Expires>false</Expires>
 		</Row>
 		<Row>

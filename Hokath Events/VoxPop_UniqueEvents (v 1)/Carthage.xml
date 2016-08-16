@@ -41,6 +41,7 @@
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 			<UnitClassRequired>UNITCLASS_GREAT_GENERAL</UnitClassRequired>
 			<EventPromotion>PROMOTION_UE_MOUNTAIN_TACTICS</EventPromotion>
+			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -49,6 +50,7 @@
 			<Description>TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -70,6 +72,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<LosingMoney>true</LosingMoney>
+			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
@@ -290,7 +293,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>400</Yield>
+			<Yield>350</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>

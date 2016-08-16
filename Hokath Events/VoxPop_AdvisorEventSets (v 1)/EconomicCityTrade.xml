@@ -102,31 +102,31 @@
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_4</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_5</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_6</CityEventChoiceType>
@@ -209,31 +209,31 @@
 			<Text>In the Villages surrounding the City, the people lead simple, isolated lives. Our people were destined for more than this! Who knows how many great minds have been wasted just because they weren't born in the City? What could have been achieved!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_1">
-			<Text>Fund a business scheme for {1_YieldCost}. Nearby Villages generate +1 [ICON_GOLD] Gold.</Text>
+			<Text>Fund a business scheme for {1_YieldCost}. Nearby Villages generate +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_1">
 			<Text>If we are to grow the economy, we need everyone involved.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_2">
-			<Text>Fund a rural mission for {1_YieldCost}. Nearby Villages generate +1 [ICON_PEACE] Faith.</Text>
+			<Text>Fund a rural mission for {1_YieldCost}. Nearby Villages generate +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_2">
 			<Text>Some men go their whole lives without truely finding faith. We cannot allow people to slip through our fingers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_3">
-			<Text>Fund a scientific outreach program for {1_YieldCost}. Nearby Villages generate +1 [ICON_RESEARCH] Science.</Text>
+			<Text>Fund a scientific outreach program for {1_YieldCost}. Nearby Villages generate +2 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_3">
 			<Text>We are all of us, on some level, intrigued my the mechanisms of this universe.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_4">
-			<Text>Fund national heritage sites for {1_YieldCost}. Nearby Villages generate +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Fund national heritage sites for {1_YieldCost}. Nearby Villages generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_4">
 			<Text>There is so much culture outside of the City walls, and the townspeople know the most about our undocumented past.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_5">
-			<Text>Fund an engineering outreach program for {1_YieldCost}. Nearby Villages generate +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>Fund an engineering outreach program for {1_YieldCost}. Nearby Villages generate +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_5">
 			<Text>The machines we can now create benefit manual, cottage industry more than any other. People should be part of their economic liberation.</Text>

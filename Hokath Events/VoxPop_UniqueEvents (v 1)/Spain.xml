@@ -51,6 +51,7 @@
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_4</Description>
 			<LosingMoney>true</LosingMoney>
 			<UnitClassRequired>UNITCLASS_LANCER</UnitClassRequired>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<IsOneShot>true</IsOneShot>
 			<AffectsCoastalCitiesOnly>true</AffectsCoastalCitiesOnly>
 			<EraScaling>true</EraScaling>

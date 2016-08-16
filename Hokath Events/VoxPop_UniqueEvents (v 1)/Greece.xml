@@ -49,6 +49,7 @@
 			<Description>TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_WIRE_SERVICE</RequiredAnywhereBuildingClass>
+			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
 			<LosingMoney>true</LosingMoney>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>

@@ -59,6 +59,7 @@
 			<RequiresWar>true</RequiresWar>
 			<EventBuildingClassGlobal>BUILDINGCLASS_DENMARK_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
+			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_6</Type>

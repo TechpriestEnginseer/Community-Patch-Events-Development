@@ -45,6 +45,7 @@
 			<EventPromotion>PROMOTION_SHOCK_4</EventPromotion>
 			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
@@ -367,7 +368,7 @@
 			<Text>Utilise {1_YieldCost} to encourage a return to the Plains. Cities gain +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production for every 3 Plains Tiles within workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_3">
-			<Text>Workers leave the poor arable land to join the mfecane. {2_InstantYield} becomes an Impi in every City, and Farms yield -1 [ICON_FOOD] Food for {4_Turns}.</Text>
+			<Text>Workers leave the poor arable land to join the Mfecane. {2_InstantYield} becomes an Impi in every City, and Farms yield -1 [ICON_FOOD] Food for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_4">
 			<Text>Send {1_YieldCost} to support our rural communities. Villages produce +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production, and you receive 2 copies of [ICON_RES_TEA] Tea.</Text>

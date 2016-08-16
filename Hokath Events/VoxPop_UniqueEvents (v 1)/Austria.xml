@@ -33,6 +33,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_EPIC</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
+			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 		</Row>
 		<Row>
 			<Type>EVENT_AUSTRIA_UE_CHOICE_3</Type>

@@ -31,6 +31,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<ImprovementAnywhereRequired>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementAnywhereRequired>
 			<EventDuration>-1</EventDuration>
 		</Row>
