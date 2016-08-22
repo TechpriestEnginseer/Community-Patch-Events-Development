@@ -127,7 +127,7 @@
 	
 	<EventChoice_FreeUnits>
 		<Row>
-			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_5</EventChoiceType>
 			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
 			<Quantity>1</Quantity>
 		</Row>
