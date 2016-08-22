@@ -91,7 +91,7 @@
 	<EventChoice_ResourceYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_2</EventChoiceType>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -122,7 +122,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
-			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -188,13 +188,13 @@
 			<Text>Camps generate +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_HELP_CHOICE_2">
-			<Text>Sources of [ICON_RES_COCOA] Cocoa, [ICON_RES_CITRUS] Citrus, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices yield +2 [ICON_FOOD] Food.</Text>
+			<Text>Sources of [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices yield +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_HELP_CHOICE_3">
 			<Text>Fishing Boats generate +2 [ICON_PRODUCTION] Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_HELP_CHOICE_4">
-			<Text>Sources of [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume, [ICON_RES_SALT] Salt and [ICON_RES_COTTON] Cotton yield +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Sources of [ICON_RES_INCENSE] Incense, [ICON_RES_STONE] Stone, [ICON_RES_SALT] Salt and [ICON_RES_COTTON] Cotton yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_DESCRIPTION_CHOICE_1">

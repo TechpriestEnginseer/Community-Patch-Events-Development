@@ -75,7 +75,7 @@
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_GOOD_CHOICE_1</CityEventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>8</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		
 		<Row>

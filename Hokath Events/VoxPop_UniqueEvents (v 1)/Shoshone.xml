@@ -69,7 +69,6 @@
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_SOLAR_PLANT</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
-			<LosingMoney>true</LosingMoney>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>

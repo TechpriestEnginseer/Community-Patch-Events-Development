@@ -71,7 +71,6 @@
 			<Description>TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
-			<LosingMoney>true</LosingMoney>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>

@@ -306,7 +306,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AA_OLYMPICGAMES_CHOICE_5</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AA_OLYMPICGAMES_CHOICE_5</CityEventChoiceType>
@@ -387,7 +387,7 @@
 			<Text>A rivalry between two teams erupts into a full blown conflict, spilling out into the suburbs. Up to two [ICON_WAR] Barbarians spawn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_5">
-			<Text>Increased trade from the event boosts yields in the City: +5 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science for {5_Turns}.</Text>
+			<Text>Increased trade from the event boosts yields in the City: +4 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science for {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP_CHOICE_6">
 			<Text>Offerings from the festival generate +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Population for {5_Turns}.</Text>

@@ -29,7 +29,7 @@
 			<Help>TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_FRANCE_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<LosingMoney>true</LosingMoney>
+			<EraScaling>true</EraScaling>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_FORGE</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -197,6 +197,13 @@
 			<Yield>200</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
+	<EventChoice_EventCostYield>
+		<Row>
+			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_EventCostYield>
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_1</EventChoiceType>
@@ -335,7 +342,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_2">
-			<Text>Receive a copy of the [ICON_RES_JEWELRY] Jewelry Luxury Resource. Forges gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+			<Text>Stimulate craftsmen with {1_YieldCost}. Receive a copy of the [ICON_RES_JEWELRY] Jewelry Luxury Resource. Forges gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_3">
 			<Text>Salons spring up around your Cities' Gardens: +3 [ICON_RESEARCH] Science and +5% [ICON_CULTURE] Culture.</Text>

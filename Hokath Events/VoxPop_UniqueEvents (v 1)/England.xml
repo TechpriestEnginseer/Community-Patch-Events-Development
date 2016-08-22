@@ -42,7 +42,7 @@
 			<Help>TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_3</Description>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
-			<LosingMoney>true</LosingMoney>
+			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_CHURCH</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
@@ -198,6 +198,11 @@
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>350</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>325</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_6</EventChoiceType>
@@ -375,7 +380,7 @@
 			<Text>Spend {1_YieldCost} to host a Grand Tourney. All Cities enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns} and a Longbowman spawns nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3">
-			<Text>The Grand Temple costs 10 [ICON_GOLD] Maintenance, but pilgrims found a free Church in every City.</Text>
+			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom found a free Church in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_4">
 			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +3 [ICON_CULTURE] Culture.</Text>

@@ -1,0 +1,63 @@
+<!--Mausoleum-->  ceremonial burial		faith
+<Row>
+	<Type>BUILDINGCLASS_MAUSOLEUM</Type>
+	<DefaultBuilding>BUILDING_MAUSOLEUM</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_MAUSOLEUM</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Celestial Throne--> mandate of heaven	faith
+<Row>
+	<Type>BUILDINGCLASS_HEAVENLY_THRONE</Type>
+	<DefaultBuilding>BUILDING_HEAVENLY_THRONE</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_HEAVENLY_THRONE</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Great Altar--> hero worship		production
+<Row>
+	<Type>BUILDINGCLASS_GREAT_ALTAR</Type>
+	<DefaultBuilding>BUILDING_GREAT_ALTAR</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_GREAT_ALTAR</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Reliquary--> way of the pilgrim		tourism
+<Row>
+	<Type>BUILDINGCLASS_RELIQUARY</Type>
+	<DefaultBuilding>BUILDING_RELIQUARY</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_RELIQUARY</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Divine Court--> holy law	gold
+<Row>
+	<Type>BUILDINGCLASS_DIVINE_COURT</Type>
+	<DefaultBuilding>BUILDING_DIVINE_COURT</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_DIVINE_COURT</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Sacred Garden--> way of transcendence	   food
+<Row>
+	<Type>BUILDINGCLASS_SACRED_GARDEN</Type>
+	<DefaultBuilding>BUILDING_SACRED_GARDEN</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_SACRED_GARDEN</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Holy Council--> council of elders	science
+<Row>
+	<Type>BUILDINGCLASS_HOLY_COUNCIL</Type>
+	<DefaultBuilding>BUILDING_HOLY_COUNCIL</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_HOLY_COUNCIL</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Apostolic Palace--> apostolic tradition		GAP
+<Row>
+	<Type>BUILDINGCLASS_APOSTOLIC_PALACE</Type>
+	<DefaultBuilding>BUILDING_APOSTOLIC_PALACE</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_APOSTOLIC_PALACE</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>
+<!--Grand Ossuary--> theocratic rule	culture
+<Row>
+	<Type>BUILDINGCLASS_GRAND_OSSUARY</Type>
+	<DefaultBuilding>BUILDING_GRAND_OSSUARY</DefaultBuilding>
+	<Description>TXT_KEY_BUILDING_GRAND_OSSUARY</Description>
+	<MaxPlayerInstances>1</MaxPlayerInstances>
+</Row>

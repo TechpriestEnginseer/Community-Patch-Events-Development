@@ -35,7 +35,7 @@ This took a *long* time to do. Hope you enjoy, and as always have fun with Vox P
 
 --England----------Mightier Yet-----------------------------
 Grand Tourney - req circus max., cost gold, [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]+%culture & longbows
-Thomas Becket - Req grand temple, losing money, yields -gold from grand temple and free churches
+Thomas Becket - Req grand temple, cost faith, yields -gold from grand temple and free churches
 Civil War - req unhappy, barbarians and anarchy, civil servant +culture
 Imperial Unrest - req 7 coastal cities, req rifling, barbarians, gain courthouse yields, sun never sets promo
 King's Speech - req war and broadcast tower, cost culture and intercept III for fighters, [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] +%production
@@ -50,7 +50,7 @@ Arab Spring - req ideology, postmodern and unhappy, barbarians&militia gain poli
 --America----------Out of Many, One-----------------------------
 Mustangs - req stables, horses, costs horses but gives them culture and gold
 Gold Rush & Saloon - req war minor, min nat pop, gives 1 free fur and gold, 1 tourism on villages, +poverty
-Ranches - req agribusiness & cavalry, losing money, culture and food from pastures +illiteracy
+Ranches - req agribusiness & cavalry, culture and food from pastures +illiteracy
 Prohibition - req police station, gives 2 sugar and villages gain +gold, +crime for 75turns
 Woodstock - req nuke & war, musicians' guilds gain +gold+tourism from cities
 
@@ -63,7 +63,7 @@ Forest Economy - req x forest & indust., unhappy, forest +prod+sci, lmill +gold.
 Socialism - req ideology & min nat pop, no poverty unhappy, -2g on village -4g on town
 
 --France----------To All Talents-----------------------------
-Gaul - req lose money, forges give tourism and gold, 1 jewelry
+Gaul - req forge, cost culture, forges give tourism and gold, 1 jewelry
 Salon - req min nat pop, gardens gain sci and %culture
 Revolution - req ind era & lose money, anarchy and lose pop, free policy
 Art - req modern era, req hermitage, artist guilds gain culture and tourism
@@ -88,7 +88,7 @@ berber tribes - req nat epic, req 1 oasis, mountain and desert +food+culture
 arabesque, zellige - req academy & art guild, pay gold, +2 culture on temples, academy, holy site
 black guard - req couthouse, req war, req renaissance, capital defence promo and -crime rate
 Ksar El Kebir - req military science, req war, barbarians, free units, golden age
-casablanca - kasbah, losing money, mountains,kasbah,desert +tourism
+casablanca - kasbah, mountains,kasbah,desert +tourism
 
 --China----------The Dragon Throne-----------------------------
 warring states - req war minor, req chivalry, obs indust., temp POLICY_MERCHANT_NAVY
@@ -152,7 +152,7 @@ Fish pond - req x fish, aqueduct, cost science, lighthouse +food
 Over the rainbow - req 2 atoll, harbor, +boredom, culture and faith on *ocean*
 kahuna - req economics, cost faith, 20% GP increase, +2 culture from workshop
 westernisation - cost culture, req industrialisation, +poverty, +2gold fishing boats,harbour,seaport
-Tourist Industry - req airport, losing money, tourism&gold per coast tiles
+Tourist Industry - req airport, tourism per coast tiles
 
 --Netherlands---------A Miracle Mirrored-----------------------------
 great market - cost culture, req nat mon, merchant +cult+food
@@ -222,7 +222,7 @@ Bison pound - req engineering, req x bison, bison give +gold+faith+culture+gap
 counting coup - req war, req national epic, promo that gives culture on kill and extra xp
 burial ground - req architecture, cost faith, encampment +faith+gap
 code talkers - req radio, cost science, all units sentry
-renewable energy - req ecology, req losing money, req science&gold, solar panels in all cities
+renewable energy - req ecology, req science&gold, solar panels in all cities
 
 --Persia----------A Generous God-----------------------------
 melting pot empire - req metal casting, req war minor, promotion to capture defeated enemies
@@ -314,7 +314,7 @@ el Cid - req theology, req war, mounted promo +<SameTileHealChange>, faithfromki
 Basilica - req grand temple, cost faith&gold, free cathedrals
 columbus - req conqusitador, cost faith&gold, free corvette in ports, copy gold
 criollo rights - req ideology, req courthouse, req unhappy, plantation -gold+culture, courthouse -gold+culture
-tourist industry - req airport, losing money, cost GAP, castle&citadel&holysite +tourism+gold
+tourist industry - req airport, cost GAP, castle&citadel&holysite +tourism+gold
 
 --Byzantium----------Nova Roma------------------------------------------
 hunnic mercenaries - req currency, req war minor, req x horses, cost gold, horse archer in every city

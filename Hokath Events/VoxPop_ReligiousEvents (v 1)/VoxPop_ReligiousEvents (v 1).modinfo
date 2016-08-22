@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="594ddfc2-1a35-4b91-9fe2-b0e60df752f3" version="1">
+  <Properties>
+    <Name>VoxPop_ReligiousEvents</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Religious based events for Vox Populi</Teaser>
+    <Description>Religious based events for Vox Populi</Description>
+    <Authors>Hokath</Authors>
+    <SpecialThanks>Gazebo</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7B08C1A71306C5F22455F4DF7C175202" import="0">ApostolicTradition.xml</File>
+    <File md5="6FB9B48AD651622A4E513AB8206202B0" import="0">CeremonialBurial.xml</File>
+    <File md5="0F21BEB17DC014831D761167CC9E37D5" import="0">CouncilOfElders.xml</File>
+    <File md5="B5D54F85596ED2BD0A1B70428BD8B074" import="0">HeroWorship.xml</File>
+    <File md5="7ED010DFBC127DD6A23E28F09E54B7BE" import="0">HolyLaw.xml</File>
+    <File md5="97B8590E34B0CB7165C6BCE22047F4CC" import="0">MandateOfHeaven.xml</File>
+    <File md5="EFB31DDD7CBE75C5EFABF1F5251C8335" import="0">1temp.xml</File>
+    <File md5="F3256FF06DC7B144C99A72431590FBFF" import="0">WayOfThePilgrim.xml</File>
+    <File md5="43535D8454556D4C49FD6023078ED165" import="0">WayOfTranscendance.xml</File>
+  </Files>
+</Mod>

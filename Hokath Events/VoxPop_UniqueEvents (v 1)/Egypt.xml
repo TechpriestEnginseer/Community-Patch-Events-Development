@@ -46,7 +46,7 @@
 			<Type>EVENT_EGYPT_UE_CHOICE_4</Type>
 			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_4</Description>
-			<LosingMoney>true</LosingMoney>
+			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<IsOneShot>true</IsOneShot>
@@ -296,6 +296,16 @@
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>200</Yield>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>300</Yield>
+		</Row>
 	</EventChoice_EventCostYield>
 	
 	<EventChoiceFlavors>
@@ -457,7 +467,7 @@
 			<Text>Every [ICON_DIPLOMAT] Civil Servant generates +2 [ICON_PRODUCTION] Production and +2 [ICON_CULTURE] Culture. The Printing Press increases [ICON_CULTURE] Culture by 20% in the City in which it is built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_4">
-			<Text>Every [ICON_GREAT_ENGINEER] Engineer provides +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
+			<Text>Expend {1_YieldCost}. Every [ICON_GREAT_ENGINEER] Engineer provides +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_5">
 			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>

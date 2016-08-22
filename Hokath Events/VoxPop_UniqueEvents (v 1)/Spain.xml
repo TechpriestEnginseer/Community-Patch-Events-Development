@@ -49,7 +49,6 @@
 			<Type>EVENT_SPAIN_UE_CHOICE_4</Type>
 			<Help>TXT_KEY_EVENT_SPAIN_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_4</Description>
-			<LosingMoney>true</LosingMoney>
 			<UnitClassRequired>UNITCLASS_LANCER</UnitClassRequired>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<IsOneShot>true</IsOneShot>
@@ -72,7 +71,6 @@
 			<Help>TXT_KEY_EVENT_SPAIN_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
-			<LosingMoney>true</LosingMoney>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
@@ -413,7 +411,7 @@
 			<Text>Devolve powers to the Criollo class. Trading +3 [ICON_CULTURE] Culture for -3 [ICON_GOLD] Gold at every Courthouse, and +1 [ICON_CULTURE] Culture for -1 [ICON_GOLD] Gold at every Plantation and Village.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SPAIN_UE_HELP_CHOICE_6">
-			<Text>Give up {1_YieldCost} to allow large scale Tourism to generate +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism from Holy Sites, Citadels and Castle</Text>
+			<Text>Give up {1_YieldCost} to allow large scale Tourism to generate +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism from Holy Sites, Citadels and Castles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SPAIN_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A miracle has occured! A young student appears to have risen from the dead*[NEWLINE]I pray constantly for supplication, this must be a sign! God's gift to us all. Bring the holy vessel to me!</Text>

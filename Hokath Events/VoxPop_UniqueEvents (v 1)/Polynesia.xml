@@ -66,7 +66,6 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AIRPORT</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_POLYNESIA_UE_DUMMY</EventBuildingClassGlobal>
-			<LosingMoney>true</LosingMoney>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
