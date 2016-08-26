@@ -318,13 +318,13 @@
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_APOSTOLIC_TRADITION_CHOICE_5</EventChoiceType>
-			<SpecialistType>SPECALIST_CIVIL_SERVANT</SpecialistType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_APOSTOLIC_TRADITION_CHOICE_5</EventChoiceType>
-			<SpecialistType>SPECALIST_CIVIL_SERVANT</SpecialistType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>

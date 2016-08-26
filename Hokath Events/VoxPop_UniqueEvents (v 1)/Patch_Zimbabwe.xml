@@ -656,9 +656,16 @@
 			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<CapitalOnly>true</CapitalOnly>
-			<RequiredActiveEventChoice>EVENT_ZIMBABWE_UE_CHOICE_3</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_ZIMBABWE_FOLLOWUP</CityEventType>
+			<EventChoice>EVENT_ZIMBABWE_UE_CHOICE_3</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>			
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_ZIMBABWE_FOLLOWUP_CHOICE_1</Type>

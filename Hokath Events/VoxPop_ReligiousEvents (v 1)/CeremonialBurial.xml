@@ -169,31 +169,31 @@
 
 	<UnitPromotions>
 		<Row>
-			<Type>PROMOTION_FANATIC</Type>
-			<Description>TXT_KEY_PROMOTION_FANATIC</Description>
+			<Type>PROMOTION_CEREMONIAL_BURIAL</Type>
+			<Description>TXT_KEY_PROMOTION_CEREMONIAL_BURIAL</Description>
 			<CannotBeChosen>true</CannotBeChosen>
-			<Help>TXT_KEY_PROMOTION_FANATIC_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_CEREMONIAL_BURIAL_HELP</Help>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_FANATIC</PediaEntry>
+			<PediaEntry>TXT_KEY_PROMOTION_CEREMONIAL_BURIAL</PediaEntry>
 			<DefenseMod>-10</DefenseMod>
 			<HPHealedIfDestroyEnemy>10</HPHealedIfDestroyEnemy>
 		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
 		<Row>
-			<PromotionType>PROMOTION_FANATIC</PromotionType>
+			<PromotionType>PROMOTION_CEREMONIAL_BURIAL</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 		</Row>
 		<Row>
-			<PromotionType>PROMOTION_FANATIC</PromotionType>
+			<PromotionType>PROMOTION_CEREMONIAL_BURIAL</PromotionType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 		</Row>
 	</UnitPromotions_UnitCombats>
 	<UnitPromotions_YieldFromKills>
 		<Row>
-			<PromotionType>PROMOTION_FANATIC</PromotionType>
+			<PromotionType>PROMOTION_CEREMONIAL_BURIAL</PromotionType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>50</Yield>
 		</Row>
@@ -423,7 +423,7 @@
 			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Mausoleum to generate +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_HELP_CHOICE_2">
-			<Text>Use {1_YieldCost} to spread word of your success in the quest. All Melee and Gun Units receive the Fanaticism Promotion.</Text>
+			<Text>Use {1_YieldCost} to spread word of your success in the quest. All Melee and Gun Units receive the CEREMONIAL_BURIALism Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_HELP_CHOICE_3">
 			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Mausoleum to generate +3 [ICON_PEACE] Faith.</Text>
@@ -456,10 +456,10 @@
 			<Text>Our efforts have finally been rewarded. The body of the Prophet was recovered, still miraculously whole. He may now be interred in the place of honour of the Mausoleum, and perhaps secured all our places in the world beyond this one!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_FANATIC">
+		<Row Tag="TXT_KEY_PROMOTION_CEREMONIAL_BURIAL">
 			<Text>Fanaticism</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_FANATIC_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_CEREMONIAL_BURIAL_HELP">
 			<Text>Kills reward [ICON_PEACE] Faith and heal of 10 HP. When defending [ICON_STRENGTH] Strength is reduced by 10%.</Text>
 		</Row>
 	</Language_en_US>

@@ -303,13 +303,13 @@
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_WAY_OF_THE_PILGRIM_CHOICE_5</EventChoiceType>
-			<SpecialistType>SPECALIST_CIVIL_SERVANT</SpecialistType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_WAY_OF_THE_PILGRIM_CHOICE_5</EventChoiceType>
-			<SpecialistType>SPECALIST_CIVIL_SERVANT</SpecialistType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>

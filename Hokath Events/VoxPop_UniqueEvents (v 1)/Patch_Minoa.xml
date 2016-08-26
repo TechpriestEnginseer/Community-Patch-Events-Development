@@ -624,9 +624,16 @@
 			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<CapitalOnly>true</CapitalOnly>
-			<RequiredActiveEventChoice>EVENT_MINOAN_UE_CHOICE_4</RequiredActiveEventChoice>
 		</Row>
 	</CityEvents>
+	<CityEvent_EventLinks>
+		<Row>
+			<CityEventType>CITY_EVENT_MINOAN_FOLLOWUP</CityEventType>
+			<EventChoice>EVENT_MINOAN_UE_CHOICE_4</EventChoice>
+			<CheckForActive>true</CheckForActive>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
+		</Row>
+	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_MINOAN_FOLLOWUP_CHOICE_1</Type>

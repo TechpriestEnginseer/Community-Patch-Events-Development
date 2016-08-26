@@ -196,7 +196,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HERO_WORSHIP_CHOICE_4</EventChoiceType>
-			<YieldType>YIELD_PROMOTION</YieldType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>100</Yield>
 		</Row>
 

@@ -37,7 +37,7 @@
     <File md5="B615D368E2D62D8366DC70E3FB925A0D" import="0">China.xml</File>
     <File md5="406915C4593A276DA8E723FA063514B4" import="0">Denmark.xml</File>
     <File md5="80797889F7231A48B127E0D6CE606E11" import="0">Ethiopia.xml</File>
-    <File md5="2AE9C3312C5868046BD0EE7A1B6967A2" import="0">Patch_Bulgaria.xml</File>
+    <File md5="B50D9DCEACC0B76D95DCBEBFC960E79D" import="0">Patch_Bulgaria.xml</File>
     <File md5="6FD06EA58DF69A917D2EEEED51A73894" import="0">Patch_Durrani.xml</File>
     <File md5="556F9AF92763F95359EEAC2AD23D920E" import="0">Patch_Flandersv1.xml</File>
     <File md5="761CB3D083BA57EA5FF52B5572C2E2A8" import="0">Greece.xml</File>
@@ -48,7 +48,7 @@
     <File md5="FB70F3304DC568C1106099C578B81CDB" import="0">Maya.xml</File>
     <File md5="D4ECE260840AD894EBD63ED1E268524C" import="0">Patch_Garamantes.xml</File>
     <File md5="68B7B1A3D0522AC371F0347A25F6A9BB" import="0">Patch_Khmer.xml</File>
-    <File md5="2109E1F93C7F57D3096394D94D39E068" import="0">Patch_Minoa.xml</File>
+    <File md5="DEB7BF94B05D5A362F1F93C781B29E02" import="0">Patch_Minoa.xml</File>
     <File md5="09A9BD3A18C0C2BF5196B0F3DF33CBFB" import="0">Mongolia.xml</File>
     <File md5="2B8AE4DD4745D08F798D324EF1CBA97C" import="0">Netherlands.xml</File>
     <File md5="C6E06CA843B6A58E4DF7A644A443D846" import="0">Egypt.xml</File>
@@ -62,7 +62,7 @@
     <File md5="60E2137EDC8917ACD2D3AFD6EEC685C9" import="0">Ottoman.xml</File>
     <File md5="C650E2B34C8B50824AD2B184C2C2E898" import="0">Patch_Olmec.xml</File>
     <File md5="03EC8612D8A49E63380F7E79813F05D4" import="0">Patch_Tibet.xml</File>
-    <File md5="EBF29A6004F2900069F0FBE5DA3C3CA8" import="0">Patch_Zimbabwe.xml</File>
+    <File md5="B99975096B667A08FEC4867FFF7D0F8E" import="0">Patch_Zimbabwe.xml</File>
     <File md5="CF6328D80C4B2E1CC1C173764C9A2513" import="0">Persia.xml</File>
     <File md5="5CB9CAB00DBBEC6CD8014B3F94232838" import="0">Poland.xml</File>
     <File md5="00CFD80EF32982827104772832F42EA3" import="0">Polynesia.xml</File>

@@ -285,19 +285,19 @@
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_WAY_OF_TRANSCENCE_CHOICE_6</EventChoiceType>
-			<SpecialistType>SPECALIST_ARTIST</SpecialistType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_WAY_OF_TRANSCENCE_CHOICE_6</EventChoiceType>
-			<SpecialistType>SPECALIST_MUSICIAN</SpecialistType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_WAY_OF_TRANSCENCE_CHOICE_6</EventChoiceType>
-			<SpecialistType>SPECALIST_WRITER</SpecialistType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>

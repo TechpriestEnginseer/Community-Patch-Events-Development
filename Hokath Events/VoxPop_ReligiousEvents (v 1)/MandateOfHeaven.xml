@@ -10,7 +10,7 @@
 			<RandomChanceDelta>6</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CELESTIAL_THRONE</RequiredAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HEAVENLY_THRONE</RequiredAnywhereBuildingClass>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -29,7 +29,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
-			<EventPromotion>PROMOTION_MANDATE_OF_HEAVEN</EventPromotion>
+			<EventPromotion>PROMOTION_MANDATE</EventPromotion>
 			<ImprovementAnywhereRequired>IMPROVEMENT_HOLY_SITE</ImprovementAnywhereRequired>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_PRINTING_PRESS</RequiredAnywhereBuildingClass>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
@@ -243,7 +243,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_6</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -258,14 +258,14 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_1</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CELESTIAL_THRONE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HEAVENLY_THRONE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CELESTIAL_THRONE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HEAVENLY_THRONE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
@@ -321,7 +321,7 @@
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CELESTIAL_THRONE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HEAVENLY_THRONE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Modifier>20</Modifier>
 		</Row>

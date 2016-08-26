@@ -23,15 +23,15 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="C1E8564D6226D3EFA28DE261D06FFAD9" import="0">ApostolicTradition.xml</File>
-    <File md5="E6D1D35067AC4ADB9F9FFAFF81B6F72D" import="0">CeremonialBurial.xml</File>
+    <File md5="4D1C0EC39D01FE99E2780E7C48D391CA" import="0">ApostolicTradition.xml</File>
+    <File md5="F8E086D32D8B69B49310460EF215AF61" import="0">CeremonialBurial.xml</File>
     <File md5="7A56D67A1845D96617E6D27A4881AB26" import="0">CouncilOfElders.xml</File>
-    <File md5="0DB2EE2CC8728532223BE15C16442A0A" import="0">HeroWorship.xml</File>
+    <File md5="AD46110AE8F7F37AB2043AD49E998D8F" import="0">HeroWorship.xml</File>
     <File md5="DBC079330949DB52CFD6CEEC2E845E18" import="0">HolyLaw.xml</File>
-    <File md5="0C0CBD5C1F377906818F853AC2A20052" import="0">MandateOfHeaven.xml</File>
+    <File md5="D3F3965867F0373B60CEE7A30343952B" import="0">MandateOfHeaven.xml</File>
     <File md5="EFB31DDD7CBE75C5EFABF1F5251C8335" import="0">1temp.xml</File>
-    <File md5="3059EF76F861FD7B91A3292F3E33B620" import="0">WayOfThePilgrim.xml</File>
-    <File md5="91EF273D19424B38D6975395C39BBB0C" import="0">WayOfTranscendance.xml</File>
+    <File md5="95B6B40D92EA3194C3E4B21E27508C9C" import="0">WayOfThePilgrim.xml</File>
+    <File md5="61E7D324F983A3EB668DAA3334BF77E5" import="0">WayOfTranscendance.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
