@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_LEUGI_OLMEC</Type>
+			<Description>TXT_KEY_LEUGI_OLMEC_DESC</Description>
+			<ShortDescription>TXT_KEY_LEUGI_OLMEC_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_LEUGI_OLMEC_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_LEUGI_OLMEC</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AZTEC</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>OLMEC_ATLAS_MOD</IconAtlas>
+			<AlphaIconAtlas>OLMEC_ALPHA_ATLAS_MOD</AlphaIconAtlas>
+			<DawnOfManImage>OlmecDoMMod.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_LEUGI_OLMEC</DawnOfManAudio>
+			<DawnOfManQuote>TXT_KEY_DAWN_OF_MAN_LEUGI_OLMEC_TEXT</DawnOfManQuote>
+			<MapImage>OlmecMapMod.dds</MapImage>
+			<SoundtrackTag>Aztec</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<LeaderheadType>LEADER_LEUGI_U_KIX_CHAN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_LEUGI_JADE_WARRIOR</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEUGI_OLMEC_ICON</Type>
+			<Red>0.490</Red>
+			<Green>0.701</Green>
+			<Blue>0.478</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEUGI_OLMEC_BACKGROUND</Type>
+			<Red>0.086</Red>
+			<Green>0.329</Green>
+			<Blue>0.286</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_OLMEC_NOTIFICATION</Type>
+			<Red>0.611</Red>
+			<Green>0.356</Green>
+			<Blue>0.192</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_LEUGI_OLMEC</Type>
+			<PrimaryColor>COLOR_PLAYER_LEUGI_OLMEC_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEUGI_OLMEC_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_SAN_LORENZO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_LA_VENTA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_LAGUNA_DE_LOS_CERROS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TRES_ZAPOTES</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TUXTLAS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_ABAJ_TAKALIK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_OXTOTITLAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TENOCHTITLAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_CHALCATZINGO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_JUXTLAHUACA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_BALANCAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_PALENQUE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_XOC</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_PIJIJIAPAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_IZAPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TEOPANTECUANITLAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TLATILCO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_CUICUILCO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TEXPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_CHALCHUAPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_ZAZACATLA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LEUGI_OLMEC_TLAPACOYA</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_LEUGI_OLMEC_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- ----------------------------------------UNIQUE EVENTS------------------------------------------------- -->
+	<Events>
+		<Row>
+			<Type>EVENT_OLMEC_UE</Type>
+			<EventClass>EVENT_CLASS_CIV_SPECIFIC</EventClass>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION</Description>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP</Help>
+			<NumChoices>6</NumChoices>
+			<RandomChance>125</RandomChance>
+			<RandomChanceDelta>125</RandomChanceDelta>
+			<EventCooldown>0</EventCooldown>
+			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_CLASSICAL</RequiredEra>
+			<RequiredCiv>CIVILIZATION_LEUGI_OLMEC</RequiredCiv>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
+		</Row>
+	</Events>
+	<EventChoices>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_1</Type>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_1</Help>
+			<FreeGreatPeople>1</FreeGreatPeople>
+			<EventDuration>150</EventDuration>
+			<IsOneShot>false</IsOneShot>
+		</Row>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_2</Type>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_2</Help>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_2</Description>
+			<IsOneShot>true</IsOneShot>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<EventDuration>-1</EventDuration>
+		</Row>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_3</Type>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_3</Help>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_3</Description>
+			<IsOneShot>true</IsOneShot>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<EventDuration>-1</EventDuration>
+			<UnitClassRequired>UNITCLASS_PIKEMAN</UnitClassRequired>
+		</Row>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_4</Type>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_4</Help>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_4</Description>
+			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<EraScaling>true</EraScaling>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</RequiredAnywhereBuildingClass>
+		</Row>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_5</Type>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_5</Help>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_5</Description>
+			<IsOneShot>true</IsOneShot>
+			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<ImprovementAnywhereRequired>IMPROVEMENT_LANDMARK</ImprovementAnywhereRequired>
+			<EventDuration>-1</EventDuration>
+			<EraScaling>true</EraScaling>
+		</Row>
+		<Row>
+			<Type>EVENT_OLMEC_UE_CHOICE_6</Type>
+			<Help>TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_6</Help>
+			<Description>TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_6</Description>
+			<IsOneShot>true</IsOneShot>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<EventBuildingClassGlobal>BUILDINGCLASS_OLMEC_UE_DUMMY</EventBuildingClassGlobal>
+			<EventDuration>-1</EventDuration>
+			<EraScaling>true</EraScaling>
+		</Row>
+	</EventChoices>
+	<Event_ParentEvents>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_1</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_2</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_3</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_6</EventChoiceType>
+			<EventType>EVENT_OLMEC_UE</EventType>
+		</Row>
+	</Event_ParentEvents>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OLMEC_UE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_OLMEC_UE_DUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OLMEC_UE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_OLMEC_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_OLMEC_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_YieldFromBirth>
+		<Row>
+			<BuildingType>BUILDING_OLMEC_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OLMEC_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldFromBirth>
+
+	<EventChoice_MinimumResourceRequired>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+	</EventChoice_MinimumResourceRequired>
+	<EventChoice_ImprovementYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_COLOSSAL_HEADS</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_COLOSSAL_HEADS</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_SCIENTIST_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_SCIENTIST_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_MERCHANT_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_MERCHANT_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_ENGINEER_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_ENGINEER_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_GENERAL_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_GENERAL_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_PROPHET_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_PROPHET_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_ARTIST_HEAD</ImprovementType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_LEUGI_ARTIST_HEAD</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_ImprovementYieldChange>
+	<EventChoice_SpecialistYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_SpecialistYieldChange>
+	<EventChoice_FeatureYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_2</EventChoiceType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_FeatureYieldChange>
+	<EventChoice_EventCostYield>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>350</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>400</Yield>
+		</Row>
+	</EventChoice_EventCostYield>
+	<EventChoice_ResourceQuantity>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_3</EventChoiceType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_ResourceQuantity>
+
+
+	<EventChoiceFlavors>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_1</EventChoiceType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_2</EventChoiceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_3</EventChoiceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_6</EventChoiceType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</EventChoiceFlavors>
+	<EventChoice_Notification>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_1</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_1</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_1_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_2</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_2</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_2_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_3</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_3</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_3_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_4</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_4</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_4_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_5</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_5</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_5_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OLMEC_UE_CHOICE_6</EventChoiceType>
+			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
+			<Description>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_6</Description>
+			<ShortDescription>TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_6_S</ShortDescription>
+			<IsWorldEvent>true</IsWorldEvent>
+		</Row>
+	</EventChoice_Notification>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_1_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_1">
+			<Text>{3_PlayerName} summons a promising citizen to the capital to serve in his administration!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_2_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_2">
+			<Text>{3_PlayerName} extends his stone structures deep into the Jungles of Olmec!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_3_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_3">
+			<Text>{3_PlayerName} repurposes the ceremonial [ICON_RES_JADE] Jade spread throughout his Empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_4_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_4">
+			<Text>Under {3_PlayerName}'s direction, the technical specialists of Olmec are working in harmony with natural resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_5_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_5">
+			<Text>A massive program of repairs and improvements is being rolled out across the distinctive landmark sites of Olmec.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_6_S">
+			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OLMEC_UE_CHOICE_6">
+			<Text>{3_PlayerName} declares the beginning of the end! His private ritual are extended throughout his Empire as Olmecs prepare themselves.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION">
+			<Text>The End Times Are Upon Us</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP">
+			<Text>None of the other leaders seem to question this bizare purgatory we find ourselves in. We live, we die, we live again. Have we angered the Gods? Are there even Gods at all?[NEWLINE][NEWLINE]We can only hope that this time, I can discover the secret before I am returned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_1">
+			<Text>Receive a Great Person of your choice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_2">
+			<Text>Extend your terraces. All Jungle Tiles produce +1 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_3">
+			<Text>Reallocate resources to gain a copy of [ICON_RES_JADE] Jade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_4">
+			<Text>Use {1_YieldCost} to improve your understanding of natural materials. Your [ICON_GREAT_ENGINEER] Engineers and [ICON_GREAT_SCIENTIST] Scientists generate +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_5">
+			<Text>Invest {1_YieldCost} to preserve and renovate your Landmarks and Colossal Heads: they produce +2 [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_HELP_CHOICE_6">
+			<Text>Innovate and expand upon the ritual practices of the [ICON_CAPITAL] Capital with {1_YieldCost}. When a [ICON_CITIZEN] Citizen is born in any City, receive a boost of [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_1">
+			<Text>I cannot focus on unravelling the fundamental mysteries while also running the Empire. I need the assistance of willing Olmec if I am to be successful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_2">
+			<Text>I must know more! No stone can be left unturned in my pursuit of truth! We have the materials: construct more facilities!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_3">
+			<Text>Nothing can be allowed to go to waste. Once our finest warriors used the green stone to construct their masks and ornaments. Our discoveries have rendered such things obsolete: we should repurpose the resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_4">
+			<Text>The Jungle is key to our success. I provides the nourishment to feed our families, and protects our sites from prying eyes. Where other Empires destroy their natural heritage, we will learn to live with ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_5">
+			<Text>Thousands of years have past, and the instituitions of the past continue to serve us well. As they reward us, so must be care for them. We cannot allow any value to be lost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OLMEC_UE_DESCRIPTION_CHOICE_6">
+			<Text>One city is no longer enough to provide me the resources I require. We must spread the Olmec ways and values everywhere. I am so close to breaching the veil... I need more time!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_OLMEC_UE_DUMMY">
+			<Text></Text>
+		</Row>
+	</Language_en_US>
+</GameData>

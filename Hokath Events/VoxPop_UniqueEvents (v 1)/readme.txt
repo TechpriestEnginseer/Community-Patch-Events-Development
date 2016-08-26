@@ -361,37 +361,44 @@ qizilbash - req metallurgy, req war, cost faith, janissary in each city
 zamburak - req dynamite, cost science, promo for gatling gun & machine gun +move+desert
 Opium trade - req penicillin, req plantation, 2copies tobacco, plantation -food+gold+tour
 
---LS Zimbabwe--A Bull Has But One Herd ./
+--LS Zimbabwe--A Bull Has But One Herd
 mapungubwe - req currency, cost gold, copy ivory, 2copy gold
 mutapa - req civil service, cost gold&culture, req war minor, 2copy copper, merchant of venice
 rozwi - req gunpowder, req war, cost sci, buffalo promo, impi in each city
 open doors - req rifling, give extra gold to trade route owners, merchants +gold+food
 gukurahundi - req postmodern, farms&pastures -food, mercenaries, ambush II
 
---LS Bulgaria--The Rampant Lion ./
+--LS Bulgaria--The Rampant Lion
 khan heritage - req courthouse, get a khan
 inspired writing - req theology, req town, cost faith, writers +faith
 order of war - req gunpowder, req heroic epic, cost culture, kills +sci+cult in capital
 agrarianism - req fertilizer, req ideology, merchants&engineers&sci -yields, farms +culture+food
 bulkan prussia - req plastics, req manufactory, req trainstation, req war, march and [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]
 
---LS Tibet--Dharma King ./
+--LS Tibet--Dharma King
 yaks - req engineering, req x bison, cost culture, bison +food+prod+GAP
 rice cultivation - req civil service, cost sci, farm +food, mountain tile can be worked for 5food
 potala palace - req arsenal, cost faith&gold, palace +food+faith+GAP
 reincarnation - req ideology, req mil acad, cost faith, +exp promo, combat on hills
 roof of the world - req ecology, cost sci&gold, mountains +GAP+gold+sci
 
---LS Minoa--Blessings Of Ariadne ./
+--LS Minoa--Blessings Of Ariadne
 bull leaping - req temple, req x cow, cost culture, bison +faith+culture+tourism
 great labyrinth - req machinery, req trad post, cost gold&faith, +faith+culture +tour in capital
 venician period - req economics, req war minor, great merchant of venice
 positional importance - req replaceable parts, req x coastal, cities get gold per coast tile
 windy - req ecology, cost science&gold, wind plant in all cities
 
---LS Flanders--Strength Through Unity ./
+--LS Flanders--Strength Through Unity
 sheep - req x sheep, req town, req currency, cost gold, sheep +gold+culture, 2 copy tapestry
 belfort - req customs house, req bourg, cost culture, customs house&bourg +tour+faith+food
 chocolate - req economics, req manufac, req harbor, cost gold, workshop +cult, 3copies cocoa
 export beer - req biology, req grand temple, cost faith, wheat&sugar&bourg +gold+tourism
 treaty organisation - req replaceable parts, req war, foreign legions, friendly lands promo
+
+--Leugi Olmec--The End Times Are Upon Us
+jungle secrets - req x stone, req construction, jungle +science
+jade - req steel, req pikeman, source of jade
+natural architecture - req chemistry, req oxford uni, cost science, engineer&scientist +food
+national heritage - req archaeology, cost culture, req landmark, landmark and heads +GAP+tour
+modern infrastructure - req penicillin, cost gold, tourism&GAP on birth

@@ -29,7 +29,7 @@
     <File md5="CCC6B6577307CCAC2DAE53B59C233EEC" import="0">Austria.xml</File>
     <File md5="F061F42DAF3564631DF58BE1DBF0D94F" import="0">Aztec.xml</File>
     <File md5="19229D5DDB0E9998CBE8ED373800312F" import="0">Babylon.xml</File>
-    <File md5="86115ADE43D35E15734E27BBB83C54C0" import="0">Brazil.xml</File>
+    <File md5="26DC5847A058CDBF0984C121DD60AE68" import="0">Brazil.xml</File>
     <File md5="D41D8CD98F00B204E9800998ECF8427E" import="0">BuildingCatchupEvents.xml</File>
     <File md5="A827AA070DA5B34D6AED384C372A5AD0" import="0">Byzantium.xml</File>
     <File md5="3D350204D2B8A3F42336EF3C1766988F" import="0">Carthage.xml</File>
@@ -60,13 +60,14 @@
     <File md5="D0CB18D8B6DA88CFE0C3D2087CD2379B" import="0">Korea.xml</File>
     <File md5="76A5AD5FB8F4045BBB03DE9A5BAC315F" import="0">Morocco.xml</File>
     <File md5="60E2137EDC8917ACD2D3AFD6EEC685C9" import="0">Ottoman.xml</File>
+    <File md5="C650E2B34C8B50824AD2B184C2C2E898" import="0">Patch_Olmec.xml</File>
     <File md5="03EC8612D8A49E63380F7E79813F05D4" import="0">Patch_Tibet.xml</File>
     <File md5="EBF29A6004F2900069F0FBE5DA3C3CA8" import="0">Patch_Zimbabwe.xml</File>
     <File md5="CF6328D80C4B2E1CC1C173764C9A2513" import="0">Persia.xml</File>
     <File md5="5CB9CAB00DBBEC6CD8014B3F94232838" import="0">Poland.xml</File>
     <File md5="00CFD80EF32982827104772832F42EA3" import="0">Polynesia.xml</File>
     <File md5="A842791863A1865189A2B1199990D94D" import="0">Portugal.xml</File>
-    <File md5="3D9AD5DD5AAF42CB09832BCF4C4D7C0A" import="0">readme.txt</File>
+    <File md5="F1A3B8E10BA9CB2F999988CA8076799E" import="0">readme.txt</File>
     <File md5="DC1284A33359264F7F6CF11BDC3F9F0A" import="0">Rome.xml</File>
     <File md5="AAC1D5596EAA2C4D0FB9AD846E504340" import="0">Russia.xml</File>
     <File md5="471C7B9A1E218F1895A97FA4372F0B4E" import="0">Shoshone.xml</File>

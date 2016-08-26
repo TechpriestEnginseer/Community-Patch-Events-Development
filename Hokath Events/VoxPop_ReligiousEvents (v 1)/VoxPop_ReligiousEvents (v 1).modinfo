@@ -23,14 +23,26 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="7B08C1A71306C5F22455F4DF7C175202" import="0">ApostolicTradition.xml</File>
-    <File md5="6FB9B48AD651622A4E513AB8206202B0" import="0">CeremonialBurial.xml</File>
-    <File md5="0F21BEB17DC014831D761167CC9E37D5" import="0">CouncilOfElders.xml</File>
-    <File md5="B5D54F85596ED2BD0A1B70428BD8B074" import="0">HeroWorship.xml</File>
-    <File md5="7ED010DFBC127DD6A23E28F09E54B7BE" import="0">HolyLaw.xml</File>
-    <File md5="97B8590E34B0CB7165C6BCE22047F4CC" import="0">MandateOfHeaven.xml</File>
+    <File md5="C1E8564D6226D3EFA28DE261D06FFAD9" import="0">ApostolicTradition.xml</File>
+    <File md5="E6D1D35067AC4ADB9F9FFAFF81B6F72D" import="0">CeremonialBurial.xml</File>
+    <File md5="7A56D67A1845D96617E6D27A4881AB26" import="0">CouncilOfElders.xml</File>
+    <File md5="0DB2EE2CC8728532223BE15C16442A0A" import="0">HeroWorship.xml</File>
+    <File md5="DBC079330949DB52CFD6CEEC2E845E18" import="0">HolyLaw.xml</File>
+    <File md5="0C0CBD5C1F377906818F853AC2A20052" import="0">MandateOfHeaven.xml</File>
     <File md5="EFB31DDD7CBE75C5EFABF1F5251C8335" import="0">1temp.xml</File>
-    <File md5="F3256FF06DC7B144C99A72431590FBFF" import="0">WayOfThePilgrim.xml</File>
-    <File md5="43535D8454556D4C49FD6023078ED165" import="0">WayOfTranscendance.xml</File>
+    <File md5="3059EF76F861FD7B91A3292F3E33B620" import="0">WayOfThePilgrim.xml</File>
+    <File md5="91EF273D19424B38D6975395C39BBB0C" import="0">WayOfTranscendance.xml</File>
   </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ApostolicTradition.xml</UpdateDatabase>
+      <UpdateDatabase>CeremonialBurial.xml</UpdateDatabase>
+      <UpdateDatabase>CouncilOfElders.xml</UpdateDatabase>
+      <UpdateDatabase>HeroWorship.xml</UpdateDatabase>
+      <UpdateDatabase>HolyLaw.xml</UpdateDatabase>
+      <UpdateDatabase>MandateOfHeaven.xml</UpdateDatabase>
+      <UpdateDatabase>WayOfThePilgrim.xml</UpdateDatabase>
+      <UpdateDatabase>WayOfTranscendance.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
 </Mod>
