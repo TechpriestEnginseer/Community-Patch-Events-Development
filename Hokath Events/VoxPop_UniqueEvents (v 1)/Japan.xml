@@ -51,7 +51,9 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_JAPAN_UE_DUMMY_2</EventBuildingClassGlobal>
 			<WLTKDTurns>5</WLTKDTurns>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
-			<EventDuration>-1</EventDuration>
+			<EventDuration>10</EventDuration>
+			<WLTKDTurns>10</WLTKDTurns>
+			<Expires>false</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_5</Type>
