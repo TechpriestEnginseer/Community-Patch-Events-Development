@@ -202,14 +202,14 @@
 			<Yield>300</Yield>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_5</EventChoiceType>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>500</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 	<EventChoice_InstantYield>
 		<Row>
-			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_6</EventChoiceType>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>-200</Yield>
 		</Row>

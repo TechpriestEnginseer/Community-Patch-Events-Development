@@ -262,7 +262,7 @@
 			<Yield>300</Yield>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>300</Yield>
 		</Row>

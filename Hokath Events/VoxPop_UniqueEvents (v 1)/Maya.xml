@@ -190,7 +190,7 @@
 
 	<EventChoice_MinimumStartYield>
 		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>750</Yield>
 		</Row>
@@ -207,7 +207,7 @@
 	</EventChoice_MinimumStartYield>
 	<EventChoice_InstantYield>
 		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>-750</Yield>
 		</Row>
