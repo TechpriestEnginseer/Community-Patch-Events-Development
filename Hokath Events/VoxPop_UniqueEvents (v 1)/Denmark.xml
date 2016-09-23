@@ -55,7 +55,7 @@
 			<Help>TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EventBuildingClassGlobal>BUILDINGCLASS_DENMARK_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>

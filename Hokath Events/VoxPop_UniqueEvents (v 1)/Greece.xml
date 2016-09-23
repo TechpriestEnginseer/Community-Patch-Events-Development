@@ -30,6 +30,7 @@
 			<Description>TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BATH</RequiredAnywhereBuildingClass>
+			<EventBuildingClassGlobal>BUILDINGCLASS_GREECE_UE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
