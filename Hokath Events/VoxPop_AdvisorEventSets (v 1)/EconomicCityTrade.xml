@@ -60,6 +60,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<RequiredBuildingClass>BUILDINGCLASS_FACTORY</RequiredBuildingClass>
+			<LocalResourceRequired>RESOURCE_IRON</LocalResourceRequired>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_6</Type>
@@ -68,6 +69,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<RequiredBuildingClass>BUILDINGCLASS_STOCKYARD</RequiredBuildingClass>
+			<NearbyFeature>FEATURE_FOREST</NearbyFeature>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
@@ -126,45 +128,45 @@
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_5</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_6</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 	</CityEventChoice_ImprovementYieldChange>
 	<CityEventChoice_EventCostYield>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>100</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>100</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>125</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_4</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>125</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_5</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>125</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_TRADE_CHOICE_6</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>125</Yield>
 		</Row>
 	</CityEventChoice_EventCostYield>
 
@@ -236,7 +238,7 @@
 			<Text>Fund an engineering outreach program for {1_YieldCost}. Nearby Villages generate +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION_CHOICE_5">
-			<Text>The machines we can now create benefit manual, cottage industry more than any other. People should be part of their economic liberation.</Text>
+			<Text>The machines we can now create benefit manual, cottage industry more than any other. We need to provide the tools for the people should be part of their economic liberation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP_CHOICE_6">
 			<Text>Fund forestry training for {1_YieldCost}. Nearby Villages generate +2 [ICON_FOOD] Food.</Text>
