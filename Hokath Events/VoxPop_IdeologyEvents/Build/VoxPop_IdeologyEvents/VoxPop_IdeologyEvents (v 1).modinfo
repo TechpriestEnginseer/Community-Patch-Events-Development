@@ -25,6 +25,12 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="35371BF5B38EEF4D2D56DE05D3587318" import="0">event1.xml</File>
+    <File md5="935E40F81FE0810544C7907E3C1C7022" import="0">AvantGarde.xml</File>
+    <File md5="DC2C099427E27F6FED27BB37F2D4AA19" import="0">Communism.xml</File>
+    <File md5="9274D4B5F847FD668A2D749F990B2FEE" import="0">CreativeExpression.xml</File>
+    <File md5="9030264CCEE91F2ED6EE4D1EBD55AB68" import="0">EconomicUnion.xml</File>
+    <File md5="3F2171198ED6D99B24AA7C767A4B957E" import="0">UniversalHealthcare.xml</File>
+    <File md5="F1CA265BB264BB4CA36F07E5A36DCF65" import="0">Urbanization.xml</File>
+    <File md5="271B6F0F7B142B782DC3D054C8936B4B" import="0">VolunteerArmy.xml</File>
   </Files>
 </Mod>

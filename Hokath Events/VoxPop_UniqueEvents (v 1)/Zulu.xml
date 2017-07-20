@@ -42,7 +42,6 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventPromotion>PROMOTION_SHOCK_4</EventPromotion>
 			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>

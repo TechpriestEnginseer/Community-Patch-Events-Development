@@ -660,10 +660,8 @@
 			<Text>Utilise {1_YieldCost} to design harnesses to mount large weapons on camel-back. Existing Archery Units, as well as those trained within the next {4_Turns}, gain the Zamburak Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_HELP_CHOICE_6">
-			<Text>Plant 2 copies of [ICON_RES_TOBACCO] Tobacco. Your Plantations generate -2 [ICON_FOOD] Food, but +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_1">
-			<Text>A strong and lawful people will be defended by God. So long as there are faithful in Durrani, we shall not fall.</Text>
+			<Text>Plant 2 copies of [ICON_RES_TOBACCO] Tobacco. Your Plantations generate -2 [ICON_FOOD] Food, but +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_1">
+			<Text>A strong and lawful people will be defended by God. So long as there all not fall.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_2">
 			<Text>These mountains are cut from the same rock as the stone tablets, as the cave where the angelic message was given. They will be our foundation and shield against the infidel.</Text>
