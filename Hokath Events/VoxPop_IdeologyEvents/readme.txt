@@ -41,40 +41,40 @@ POLICY_VOLUNTEER_ARMY - In The Army Now
 ORDER
 -----
 
-POLICY_SKYSCRAPERS - Nothing To Lose
-1.
-2.
-3.
+POLICY_SKYSCRAPERS - Nothing To Lose But Your Chains
+1. Cost iron get labourer yields
+2. merchants lose 2 gold, farms gain 1 production
+3. cost gold get 1 science on farms
 
 POLICY_YOUNG_PIONEERS - Let One Hundred Flowers Bloom
-1.
-2.
-3.
+1. unrest then scientists get +science
+2. unhappy per city but university 5% tourism
+3. scientists -science but +prod land units
 
-POLICY_PATRIOTIC_WAR - They'll Never Take Us Alive
-1.
-2.
-3.
+POLICY_PATRIOTIC_WAR - Going Underground
+1. PROMOTION_ANTIAIR_LAND_I req war
+2. forest and jungle +prod req forest jungle expires after x turns
+3. forts and citadels +tourism+sci req citadel
 
 POLICY_HERO_OF_THE_PEOPLE - Charismatic Authority
-1.
-2.
-3.
+1. tourism from factory, req placeparts, cost culture
+2. -gold+tourism for civil servants, req foreign office
+3. science from uni, req a public school, cost culture
 
-POLICY_UNIVERSAL_HEALTHCARE_O - By Decree
-1.
-2.
-3.
+POLICY_UNIVERSAL_HEALTHCARE_O - By Decree - CITY EVENT
+1. requires war, hospital gains +tourism, cost gold
+2. requires farm, border points
+3. requires wheat, wheat +food +gap
 
-POLICY_SOCIALIST_REALISM - The Red Army
-1.
-2.
-3.
+POLICY_SOCIALIST_REALISM - Little Red Book
+1. xp and city supply modifier, cost culture
+2. unrest, reduce boredom and crime
+3. cost population, drill II
 
 POLICY_WORKERS_FACULTIES - Share and Share Alike
-1.
-2.
-3.
+1. cost gold, factories increase %food
+2. cost gold, Science in Towns
+3. civil servant -gold+food
 
 ----
 
