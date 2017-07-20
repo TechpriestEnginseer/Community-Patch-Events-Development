@@ -99,19 +99,19 @@ AUTOCRACY
 ---------
 
 POLICY_ELITE_FORCES - Stormtroopers
-1.
-2.
-3.
+1. cost culture, shock II
+2. cost gold, cities gain culture when units level
+3. cost science, cities gain production when units level
 
 POLICY_FUTURISM - We Want None of the Past
-1.
-2.
-3.
+1. cost culture, artist tourism
+2. cost culture, museum +%science
+3. cost gold, great works give +prod
 
 POLICY_UNIVERSAL_HEALTHCARE_A - Disproportionate Retribution - CITY EVENT
-1.
-2.
-3.
+1. lose pop get sci, req medical lab
+2. lose pop get prod, req military base
+3. lose pop get faith, RequiredStateReligion
 
 POLICY_INDUSTRIAL_ESPIONAGE - Anschluss, Irredenta 
 1.
