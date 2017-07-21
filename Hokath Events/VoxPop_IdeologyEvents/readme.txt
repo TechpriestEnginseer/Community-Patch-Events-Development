@@ -113,24 +113,24 @@ POLICY_UNIVERSAL_HEALTHCARE_A - Disproportionate Retribution - CITY EVENT
 2. lose pop get prod, req military base
 3. lose pop get faith, RequiredStateReligion
 
-POLICY_INDUSTRIAL_ESPIONAGE - Anschluss, Irredenta 
-1.
-2.
-3.
+POLICY_INDUSTRIAL_ESPIONAGE - Anschluss, Irredenta - CITY EVENT
+1. req mine field, mine field +local culture
+2. req courthouse, RequiresGarrison, courthouse +culture
+3. req puppet, anarchy ResistanceTurns, wltkdturns
 
 POLICY_MOBILIZATION - Behemoth
-1.
-2.
-3.
+1. req forests, forests -food, lumbermill +prod
+2. military base -sci+prod
+3. military base -prod+sci
 
 POLICY_FORTIFIED_BORDERS - Balance of Power
-1.
-2.
-3.
+1. library -sci gain GAP
+2. req policy station, police station -gold+gap
+3. req foreign office, foreign office +tourism
 
 POLICY_UNITED_FRONT - Axis Agreement
-1.
-2.
-3.
+1. req war, cost culture, foreign office +prod+food+sci
+2. req war, cost GAP, promo ______
+3. req war, civil servants -gold+tourism
 
 ----
