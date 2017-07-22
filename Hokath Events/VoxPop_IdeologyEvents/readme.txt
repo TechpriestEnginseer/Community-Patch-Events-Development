@@ -106,16 +106,16 @@ POLICY_ELITE_FORCES - Stormtroopers
 POLICY_FUTURISM - We Want None of the Past
 1. cost culture, artist tourism
 2. cost culture, museum +%science
-3. cost gold, great works give +prod
+3. cost gold and GAP, great works give +prod
 
 POLICY_UNIVERSAL_HEALTHCARE_A - Disproportionate Retribution - CITY EVENT
-1. lose pop get sci, req medical lab
-2. lose pop get prod, req military base
-3. lose pop get faith, RequiredStateReligion
+1. lose pop get food&sci, requires puppet, req medical lab
+2. lose pop get sci&production, requires puppet, req military base
+3. lose pop get faith, requires puppet, RequiredStateReligion
 
 POLICY_INDUSTRIAL_ESPIONAGE - Anschluss, Irredenta - CITY EVENT
 1. req mine field, mine field +local culture
-2. req courthouse, RequiresGarrison, courthouse +culture
+2. req courthouse, RequiresGarrison, courthouse +tourism
 3. req puppet, anarchy ResistanceTurns, wltkdturns
 
 POLICY_MOBILIZATION - Behemoth
@@ -130,7 +130,7 @@ POLICY_FORTIFIED_BORDERS - Balance of Power
 
 POLICY_UNITED_FRONT - Axis Agreement
 1. req war, cost culture, foreign office +prod+food+sci
-2. req war, cost GAP, promo ______
+2. req war, cost GAP, +oil
 3. req war, civil servants -gold+tourism
 
 ----
