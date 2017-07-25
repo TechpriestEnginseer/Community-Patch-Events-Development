@@ -154,7 +154,7 @@
 			<Text>As we have made it our goal to unite the forces of Freedom, it is essential that we seek to share our resources and bind ourselves closer together.[NEWLINE]Which approach is most pressing?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_HELP_CHOICE_1">
-			<Text>Yield {1_YieldCost} in order to generate +1 [ICON_TOURISM] Tourism from Customs Houses, Harbors, and Airports.</Text>
+			<Text>Accept the loss of {1_YieldCost} in order to generate +1 [ICON_TOURISM] Tourism from Customs Houses, Harbors, and Airports.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_HELP_CHOICE_2">
 			<Text>All [ICON_GREAT_MERCHANT] Merchants generate -2 [ICON_GOLD] Gold, but all Farms and Plantations generate +1 [ICON_GOLD].</Text>

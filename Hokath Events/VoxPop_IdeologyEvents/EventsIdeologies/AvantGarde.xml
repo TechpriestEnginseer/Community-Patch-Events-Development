@@ -27,8 +27,9 @@
 			<Description>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_HELP_CHOICE_1</Help>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HERMITAGE</RequiredAnywhereBuildingClass>
-		<!--	<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_AVANT_GARDE_DUMMY</EventBuildingClassGlobal> -->
+			<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_AVANT_GARDE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -54,7 +55,7 @@
 		</Row>
 	</Event_ParentEvents>
 	
-	<!--<BuildingClasses>
+	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_IDEOLOGY_AVANT_GARDE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_IDEOLOGY_AVANT_GARDE_DUMMY</DefaultBuilding>
@@ -72,11 +73,11 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 		</Row>
-	</Buildings> -->
+	</Buildings>
 	
 	<Building_GreatWorkYieldChanges>
 		<Row>
-			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<BuildingType>BUILDING_IDEOLOGY_AVANT_GARDE_DUMMY</BuildingType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -111,7 +112,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_IDEOLOGY_AVANT_GARDE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>50</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
@@ -165,9 +166,9 @@
 			<Text>New art is always necessary to keep us moving forward as a self-critical people. The places in our land dedicated to the celebration of our heritage must also be ready to display that which shall compose our heritage in years to come! Let this new generation be heard!</Text>
 		</Row>
 
-		<!--<Row Tag="TXT_KEY_BUILDING_IDEOLOGY_AVANT_GARDE_DUMMY">
+		<Row Tag="TXT_KEY_BUILDING_IDEOLOGY_AVANT_GARDE_DUMMY">
 			<Text></Text>
-		</Row> -->
+		</Row>
 	</Language_en_US>
 </GameData>
 

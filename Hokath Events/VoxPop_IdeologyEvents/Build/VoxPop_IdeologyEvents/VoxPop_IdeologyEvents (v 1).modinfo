@@ -25,12 +25,49 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="935E40F81FE0810544C7907E3C1C7022" import="0">AvantGarde.xml</File>
+    <File md5="97D79D7F0222B78DB9B8996F178BFB68" import="0">AvantGarde.xml</File>
     <File md5="DC2C099427E27F6FED27BB37F2D4AA19" import="0">Communism.xml</File>
     <File md5="9274D4B5F847FD668A2D749F990B2FEE" import="0">CreativeExpression.xml</File>
-    <File md5="9030264CCEE91F2ED6EE4D1EBD55AB68" import="0">EconomicUnion.xml</File>
+    <File md5="9CEA0EAC040C25AD77A5011784D5250E" import="0">EconomicUnion.xml</File>
+    <File md5="083EE7CF5B664216CE9B0BA989C409E3" import="0">EliteForces.xml</File>
+    <File md5="B67279FD30FAC2043636EA7D263A03DE" import="0">Futurism.xml</File>
+    <File md5="408824B2BCC42A086D76D401A69066F0" import="0">GreatLeapForward.xml</File>
+    <File md5="FDC1CFD9485AB4E18A9549E5D01B9347" import="0">GuerillaWarfare.xml</File>
+    <File md5="8BED2DA6B7769D33AE106D5ACB7B8133" import="0">HeroOfThePeople.xml</File>
+    <File md5="9B67AB101DB5AFBD5741985951E853BE" import="0">IronFist.xml</File>
+    <File md5="E0438DDDEE3442C04F6E624CACF1E6C6" import="0">Lebensraum.xml</File>
+    <File md5="B569A4AAA086AEE6B77B56739BDE8CFA" import="0">MilitaryIndustrial.xml</File>
+    <File md5="E7906FCB2E22F5F8B2FFEB16F51E5688" import="0">NewWorldOrder.xml</File>
+    <File md5="1618C921164D9A5157A23EDB05BBA7B5" import="0">PeaceLandBread.xml</File>
+    <File md5="2AE80DA2F5F15A4F8E99FA89781FE405" import="0">PeoplesArmy.xml</File>
+    <File md5="8DD7E03A5E8E62B9A820F1F3FDF63BCE" import="0">UnitedFront.xml</File>
     <File md5="3F2171198ED6D99B24AA7C767A4B957E" import="0">UniversalHealthcare.xml</File>
-    <File md5="F1CA265BB264BB4CA36F07E5A36DCF65" import="0">Urbanization.xml</File>
-    <File md5="271B6F0F7B142B782DC3D054C8936B4B" import="0">VolunteerArmy.xml</File>
+    <File md5="A36B2B5D87D0E400B622A3C81E68AA4F" import="0">Urbanization.xml</File>
+    <File md5="95CFD5AE145278FF5D37140FD931FEC4" import="0">VolunteerArmy.xml</File>
+    <File md5="FA4112D82A4A806DC6922DE80B1C4569" import="0">WorkersFaculties.xml</File>
   </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>AvantGarde.xml</UpdateDatabase>
+      <UpdateDatabase>Communism.xml</UpdateDatabase>
+      <UpdateDatabase>CreativeExpression.xml</UpdateDatabase>
+      <UpdateDatabase>EconomicUnion.xml</UpdateDatabase>
+      <UpdateDatabase>EliteForces.xml</UpdateDatabase>
+      <UpdateDatabase>Futurism.xml</UpdateDatabase>
+      <UpdateDatabase>GreatLeapForward.xml</UpdateDatabase>
+      <UpdateDatabase>GuerillaWarfare.xml</UpdateDatabase>
+      <UpdateDatabase>HeroOfThePeople.xml</UpdateDatabase>
+      <UpdateDatabase>IronFist.xml</UpdateDatabase>
+      <UpdateDatabase>Lebensraum.xml</UpdateDatabase>
+      <UpdateDatabase>MilitaryIndustrial.xml</UpdateDatabase>
+      <UpdateDatabase>NewWorldOrder.xml</UpdateDatabase>
+      <UpdateDatabase>PeaceLandBread.xml</UpdateDatabase>
+      <UpdateDatabase>PeoplesArmy.xml</UpdateDatabase>
+      <UpdateDatabase>UnitedFront.xml</UpdateDatabase>
+      <UpdateDatabase>UniversalHealthcare.xml</UpdateDatabase>
+      <UpdateDatabase>Urbanization.xml</UpdateDatabase>
+      <UpdateDatabase>VolunteerArmy.xml</UpdateDatabase>
+      <UpdateDatabase>WorkersFaculties.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
 </Mod>

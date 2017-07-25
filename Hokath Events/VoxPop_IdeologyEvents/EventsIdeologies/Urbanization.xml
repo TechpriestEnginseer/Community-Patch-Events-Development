@@ -18,7 +18,7 @@
 			<Description>TXT_KEY_EVENT_IDEOLOGY_URBANIZATION_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_IDEOLOGY_URBANIZATION_HELP_CHOICE_1</Help>
 			<EventDuration>-1</EventDuration>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TRAIN_STATION</RequiredAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_TRAINSTATION</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_URBANIZATION_DUMMY</EventBuildingClassGlobal>
 		</Row>
 		<Row>
