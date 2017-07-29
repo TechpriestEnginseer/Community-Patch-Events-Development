@@ -24,16 +24,16 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_PATRIOTIC_WAR_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_HELP_CHOICE_2</Help>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_PATRIOTIC_WAR_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_PATRIOTIC_WAR_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
 			<ImprovementAnywhereRequired>IMPROVEMENT_CITADEL</ImprovementAnywhereRequired>
 			<RequiresWar>true</RequiresWar>

@@ -24,8 +24,8 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_AVANT_GARDE_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_HELP_CHOICE_2</Help>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HERMITAGE</RequiredAnywhereBuildingClass>
 			<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_AVANT_GARDE_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
@@ -34,8 +34,8 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_AVANT_GARDE_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_AVANT_GARDE_HELP_CHOICE_3</Help>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LANDMARK</ImprovementAnywhereRequired>
 			<EventDuration>-1</EventDuration>
 		</Row>

@@ -1,5 +1,4 @@
 <GameData>
-	<!-- Mt Kilimanjaro -->
 	<CityEvents>
 		<Row>
 			<Type>CITY_EVENT_IDEOLOGY_LEBENSRAUM</Type>

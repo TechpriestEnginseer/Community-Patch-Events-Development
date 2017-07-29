@@ -24,16 +24,16 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_ELITE_FORCES_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_HELP_CHOICE_2</Help>
 			<EventDuration>-1</EventDuration>
 			<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_ELITE_FORCES_DUMMY</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_ELITE_FORCES_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_ELITE_FORCES_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
 			<EventBuildingClassGlobal>BUILDINGCLASS_IDEOLOGY_ELITE_FORCES_DUMMY_2</EventBuildingClassGlobal>
 			<EraScaling>true</EraScaling>

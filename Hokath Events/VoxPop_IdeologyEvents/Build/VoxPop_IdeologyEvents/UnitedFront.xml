@@ -24,8 +24,8 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_UNITED_FRONT_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_HELP_CHOICE_2</Help>
 			<EventDuration>-1</EventDuration>
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
@@ -33,8 +33,8 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_UNITED_FRONT_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_UNITED_FRONT_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</RequiredAnywhereBuildingClass>
 			<RequiresWar>true</RequiresWar>

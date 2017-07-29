@@ -23,15 +23,15 @@
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_HERO_CHOICE_2</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_HERO_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_HERO_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_HERO_DESCRIPTION_CHOICE_2</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_HERO_HELP_CHOICE_2</Help>
 			<EventDuration>-1</EventDuration>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_FOREIGN_OFFICE</RequiredAnywhereBuildingClass>
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_HERO_CHOICE_3</Type>
-			<Description>TXT_KEY_EVENT_IDEOLOGY_HERO_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_IDEOLOGY_HERO_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_IDEOLOGY_HERO_DESCRIPTION_CHOICE_3</Description>
+			<Help>TXT_KEY_EVENT_IDEOLOGY_HERO_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
