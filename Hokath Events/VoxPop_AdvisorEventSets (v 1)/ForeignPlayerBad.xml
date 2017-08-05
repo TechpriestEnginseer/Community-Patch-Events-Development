@@ -6,8 +6,8 @@
 			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP</Help>
 			<NumChoices>1</NumChoices>
-			<RandomChance>40</RandomChance>
-			<RandomChanceDelta>5</RandomChanceDelta>
+			<RandomChance>30</RandomChance>
+			<RandomChanceDelta>3</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
@@ -68,8 +68,8 @@
 			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>20</RandomChance>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChance>30</RandomChance>
+			<RandomChanceDelta>7</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>

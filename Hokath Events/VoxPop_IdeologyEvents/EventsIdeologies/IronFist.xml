@@ -35,7 +35,7 @@
 			<Help>TXT_KEY_CITY_EVENT_IDEOLOGY_IRON_FIST_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_CITY_EVENT_IDEOLOGY_IRON_FIST_DESCRIPTION_CHOICE_3</Description>
 			<EventDuration>-1</EventDuration>
-			<RequiredReligion>true</RequiredReligion>
+			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<RequiredBuildingClass>BUILDINGCLASS_BROADCAST_TOWER</RequiredBuildingClass>
 			<RequiresPuppet>true</RequiresPuppet>
 		</Row>

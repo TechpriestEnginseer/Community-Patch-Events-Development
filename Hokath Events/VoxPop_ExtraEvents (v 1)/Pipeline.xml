@@ -12,7 +12,7 @@
 			<EventCooldown>75</EventCooldown>
 			<IsOneShot>true</IsOneShot>
 			<RequiredIdeology>POLICY_BRANCH_AUTOCRACY</RequiredIdeology>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChanceDelta>3</RandomChanceDelta>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -126,7 +126,7 @@
 			<Text>Temporarily, Foreign [ICON_RES_OIL] Oil resources will be likely to explode.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PIPELINE_HELP_CHOICE_3">
-			<Text>Gain the [COLOR_POSITIVE_TEXT]Refridgeration[ENDCOLOR] Technology.</Text>
+			<Text>Gain the [COLOR_POSITIVE_TEXT]Refrigeration[ENDCOLOR] Technology.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PIPELINE_DESCRIPTION_CHOICE_1">
 			<Text>With influence over trading, we should be able to make sure some of that [ICON_RES_OIL] Oil finds its way to our ports.</Text>

@@ -25,14 +25,14 @@
 			<Description>TXT_KEY_EVENT_IDEOLOGY_MILITARY_INDUSTRIAL_DESCRIPTION_CHOICE_2</Description>
 			<Help>TXT_KEY_EVENT_IDEOLOGY_MILITARY_INDUSTRIAL_HELP_CHOICE_2</Help>
 			<EventDuration>-1</EventDuration>
-			<RequiredAnywheredBuildingClass>BUILDINGCLASS_MILITARY_BASE</RequiredAnywheredBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MILITARY_BASE</RequiredAnywhereBuildingClass>
 		</Row>
 		<Row>
 			<Type>EVENT_IDEOLOGY_MILITARY_INDUSTRIAL_CHOICE_3</Type>
 			<Description>TXT_KEY_EVENT_IDEOLOGY_MILITARY_INDUSTRIAL_DESCRIPTION_CHOICE_3</Description>
 			<Help>TXT_KEY_EVENT_IDEOLOGY_MILITARY_INDUSTRIAL_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
-			<RequiredAnywheredBuildingClass>BUILDINGCLASS_MILITARY_BASE</RequiredAnywheredBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MILITARY_BASE</RequiredAnywhereBuildingClass>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>

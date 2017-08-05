@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_OIL_EXPLOSION_HELP</Help>
 			<EventClass>EVENT_CLASS_BAD</EventClass>
 			<NumChoices>1</NumChoices>
-			<RandomChance>20</RandomChance>
+			<RandomChance>120</RandomChance>
 			<EventCooldown>21</EventCooldown>
 			<ImprovementRequired>IMPROVEMENT_WELL</ImprovementRequired>
 			<RandomChanceDelta>5</RandomChanceDelta>

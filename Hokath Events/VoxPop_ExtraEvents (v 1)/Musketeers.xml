@@ -11,7 +11,7 @@
 			<CityHasPlayerMajorityReligion>true</CityHasPlayerMajorityReligion>
 			<CapitalOnly>true</CapitalOnly>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<RandomChanceDelta>0</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<RequiresWar>true</RequiresWar>
 		</Row>
 	</CityEvents>
