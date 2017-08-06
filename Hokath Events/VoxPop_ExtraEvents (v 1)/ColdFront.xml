@@ -7,8 +7,8 @@
 			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<NumChoices>5</NumChoices>
 			<RandomChance>20</RandomChance>
-			<IsOneShot>true</IsOneShot>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<IsOneShot>false</IsOneShot>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<NearbyTerrain>TERRAIN_TUNDRA</NearbyTerrain>
 			<MinimumCityPopulation>10</MinimumCityPopulation>
 		</Row>
