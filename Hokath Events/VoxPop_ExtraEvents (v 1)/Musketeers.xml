@@ -42,8 +42,8 @@
 			<Help>TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_CITY_EVENT_MUSKETEERS_DESCRIPTION_CHOICE_4</Description>
 			<RequiresWLTKD>true</RequiresWLTKD>
-			<WLTKDTurns>20</WLTKDTurns>
-			<EventDuration>20</EventDuration>
+			<WLTKDTurns>50</WLTKDTurns>
+			<EventDuration>50</EventDuration>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</CityEventChoices>
@@ -94,6 +94,14 @@
 			<Quantity>3</Quantity>
 		</Row>
 	</CityEventChoice_FreeUnits>
+	<CityEventChoice_BuildingClassYieldChange>
+		<Row>
+			<CityEventChoiceType>CITY_EVENT_MUSKETEERS_CHOICE_2</CityEventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</CityEventChoice_BuildingClassYieldChange>
 
 	<CityEventChoiceFlavors>
 		<Row>
@@ -131,7 +139,7 @@
 			<Text>3 Musketeers are formed near the City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_2">
-			<Text>The City converts to your [ICON_RELIGION] Religion.</Text>
+			<Text>The City converts to your [ICON_RELIGION] Religion and the Grand Temple yields +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_3">
 			<Text>All [ICON_SPY] Spies level up.</Text>

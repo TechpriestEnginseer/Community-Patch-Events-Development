@@ -5,7 +5,7 @@
 			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_TRADE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_TRADE_HELP</Help>
-			<NumChoices>4</NumChoices>
+			<NumChoices>3</NumChoices>
 			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
@@ -53,10 +53,10 @@
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
-		<Row>
+		<!--<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<EventType>EVENT_AES_FOREIGN_PLAYER_TRADE</EventType>
-		</Row>
+		</Row>-->
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_TRADE_CHOICE_2</EventChoiceType>
 			<EventType>EVENT_AES_FOREIGN_PLAYER_TRADE</EventType>
