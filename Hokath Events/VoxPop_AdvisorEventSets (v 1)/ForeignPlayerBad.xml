@@ -8,6 +8,7 @@
 			<NumChoices>1</NumChoices>
 			<RandomChance>40</RandomChance>
 			<RandomChanceDelta>3</RandomChanceDelta>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
@@ -52,7 +53,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP_CHOICE_1">
-			<Text>Pets sent as a gift by foreign dignitaries have escaped into the wild. They are rapidly breeding, consuming crops everywhere. Farms lose -1 [ICON_FOOD] Food.</Text>
+			<Text>Pets sent as a gift by foreign dignitaries have escaped into the wild. They are rapidly breeding, consuming crops everywhere. Farms lose -1 [ICON_FOOD] Food until something can be done.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION_CHOICE_1">
@@ -68,8 +69,8 @@
 			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>50</RandomChance>
+			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
@@ -80,7 +81,7 @@
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
-			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 		</Row>
 		<Row>
 			<Type>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_2</Type>
@@ -98,7 +99,6 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<UnitClassRequired>UNITCLASS_RIFLEMAN</UnitClassRequired>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
 			<EraScaling>true</EraScaling>
 		</Row>
@@ -144,7 +144,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_BAD_CURE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>200</Yield>
+			<Yield>350</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 	<EventChoice_InstantYield>

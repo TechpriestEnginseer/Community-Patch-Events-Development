@@ -128,12 +128,12 @@
 		<Row>
 			<EventChoiceType>EVENT_AES_WAR_PLAYER_BAD_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
+			<Yield>150</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_WAR_PLAYER_BAD_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>100</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 

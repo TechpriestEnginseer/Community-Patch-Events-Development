@@ -23,15 +23,15 @@
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_1</Help>
 			<EventChance>500</EventChance>
-			<ResistanceTurns>4</ResistanceTurns>
-			<EventDuration>4</EventDuration>
+			<ResistanceTurns>2</ResistanceTurns>
+			<EventDuration>2</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_2</Type>
 			<Help>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_CITY_EVENT_GUNPOWDER_PLOT_DESCRIPTION_CHOICE_2</Description>
 			<RequiredPolicy>POLICY_THEOCRACY</RequiredPolicy>
-			<ConvertToPlayerMajorityReligionPercent>100</ConvertToPlayerMajorityReligionPercent>
+			<ConvertToPlayerMajorityReligionPercent>99</ConvertToPlayerMajorityReligionPercent>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_GUNPOWDER_PLOT_CHOICE_3</Type>
