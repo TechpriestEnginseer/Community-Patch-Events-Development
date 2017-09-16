@@ -39,6 +39,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
+			<EventBuildingClassGlobal>BUILDINGCLASS_MANDIR</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
