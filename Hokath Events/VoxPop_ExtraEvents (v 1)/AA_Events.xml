@@ -8,7 +8,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>30</RandomChance>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ImprovementRequired>IMPROVEMENT_MINE</ImprovementRequired>
 			<ObsoleteEra>ERA_MEDIEVAL</ObsoleteEra>
@@ -193,9 +193,9 @@
 			<Description>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_OLYMPICGAMES_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>15</RandomChance>
+			<RandomChance>30</RandomChance>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ObsoleteEra>ERA_MEDIEVAL</ObsoleteEra>
 		</Row>
@@ -424,8 +424,8 @@
 			<Description>TXT_KEY_CITY_EVENT_AA_FARMBONES_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AA_FARMBONES_HELP</Help>
 			<NumChoices>5</NumChoices>
-			<RandomChance>20</RandomChance>
-			<RandomChanceDelta>1</RandomChanceDelta>
+			<RandomChance>30</RandomChance>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ImprovementRequired>IMPROVEMENT_FARM</ImprovementRequired>
 		</Row>

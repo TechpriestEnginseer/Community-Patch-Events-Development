@@ -109,7 +109,7 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_5</EventChoiceType>
 			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<Quantity>2</Quantity>
+			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 	
@@ -239,7 +239,7 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>-3</Yield>
+			<Yield>-2</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
@@ -397,7 +397,7 @@
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_5">
-			<Text>Conscript {2_InstantYield} in every City into Fusiliers. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Conscript {2_InstantYield} in every City into a Fusilier. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_6">
 			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 25%.</Text>

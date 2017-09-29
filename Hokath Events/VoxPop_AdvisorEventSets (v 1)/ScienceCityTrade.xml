@@ -33,7 +33,6 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_2</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_2</Help>
 			<IsOneShot>true</IsOneShot>
-			<RequiredBuildingClass>BUILDINGCLASS_TRAINSTATION</RequiredBuildingClass>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<EraScaling>true</EraScaling>
 			
@@ -65,7 +64,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
@@ -76,30 +75,44 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>-2</Yield>
+			<Yield>-4</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
+	<EventChoice_MinimumResourceRequired>
+		<Row>
+			<EventChoiceType>EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_MinimumResourceRequired>
+	<EventChoice_ResourceQuantity>
+		<Row>
+			<EventChoiceType>EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>-1</Quantity>
+		</Row>
+	</EventChoice_ResourceQuantity>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
@@ -116,7 +129,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>75</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_3</CityEventChoiceType>
@@ -153,7 +166,7 @@
 			<Text>A massive network of underground railways.[NEWLINE]Trains. Underground.[NEWLINE]The future really is here, isn't it?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_2">
-			<Text>A tram system is constructed for {1_YieldCost}. The City gains {3_CityYield}.</Text>
+			<Text>A tram system is constructed for {1_YieldCost} and 1 [ICON_RES_IRON] Iron. The City gains {3_CityYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_2">
 			<Text>The tram was an incredibly cunning solution to the transport problem. We are going to save so much time and money. Incredible work.</Text>
@@ -209,7 +222,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
 	<CityEventChoice_GreatPersonPoints>
@@ -232,7 +245,7 @@
 			<Text>Scientists have designed a biofuel which can be harvested from renewable crop sources, gain {4_GPChange}! Now, buses no longer cause significant pollution, {3_CityYield}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_FOLLOWUP_DESCRIPTION_CHOICE_1">
-			<Text>Sugar-Rush Hour</Text>
+			<Text>Sugar Rush Hour</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

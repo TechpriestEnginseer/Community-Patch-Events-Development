@@ -8,7 +8,7 @@
 			<NumChoices>1</NumChoices>
 			<RandomChance>40</RandomChance>
 			<RandomChanceDelta>3</RandomChanceDelta>
-			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
