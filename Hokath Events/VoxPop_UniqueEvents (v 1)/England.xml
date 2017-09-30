@@ -53,9 +53,9 @@
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
-			<RandomBarbarianSpawn>3</RandomBarbarianSpawn>
-			<ResistanceTurns>8</ResistanceTurns>
-			<EventDuration>8</EventDuration>
+			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
+			<ResistanceTurns>4</ResistanceTurns>
+			<EventDuration>4</EventDuration>
 			<Expires>false</Expires>
 			<IsOneShot>true</IsOneShot>
 		</Row>
@@ -190,7 +190,7 @@
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>5</YieldChange>
 		</Row>
 	</EventChoice_SpecialistYieldChange>
 	<EventChoice_EventCostYield>
@@ -383,7 +383,7 @@
 			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom found a free Church in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_4">
-			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +5 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_5">
 			<Text>Up to 2 [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Gun and Siege Units gain the Sun Never Sets Promotion.</Text>
