@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>20</RandomChance>
 			<RandomChanceDelta>1</RandomChanceDelta>
 		</Row>
 	</CityEvents>

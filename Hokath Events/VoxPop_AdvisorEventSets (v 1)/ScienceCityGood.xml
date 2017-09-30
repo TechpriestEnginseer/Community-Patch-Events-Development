@@ -6,8 +6,8 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_GOOD_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_GOOD_HELP</Help>
 			<NumChoices>4</NumChoices>
-			<RandomChance>40</RandomChance>
-			<RandomChanceDelta>3</RandomChanceDelta>
+			<RandomChance>50</RandomChance>
+			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 		</Row>
 	</CityEvents>
