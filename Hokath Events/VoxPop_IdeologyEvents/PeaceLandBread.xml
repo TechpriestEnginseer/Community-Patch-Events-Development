@@ -70,13 +70,13 @@
 	</CityEventChoice_InstantYield>
 	<CityEventChoice_ResourceYieldChange>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_IDEOLOGY_PEACE_CHOICE_2</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_IDEOLOGY_PEACE_CHOICE_3</CityEventChoiceType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
-			<CityEventChoiceType>CITY_EVENT_IDEOLOGY_PEACE_CHOICE_2</CityEventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_IDEOLOGY_PEACE_CHOICE_3</CityEventChoiceType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>2</YieldChange>
