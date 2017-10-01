@@ -42,6 +42,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_DESCRIPTION_CHOICE_3</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_SCIENCE_CITY_TRADE_HELP_CHOICE_3</Help>
 			<IsOneShot>true</IsOneShot>
+			<EventDuration>-1</EventDuration>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</CityEventChoices>
@@ -99,20 +100,20 @@
 			<Yield>-4</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
-	<EventChoice_MinimumResourceRequired>
+	<CityEventChoice_MinimumResourceRequired>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</EventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Quantity>1</Quantity>
 		</Row>
-	</EventChoice_MinimumResourceRequired>
-	<EventChoice_ResourceQuantity>
+	</CityEventChoice_MinimumResourceRequired>
+	<CityEventChoice_ResourceQuantity>
 		<Row>
-			<EventChoiceType>EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</EventChoiceType>
+			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Quantity>-1</Quantity>
 		</Row>
-	</EventChoice_ResourceQuantity>
+	</CityEventChoice_ResourceQuantity>
 	<CityEventChoice_GreatPersonPoints>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_1</CityEventChoiceType>
