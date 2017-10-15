@@ -100,13 +100,6 @@
 			<Yield>-4</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
-	<CityEventChoice_MinimumResourceRequired>
-		<Row>
-			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-	</CityEventChoice_MinimumResourceRequired>
 	<CityEventChoice_ResourceQuantity>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_SCIENCE_CITY_TRADE_CHOICE_2</CityEventChoiceType>

@@ -6,8 +6,8 @@
 			<Description>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_BAD_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_BAD_HELP</Help>
 			<NumChoices>1</NumChoices>
-			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>10</RandomChanceDelta>
+			<RandomChance>40</RandomChance>
+			<RandomChanceDelta>2</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
@@ -76,7 +76,7 @@
 			<Help>TXT_KEY_EVENT_AES_SCIENCE_PLAYER_BAD_CURE_HELP</Help>
 			<NumChoices>3</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>5</RandomChanceDelta>
+			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>
@@ -149,7 +149,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_BAD_CURE_CHOICE_1</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>200</Yield>
+			<Yield>400</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_SCIENCE_PLAYER_BAD_CURE_CHOICE_3</EventChoiceType>
