@@ -11,6 +11,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>
 			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
+			<IgnoresGlobalCooldown>true</IgnoresGlobalCooldown>
 		</Row>
 	</Events>
 	<EventChoices>
