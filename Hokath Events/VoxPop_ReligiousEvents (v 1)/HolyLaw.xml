@@ -273,6 +273,12 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>3</YieldChange>
