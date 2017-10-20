@@ -275,6 +275,12 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
