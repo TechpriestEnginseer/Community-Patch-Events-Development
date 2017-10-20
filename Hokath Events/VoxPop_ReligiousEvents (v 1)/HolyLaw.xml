@@ -442,7 +442,7 @@
 			<Text>Bring together {1_YieldCost} to complete the quest. Cities produce +10% [ICON_GOLD] Gold during [ICON_GOLDEN_AGE] Golden Ages and also during [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This effect can stack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HOLY_LAW_DESCRIPTION_CHOICE_1">
-			<Text>Where do we even begin? We need to study the ancient records, and find out everything we can about the ark!</Text>
+			<Text>Where do we even begin? We need to study the ancient records, and find out everything we can about the first Prophet!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HOLY_LAW_DESCRIPTION_CHOICE_2">
 			<Text>*Several previously antagonistic sects have been unified by the quest!*[NEWLINE]It is clear: there exists a single, inerrant text in which all truth can be found. As we get closer to it, the wounds of conflict heal, such is the wonder of God.</Text>
