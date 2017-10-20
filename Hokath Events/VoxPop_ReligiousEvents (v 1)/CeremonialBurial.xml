@@ -466,7 +466,7 @@
 			<Text>Fanaticism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CEREMONIAL_BURIAL_HELP">
-			<Text>Kills reward [ICON_PEACE] Faith and heal of 10 HP. When defending [ICON_STRENGTH] Strength is reduced by 10%.</Text>
+			<Text>Kills reward [ICON_PEACE] Faith and heal for 10 HP. When defending [ICON_STRENGTH] Strength is reduced by 10%.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
