@@ -412,7 +412,7 @@
 			<Text>Reveal {1_YieldCost} worth of religious mysteries. The Sacred Garden increases [ICON_FOOD] Food by 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAY_OF_TRANSCENCE_HELP_CHOICE_5">
-			<Text>In the protecting the final stage of the quest, all enemy [ICON_SPY] Spies are reduced in effectiveness by 15%.</Text>
+			<Text>Protecting the final stage of the quest, all enemy [ICON_SPY] Spies are reduced in effectiveness by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAY_OF_TRANSCENCE_HELP_CHOICE_6">
 			<Text>Bring together {1_YieldCost} to complete the quest. Your [ICON_GREAT_WRITER] Writer, [ICON_GREAT_ARTIST] Artist and [ICON_GREAT_MUSICIAN] Musician Specialists generate +3 [ICON_FOOD] Food.</Text>
@@ -427,7 +427,7 @@
 			<Text>The movement grows strong, but we must go further if we are to be successful.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAY_OF_TRANSCENCE_DESCRIPTION_CHOICE_4">
-			<Text>As the Garden expands, it reveals patterns and relationships in such a way that it feels as if the secrets of the very Universe itself are being revealed to me!</Text>
+			<Text>As the Garden expands, it reveals exquisite patterns and interelationships in such a way that I feel as if the secrets of the very Universe itself are being revealed to me!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAY_OF_TRANSCENCE_DESCRIPTION_CHOICE_5">
 			<Text>Our enemies are surely aware of our quest by now. We must protect the Garden at all costs!</Text>
