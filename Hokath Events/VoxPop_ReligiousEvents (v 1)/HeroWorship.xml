@@ -309,6 +309,12 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HERO_WORSHIP_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_HERO_WORSHIP_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>3</YieldChange>
@@ -451,7 +457,7 @@
 			<Text>A Pure Soul</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP">
-			<Text>Only with great effort do the cogs of the divine world continue to term. Only with great power... and the power is in the blood. Uncountable multitudes have yet to give their lives to sate the thirst of creation.[NEWLINE][NEWLINE]Unless... unless we can find the chosen one. One pure soul, to die the final death and break the cycle.</Text>
+			<Text>Only with great effort do the cogs of the divine world continue to turn. Only with great power... and the power is in the blood. Uncountable multitudes have yet to give their lives to sate the thirst of creation.[NEWLINE][NEWLINE]Unless... unless we can find the chosen one. One pure soul, to die the final death and break the cycle.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_1">
 			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Great Altar to generate +2 [ICON_PEACE] Production.</Text>
