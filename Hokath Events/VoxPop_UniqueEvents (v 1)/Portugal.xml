@@ -22,6 +22,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_PORTUGAL_UE_CHOICE_2</Type>
@@ -55,6 +56,7 @@
 			<EventPromotion>PROMOTION_SCOUTING_3</EventPromotion>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
 			<EventDuration>10</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<Expires>false</Expires>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<EraScaling>true</EraScaling>
@@ -182,7 +184,7 @@
 		<Row>
 			<EventChoiceType>EVENT_PORTUGAL_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_EXPLORER</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_CityUnhappinessNeedMod>
@@ -417,7 +419,7 @@
 			<Text>Call upon {1_YieldCost} of religious fervour to defeat your foes. For {4_Turns} your Cities produce {3_CityYield}, and existing Melee and Gun Units (as well as those produced in this time) receive the Stalwart Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_4">
-			<Text>Pour {1_YieldCost} into an Age of Discovery. An Explorer appears near every City. For {4_Turns}, enter a [ICON_GOLDEN_AGE] Golden Age and existing Scouting Units (as well as those produced in this time) receive the Scouting 3 Promotion.</Text>
+			<Text>Pour {1_YieldCost} into an Age of Discovery. Three Explorers appear near the [ICON_CAPITAL] Capital. For {4_Turns}, enter a [ICON_GOLDEN_AGE] Golden Age and existing Scouting Units (as well as those produced in this time) receive the Scouting 3 Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_5">
 			<Text>Reform the domestic economy, entering a brief {4_Turns} period of Anarchy. Receive 2 copies of [ICON_RES_WINE] Wine. Every Town, Village and Feitoria yields +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food.</Text>

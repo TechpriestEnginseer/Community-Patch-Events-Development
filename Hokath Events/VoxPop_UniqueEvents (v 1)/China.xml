@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_CHINA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_CHINA_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_CHINA_UE_CHOICE_2</Type>
@@ -64,7 +65,6 @@
 			<EventDuration>2</EventDuration>
 			<Expires>false</Expires>
 			<EventBuildingClassGlobal>BUILDINGCLASS_MONASTERY</EventBuildingClassGlobal>
-			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 		</Row>
 		<Row>
 			<Type>EVENT_CHINA_UE_CHOICE_6</Type>
@@ -154,7 +154,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>15</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_ImprovementYieldChange>
@@ -413,10 +413,10 @@
 			<Text>Pay {2_InstantYield}. Opera Houses provide +3 [ICON_FOOD] Food. Receive 3 copies of [ICON_RES_TEA] Tea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_4">
-			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_FOOD] FOOD, [ICON_PEACE] Faith, and [ICON_CULTURE]. However, the [ICON_RESEARCH] Illiteracy threshold increases by 15%.</Text>
+			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_FOOD] FOOD, [ICON_PEACE] Faith, and [ICON_CULTURE]. However, the [ICON_RESEARCH] Illiteracy threshold increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_5">
-			<Text>After 1 turn of [ICON_RESISTANCE] Anarchy, every City receives a free Monastery and Unit.</Text>
+			<Text>After 1 turn of [ICON_RESISTANCE] Anarchy, every City receives a free Monastery.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_6">
 			<Text>Pay {2_InstantYield} and enter {4_Turns} of Anarchy. In return, Factories increase [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_FOOD] Food by 8%.</Text>

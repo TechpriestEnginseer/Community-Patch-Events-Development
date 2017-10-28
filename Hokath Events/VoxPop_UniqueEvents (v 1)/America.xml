@@ -17,11 +17,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AMERICA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_AMERICA_UE_CHOICE_2</Type>
@@ -134,17 +135,17 @@
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>10</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_ResourceQuantity>
@@ -187,7 +188,7 @@
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ResourceYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -359,16 +360,16 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_2">
-			<Text>Lose 4 [ICON_RES_HORSE] Horses. Gain +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold on all sources of [ICON_RES_HORSE] Horse.</Text>
+			<Text>Lose 4 [ICON_RES_HORSE] Horses. Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on all sources of [ICON_RES_HORSE] Horse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_3">
-			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 10%.</Text>
+			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_4">
-			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 10%.</Text>
+			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5">
-			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 20%. Effects last {4_Turns}.</Text>
+			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 10%. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6">
 			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>

@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_MAYA_UE_CHOICE_2</Type>
@@ -59,7 +60,7 @@
 			<EventDuration>12</EventDuration>
 			<Expires>false</Expires>
 			<WLTKDTurns>12</WLTKDTurns>
-			<ResistanceTurns>6</ResistanceTurns>
+			<ResistanceTurns>4</ResistanceTurns>
 		</Row>
 		<Row>
 			<Type>EVENT_MAYA_UE_CHOICE_6</Type>
@@ -375,7 +376,7 @@
 			<Text>Use {2_InstantYield} worth of influence to promote trade. Internal trade increases [ICON_GOLD] Gold from [ICON_CONNECTED] City Connection by 2% per City. External trade routes to your cities yield +2 [ICON_GOLD] Gold to both the sending and receiving players.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_5">
-			<Text>Start {4_Turns} [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities, however you begin the first half of this time in [ICON_RESISTANCE] Anarchy. Unhappiness thresholds for [ICON_RESEARCH] Illiteracy and [ICON_GOLD] Poverty are permenantly reduced by 10%.</Text>
+			<Text>Start {4_Turns} [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities, however you begin the first third of this time in [ICON_RESISTANCE] Anarchy. Unhappiness thresholds for [ICON_RESEARCH] Illiteracy and [ICON_GOLD] Poverty are permenantly reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_6">
 			<Text>Use {2_InstantYield} to impliment syncretism, elimating unhappiness due to [ICON_RELIGION] Religious Divisions. All Temples increase the [ICON_PEACE] Faith generated in a City by 20%.</Text>

@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_MOROCCO_UE_CHOICE_2</Type>
@@ -59,8 +60,9 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
-			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<RandomBarbarianSpawn>6</RandomBarbarianSpawn>
+			<FreeUnitsTechAppropriate>3</FreeUnitsTechAppropriate>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
 			<EventDuration>10</EventDuration>
 			<Expires>false</Expires>
@@ -358,7 +360,7 @@
 			<Text>Your Black Guard reduce [ICON_STRENGTH] Crime in Cities by 20%. Eligible Units receive the Homeland Guardian Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_5">
-			<Text>2 [ICON_WAR] Barbarians spawn near every City, along with 1 loyal militia. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>6 [ICON_WAR] Barbarians and 3 loyal militia engage near the [ICON_CAPITAL] Capital. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_6">
 			<Text>Your Kasbah, Desert and Mountain Tiles yield +2 [ICON_TOURISM] Tourism.</Text>

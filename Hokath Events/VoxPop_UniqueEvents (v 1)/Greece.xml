@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_GREECE_UE_CHOICE_2</Type>
@@ -70,6 +71,7 @@
 			<Description>TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
@@ -126,14 +128,20 @@
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
+			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_SpecialistYieldChange>
 	<EventChoice_CityUnhappinessNeedMod>
@@ -222,14 +230,9 @@
 	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_FreeUnitClasses>
 		<Row>
-			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
-			<UnitClassType>UNITCLASS_DIPLOMAT</UnitClassType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_6</EventChoiceType>
 			<UnitClassType>UNITCLASS_AMBASSADOR</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 
@@ -387,13 +390,13 @@
 			<Text>The return of your scholars from the countryside triggers a renaissance of scholarship: choose a [ICON_GREAT_SCIENTIST] Free Tech. Universities generate +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_4">
-			<Text>Mobilise {1_YieldCost} to spawn a Diplomat in every City. Each [ICON_DIPLOMAT] Civil Servant generates +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production per turn.</Text>
+			<Text>Mobilise {1_YieldCost}. Each [ICON_DIPLOMAT] Civil Servant generates +2 [ICON_GOLD] Gold, [ICON_TOURISM] Tourism, and [ICON_CULTURE] Culture per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_5">
 			<Text>The Printing Press boosts [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture by +10%. The [ICON_RESEARCH] Illiteracy threshold is everywhere reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_6">
-			<Text>Invest {1_YieldCost} to gain a boost of {2_InstantYield}. In preparation, an Ambassador is mobilised in every City.</Text>
+			<Text>Invest {1_YieldCost} to gain a boost of {2_InstantYield}. In preparation, two Ambassadors are appointed at the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_1">
 			<Text>*The men bring a prophesy from an Oracle, a birth of prophecy is soon to take place*[NEWLINE]The omens suggest this baby could either grow to make us great, or destroy us! We must ensure it is the former!</Text>

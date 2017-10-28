@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_ETHIOPIA_UE_CHOICE_2</Type>
@@ -52,6 +53,7 @@
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_ETHIOPIA_UE_CHOICE_5</Type>
@@ -134,7 +136,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_ZULU_IMPI</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 
@@ -143,7 +145,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_3</EventChoiceType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_BuildingClassYieldChange>
@@ -356,10 +358,10 @@
 			<Text>Mint {1_YieldCost} special coinage for your traders. Every [ICON_GREAT_MERCHANT] Merchant provides +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_3">
-			<Text>Monolithic architecture allows Temples and sources of [ICON_RES_STONE] Stone to generate +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>Monolithic architecture allows Temples and sources of [ICON_RES_STONE] Stone to generate +1 [ICON_PEACE] Faith and +1 [ICON_GOLDEN_AGE] Golden Age Point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_4">
-			<Text>Rural tribes come to your aid. An Impi spawns in every City.</Text>
+			<Text>Rural tribes come to your aid. Five Impi arrive at the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_5">
 			<Text>Expend up to {2_InstantYield} to enter a {4_Turns} [ICON_GOLDEN_AGE] Golden Age. Reforms allow Cities to convert 10% of [ICON_GOLD] Gold spent to [ICON_CULTURE] Culture when purchasing.</Text>

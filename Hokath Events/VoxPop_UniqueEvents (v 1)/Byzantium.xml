@@ -18,21 +18,22 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_2</Type>
 			<Help>TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<EraScaling>true</EraScaling>
 			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<RequiresWarMinor>true</RequiresWarMinor>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -73,7 +74,8 @@
 			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
-			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<FreeUnitsTechAppropriate>6</FreeUnitsTechAppropriate>
 			<EventPromotion>PROMOTION_UE_DEUS_VEULT</EventPromotion>
 			<EraScaling>true</EraScaling>
 			<RequiresWar>true</RequiresWar>
@@ -217,21 +219,21 @@
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_2</EventChoiceType>
 			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>400</Yield>
+			<Yield>225</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_5</EventChoiceType>
@@ -395,7 +397,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_2">
-			<Text>For the sum of {1_YieldCost}, a Hunnic Horse Archer is recruited in every City.</Text>
+			<Text>For the sum of {1_YieldCost}, three Horse Archers are recruited in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_3">
 			<Text>The improvement of the [ICON_CAPITAL] Capital's defenses provides +10 [ICON_STRENGTH] Strength, +200 HP and +33% [ICON_GREAT_ENGINEER] Great Engineer Points.</Text>
@@ -407,7 +409,7 @@
 			<Text>Leverage {1_YieldCost} to restore iconography to the Empire. Every [ICON_GREAT_ARTIST] Artist generates an additional +3 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_6">
-			<Text>By calling upon {1_YieldCost}, start a crusade against your enemies. A random Unit is recruited near every City, and all Units, as well as those recruited in the next {4_Turns}, receive the Deus Veult Promotion.</Text>
+			<Text>By calling upon {1_YieldCost}, start a crusade against your enemies. Siz appropriate Units are recruited near the [ICON_CAPITAL] Capital, and all Units, as well as those recruited in the next {4_Turns}, receive the Deus Veult Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A young child in a remote area has performed a miracle. The clergy are plotting to put them on the throne as their puppet*[NEWLINE]We cannot let our enemies get there first. Bring me the child!</Text>

@@ -22,6 +22,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_SHOSHONE_UE_CHOICE_2</Type>
@@ -135,7 +136,7 @@
 		<Row>
 			<EventChoiceType>EVENT_SHOSHONE_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_BISON</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>

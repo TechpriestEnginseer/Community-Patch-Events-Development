@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_2</Type>
@@ -46,11 +47,11 @@
 			<Help>TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
+			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
-			<YieldBonusAllCities>true</YieldBonusAllCities>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_RUSSIA_UE_CHOICE_5</Type>
@@ -159,7 +160,7 @@
 		<Row>
 			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_SPANISH_TERCIO</UnitType>
-			<Quantity>2</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_MinimumFeatureRequired>
@@ -169,19 +170,11 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
-	<EventChoice_BuildingClassYieldModifier>
-		<Row>
-			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Modifier>5</Modifier>
-		</Row>
-	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
+			<Yield>5</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_ImprovementYieldChange>
@@ -192,13 +185,13 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
@@ -445,10 +438,10 @@
 			<Text>Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. The Banya generate +2 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_3">
-			<Text>Serfdom generates +1 [ICON_GOLD] Gold from Farms, and Castles increase [ICON_PRODUCTION] Production in Cities by 5%. However, the [ICON_GOLD] Poverty threshold increases by 15%.</Text>
+			<Text>Serfdom generates +1 [ICON_GOLD] Gold from Farms, and all Forts and Citadels yield +2 [ICON_FOOD] Food. However, the [ICON_GOLD] Poverty threshold increases by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_4">
-			<Text>In every City conscript {2_InstantYield} into Fusiliers. All Forts and Citadels yield +2 [ICON_FOOD] Food.</Text>
+			<Text>In the [ICON_CAPITAL] Capital conscript {2_InstantYield} into six Tercio. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_5">
 			<Text>For every owned City, your [ICON_GREAT_WRITER] Writers' Guilds generate +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>

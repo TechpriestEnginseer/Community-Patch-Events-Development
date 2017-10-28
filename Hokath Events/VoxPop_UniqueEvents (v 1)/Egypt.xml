@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_1</Type>
-			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_1</Help>
-			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_1</Description>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
-			<IsOneShot>false</IsOneShot>
 			<EventDuration>150</EventDuration>
+			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_2</Type>
@@ -85,7 +86,7 @@
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_2</EventChoiceType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-			<Quantity>3</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
 	<Event_ParentEvents>

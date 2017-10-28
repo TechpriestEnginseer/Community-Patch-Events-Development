@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_2</Type>
@@ -38,6 +39,7 @@
 			<Description>TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<EventBuildingClassGlobal>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -58,7 +60,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventBuildingClassGlobal>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClassGlobal>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -129,24 +131,16 @@
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_5</EventChoiceType>
 			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_2</EventChoiceType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<Quantity>4</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
-	<EventChoice_BuildingClassYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_3</EventChoiceType>
@@ -426,13 +420,13 @@
 			<Text>Trade with the Jungle tribes. Unimproved Jungles yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Learn the traditional ways of cultivating [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices, allowing each of these resources to yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_3">
-			<Text>Against the elites and the clergy, spend {1_YieldCost} to reduce [ICON_RESEARCH] Illiteracy thresholds by 10%. All Universities generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Against the elites and the clergy, spend {1_YieldCost} to reduce [ICON_RESEARCH] Illiteracy thresholds by 10%. During [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], Cities produce +10% [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_4">
 			<Text>You receive two copies of [ICON_RES_GOLD] Gold. An influx of migrants boosts population by {2_InstantYield}, but also causes +1 [ICON_HAPPINESS_3], in each City. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_5">
-			<Text>A Pracinha is recruited in every City. During [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], Cities produce +10% [ICON_PRODUCTION] Production.</Text>
+			<Text>Five Pracinha are recruited in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_6">
 			<Text>By spending {1_YieldCost} your Platations begin to produce biofuel, yielding +2 [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points per turn.</Text>

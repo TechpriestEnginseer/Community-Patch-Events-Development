@@ -291,6 +291,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_KHMER_UE_CHOICE_2</Type>
@@ -330,6 +331,7 @@
 			<Description>TXT_KEY_EVENT_KHMER_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<RequiresWar>true</RequiresWar>
 			<EventDuration>-1</EventDuration>
 			<EraScaling>true</EraScaling>
@@ -375,7 +377,7 @@
 		<Row>
 			<EventChoiceType>EVENT_KHMER_UE_CHOICE_5</EventChoiceType>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_BuildingClassYieldModifier>
@@ -631,7 +633,7 @@
 			<Text>Engage in an unprecedented series of building projects for {4_Turns}, forcing [ICON_GREAT_ENGINEER] Engineers to produce +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. However, the ecological damage caused by extracting the needed materials causes Farms and Pastures to yield -1 [ICON_FOOD] Food during this time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KHMER_UE_HELP_CHOICE_5">
-			<Text>Accept the loss of {1_YieldCost} in order for a Foreign Legion to be sent to every City.</Text>
+			<Text>Accept the loss of {1_YieldCost} in order for four Foreign Legion to be sent to the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KHMER_UE_HELP_CHOICE_6">
 			<Text>Abolish the remaining rights for your workers in order for [ICON_GREAT_ENGINEER] Engineers to yield +1 [ICON_GOLD] Gold, and Manufactories to yield +3 [ICON_GOLD] Gold.</Text>

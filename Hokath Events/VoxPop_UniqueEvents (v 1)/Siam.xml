@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_SIAM_UE_CHOICE_2</Type>
@@ -32,6 +33,7 @@
 			<EraScaling>true</EraScaling>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<ImprovementAnywhereRequired>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementAnywhereRequired>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -133,12 +135,7 @@
 		<Row>
 			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_3</EventChoiceType>
 			<UnitType>UNIT_EMISSARY</UnitType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_6</EventChoiceType>
-			<UnitType>UNIT_DIPLOMAT</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_ResourceQuantity>
@@ -170,19 +167,19 @@
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>5</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>5</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange
 
@@ -362,7 +359,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_2">
-			<Text>Bring about new cultural practices with {1_YieldCost}. An Emissary spawns in every City to spread the word. Gain a copy of [ICON_RES_IVORY] Ivory</Text>
+			<Text>Bring about new cultural practices with {1_YieldCost}. Two Emissaries spawn in the [ICON_CAPITAL] Capital to spread the word. Gain a copy of [ICON_RES_IVORY] Ivory</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_3">
 			<Text>Invest {1_YieldCost} into the Porcelain industry. Receive 3 copies of [ICON_RES_PORCELAIN] Porcelain, and all Workshops yield +2 [ICON_CULTURE] Culture.</Text>
@@ -371,10 +368,10 @@
 			<Text>For the cost of {1_YieldCost}, construct a Stupa in every City. Stupa gain +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_5">
-			<Text>Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +5 [ICON_GOLD] Gold. Cities generate +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points. </Text>
+			<Text>Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +10 [ICON_GOLD] Gold. Cities generate +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_6">
-			<Text>For the next {4_Turns}, your prisoners of war work your railways: Train Stations generate +5 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold. The ensuing diplomatic crisis requires the recruitment of a Diplomat in every City.</Text>
+			<Text>For the next {4_Turns}, your prisoners of war work your railways: Train Stations generate +5 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_1">
 			<Text>Oh no, I do not anticipate any trouble. We are just asking for a hostage this time. Smooth things over.</Text>

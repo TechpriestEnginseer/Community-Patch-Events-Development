@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_ARABIA_UE_CHOICE_2</Type>
@@ -245,7 +246,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>-15</Yield>
+			<Yield>-10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_ResourceQuantity>
@@ -430,7 +431,7 @@
 			<Text>Exert {1_YieldCost} worth of cultural influence to bring your centres of learning under religious leadership. These Universities and Academies yield +4 [ICON_PEACE] Faith, but -1 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_5">
-			<Text>Leverage {1_YieldCost} to replace secular legal systems with those administered by the ulama. Constabularies and Police Stations yield +2 [ICON_PEACE] Faith. Everywhere, [ICON_STRENGTH] Crime thresholds are reduced by 15%. However, the [ICON_RELIGION] Religious Division threshold is increased by 50%.</Text>
+			<Text>Leverage {1_YieldCost} to replace secular legal systems with those administered by the ulama. Constabularies and Police Stations yield +2 [ICON_PEACE] Faith. Everywhere, [ICON_STRENGTH] Crime thresholds are reduced by 10%. However, the [ICON_RELIGION] Religious Division threshold is increased by 50%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_6">
 			<Text>Bring [ICON_RES_OIL] Oil production under political control. Gain 8 copies of [ICON_RES_OIL] Oil, and Wells and Offshore Platforms produce -4 [ICON_PRODUCTION] Production in order to generate +6 [ICON_GOLD] Gold.</Text>

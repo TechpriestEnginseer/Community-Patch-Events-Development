@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_HUNS_UE_CHOICE_2</Type>
@@ -34,6 +35,7 @@
 			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_HUNS_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_HUNS_UE_CHOICE_3</Type>
@@ -144,7 +146,12 @@
 		<Row>
 			<BuildingType>BUILDING_HUNS_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUNS_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>40</Yield>
 		</Row>
 	</Building_YieldFromDeath>
 	<Building_DomainProductionModifiers>
@@ -165,6 +172,18 @@
 		</Row>
 	</Building_DomainProductionModifiers>
 
+	<EventChoice_FreeUnits>
+		<Row>
+			<EventChoiceType>EVENT_HUNS_UE_CHOICE_2</EventChoiceType>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_HUNS_UE_CHOICE_2</EventChoiceType>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<Quantity>2</Quantity>
+		</Row>
+	</EventChoice_FreeUnits>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_HUNS_UE_CHOICE_3</EventChoiceType>
@@ -290,7 +309,7 @@
 		<Row>
 			<EventChoiceType>EVENT_HUNS_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>400</Yield>
+			<Yield>1000</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HUNS_UE_CHOICE_6</EventChoiceType>
@@ -459,7 +478,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_2">
-			<Text>Call upon {1_YieldCost} of rites and rituals. When one of your Units is Killed, receive [ICON_CULTURE] Culture in every City.</Text>
+			<Text>Call upon {1_YieldCost} of rites and rituals. Gain a Battering Ram and two Swordsmen in the [ICON_CAPITAL] Capital. When one of your Units is Killed, receive [ICON_CULTURE] Culture and [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_3">
 			<Text>Invest {1_YieldCost} into border defences. Castles, Forts and Citadels generate +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.</Text>
@@ -477,7 +496,7 @@
 			<Text>I am pleased. It is high time I found myself a visionary Warlord to inspire our people.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_2">
-			<Text>Good. It is time we agreed amongst ourselves how best to honour the fallen.</Text>
+			<Text>Good. In this time of war we have the chance to win our fame. Let all men come and join our warband, for in their rich graves will live memories of glorious conquest!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_3">
 			<Text>We have carved out a land, but now we must defend it. I expect all the tribes to unite behind me as we construct an impenetrable wall of Vegvar.</Text>

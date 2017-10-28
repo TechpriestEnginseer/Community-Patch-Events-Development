@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_ENGLAND_UE_CHOICE_2</Type>
@@ -31,8 +32,9 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CIRCUS_MAXIMUS</RequiredAnywhereBuildingClass>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<IsOneShot>true</IsOneShot>
-			<WLTKDTurns>10</WLTKDTurns>
-			<EventDuration>10</EventDuration>
+			<WLTKDTurns>20</WLTKDTurns>
+			<EventDuration>20</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EraScaling>true</EraScaling>
 			<EventBuildingClassGlobal>BUILDINGCLASS_ENGLAND_UE_DUMMY</EventBuildingClassGlobal>
 			<Expires>false</Expires>
@@ -377,7 +379,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_2">
-			<Text>Spend {1_YieldCost} to host a Grand Tourney. All Cities enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns} and a Longbowman spawns nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation by 15%.</Text>
+			<Text>Spend {1_YieldCost} to host a Grand Tourney. The [ICON_CAPITAL] Capital enters [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns} and 3 Longbowmen spawn nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation in the [ICON_CAPITAL] Capital by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3">
 			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom found a free Church in every City.</Text>

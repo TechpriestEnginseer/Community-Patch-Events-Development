@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_2</Type>
@@ -70,6 +71,7 @@
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<EventPromotion>PROMOTION_UE_WINGED_VALOR</EventPromotion>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
@@ -191,7 +193,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_6</EventChoiceType>
 			<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 
@@ -360,7 +362,7 @@
 			<Text>The discovery starts {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities. Landmarks yield +5 to [ICON_RESEARCH] Science, [ICON_PEACE] Faith and [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_6">
-			<Text>A Paratrooper is recruited in every City. All Recon Units gain the Wings of Valor Promotion.</Text>
+			<Text>Four Paratroopers are recruited in the [ICON_CAPITAL] Capital. All Recon Units gain the Wings of Valor Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*An adventurer has found a piece of the Tablet*[NEWLINE]See that all hear of the handsome reward that was given for this relic!</Text>

@@ -284,6 +284,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_DURRANI_UE_CHOICE_2</Type>
@@ -313,6 +314,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<RequiresWar>true</RequiresWar>
 			<EraScaling>true</EraScaling>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
@@ -431,7 +433,7 @@
 		<Row>
 			<BuildingType>BUILDING_DURRANI_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>20</Yield>
+			<Yield>30</Yield>
 		</Row>
 	</Building_YieldFromDeath>
 	<Building_YieldPerXTerrainTimes100>
@@ -473,7 +475,7 @@
 		<Row>
 			<EventChoiceType>EVENT_DURRANI_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 
@@ -654,13 +656,15 @@
 			<Text>Whenever a Unit dies, receive a boost of [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_HELP_CHOICE_4">
-			<Text>Call out to the faithful with {1_YieldCost}. A Janissary arrives at every City.</Text>
+			<Text>Call out to the faithful with {1_YieldCost}. Three Janissary arrive at the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_HELP_CHOICE_5">
 			<Text>Utilise {1_YieldCost} to design harnesses to mount large weapons on camel-back. Existing Archery Units, as well as those trained within the next {4_Turns}, gain the Zamburak Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_HELP_CHOICE_6">
-			<Text>Plant 2 copies of [ICON_RES_TOBACCO] Tobacco. Your Plantations generate -2 [ICON_FOOD] Food, but +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_1">
+			<Text>Plant 2 copies of [ICON_RES_TOBACCO] Tobacco. Your Plantations generate -2 [ICON_FOOD] Food, but +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_1">
 			<Text>A strong and lawful people will be defended by God. So long as there all not fall.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DURRANI_UE_DESCRIPTION_CHOICE_2">

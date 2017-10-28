@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_SWEDEN_UE_CHOICE_2</Type>
@@ -36,8 +37,7 @@
 			<Help>TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiresWar>true</RequiresWar>
-			<EventDuration>150</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<Expires>true</Expires>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_AMPHITHEATER</RequiredAnywhereBuildingClass>
@@ -114,6 +114,7 @@
 			<BuildingClass>BUILDINGCLASS_SWEDEN_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_SWEDEN_UE_DUMMY</Description>
+			<TradeRouteRecipientBonus>3</TradeRouteRecipientBonus>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
 			<GreatWorkCount>-1</GreatWorkCount>
@@ -121,13 +122,6 @@
 			<NukeImmune>true</NukeImmune>
 		</Row>
 	</Buildings>
-	<Building_RiverPlotYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_SWEDEN_UE_DUMMY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_RiverPlotYieldChanges>
 
 	<EventChoice_FreeUnits>
 		<Row>
@@ -140,14 +134,14 @@
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_5</EventChoiceType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<Quantity>7</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_BuildingClassYieldChange>
@@ -419,7 +413,7 @@
 			<Text>Incorporate native peoples. Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Snow and Ice yields +3 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_3">
-			<Text>A Berserker spawns near every City. Cities receive +1 [ICON_GOLD] Gold from River Tiles for {4_Turns}.</Text>
+			<Text>Three Berserkers spawn near the [ICON_CAPITAL] Capital. [ICON_INTERNATIONAL_TRADE] Trade Routes from the [ICON_CAPITAL] Capital generate +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_4">
 			<Text>Receive {2_InstantYield}. However, scheming at court causes 5 [ICON_HAPPINESS_3] Unhappiness for {4_Turns}. During this time, Chanceries provide +2 [ICON_FOOD] Food, [ICON_RESEARCH] Science, and [ICON_PRODUCTION] Production.</Text>
@@ -437,7 +431,7 @@
 			<Text>*A blight threatens the food supply*[NEWLINE]This disease has not affected the Snowy settlements of the Tundra, and the fishing tribes of the fjords. Their knowledge and skill can help us through this. If we are to live in this land, it must be as one people.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_3">
-			<Text>*The war has seen violent factions of listless warriors battling on the streets*[NEWLINE]Society cannot hold this much hate. Our warriors are restlessless is just: they yearn for an epic tale, with a glorious death. We can offer them this, whether it be at the end of the mighty river or across the frozen straights.</Text>
+			<Text>*Violent factions of listless warriors can be seen brawling on the streets*[NEWLINE]Our warriors' restlessness is just: they yearn for an epic tale, with a glorious death. We can offer them this, whether it be at the end of the mighty river or across the frozen straights.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_DESCRIPTION_CHOICE_4">
 			<Text>*The finances of the country become as moribund as the nobles responsible for them*[NEWLINE]A Great Reduction will revitalize our land; the gifted and engaged have but to gain from this! The torpid, however... I expect they will not make this easy for me.</Text>

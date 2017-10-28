@@ -18,11 +18,12 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_CARTHAGE_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_CARTHAGE_UE_CHOICE_2</Type>
@@ -43,6 +44,7 @@
 			<EventPromotion>PROMOTION_UE_MOUNTAIN_TACTICS</EventPromotion>
 			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_CARTHAGE_UE_CHOICE_4</Type>
@@ -52,6 +54,7 @@
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -72,6 +75,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<LosingMoney>true</LosingMoney>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -186,17 +190,17 @@
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_3</EventChoiceType>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_ResourceQuantity>
@@ -206,26 +210,46 @@
 			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
-	<EventChoice_BuildingClassYieldChange>
+	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<Modifier>10</Modifier>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<Modifier>10</Modifier>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<Modifier>10</Modifier>
 		</Row>
 
+		<Row>
+			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Modifier>10</Modifier>
+		</Row>
+	</EventChoice_BuildingClassYieldModifier>
+	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
@@ -237,25 +261,6 @@
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>3</YieldChange>
-		</Row>
-		
-		<Row>
-			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_6</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -276,12 +281,12 @@
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>25</Yield>
+			<Yield>35</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CARTHAGE_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_EventCostYield>
@@ -455,16 +460,16 @@
 			<Text>Rediscover old Phoenician practices. Receive 2 copies of [ICON_RES_CRAB] Crab, and Fising Boats geneate +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_3">
-			<Text>Allow the General {1_YieldCost} in funding. A War Elephant is trained in every City, and your Units may now cross Mountain Tiles.</Text>
+			<Text>Allow the General {1_YieldCost} in funding. Two War Elephants are trained in the [ICON_CAPITAL] Capital, and your Units may now cross Mountain Tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_4">
-			<Text>Use {1_YieldCost} to appeal to foreign religious warriors. A Janissary travels to every City. Temples, Constabularies and Police Stations generate +2 [ICON_PEACE] Faith, but the [ICON_RELIGION] Religious Divisions threshold is increased by 25%.</Text>
+			<Text>Use {1_YieldCost} to appeal to foreign religious warriors. Three Janissary arrive at the [ICON_CAPITAL] Capital. The Temple, Constabulary and Police Station there generate +10% [ICON_PEACE] Faith, but the [ICON_RELIGION] Religious Divisions threshold is increased by 35%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_5">
-			<Text>Barbary Pirates exhange [ICON_GOLD] Gold and [ICON_PRODUCTION] Production for the shipwrecks of your enemies. Harbor's gain +3 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production per turn for this, but [ICON_STRENGTH] Crime increases by 20%.</Text>
+			<Text>Barbary Pirates exhange [ICON_GOLD] Gold and [ICON_PRODUCTION] Production for the shipwrecks of your enemies. Harbor's gain +3 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production per turn for this, but [ICON_STRENGTH] Crime increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_6">
-			<Text>Admit the loss of up to {2_InstantYield} by consulting the World Congress Monetary Fund. A Foreign Legion is stationed near every City. Customs Houses, Banks and Stock Exchanges generate +2 [ICON_GOLD] Gold.</Text>
+			<Text>Admit the loss of up to {2_InstantYield} by consulting the World Congress Monetary Fund. Four Foreign Legion arrive at the [ICON_CAPITAL] Capital. The Customs House, Bank and Stock Exchange there generate +10% [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION_CHOICE_1">
 			<Text>*The council have presented you with a long list of potential suitors*</Text>

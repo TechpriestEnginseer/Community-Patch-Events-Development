@@ -42,8 +42,8 @@
 			<Help>TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_CITY_EVENT_MUSKETEERS_DESCRIPTION_CHOICE_4</Description>
 			<RequiresWLTKD>true</RequiresWLTKD>
-			<WLTKDTurns>50</WLTKDTurns>
-			<EventDuration>50</EventDuration>
+			<WLTKDTurns>25</WLTKDTurns>
+			<EventDuration>25</EventDuration>
 			<EraScaling>true</EraScaling>
 		</Row>
 	</CityEventChoices>

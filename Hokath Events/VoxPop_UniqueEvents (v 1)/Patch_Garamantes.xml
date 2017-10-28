@@ -318,6 +318,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_GARAMANTES_UE_CHOICE_2</Type>
@@ -326,6 +327,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_GARAMANTES_UE_CHOICE_3</Type>
@@ -344,6 +346,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<RequiresWar>true</RequiresWar>
 			<EraScaling>true</EraScaling>
 			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
@@ -456,7 +459,7 @@
 		<Row>
 			<EventChoiceType>EVENT_GARAMANTES_UE_CHOICE_2</EventChoiceType>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_GARAMANTES_UE_CHOICE_4</EventChoiceType>
@@ -646,13 +649,13 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GARAMANTES_UE_HELP_CHOICE_2">
-			<Text>Finish the construction of a War Chariot in every City.</Text>
+			<Text>Finish the construction of three War Chariot in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GARAMANTES_UE_HELP_CHOICE_3">
 			<Text>Develop plant species with {1_YieldCost} resistance to the harsh conditions of the Desert. Cities gain +1 [ICON_FOOD] Food for every Desert Tile within workable range, and +1 [ICON_GOLD] for every 2 Desert Tiles within workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GARAMANTES_UE_HELP_CHOICE_4">
-			<Text>Summon assistance in your war with {1_YieldCost}. A Berber Cavalry company arrives at each City.</Text>
+			<Text>Summon assistance in your war with {1_YieldCost}. Four Berber Cavalry arrive at the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GARAMANTES_UE_HELP_CHOICE_5">
 			<Text>Develop methods to excavate fossils from your Foggaras using {1_YieldCost}. Aquifers yield +3 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism.</Text>

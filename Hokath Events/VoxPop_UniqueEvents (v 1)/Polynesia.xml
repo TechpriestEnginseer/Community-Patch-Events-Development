@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_POLYNESIA_UE_CHOICE_2</Type>
@@ -163,7 +164,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>

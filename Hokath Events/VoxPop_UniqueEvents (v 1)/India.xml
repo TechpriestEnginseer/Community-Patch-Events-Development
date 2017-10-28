@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_INDIA_UE_CHOICE_2</Type>
@@ -63,7 +64,7 @@
 			<GoldenAgeTurns>20</GoldenAgeTurns>
 			<EventDuration>20</EventDuration>
 			<Expires>false</Expires>
-			<YieldBonusAllCities>true</YieldBonusAllCities>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_INDIA_UE_CHOICE_6</Type>
@@ -109,7 +110,7 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_5</EventChoiceType>
 			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 	
@@ -164,17 +165,17 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-25</Yield>
+			<Yield>-10</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-25</Yield>
+			<Yield>-10</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-25</Yield>
+			<Yield>-35</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	
@@ -397,10 +398,10 @@
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_5">
-			<Text>Conscript {2_InstantYield} in every City into a Fusilier. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Conscript {2_InstantYield} into four Fusiliers in the [ICON_CAPITAL] Capital. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_6">
-			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 25%.</Text>
+			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy are reduced by 10%, and [ICON_RELIGION] Religious Divisions are reduced by 35%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A recent birth has been identified as the reincarnation of a Great Person*[NEWLINE]A Great Soul is returned to us! Make the necessary arrangements.</Text>

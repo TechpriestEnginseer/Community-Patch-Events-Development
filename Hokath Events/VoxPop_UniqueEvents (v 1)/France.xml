@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_FRANCE_UE_CHOICE_2</Type>
@@ -49,8 +50,8 @@
 			<IsOneShot>true</IsOneShot>
 			<LosingMoney>true</LosingMoney>
 			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
-			<ResistanceTurns>10</ResistanceTurns>
-			<EventDuration>10</EventDuration>
+			<ResistanceTurns>4</ResistanceTurns>
+			<EventDuration>4</EventDuration>
 			<Expires>false</Expires>
 			<EventFreePolicies>1</EventFreePolicies>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
@@ -159,7 +160,7 @@
 			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_6</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FRANCE_UE_CHOICE_6</EventChoiceType>
@@ -354,7 +355,7 @@
 			<Text>Invest {2_InstantYield} in this new school. Cities with [ICON_GREAT_ARTIST] Artist's Guilds gain +10 [ICON_TOURISM] Tourism and +10% [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_6">
-			<Text>Pay {2_InstantYield}. Farms yield +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture. Agribusinesses gain +5 [ICON_GOLD] Gold.</Text>
+			<Text>Pay {2_InstantYield}. Farms yield +2 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture. Agribusinesses gain +5 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_DESCRIPTION_CHOICE_1">
 			<Text>Find me the most qualified man amongst the dissenters. Give him an office.</Text>

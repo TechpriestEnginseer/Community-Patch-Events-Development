@@ -276,6 +276,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_ZIMBABWE_UE_CHOICE_2</Type>
@@ -307,6 +308,7 @@
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<EventPromotion>PROMOTION_BUFFALO_HORNS</EventPromotion>
 			<RequiresWar>true</RequiresWar>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -399,7 +401,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ZIMBABWE_UE_CHOICE_4</EventChoiceType>
 			<UnitType>UNIT_ZULU_IMPI</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ZIMBABWE_UE_CHOICE_6</EventChoiceType>
@@ -613,7 +615,7 @@
 			<Text>Mobilise {1_YieldCost} to wage economic war on your City State adversaries. You beat them to trade deals worth 2 copies of [ICON_RES_COPPER] and look for contacts within their establishment...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZIMBABWE_UE_HELP_CHOICE_4">
-			<Text>Using {1_YieldCost} reinvent your combat tactics. Receive an Impi in every City, and all Eligible Units, as well as those trained in the next {4_Turns} receive the Buffalo Horns Promotion.</Text>
+			<Text>Using {1_YieldCost} reinvent your combat tactics. Receive two Impi in the [ICON_CAPITAL] Capital, and all Eligible Units, as well as those trained in the next {4_Turns} receive the Buffalo Horns Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZIMBABWE_UE_HELP_CHOICE_5">
 			<Text>Open doors to trade, [ICON_INTERNATIONAL_TRADE] Trade Routes sent to you generate +5 [ICON_GOLD] Gold for the owner. Your [ICON_GREAT_MERCHANT] Merchants yield +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food.</Text>

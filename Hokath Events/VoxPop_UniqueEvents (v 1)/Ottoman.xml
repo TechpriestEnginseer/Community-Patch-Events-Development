@@ -22,6 +22,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_OTTOMAN_UE_CHOICE_2</Type>
@@ -426,7 +427,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_HELP_CHOICE_2">
-			<Text>Invest {1_YieldCost} in your trade network, receiving a Caravansary in every City. Your Caravansary produce +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith.</Text>
+			<Text>Invest {1_YieldCost} in your trade network, receiving a Caravansary in every City. Your Caravansary produce +1 [ICON_CULTURE] Culture, [ICON_GOLD]Gold, and [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_HELP_CHOICE_3">
 			<Text>Enforce {1_YieldCost} worth of religious practices in public places: Baths yield +2 [ICON_PEACE] Faith and +2 [ICON_FOOD] Food.</Text>

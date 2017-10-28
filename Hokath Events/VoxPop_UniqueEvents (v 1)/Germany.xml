@@ -23,6 +23,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_GERMANY_UE_CHOICE_2</Type>
@@ -44,6 +45,7 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_ORDER</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
+			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -126,7 +128,7 @@
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_2</EventChoiceType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<Quantity>5</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
 	<EventChoice_BuildingClassYieldChange>
@@ -177,6 +179,13 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_FeatureYieldChange>
+	<EventChoice_EventCostYield>
+		<Row>
+			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_EventCostYield>
 	
 	<EventChoiceFlavors>
 		<Row>
@@ -329,7 +338,7 @@
 			<Text>Eligible Units receive the Woodsman promotion and all Forests gain +1 [ICON_CULTURE] Culture. This also applies to new acquisitions with the next {4_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_3">
-			<Text>Receive an Order in every City, they cost 3 [ICON_GOLD] Maintenance.</Text>
+			<Text>At the cost of {2_InstantYield}, receive an Order in every City, they cost 3 [ICON_GOLD] Maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4">
 			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +4 [ICON_GOLD] Gold.</Text>

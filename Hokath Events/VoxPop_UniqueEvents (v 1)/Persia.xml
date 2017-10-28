@@ -22,6 +22,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_PERSIA_UE_CHOICE_2</Type>
@@ -38,10 +39,10 @@
 			<Help>TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
 			<EraScaling>true</EraScaling>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -180,7 +181,7 @@
 		<Row>
 			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_3</EventChoiceType>
 			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_ResourceQuantity>
@@ -374,7 +375,7 @@
 			<Text>Melee and Gun Units gain the Incorporation promotion, allowing them to capture defeated enemies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_3">
-			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and a Naresuan's Elephant in every City.</Text>
+			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and three Naresuan's Elephants arrive at the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_4">
 			<Text>Suppress {1_YieldCost} of religious influence over the Empire. Chanceries yield +3 [ICON_RESEARCH] Science, and Cities generate 20% additional [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.</Text>
