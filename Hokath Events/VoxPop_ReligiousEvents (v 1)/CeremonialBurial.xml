@@ -275,6 +275,12 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
@@ -453,14 +459,14 @@
 			<Text>The final scrolls have been translated. Locations that could be the Prophet's last resting place have been identified. We need to recover our most holy relics before they are lost to the ever-changing world!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_DESCRIPTION_CHOICE_6">
-			<Text>Our efforts have finally been rewarded. The body of the Prophet was recovered, still miraculously whole. He may now be interred in the place of honour of the Mausoleum, and perhaps secured all our places in the world beyond this one!</Text>
+			<Text>Our efforts have finally been rewarded. The body of the Prophet was recovered, still miraculously whole. He may now be interred in the place of honour of the Mausoleum. Finally, we have perhaps secured all our places in the world beyond this one!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CEREMONIAL_BURIAL">
 			<Text>Fanaticism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CEREMONIAL_BURIAL_HELP">
-			<Text>Kills reward [ICON_PEACE] Faith and heal of 10 HP. When defending [ICON_STRENGTH] Strength is reduced by 10%.</Text>
+			<Text>Kills reward [ICON_PEACE] Faith and heal for 10 HP. When defending [ICON_STRENGTH] Strength is reduced by 10%.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

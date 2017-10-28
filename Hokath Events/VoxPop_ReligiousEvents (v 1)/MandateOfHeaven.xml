@@ -271,6 +271,12 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
@@ -449,7 +455,7 @@
 			<Text>Our foe is backed into a corner. The killing blow will soon be struck. Send out my best agents, bring him to me!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MANDATE_OF_HEAVEN_DESCRIPTION_CHOICE_6">
-			<Text>To have the pleasure of executing this man myself was too much to hope for. It is been so long, I did not in truth recognise the man, but it is no matter, for it is surely him. No one remains to contend my divinity!</Text>
+			<Text>To have the pleasure of executing this man myself was too much to hope for. It is been so long I did not in truth recognise the man, but it is no matter: for it was surely him. No one remains to contend my divinity!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MANDATE">

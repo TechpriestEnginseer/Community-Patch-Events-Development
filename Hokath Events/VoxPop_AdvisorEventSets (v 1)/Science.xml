@@ -10,6 +10,7 @@
 			<RandomChanceDelta>10</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_MODERN</RequiredEra>
+			<IgnoresGlobalCooldown>true</IgnoresGlobalCooldown>
 		</Row>
 	</Events>
 	<EventChoices>
