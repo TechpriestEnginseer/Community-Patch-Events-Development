@@ -282,7 +282,7 @@ blood diamonds - req dynamite, req war minor, copies gems and gold
 rainbow nation - req stadium, is unhappy, reduced boredom, church in every city
 
 --Ottomans----------Does Any Rose Lack Thorns?-----------------------------
-Sultanate of Rum - req less than max trade, req currency, cost gold, caravansary in all cities, cara +culture+faith
+Sultanate of Rum - req less than max trade, req currency, cost gold, caravansary in all cities, cara +culture+gold+faith
 Hamam - req holy city, req theology, cost faith, baths +food+faith
 millet system - req economics, req war, cost faith, cities have +prod+food per religion
 Naval dominance - req navigation, req war, cost gold&culture, supply promo, palace yield per city
@@ -324,7 +324,7 @@ iconodulism - req ideology, cost faith, artists +faith+cult+tour
 crusade - req combined arms, cost faith, req war, freeunitstechappropriate, earn faith from kills promo
 
 --Huns----------The Blood Oath--------------------------------------
-verszerzodes - req drama, req war, cost faith&culture, battering rams, culture from deaths
+verszerzodes - req drama, req war, cost faith&culture, battering rams, culture,faith from deaths
 vegvar - req castle, req citadel, cost gold, castles&forts&citadels +prod+gold
 arquebusier - req gunpowder, cost science, get the metallurgy tech, golden age turns
 12 points - req ideology, unhappy, resistanceturns, p.press&hermitage&scriveners +%gold+%prod
