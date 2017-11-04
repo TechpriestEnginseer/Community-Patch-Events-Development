@@ -25,8 +25,8 @@
 			<Description>TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
-			<EventDuration>10</EventDuration>
-			<Expires>false</Expires>
+			<EventDuration>30</EventDuration>
+			<Expires>true</Expires>
 			<EventPromotion>PROMOTION_ACCURACY_4</EventPromotion>
 		</Row>
 	</EventChoices>

@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_WAR_CITY_BAD_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_WAR_CITY_BAD_HELP</Help>
 			<NumChoices>1</NumChoices>
-			<RandomChance>30</RandomChance>
+			<RandomChance>75</RandomChance>
 			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>

@@ -26,6 +26,7 @@
 			<Help>TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_UNIVERSITY</RequiredAnywhereBuildingClass>
 		</Row>
 		<Row>
@@ -64,7 +65,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AES_WAR_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<UnitClassType>UNITCLASS_EMISSARY</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 	<EventChoice_InstantYield>
@@ -118,7 +119,7 @@
 			<Text>Your Military Advisor is pleased to report that a new class of officers have graduated your special forces program. Where shall we assign them?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_HELP_CHOICE_1">
-			<Text>Invest in {1_YieldCost} of further training to receive an Emissary in every City.</Text>
+			<Text>Invest in {1_YieldCost} of further training to receive two Emissaries in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_HELP_CHOICE_2">
 			<Text>Lease the officers to foreign armies, exchanging {1_YieldCost} for {2_InstantYield}.</Text>

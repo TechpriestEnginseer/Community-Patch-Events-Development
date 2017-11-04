@@ -30,8 +30,8 @@
 			<Help>TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<ImprovementAnywhereRequired>IMPROVEMENT_FISHING_BOATS</ImprovementAnywhereRequired>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_NATIONAL_EPIC</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -39,7 +39,7 @@
 			<Help>TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_CARTHAGE_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<UnitClassRequired>UNITCLASS_GREAT_GENERAL</UnitClassRequired>
 			<EventPromotion>PROMOTION_UE_MOUNTAIN_TACTICS</EventPromotion>
 			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
@@ -457,7 +457,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_2">
-			<Text>Rediscover old Phoenician practices. Receive 2 copies of [ICON_RES_CRAB] Crab, and Fising Boats geneate +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Fund the rediscovery of old Phoenician practices with {1_YieldCost}. Receive 2 copies of [ICON_RES_CRAB] Crab, and Fising Boats geneate +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CARTHAGE_UE_HELP_CHOICE_3">
 			<Text>Allow the General {1_YieldCost} in funding. Two War Elephants are trained in the [ICON_CAPITAL] Capital, and your Units may now cross Mountain Tiles.</Text>

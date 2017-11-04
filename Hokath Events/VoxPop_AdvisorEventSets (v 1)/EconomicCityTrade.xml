@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_TRADE_HELP</Help>
 			<NumChoices>6</NumChoices>
-			<RandomChance>30</RandomChance>
+			<RandomChance>50</RandomChance>
 			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<ImprovementRequired>IMPROVEMENT_TRADING_POST</ImprovementRequired>

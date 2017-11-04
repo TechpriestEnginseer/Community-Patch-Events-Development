@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_EVENT_WAY_OF_TRANSCENCE_HELP</Help>
 			<NumChoices>6</NumChoices>
 			<RandomChance>60</RandomChance>
-			<RandomChanceDelta>6</RandomChanceDelta>
+			<RandomChanceDelta>20</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_SACRED_GARDEN</RequiredAnywhereBuildingClass>
