@@ -25,7 +25,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_ECONOMIC_CITY_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
-			<EraScaling>true</EraScaling>
+			<EraScaling>false</EraScaling>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>
@@ -39,12 +39,12 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_GOOD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_ECONOMIC_CITY_GOOD_CHOICE_1</CityEventChoiceType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
 

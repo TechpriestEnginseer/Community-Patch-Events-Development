@@ -6,7 +6,7 @@
 			<Description>TXT_KEY_CITY_EVENT_IDEOLOGY_PEACE_DESCRIPTION</Description>
 			<Help>TXT_KEY_CITY_EVENT_IDEOLOGY_PEACE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>65</RandomChance>
+			<RandomChance>45</RandomChance>
 			<RandomChanceDelta>0</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<RequiredPolicy>POLICY_UNIVERSAL_HEALTHCARE_O</RequiredPolicy>

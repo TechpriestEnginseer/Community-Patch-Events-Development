@@ -69,7 +69,7 @@
 			<Description>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_DESCRIPTION</Description>
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP</Help>
 			<NumChoices>3</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>

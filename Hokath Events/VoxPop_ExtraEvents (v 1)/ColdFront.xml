@@ -6,7 +6,7 @@
 			<Help>TXT_KEY_CITY_EVENT_COLD_FRONT_HELP</Help>
 			<EventClass>EVENT_CLASS_TRADE</EventClass>
 			<NumChoices>5</NumChoices>
-			<RandomChance>50</RandomChance>
+			<RandomChance>40</RandomChance>
 			<IsOneShot>false</IsOneShot>
 			<RandomChanceDelta>0</RandomChanceDelta>
 			<NearbyTerrain>TERRAIN_TUNDRA</NearbyTerrain>
@@ -20,7 +20,7 @@
 			<Help>TXT_KEY_CITY_EVENT_COLD_FRONT_HELP_CHOICE_1</Help>
 			<RiverOnly>true</RiverOnly>
 			<EraScaling>true</EraScaling>
-			<EventDuration>20</EventDuration>
+			<EventDuration>40</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_COLD_FRONT_CHOICE_2</Type>
@@ -43,7 +43,7 @@
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<LocalResourceRequired>RESOURCE_COAL</LocalResourceRequired>
 			<EraScaling>true</EraScaling>
-			<EventDuration>20</EventDuration>
+			<EventDuration>40</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_COLD_FRONT_CHOICE_5</Type>
@@ -51,7 +51,7 @@
 			<Description>TXT_KEY_CITY_EVENT_COLD_FRONT_DESCRIPTION_CHOICE_5</Description>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<EraScaling>true</EraScaling>
-			<EventDuration>20</EventDuration>
+			<EventDuration>40</EventDuration>
 		</Row>
 	</CityEventChoices>
 	<CityEvent_ParentEvents>

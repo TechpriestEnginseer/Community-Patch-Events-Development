@@ -25,7 +25,7 @@
 			<Description>TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
-			<EventDuration>30</EventDuration>
+			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
 			<EventPromotion>PROMOTION_ACCURACY_4</EventPromotion>
 		</Row>
@@ -47,7 +47,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_HELP_CHOICE_1">
-			<Text>Your elite soldier program has completed the training of a class of assassins. Eligible Units, as well as those produced in the next {4_Turns} receive the Firing Doctrine Promotion.</Text>
+			<Text>Your elite soldier program has completed the training of a class of assassins. Eligible Units receive the Firing Doctrine Promotion for the next {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_GOOD_DESCRIPTION_CHOICE_1">
 			<Text>Death From Afar</Text>

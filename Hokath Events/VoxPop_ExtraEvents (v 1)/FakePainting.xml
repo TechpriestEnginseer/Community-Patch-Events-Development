@@ -51,7 +51,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_FAKE_PAINTING_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>-50</Yield>
+			<Yield>-200</Yield>
 		</Row>
 	</CityEventChoice_InstantYield>
 	<CityEventChoiceFlavors>
@@ -80,7 +80,7 @@
 			<Text>Lose {3_GPChange}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_HELP_CHOICE_2">
-			<Text>Lose {2_InstantYield} Culture.</Text>
+			<Text>Lose {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FAKE_PAINTING_DESCRIPTION_CHOICE_1">
 			<Text>This is going to severely damage the reputation of the City's Artists' Guild...</Text>

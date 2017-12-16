@@ -50,7 +50,6 @@
 			<Description>TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_JAPAN_UE_DUMMY_2</EventBuildingClassGlobal>
-			<WLTKDTurns>5</WLTKDTurns>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
 			<EventDuration>10</EventDuration>
 			<WLTKDTurns>10</WLTKDTurns>

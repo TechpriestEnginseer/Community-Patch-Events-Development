@@ -115,6 +115,10 @@
 			<Type>BUILDINGCLASS_CELTS_UE_DUMMY_2</Type>
 			<DefaultBuilding>BUILDING_CELTS_UE_DUMMY_2</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CELTS_UE_DUMMY_3</Type>
+			<DefaultBuilding>BUILDING_CELTS_UE_DUMMY_3</DefaultBuilding>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -286,13 +290,13 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
-	<EventChoice_FreeUnitClasses>
+	<EventChoice_FreeUnits>
 		<Row>
 			<EventChoiceType>EVENT_CELTS_UE_CHOICE_3</EventChoiceType>
 			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
 			<Quantity>3</Quantity>
 		</Row>
-	</EventChoice_FreeUnitClasses>
+	</EventChoice_FreeUnits>
 
 	<EventChoiceFlavors>
 		<Row>

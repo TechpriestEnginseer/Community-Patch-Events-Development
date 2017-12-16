@@ -135,7 +135,7 @@
 		<Row>
 			<PromotionType>PROMOTION_UE_PIRATE_SLAVER</PromotionType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>100</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_UE_PIRATE_SLAVER</PromotionType>

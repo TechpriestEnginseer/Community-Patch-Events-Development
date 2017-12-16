@@ -8,7 +8,7 @@
 			<!-- So major I think it needs to go in this category -->
 			<NumChoices>6</NumChoices>
 			<RandomChance>100</RandomChance>
-			<RandomChanceDelta>4</RandomChanceDelta>
+			<RandomChanceDelta>100</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 			<IsSuperUnhappy>true</IsSuperUnhappy>
 			<RequiredEra>ERA_RENAISSANCE</RequiredEra>

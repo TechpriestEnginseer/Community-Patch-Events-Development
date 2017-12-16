@@ -206,48 +206,48 @@
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_1</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>500</Yield>
+			<Yield>300</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>500</Yield>
+			<Yield>300</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>500</Yield>
+			<Yield>400</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>500</Yield>
+			<Yield>400</Yield>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>100</Yield>
+			<Yield>150</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>100</Yield>
+			<Yield>750</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_6</EventChoiceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>100</Yield>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>200</Yield>
+			<Yield>500</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 

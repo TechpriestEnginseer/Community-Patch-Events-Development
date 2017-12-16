@@ -42,7 +42,8 @@
 			<Description>TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
-			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<FreeUnitsTechAppropriate>2</FreeUnitsTechAppropriate>
 			<RequiresWar>true</RequiresWar>
 		</Row>
 	</EventChoices>
@@ -125,7 +126,7 @@
 			<Text>Lease the officers to foreign armies, exchanging {1_YieldCost} for {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_HELP_CHOICE_3">
-			<Text>The officers are given {1_YieldCost} to recruit a division of their favoured troops in every City.</Text>
+			<Text>The officers are given {1_YieldCost} to recruit two divisions of their favoured troops in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_WAR_PLAYER_TRADE_DESCRIPTION_CHOICE_1">

@@ -201,13 +201,13 @@
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>-1</YieldChange>
