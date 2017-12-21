@@ -266,12 +266,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MANDATE_OF_HEAVEN_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
@@ -423,7 +417,7 @@
 			<Text>Use {1_YieldCost} suppress followers of the wraith. All Melee and Gun Units receive the Hand of Empire Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MANDATE_OF_HEAVEN_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Celestial Throne to generate +3 [ICON_PEACE] Faith.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Celestial Throne to generate +3 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MANDATE_OF_HEAVEN_HELP_CHOICE_4">
 			<Text>Implement {1_YieldCost} worth of auspicious rituals. The Celestial Throne increases [ICON_PEACE] Faith by 20%.</Text>

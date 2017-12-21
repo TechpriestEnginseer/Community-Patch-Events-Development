@@ -263,12 +263,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_APOSTOLIC_TRADITION_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_APOSTOLIC_TRADITION_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>3</YieldChange>
@@ -434,7 +428,7 @@
 			<Text>Use {1_YieldCost} to spread word of your success in the quest. Cities generate 5% more [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_PEACE] Faith and [ICON_CULTURE] Culture during a [ICON_GOLDEN_AGE] Golden Age.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_APOSTOLIC_TRADITION_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Apostolic Palace to generate +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Apostolic Palace to generate +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_APOSTOLIC_TRADITION_HELP_CHOICE_4">
 			<Text>Reveal {1_YieldCost} worth of religious mysteries. The Apostolic Palace increases [ICON_GOLDEN_AGE] Golden Age Points by 20%.</Text>

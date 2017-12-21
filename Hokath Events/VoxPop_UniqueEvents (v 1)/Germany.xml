@@ -42,7 +42,6 @@
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_3</Description>
 			<RequiresWar>true</RequiresWar>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
-			<EventBuildingClassGlobal>BUILDINGCLASS_ORDER</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<EraScaling>true</EraScaling>
@@ -110,6 +109,75 @@
 		</Row>
 	</Event_ParentEvents>
 
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UE_ORDER</Type>
+			<DefaultBuilding>BUILDING_UE_ORDER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_ORDER</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UE_ORDER</Type>
+			<BuildingClass>BUILDINGCLASS_UE_ORDER</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
+			<Description>TXT_KEY_BUILDING_UE_ORDER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ORDER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_ORDER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_ORDER_HELP</Help>
+			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>1000</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<ConversionModifier>-10</ConversionModifier>
+			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<EventChoiceRequiredActive>EVENT_GERMANY_UE_CHOICE_3</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>367</MutuallyExclusiveGroup>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
@@ -148,7 +216,13 @@
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_ORDER</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>-3</YieldChange>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_ORDER</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -338,7 +412,7 @@
 			<Text>Eligible Units receive the Woodsman promotion and all Forests gain +1 [ICON_CULTURE] Culture. This also applies to new acquisitions with the next {4_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_3">
-			<Text>At the cost of {2_InstantYield}, receive an Order in every City, they cost 3 [ICON_GOLD] Maintenance.</Text>
+			<Text>At the cost of {2_InstantYield} unlock the Teutonic Chapter Building. Other Orders gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4">
 			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +4 [ICON_GOLD] Gold.</Text>
@@ -366,6 +440,14 @@
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_6">
 			<Text>*A pacifistic group are trying to oppose the largescale manufacturing of arms*[NEWLINE]Our country has grown strong: our manufactories and train stations the cathedrals of this new age. Soon, we will take our rightful place in the world.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_BUILDING_UE_ORDER">
+			<Text>Teutonic Chapter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to Germany. Mutually exclusive with the Order.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

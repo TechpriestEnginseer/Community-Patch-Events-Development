@@ -304,12 +304,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HERO_WORSHIP_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_HERO_WORSHIP_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>3</YieldChange>
@@ -461,7 +455,7 @@
 			<Text>Authorise the sacrifice of prisoners and criminals with {1_YieldCost}. Courthouses, Chanceries and Constabularies generate +1 [ICON_PRODUCTION] Production, [ICON_PEACE] Faith and [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Great Altar to generate +3 [ICON_PEACE] Production.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Great Altar to generate +3 [ICON_PEACE] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_4">
 			<Text>Begin the empowerment of citizens with {1_YieldCost}. The Great Altar increases [ICON_PEACE] Production by 20%.</Text>

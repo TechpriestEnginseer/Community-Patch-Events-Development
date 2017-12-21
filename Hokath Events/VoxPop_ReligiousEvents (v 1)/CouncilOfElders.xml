@@ -266,12 +266,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_COUNCIL_OF_ELDERS_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_COUNCIL_OF_ELDERS_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>3</YieldChange>
@@ -423,7 +417,7 @@
 			<Text>Use {1_YieldCost} to spread word of your success in the quest. When a [ICON_CITIZEN] Citizen is born, the City receives a boost of 20 [ICON_RESEARCH] Science (scaling with Era).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COUNCIL_OF_ELDERS_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Holy Council to generate +3 [ICON_RESEARCH] Science.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Holy Council to generate +3 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COUNCIL_OF_ELDERS_HELP_CHOICE_4">
 			<Text>Reveal {1_YieldCost} worth of religious mysteries. The Holy Council increases [ICON_RESEARCH] Science by 20%.</Text>

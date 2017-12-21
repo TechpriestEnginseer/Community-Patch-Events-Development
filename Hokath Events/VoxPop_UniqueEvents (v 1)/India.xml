@@ -40,7 +40,6 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
-			<EventBuildingClassGlobal>BUILDINGCLASS_MANDIR</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -105,6 +104,79 @@
 		</Row>
 	</Event_ParentEvents>
 
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UE_MANDIR</Type>
+			<DefaultBuilding>BUILDING_UE_MANDIR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_MANDIR</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UE_MANDIR</Type>
+			<BuildingClass>BUILDINGCLASS_UE_MANDIR</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
+			<Description>TXT_KEY_BUILDING_UE_MANDIR</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MANDIR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_MANDIR_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MANDIR_HELP</Help>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<NeverCapture>true</NeverCapture>
+			<MinAreaSize>-1</MinAreaSize>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<BlockGPDestructionSpies>1</BlockGPDestructionSpies>
+			<BlockUDestructionSpies>1</BlockUDestructionSpies>
+			<ConversionModifier>-10</ConversionModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<EventChoiceRequiredActive>EVENT_INDIA_UE_CHOICE_3</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>363</MutuallyExclusiveGroup>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
 
 	<EventChoice_FreeUnitClasses>
 		<Row>
@@ -139,7 +211,7 @@
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_4</EventChoiceType>
@@ -392,7 +464,7 @@
 			<Text>Monuments of the conquest generate +1 [ICON_PEACE] Faith, and increase [ICON_FOOD] Growth by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_3">
-			<Text>Allow the priests {2_InstantYield}. A Mandir is constructed in every City. All Mandirs these generate +1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith.</Text>
+			<Text>Allow the priests {2_InstantYield} to unlock the Duela Building. Mandir generate +2 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_4">
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
@@ -420,6 +492,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The people are increasingly resentful of the roles imposed upon them by outdated social expectations*[NEWLINE]As the Empire has grown further from its roots, so too have we grown further from the Truth. It now falls to me to lead us back...</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_UE_MANDIR">
+			<Text>Deula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_MANDIR_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to India. Mutually exclusive with the Mandir.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

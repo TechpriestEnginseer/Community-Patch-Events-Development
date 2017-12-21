@@ -49,8 +49,6 @@
 			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_ARSENAL</RequiredAnywhereBuildingClass>
-			<HappinessPerCity>-1</HappinessPerCity>
-			<EventBuildingClassGlobal>BUILDINGCLASS_SYNAGOGUE</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -102,6 +100,79 @@
 		</Row>
 	</Event_ParentEvents>
 
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UE_SYNAGOGUE</Type>
+			<DefaultBuilding>BUILDING_UE_SYNAGOGUE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_SYNAGOGUE</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UE_SYNAGOGUE</Type>
+			<BuildingClass>BUILDINGCLASS_UE_SYNAGOGUE</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
+			<Description>TXT_KEY_BUILDING_UE_SYNAGOGUE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SYNAGOGUE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_SYNAGOGUE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SYNAGOGUE_HELP</Help>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<ConversionModifier>-10</ConversionModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<EventChoiceRequiredActive>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>366</MutuallyExclusiveGroup>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_WLTKDYieldMod>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</<BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</<Building_WLTKDYieldMod>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_UE_WINGED_VALOR</Type>
@@ -129,12 +200,22 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>-500</Yield>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>-1000</Yield>
+		</Row>
 	</EventChoice_InstantYield>
 	<EventChoice_MinimumStartYield>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>500</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1000</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
 	<EventChoice_BuildingClassYieldChange>
@@ -155,6 +236,18 @@
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -356,7 +449,7 @@
 			<Text>Pay {2_InstantYield}. Temples produce +2 and Holy Sites produce +4 [ICON_RESEARCH] Science. Libraries produce +2 and Academies produce +4 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_4">
-			<Text>Each City receives a free Synagogue. However, settling the refugees causes 1 [ICON_HAPPINESS_2] Unhappiness in each City.</Text>
+			<Text>Pay {2_InstantYield} to unlock the Sephardic Synagogue Building. Other Synagogues gain +1 [ICON_CULTURE] and +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_5">
 			<Text>The discovery starts {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities. Landmarks yield +5 to [ICON_RESEARCH] Science, [ICON_PEACE] Faith and [ICON_PRODUCTION] Production.</Text>
@@ -388,6 +481,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_WINGED_VALOR_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength vs. Wounded enemies. Can force enemies to retreat, and deals extra damage if they cannot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_SYNAGOGUE">
+			<Text>Sephardic Synagogue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_SYNAGOGUE_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to Assyria. Mutually exclusive with the Synagogue.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

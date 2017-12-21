@@ -270,12 +270,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_CEREMONIAL_BURIAL_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
@@ -424,10 +418,10 @@
 			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Mausoleum to generate +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_HELP_CHOICE_2">
-			<Text>Use {1_YieldCost} to spread word of your success in the quest. All Melee and Gun Units receive the CEREMONIAL_BURIALism Promotion.</Text>
+			<Text>Use {1_YieldCost} to spread word of your success in the quest. All Melee and Gun Units receive the Fanaticism Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Mausoleum to generate +3 [ICON_PEACE] Faith.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Mausoleum to generate +3 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CEREMONIAL_BURIAL_HELP_CHOICE_4">
 			<Text>Reveal {1_YieldCost} worth of religious mysteries. The Mausoleum increases [ICON_PEACE] Faith by 20%.</Text>

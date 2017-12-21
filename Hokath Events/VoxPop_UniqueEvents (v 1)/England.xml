@@ -45,7 +45,6 @@
 			<Description>TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_3</Description>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_GRAND_TEMPLE</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
-			<EventBuildingClassGlobal>BUILDINGCLASS_CHURCH</EventBuildingClassGlobal>
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -123,6 +122,11 @@
 			<Type>BUILDINGCLASS_ENGLAND_UE_DUMMY_2</Type>
 			<DefaultBuilding>BUILDING_ENGLAND_UE_DUMMY_2</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UE_CHURCH</Type>
+			<DefaultBuilding>BUILDING_UE_CHURCH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_CHURCH</Description>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -147,7 +151,48 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 		</Row>
+		<Row>
+			<Type>BUILDING_UE_CHURCH</Type>
+			<BuildingClass>BUILDINGCLASS_UE_CHURCH</BuildingClass>
+			<Description>TXT_KEY_BUILDING_UE_CHURCH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CHURCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_CHURCH_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CHURCH_HELP</Help>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>100</ConquestProb>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<ConversionModifier>-10</ConversionModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ExtraMissionarySpreads>1</ExtraMissionarySpreads>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<Cost>-1</Cost>
+			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
+			<FaithCost>200</FaithCost>
+			<EventChoiceRequiredActive>EVENT_ENGLAND_UE_CHOICE_3</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>361</MutuallyExclusiveGroup>
+		</Row>
 	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
 	<Building_WLTKDYieldMod>
 		<Row>
 			<BuildingType>BUILDING_ENGLAND_UE_DUMMY</BuildingType>
@@ -225,6 +270,12 @@
 			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>-10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CHURCH</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ENGLAND_UE_CHOICE_5</EventChoiceType>
@@ -382,7 +433,7 @@
 			<Text>Spend {1_YieldCost} to host a Grand Tourney. The [ICON_CAPITAL] Capital enters [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns} and 3 Longbowmen spawn nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation in the [ICON_CAPITAL] Capital by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3">
-			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom found a free Church in every City.</Text>
+			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom unlock the Parish Church Building. Other Churches gain +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_4">
 			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +5 [ICON_CULTURE] Culture.</Text>
@@ -424,6 +475,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ENGLAND_UE_DUMMY_2">
 			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_CHURCH">
+			<Text>Parish Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_CHURCH_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to England. Mutually exclusive with the Church.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

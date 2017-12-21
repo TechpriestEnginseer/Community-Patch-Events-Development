@@ -273,12 +273,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_HOLY_LAW_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>3</YieldChange>
@@ -430,7 +424,7 @@
 			<Text>Use {1_YieldCost} to spread word of your success in the quest. When a [ICON_CITIZEN] Citizen is born, the City receives a boost equal to 20% of its [ICON_GOLD] Gold output.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HOLY_LAW_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Divine Court to generate +3 [ICON_GOLD] Gold.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Divine Court to generate +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HOLY_LAW_HELP_CHOICE_4">
 			<Text>Reveal {1_YieldCost} worth of religious mysteries. The Divine Court increases [ICON_GOLD] Gold by 20%.</Text>
