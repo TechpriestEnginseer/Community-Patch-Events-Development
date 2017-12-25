@@ -170,6 +170,14 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
+	<EventChoice_BuildingClassYieldModifier>
+		<Row>
+			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Modifier>5</Modifier>
+		</Row>
+	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
@@ -185,13 +193,13 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>2</YieldChange>
@@ -435,13 +443,13 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_2">
-			<Text>Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. The Banya generate +2 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
+			<Text>Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Generate +3 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_3">
-			<Text>Serfdom generates +1 [ICON_GOLD] Gold from Farms, and all Forts and Citadels yield +2 [ICON_FOOD] Food. However, the [ICON_GOLD] Poverty threshold increases by 5%.</Text>
+			<Text>Serfdom generates +1 [ICON_GOLD] Gold from Farms, and Castles increase [ICON_PRODUCTION] Production in Cities by 5%. However, the [ICON_GOLD] Poverty threshold increases by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_4">
-			<Text>In the [ICON_CAPITAL] Capital conscript {2_InstantYield} into six Tercio. </Text>
+			<Text>In the [ICON_CAPITAL] Capital conscript {2_InstantYield} into four Tercio. All Forts and Citadels yield +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_5">
 			<Text>For every owned City, your [ICON_GREAT_WRITER] Writers' Guilds generate +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>

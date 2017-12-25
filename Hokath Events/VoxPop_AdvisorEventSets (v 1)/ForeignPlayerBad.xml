@@ -70,6 +70,7 @@
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_CURE_HELP</Help>
 			<NumChoices>3</NumChoices>
 			<RandomChance>125</RandomChance>
+			<IgnoresGlobalCooldown>true</IgnoresGlobalCooldown>
 			<RandomChanceDelta>25</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>

@@ -83,9 +83,15 @@
 			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<InstantSpyRankChange>1</InstantSpyRankChange>
 		</Row>
 	</Buildings>
+	<Building_YieldFromSpyDefense>
+		<Row>
+			<BuildingType>BUILDING_MUSKETEERS_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldFromSpyDefense>
 	
 	<CityEventChoice_FreeUnits>
 		<Row>
@@ -142,7 +148,7 @@
 			<Text>The City converts to your [ICON_RELIGION] Religion and the Grand Temple yields +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_3">
-			<Text>All [ICON_SPY] Spies level up.</Text>
+			<Text>When an enemy [ICON_SPY] Spy is killed receive [ICON_GOLDEN_AGE] Golden Age Points scaling with era and the level of the Spy killed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_HELP_CHOICE_4">
 			<Text>The [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] is extended by {5_Turns}.</Text>
@@ -154,7 +160,7 @@
 			<Text>It was only due to the presence of mind of my priest and advisor that the enemy agents were apprehended. Reward him with whatever he desires.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_DESCRIPTION_CHOICE_3">
-			<Text>Thankfull our agents were superior to those of the enemy. We must maintain such a high level of skill if we are to be safe against the threats of the future!</Text>
+			<Text>Thankfull our agents were superior to those of the enemy. With our agents, we are invincible!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MUSKETEERS_DESCRIPTION_CHOICE_4">
 			<Text>For the servant to renounce that traitor and bring this theft to our attention shows great patriotism and bravery! I must be so wonderful?! We must extend the celebrations!</Text>

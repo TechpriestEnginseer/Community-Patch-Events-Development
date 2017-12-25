@@ -20,13 +20,17 @@
 			<Type>EVENT_WAR_MATERIALS_CHOICE_1</Type>
 			<Description>TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_EVENT_WAR_MATERIALS_HELP_CHOICE_1</Help>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BANK</RequiredAnywhereBuildingClass>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_WAR_MATERIALS_CHOICE_2</Type>
 			<Help>TXT_KEY_EVENT_WAR_MATERIALS_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_2</Description>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_BANK</RequiredAnywhereBuildingClass>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventDuration>100</EventDuration>
+			<Expires>true</Expires>
+			<EventBuildingClassGlobal>BUILDINGCLASS_WAR_MATERIALS_DUMMY</EventBuildingClassGlobal>
 		</Row>
 		<Row>
 			<Type>EVENT_WAR_MATERIALS_CHOICE_3</Type>
@@ -58,27 +62,41 @@
 			<EventType>EVENT_WAR_MATERIALS</EventType>
 		</Row>
 	</Event_ParentEvents>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_WAR_MATERIALS_DUMMY</Type>
+			<DefaultBuilding>BUILDING_WAR_MATERIALS_DUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_WAR_MATERIALS_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_WAR_MATERIALS_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_WAR_MATERIALS_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_YieldFromSpyAttack>
+		<Row>
+			<BuildingType>BUILDING_WAR_MATERIALS_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Building_YieldFromSpyAttack>
+
 	<EventChoice_FreeUnitClasses>
 		<Row>
-			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_1</EventChoiceType>
 			<UnitClassType>UNITCLASS_ENVOY</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
-	<EventChoice_ResourceQuantity>
-		<Row>
-			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_1</EventChoiceType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-	</EventChoice_ResourceQuantity>
-	<EventChoice_InstantYield>
-		<Row>
-			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_1</EventChoiceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>200</Yield>
-		</Row>
-	</EventChoice_InstantYield>
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_3</EventChoiceType>
@@ -90,12 +108,12 @@
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_1</EventChoiceType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_2</EventChoiceType>
-			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
@@ -109,6 +127,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 	</EventChoiceFlavors>
+	<!--
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_WAR_MATERIALS_CHOICE_1</EventChoiceType>
@@ -139,10 +158,11 @@
 			<IsWorldEvent>true</IsWorldEvent>
 		</Row>
 	</EventChoice_Notification>
-	
+	-->
 	<!-- Text -->
 	<!-- War Materials -->
 	<Language_en_US>
+		<!--
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_WAR_MATERIALS_CHOICE_1_S">
 			<Text>{1_Playername} discovered an arms smuggling operation!</Text>
 		</Row>
@@ -167,6 +187,7 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_WAR_MATERIALS_CHOICE_4">
 			<Text>Rumours suggest that {1_Playername} has more knowledge about other Empires' military movements than they should!</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION">
 			<Text>War Materials</Text>
 		</Row>
@@ -174,10 +195,10 @@
 			<Text>Our agents have estabilished comprehensive links within a dissident City-State faction. They have leaked us intelligence of an arms smuggling operation occuring in our territory at this very moment![NEWLINE][NEWLINE]How should we act on this?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_HELP_CHOICE_1">
-			<Text>Gain +2 [ICON_RES_IRON] Iron and {2_InstantYield}.</Text>
+			<Text>Gain three Envoy near the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_HELP_CHOICE_2">
-			<Text>Gain an Envoy in each city.</Text>
+			<Text>For the next {4_Turns}, gain [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital whenever a [ICON_SPY] Spy completes an action.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_HELP_CHOICE_3">
 			<Text>Your Chanceries increase [ICON_GOLD] Gold production in cities by 5%.</Text>
@@ -186,16 +207,20 @@
 			<Text>Your eligible Military Units gain the Ambush I promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_1">
-			<Text>Sieze the shipment when it reaches the border. We cannot guarantee anyone's safety at such short notice.</Text>
+			<Text>Our contacts must be desperate. Under the guise of recruiting financial experts, send our Foreign Advisor to negotiate for their remaining political links.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_2">
-			<Text>Our contacts must be desperate. Under the guise of recruiting financial experts, send our Foreign Advisor to negotiate for their remaining political links.</Text>
+			<Text>Sieze the shipment once it reaches the border.[NEWLINE]This is good work. We must be sure to fully exercise our intelligence agents in the future. It could be very profitable.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_3">
 			<Text>Small arms deals do not interest me. However, the extent of this infiltration is astouding. Exfiltrate these agents and give them their own agency. Let's call it CI:5.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WAR_MATERIALS_DESCRIPTION_CHOICE_4">
 			<Text>Small arms deals do not interest me. However, the field skills detailed in this report are second to none. Exfiltrate these agents and send them to the new military intelligence branch, CI:6.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WAR_MATERIALS_DUMMY">
+			<Text></Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -32,6 +32,7 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COURTHOUSE</RequiredAnywhereBuildingClass>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
+			<EventBuildingClassGlobal>BUILDINGCLASS_AZTEC_UE_DUMMY_2</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -59,6 +60,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
+			<EventPromotion>PROMOTION_UE_RURALES</EventPromotion>
 			<EraScaling>true</EraScaling>
 			<MinimumNationalPopulation>90</MinimumNationalPopulation>
 			<EventDuration>-1</EventDuration>
@@ -107,11 +109,26 @@
 			<Type>BUILDINGCLASS_AZTEC_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_AZTEC_UE_DUMMY</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AZTEC_UE_DUMMY_2</Type>
+			<DefaultBuilding>BUILDING_AZTEC_UE_DUMMY_2</DefaultBuilding>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
 			<Type>BUILDING_AZTEC_UE_DUMMY</Type>
 			<BuildingClass>BUILDINGCLASS_AZTEC_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_AZTEC_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+		<Row>
+			<Type>BUILDING_AZTEC_UE_DUMMY_2</Type>
+			<BuildingClass>BUILDINGCLASS_AZTEC_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_AZTEC_UE_DUMMY</Description>
 			<FaithCost>-1</FaithCost>
@@ -128,6 +145,18 @@
 			<Modifier>33</Modifier>
 		</Row>
 	</Building_SpecificGreatPersonRateModifier>
+	<Building_YieldFromSpyDefense>
+		<Row>
+			<BuildingType>BUILDING_AZTEC_UE_DUMMY_2</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AZTEC_UE_DUMMY_2</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Building_YieldFromSpyDefense>
 
 	<EventChoice_SpecialistYieldChange>
 		<Row>
@@ -143,13 +172,32 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_SpecialistYieldChange>
-	<EventChoice_FreeUnitClasses>
+	<UnitPromotions>
 		<Row>
-			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_5</EventChoiceType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<Quantity>1</Quantity>
+			<Type>PROMOTION_UE_RURALES</Type>
+			<Description>TXT_KEY_PROMOTION_UE_RURALES</Description>
+			<CannotBeChosen>true</CannotBeChosen>
+			<Help>TXT_KEY_PROMOTION_UE_RURALES_HELP</Help>
+			<HillsDoubleMove>true</HillsDoubleMove>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_RURALES</PediaEntry>
 		</Row>
-	</EventChoice_FreeUnitClasses>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UE_RURALES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<UnitPromotions_YieldFromKills>
+		<Row>
+			<PromotionType>PROMOTION_UE_RURALES</PromotionType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</UnitPromotions_YieldFromKills>
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<EventChoiceType>EVENT_AZTEC_UE_CHOICE_5</EventChoiceType>
@@ -386,7 +434,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_2">
-			<Text>The sacrifice of criminals generates +4 [ICON_PEACE] Faith, [ICON_PRODUCTION] and [ICON_FOOD] Food in Courthouses.</Text>
+			<Text>The sacrifice of criminals generates +4 [ICON_PEACE] Faith, [ICON_PRODUCTION] and [ICON_FOOD] Food in Courthouses. When an enemy [ICON_SPY] Spy is killed receive [ICON_PEACE] Faith and [ICON_FOOD] Food scaling with era and the level of the Spy killed</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_3">
 			<Text>Discover new philosophical concepts using {1_YieldCost}. All Cities generate [ICON_GREAT_WRITER] Great Writers 33% faster. Each [ICON_GREAT_WRITER] Writer generates +2 [ICON_PEACE] Faith and +2 [ICON_FOOD] Food.</Text>
@@ -395,7 +443,7 @@
 			<Text>Haciendados are given control over your Plantations: -2 [ICON_GOLD] Gold, but +2 [ICON_PRODUCTION] Production and +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_5">
-			<Text>Invest {1_YieldCost} in a Rurales. A Fusilier spawns near every City and [ICON_STRENGTH] Crime thresholds are reduced by 15%.</Text>
+			<Text>Invest {1_YieldCost} in a Rurales. Gun Units receive the Rurales Corps Promotion and [ICON_STRENGTH] Crime thresholds are reduced by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AZTEC_UE_HELP_CHOICE_6">
 			<Text>Leverage {1_YieldCost} to popularise the Day of the Dead celebrations. Enter {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. Holy Sites provide +3 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism and [ICON_FOOD] Food.</Text>
@@ -421,6 +469,12 @@
 
 		<Row Tag="TXT_KEY_BUILDING_AZTEC_UE_DUMMY">
 			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UE_RURALES">
+			<Text>Rurales Corps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UE_RURALES_HELP">
+			<Text>Kills reward Golden Age Points and double movement on Hills.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

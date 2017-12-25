@@ -63,9 +63,9 @@
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MINT</RequiredAnywhereBuildingClass>
 			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
 			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
-			<EventDuration>150</EventDuration>
+			<EventDuration>100</EventDuration>
 			<Expires>true</Expires>
-			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
+			<EventBuildingClassGlobal>BUILDINGCLASS_KOREA_UE_DUMMY</EventBuildingClassGlobal>
 		</Row>
 		<Row>
 			<Type>EVENT_KOREA_UE_CHOICE_6</Type>
@@ -89,7 +89,7 @@
 			<Help>TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP</Help>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
-			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaType>PEDIA_NAVAL</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_TURTLE_SHELL</PediaEntry>
 			<MovesChange>-1</MovesChange>
 		</Row>
@@ -139,7 +139,32 @@
 			<EventType>EVENT_KOREA_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_KOREA_UE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_KOREA_UE_DUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KOREA_UE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_KOREA_UE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_KOREA_UE_DUMMY</Description>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_YieldFromSpyDefense>
+		<Row>
+			<BuildingType>BUILDING_KOREA_UE_DUMMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Building_YieldFromSpyDefense>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
@@ -411,7 +436,7 @@
 			<Text>Existing Ships, and those trained within the next {4_Turns}, take 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks, but lose -1 [ICON_MOVES] Movement. During this time, all Cities rush an additional {3_CityYield} per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_5">
-			<Text>A Free Unit appears near every City. For the next {4_Turns}, Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory. However, Customs Houses reduce [ICON_GOLD] Gold by -4 and [ICON_TOURISM] Tourism by -4.</Text>
+			<Text>For the next {4_Turns}: Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory; when an enemy [ICON_SPY] Spy is killed receive [ICON_CULTURE] Culture scaling with era and the level of the Spy killed; however, Customs Houses reduce [ICON_GOLD] Gold by -4 and [ICON_TOURISM] Tourism by -4.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_6">
 			<Text>Stock Exchanges provide +20% [ICON_GOLD] Gold in Cities, and the [ICON_CULTURE] Boredom threshold is reduced by 20%. Enter a Golden Age for {4_Turns}.</Text>
@@ -440,6 +465,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP">
 			<Text>Receive 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. -1 Movement.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_KOREA_UE_DUMMY">
+			<Text></Text>
 		</Row>
 	</Language_en_US>
 </GameData>

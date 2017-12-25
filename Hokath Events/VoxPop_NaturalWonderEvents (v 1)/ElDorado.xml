@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_NW_EL_DORADO_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>15</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>30</EventCooldown>
 			<NearbyFeature>FEATURE_EL_DORADO</NearbyFeature>

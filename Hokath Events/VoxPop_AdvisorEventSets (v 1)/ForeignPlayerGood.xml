@@ -74,6 +74,11 @@
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<Quantity>1</Quantity>
 		</Row>
@@ -113,25 +118,25 @@
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_GOOD_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ResourceYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -189,7 +194,7 @@
 			<Text>Fishing Boats generate +1 [ICON_PRODUCTION] Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_HELP_CHOICE_4">
-			<Text>Sources of [ICON_RES_INCENSE] Incense, [ICON_RES_STONE] Stone, [ICON_RES_SALT] Salt and [ICON_RES_COTTON] Cotton yield +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Sources of [ICON_RES_INCENSE] Incense, [ICON_RES_STONE] Stone, [ICON_RES_SALT] Salt and [ICON_RES_COTTON] Cotton yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_DESCRIPTION_CHOICE_1">

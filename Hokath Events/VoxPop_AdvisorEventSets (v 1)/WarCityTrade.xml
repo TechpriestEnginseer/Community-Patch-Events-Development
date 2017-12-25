@@ -26,6 +26,7 @@
 			<Description>TXT_KEY_CITY_EVENT_AES_WAR_CITY_TRADE_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_AES_WAR_CITY_TRADE_HELP_CHOICE_1</Help>
 			<IsOneShot>true</IsOneShot>
+			<EraScaling>true</EraScaling>
 			<NearbyFeature>FEATURE_JUNGLE</NearbyFeature>
 			<EventBuildingClass>BUILDINGCLASS_AES_WAR_CITY_TRADE_DUMMY</EventBuildingClass>
 		</Row>
@@ -120,7 +121,7 @@
 		<Row>
 			<CityEventChoiceType>CITY_EVENT_AES_WAR_CITY_TRADE_CHOICE_2</CityEventChoiceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>-2</Yield>
+			<Yield>-3</Yield>
 		</Row>
 	</CityEventChoice_CityYield>
 	<CityEventChoice_ImprovementYieldChange>
@@ -128,7 +129,7 @@
 			<CityEventChoiceType>CITY_EVENT_AES_WAR_CITY_TRADE_CHOICE_3</CityEventChoiceType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>-1</YieldChange>
+			<YieldChange>-2</YieldChange>
 		</Row>
 	</CityEventChoice_ImprovementYieldChange>
 	<CityEventChoice_FeatureYieldChange>
@@ -161,7 +162,7 @@
 			<Text>In the Desert you keep walking, or you die. An important lesson to learn before, rather than after, you find yourself stranded in one.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_WAR_CITY_TRADE_HELP_CHOICE_3">
-			<Text>Cordon off sections of your Quarries, losing -1 [ICON_PRODUCTION] Production. Eligible Units trained in the City receive the Cover II Promotion.</Text>
+			<Text>Cordon off sections of your Quarries, losing -2 [ICON_PRODUCTION] Production. Eligible Units trained in the City receive the Cover II Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AES_WAR_CITY_TRADE_DESCRIPTION_CHOICE_3">
 			<Text>The Quarries are the perfect place for live explosives exercises. Keeping your head amongst a thousand deadly projectiles sounds like an excellent test of fortitude!</Text>

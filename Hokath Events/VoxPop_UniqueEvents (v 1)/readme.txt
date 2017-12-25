@@ -73,7 +73,7 @@ Cuisine - req atomic era, cost gold, farms give +gold and culture, agri +gold
 changdeokgung & celdon pottery - cost gold, req chivalry, palace % culture gold science modifiers + porcelain
 hangul - req printing press & uni, cost culture, farms give +1 science, 15 turn golden age
 turtle ship - req war and metallurgy, melee boat -50% ranged dmg promo, prod boost for 15 turns
-assassination attempts - req industrial, mint -gold -tourism, free unit and units get 25% friendly lands boost
+assassination attempts - req industrial, mint -gold -tourism, spy def yields and units get 25% friendly lands boost
 'market economy' - postmodern. losing money stock market +%gold, -20% boredom. 15 turn golden age
 
 --Germany----------Germany, Over All Else-----------------------------
@@ -94,7 +94,7 @@ casablanca - kasbah, mountains,kasbah,desert +tourism
 warring states - req war minor, req chivalry, obs indust., temp POLICY_MERCHANT_NAVY
 tea pavillion - req opera house and gold, +food opera house, 3 sources of tea
 oracle bones - req archaeology, herbalist, temple, holysite +faith+food+culture, +illiteracy
-boxer rebellion - req ideo, req war, anarchy, free monastery
+boxer rebellion - req ideo, req war, anarchy, free unit, free monastery
 cultural revolution - req postmodern, req min nat pop, cost culture, anarchy, pop loss, gain +8% to gold/prod/science/food from factories
 
 --Assyria----------The Tablet of Destiny-----------------------------
@@ -165,7 +165,7 @@ ontzuiling - req ideology, cost culture, [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], h
 Ashokan Pillar - req courthouse, cost faith, monument +faith+%food
 hinduism - req grand temple, cost gold&culture, Mandir in all cities +food+faith
 Architectural Majesty - req architecture, -gold&culture, +tourism+culture+GAP from castles
-Adnyapatra - req rifling, req war, -2pop, 4fusiliers, starts GA
+Adnyapatra - req rifling, req war, -3pop, 2fusiliers, starts GA
 Satyagraha - req ideology&modern, cost faith, resistance turns, reduces unhappy from illiteracy&poverty&minority
 
 --Poland----------Skill Over Strength-----------------------------
@@ -232,16 +232,16 @@ carpets - req factory, cost gold&culture, 3 copy cotton, culture from workshops
 white revolution - req modern, cost gap, golden age + golden age points from purchase
 
 --Siam----------Gilding The Back Of The Buddha-----------------------------
-Elephants - req (old)construction, req town, cost culture, copy ivory, emissaries
+Elephants - req (old)construction, req town, cost culture, copy ivory, emissary in each city
 sangkalok - req workshop, req manufactory, cost gold, 3 copy porcelain, +2 culture from workshops
 Stupas - req architecture, cost gold&faith, stupa in all cities, stupa gain +2 culture
-Golden trees - req metallurgy, losing money, +gold from trade routes, +% diplomat points
-river kwai - req railroad, req war, trainstation +prod+food+gold for x turns, diplomats
+Golden trees - req metallurgy, losing money, +yields for friends and ally, +% diplomat points
+river kwai - req repl parts, req war, trainstation +prod+gold for x turns, prod from spy actions
 
 --Portugal----------Mother Of Wisdom-----------------------------
 Vandals - req metal casting, req lighthouse, cost pop, Building_DomainProductionModifiers, city connection %
 Battle of Ourique - req steel, req war, cost faith, gain prod per turn & stalwart for x turns
-Age of Discovery - req caravel, cost culture&gold, golden age, free explorers, free scouting_3
+Age of Discovery - req caravel, cost culture&gold, golden age, free explorer in every city, free scouting_3
 Porto wine - req fertilizer, losing money, 2 copies wine, +gold+food from village, town, feitoria
 lusotropicalism - req modern, req courthouse, +illiteracy, +harbour gold,food,gap per city
 
@@ -255,9 +255,9 @@ mineral wealth - req atomic theory, cost gold, mines +prod, copies iron,coal,alu
 --Greece----------To The Ends Of The World-----------------------------
 agora - req baths, cost culture, markets +culture+food+faith, +%great people
 renaissance - req university, req war, free tech, uni +culture+sci
-filiki eteria - req wire service, losing money, cost culture, civilserv+gold+cult+tour
+filiki eteria - req wire service, losing money, cost culture, free diplomat, civilserv+gold+prod
 katharevousa - req modern, req unhappy, printing press +% culture&science&gold, decrease illiteracy
-olympic restoration - req globalisation, cost gold, tourism boost, free ambassadors
+olympic restoration - req globalisation, cost gold, tourism boost, free ambassador
 
 
 --Carthage----------Quenchless Fate-----------------------------
@@ -282,7 +282,7 @@ blood diamonds - req dynamite, req war minor, copies gems and gold
 rainbow nation - req stadium, is unhappy, reduced boredom, church in every city
 
 --Ottomans----------Does Any Rose Lack Thorns?-----------------------------
-Sultanate of Rum - req less than max trade, req currency, cost gold, caravansary in all cities, cara +culture+gold+faith
+Sultanate of Rum - req less than max trade, req currency, cost gold, caravansary in all cities, cara +culture+faith
 Hamam - req holy city, req theology, cost faith, baths +food+faith
 millet system - req economics, req war, cost faith, cities have +prod+food per religion
 Naval dominance - req navigation, req war, cost gold&culture, supply promo, palace yield per city
@@ -291,9 +291,9 @@ Ataturk - req postmodern, req unhappy, cost culture&science, -religious unhappy-
 --Rome----------Veni, Vidi, Vici-----------------------------
 forum - req courthouse, cost culture, markets +culture+food+faith, PlotCultureCostModifier
 thermae - req education, cost science, baths +food +science
-condottieri - req renaissance, req war, cost gold, 3 units, envoys
+condottieri - req renaissance, req war, cost gold, UNIT_GERMAN_LANDSKNECHT, envoy
 risorgimento - req ideology, req war minor, infiltrators PROMOTION_BARRAGE_4, embassy +yields
-alpini - req replaceable parts, req war, -pop, riflemen, mountain walking gun and artillery units
+alpini - req replaceable parts, req war, -pop, riflemen in all city, mountain walking gun and artillery units
 
 --Venice----------La Dominante-----------------------------
 Canals - req aqueduct, cost gold, coastal city, great galleas, garden
@@ -324,7 +324,7 @@ iconodulism - req ideology, cost faith, artists +faith+cult+tour
 crusade - req combined arms, cost faith, req war, freeunitstechappropriate, earn faith from kills promo
 
 --Huns----------The Blood Oath--------------------------------------
-verszerzodes - req drama, req war, cost faith&culture, battering ram+2swords, culture,faith from deaths
+verszerzodes - req drama, req war, cost faith&culture, battering rams, culture from deaths
 vegvar - req castle, req citadel, cost gold, castles&forts&citadels +prod+gold
 arquebusier - req gunpowder, cost science, get the metallurgy tech, golden age turns
 12 points - req ideology, unhappy, resistanceturns, p.press&hermitage&scriveners +%gold+%prod
@@ -341,7 +341,7 @@ deforestation - req ecology, req junglemill, cost gold, zoo +sci+culture, jungle
 -----modded civs------these patch files overwrite the contents of the Civ Mod file (the one that begins <Civilizations>...)
 
 --Tomatkeh (Old) Garamantes--Home Of The Zephyr
-chariot routes - req trade, war chariot
+chariot routes - req trade, war chariot each city
 desert agriculture - req machinery, req plantation, cost sci, +food+gold per desert tile in range
 moroccan brothers - req military science, req war, cost faith, berber cavalry
 Fossils - req archaeology, cost sci, aquifer +culture+tourism

@@ -83,12 +83,12 @@
 
 	<EventChoice_MinimumResourceRequired>
 		<Row>
-			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_1</EventChoiceType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<Quantity>4</Quantity>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_AES_ECONOMIC_PLAYER_TRADE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<Quantity>4</Quantity>
 		</Row>

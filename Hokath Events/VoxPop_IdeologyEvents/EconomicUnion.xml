@@ -33,6 +33,7 @@
 			<Description>TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_DESCRIPTION_CHOICE_3</Description>
 			<Help>TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_HELP_CHOICE_3</Help>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
 		</Row>
 	</EventChoices>
@@ -55,14 +56,14 @@
 		<Row>
 			<EventChoiceType>EVENT_IDEOLOGY_ECONOMIC_UNION_CHOICE_3</EventChoiceType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-			<Quantity>-4</Quantity>
+			<Quantity>-2</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_IDEOLOGY_ECONOMIC_UNION_CHOICE_3</EventChoiceType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_BuildingClassYieldChange>
@@ -119,7 +120,7 @@
 		<Row>
 			<EventChoiceType>EVENT_IDEOLOGY_ECONOMIC_UNION_CHOICE_3</EventChoiceType>
 			<UnitClassType>UNITCLASS_GUIDED_MISSILE</UnitClassType>
-			<Quantity>1</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 
@@ -160,7 +161,7 @@
 			<Text>All [ICON_GREAT_MERCHANT] Merchants generate -2 [ICON_GOLD] Gold, but all Farms and Plantations generate +1 [ICON_GOLD].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_HELP_CHOICE_3">
-			<Text>Trade away 4 [ICON_RES_OIL] to receive a Guided Missile in every City.</Text>
+			<Text>Trade away 2 [ICON_RES_OIL] to receive 6 Guided Missiles in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IDEOLOGY_ECONOMIC_UNION_DESCRIPTION_CHOICE_1">
 			<Text>Free movement of peoples will globalise our world and bring about a lasting peace. We have more in common than that which divides us.</Text>

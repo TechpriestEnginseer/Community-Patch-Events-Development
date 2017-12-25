@@ -127,7 +127,7 @@
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_3</EventChoiceType>
 			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
-			<Quantity>1</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_MinimumFeatureRequired>

@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_CITY_EVENT_NW_MT_SINAI_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>15</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>false</IsOneShot>
 			<EventCooldown>30</EventCooldown>
 			<NearbyFeature>FEATURE_MT_SINAI</NearbyFeature>
@@ -37,7 +37,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
-			<EventBuildingClass>BUILDINGCLASS_MANDIR</EventBuildingClass>
+			<EventBuildingClass>BUILDINGCLASS_CHURCH</EventBuildingClass>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_MT_SINAI_CHOICE_3</Type>
@@ -46,7 +46,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
-			<EventBuildingClass>BUILDINGCLASS_STUPA</EventBuildingClass>
+			<EventBuildingClass>BUILDINGCLASS_MOSQUE</EventBuildingClass>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_NW_MT_SINAI_CHOICE_4</Type>

@@ -28,13 +28,6 @@
 			<RegionType>REGION_GRASS</RegionType>
 		</Row>
 	</Civilization_Start_Region_Priority>
-	<Civilization_BuildingClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
-			<BuildingType>BUILDING_LS_CRAFT_GUILD</BuildingType>
-		</Row>
-	</Civilization_BuildingClassOverrides>
 	<Civilization_Leaders>
 		<Row>
 			<CivilizationType>CIVILIZATION_FLANDERS_LS_MOD</CivilizationType>
@@ -227,7 +220,7 @@
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
-			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
+			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_FLANDERS_LS_MOD</RequiredCiv>
 			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
@@ -240,6 +233,7 @@
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
+			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 		</Row>
 		<Row>
 			<Type>EVENT_FLANDERS_UE_CHOICE_2</Type>
@@ -258,6 +252,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EventDuration>-1</EventDuration>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MINT</RequiredAnywhereBuildingClass>
+			<ImprovementAnywhereRequired>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementAnywhereRequired>
 			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
@@ -289,7 +284,6 @@
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 			<RequiresWar>true</RequiresWar>
 			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
-			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
@@ -324,32 +318,32 @@
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_6</EventChoiceType>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
-			<Quantity>4</Quantity>
+			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_FreeUnits>
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -364,32 +358,32 @@
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_3</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_5</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LS_FLANDERS_COMMUNE</ImprovementType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -400,7 +394,7 @@
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>1</YieldChange>
-		</Row>		
+		</Row>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
@@ -468,7 +462,7 @@
 			<Yield>300</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
-	
+
 	<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_FLANDERS_UE_CHOICE_1</EventChoiceType>
@@ -630,19 +624,19 @@
 			<Text>Expand the weaving industry for {1_YieldCost}. Receive 2 copies of [ICON_RES_LS_TAPESTRY] Tapestry and [ICON_RES_SHEEP] Sheep yield +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_3">
-			<Text>Organise {1_YieldCost} to construct administrative Belforts in your urban centers. Towns and Guildhalls generate +1 [ICON_PEACE] Faith, [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
+			<Text>Organise {1_YieldCost} to construct administrative Belforts in your urban centers. Customs Houses and Bourgs generate +1 [ICON_PEACE] Faith, [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_4">
-			<Text>Acquire {1_YieldCost} worth of materials to fund luxury businesses. Receive 3 copies of [ICON_RES_COCOA] Cocoa, and Guildhalls generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Acquire {1_YieldCost} worth of materials to fund luxury businesses. Receive 3 copies of [ICON_RES_COCOA] Cocoa, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_5">
-			<Text>Agree terms requiring {1_YieldCost} with Trappist monks to corporatise their brewing. Sources of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar and Towns yield +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+			<Text>Agree terms requiring {1_YieldCost} with Trappist monks to corporatise their brewing. Sources of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar and Bourgs yield +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_HELP_CHOICE_6">
-			<Text>Four Foreign Legion come to the aid of the [ICON_CAPITAL] Capital. All eligible Units receive the Homeland Guardian Promotion.</Text>
+			<Text>A Foreign Legion comes to the aid of every City. All eligible Units receive the Homeland Guardian Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_1">
-			<Text>Oh no, they have to be stopped. I will reward the Advisor who can find me the most competant leader amongst the rural population, that should take them a while.</Text>
+			<Text>Oh no, they have to be stopped. I will reward the Advisor who can find me the most competent leader amongst the rural population, that should take them a while.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FLANDERS_UE_DESCRIPTION_CHOICE_2">
 			<Text>I have just the thing. Our weaving industry is blossoming, and our tapestries are desired far and wide. I need legal and economic support for this industry to be drawn up and implemented.</Text>

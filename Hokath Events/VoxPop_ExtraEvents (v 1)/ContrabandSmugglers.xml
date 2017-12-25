@@ -22,14 +22,29 @@
 			<CheckOnlyEventCity>true</CheckOnlyEventCity>
 			<CheckKnownPlayers>false</CheckKnownPlayers>
 		</Row>
+		<Row>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+			<CityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</CityEventChoice>
+			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>true</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
+		</Row>
+		<Row>
+			<CityEventType>CITY_EVENT_CONTRABAND_SMUGGLERS</CityEventType>
+			<CityEventChoice>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</CityEventChoice>
+			<CheckForActive>false</CheckForActive>
+			<CheckOnlyEventCity>false</CheckOnlyEventCity>
+			<CheckKnownPlayers>false</CheckKnownPlayers>
+		</Row>
 	</CityEvent_EventLinks>
 	<CityEventChoices>
 		<Row>
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_1</Type>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1</Description>
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_1</Help>
-			<IsOneShot>false</IsOneShot>
+			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_2</Type>
@@ -48,8 +63,8 @@
 			<Type>CITY_EVENT_CONTRABAND_SMUGGLERS_CHOICE_4</Type>
 			<Help>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_4</Description>
-			<WLTKDTurns>20</WLTKDTurns>
-			<EventDuration>20</EventDuration>
+			<WLTKDTurns>15</WLTKDTurns>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
@@ -162,7 +177,7 @@
 			<Text>Every [ICON_GREAT_MERCHANT] Merchant in the City generates +1 [ICON_GOLD] Gold, and the Constabulary generates +2 [ICON_PRODUCTION]. However, the [ICON_STRENGTH] Crime threshold increases by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_HELP_CHOICE_4">
-			<Text>Gain {5_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in the city.</Text>
+			<Text>Enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CONTRABAND_SMUGGLERS_DESCRIPTION_CHOICE_1">
 			<Text>No deals. The law is clear on their punishment.</Text>

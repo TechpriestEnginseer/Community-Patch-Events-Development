@@ -195,7 +195,7 @@
 		<Row>
 			<PromotionType>PROMOTION_CEREMONIAL_BURIAL</PromotionType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>50</Yield>
+			<Yield>200</Yield>
 		</Row>
 	</UnitPromotions_YieldFromKills>
 

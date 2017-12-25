@@ -25,24 +25,28 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="113238E229ACEF77DC056EC49202B5A3" import="0">AA_Events.xml</File>
+    <File md5="63D26971D241BA7658A0ABA864BB5076" import="0">AA_Events.xml</File>
+    <File md5="6935F291DF5EB6312D69A775D8BB3E70" import="0">ColdFront.xml</File>
     <File md5="C3E7C33E74741588EEBC5F4B4D53B31E" import="0">FakePainting.xml</File>
     <File md5="2F9EEF05475DCBAB7CFF4EC93803946E" import="0">FirstSummit.xml</File>
     <File md5="601F4FA5E4252541B64000F48344C660" import="0">FreedomDoctrine.xml</File>
     <File md5="A14D65C3881A73714EB1C1A90AAA8225" import="0">FreedomPartisansAutocracy.xml</File>
     <File md5="5902098C59AE9071B0CA3D4C147BFE20" import="0">FreedomPartisansOrder.xml</File>
-    <File md5="EB7B0F76EE1179A5B099631AA72EA01D" import="0">Musketeers.xml</File>
+    <File md5="30FE15576217B8F85B9193DACFB1BBA6" import="0">Musketeers.xml</File>
+    <File md5="2E2C1BE59674E6C5D919644D82F6B16E" import="0">OffWithTheirHeads.xml</File>
     <File md5="EA1B97459CB0187A62D0F161EF443DB0" import="0">PETA.xml</File>
-    <File md5="7866FC3DD8F67F71EF0EAA753A47E5D8" import="0">Pipeline.xml</File>
+    <File md5="8E6CCC535C82ED48BD3464D72030DCEF" import="0">Pipeline.xml</File>
     <File md5="D8C5E945B9AB48995348885458FDC582" import="0">DoubleAgents.xml</File>
-    <File md5="F2FADC6A51388B73C250E7A5028F9E9F" import="0">OilExplosion.xml</File>
+    <File md5="1C81AED55F062DAF80CD290AFFF951B2" import="0">OilExplosion.xml</File>
     <File md5="19DAAF2C5D1C9E65C9595C40C216AADE" import="0">GunpowderPlot.xml</File>
     <File md5="8860A6EBA10B39142D8D5C3D558F27F6" import="0">Motaba.xml</File>
     <File md5="75EDC990A4D934C7575359473E4048B8" import="0">ContrabandSmugglers.xml</File>
     <File md5="3A1E1E32C56FC71D3513B7CCD9129F34" import="0">NotoriousPirate.xml</File>
-    <File md5="81ADC139300B493A6E5677ADF53D2140" import="0">PrizeHide.xml</File>
+    <File md5="07F38BB572E35298C6B67AE6F5E00F66" import="0">PrizeHide.xml</File>
     <File md5="41510EDE54D00A9F4417BA82D06CA52E" import="0">VirusOutbreak.xml</File>
     <File md5="015C32F8DF66842DD4D057D6869026DB" import="0">WarMaterials.xml</File>
+    <File md5="cf3d930eaab9b1d25dc275bb034cbc56" import="0">Dissolution.xml</File>
+    <File md5="c9608e3bb50c8e10e66324a8ed77a8f9" import="0">renaissance.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -64,6 +68,10 @@
       <UpdateDatabase>PrizeHide.xml</UpdateDatabase>
       <UpdateDatabase>FirstSummit.xml</UpdateDatabase>
       <UpdateDatabase>Musketeers.xml</UpdateDatabase>
+      <UpdateDatabase>ColdFront.xml</UpdateDatabase>
+      <UpdateDatabase>OffWithTheirHeads.xml</UpdateDatabase>
+      <UpdateDatabase>Dissolution.xml</UpdateDatabase>
+      <UpdateDatabase>renaissance.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
