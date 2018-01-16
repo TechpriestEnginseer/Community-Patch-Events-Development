@@ -30,7 +30,7 @@
 			<Help>TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_MAYA_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_COLOSSEUM</RequiredAnywhereBuildingClass>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CARAVANSARY</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -121,7 +121,13 @@
 		</Row>
 	</Buildings>
 
-
+	<EventChoice_MinimumResourceRequired>
+		<Row>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_MAYA_UE_CHOICE_3</EventChoiceType>
@@ -153,6 +159,24 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
@@ -162,32 +186,6 @@
 			<Modifier>20</Modifier>
 		</Row>
 	</EventChoice_BuildingClassYieldModifier>
-	<EventChoice_ImprovementYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_KUNA</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>-1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_KUNA</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_KUNA</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MAYA_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_KUNA</ImprovementType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</EventChoice_ImprovementYieldChange>
 
 	<EventChoice_MinimumStartYield>
 		<Row>
@@ -367,7 +365,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_2">
-			<Text>Ballcourts allow Kuna to yield +1 [ICON_PRODUCTION] Production, [ICON_PEACE] Faith and [ICON_CULTURE] Culture. However, the accompanying sacrifices cause -1 [ICON_FOOD] Food.</Text>
+			<Text>Use [ICON_RES_STONE] Stone to convert roads to Sacbe. Caravansary gain +1 [ICON_FOOD] Food, [ICON_PEACE] Faith, and [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MAYA_UE_HELP_CHOICE_3">
 			<Text>Acquire materials worth {2_InstantYield}. This allows the generation of +2 [ICON_PEACE] Faith by Monuments, and you receive two copies of [ICON_RES_JADE] Jade.</Text>

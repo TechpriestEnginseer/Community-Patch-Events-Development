@@ -56,7 +56,7 @@
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_POLICE_STATION</RequiredAnywhereBuildingClass>
-			<EventDuration>75</EventDuration>
+			<EventDuration>50</EventDuration>
 			<Expires>true</Expires>
 		</Row>
 		<Row>
@@ -121,13 +121,13 @@
 			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
 	
@@ -372,7 +372,7 @@
 			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 10%. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6">
-			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism.</Text>
+			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*It is an idea of brilliance!*[NEWLINE]I'd like the record to show that this has the full support of the American government.</Text>

@@ -30,9 +30,10 @@
 			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EraScaling>true</EraScaling>
+			<EraScaling>false</EraScaling>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_HUNS_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 			<CapitalEffectOnly>true</CapitalEffectOnly>

@@ -134,7 +134,7 @@
 		<Row>
 			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>50</Yield>
+			<Yield>100</Yield>
 		</Row>
 	</UnitPromotions_YieldFromKills>
 	<UnitPromotions_UnitCombats>
@@ -453,7 +453,7 @@
 			<Text>{3_PlayerName} calls a Jihad to defend their Holy City!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION">
-			<Text>Child of the Nile</Text>
+			<Text>Speak My Name</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP">
 			<Text>An orphan, raised in the temples, is maturing into an gifted, ingenious and loyal celebrity.[NEWLINE][NEWLINE]How shall we direct their energy?</Text>
@@ -477,7 +477,7 @@
 			<Text>Receive {2_InstantYield} faith. Existing Military Units, and those trained during the next {4_Turns}, gain the Jihad Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_2">
-			<Text>*Their ideas and inventions pertaining to the farming of our wonderous rivers amaze me*[NEWLINE]Construct these... 'Nilometers'.</Text>
+			<Text>*Their ideas and inventions pertaining to the farming of our wonderous rivers amaze me*[NEWLINE]Begin rolling out these Shaduf.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_1">
 			<Text>It is not for we to decide the fate of Great People.</Text>

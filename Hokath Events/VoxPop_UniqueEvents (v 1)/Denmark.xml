@@ -161,7 +161,7 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
@@ -365,7 +365,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_2">
-			<Text>Introduce Longhouses for {1_YieldCost}, which upgrade Barracks to generate an additional +2 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Introduce Longhouses for {1_YieldCost}, which upgrade Barracks to generate an additional +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_3">
 			<Text>Move away from stone Temples to Stave Churches from the plentiful resource of wood. Temple pay for their maintenance, repay +1 [ICON_PRODUCTION] Production per turn and generate +1 [ICON_CULTURE] Culture.</Text>

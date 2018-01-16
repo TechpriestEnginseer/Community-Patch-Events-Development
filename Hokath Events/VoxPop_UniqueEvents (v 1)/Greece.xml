@@ -384,7 +384,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_2">
-			<Text>Markets change to Agora, which generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, all your Cities generate +15% [ICON_GREAT_PEOPLE] Great People Points.</Text>
+			<Text>Protect the Agora with {1_YieldCost}, which now generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, all your Cities generate +10% [ICON_GREAT_PEOPLE] Great People Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_3">
 			<Text>The return of your scholars from the countryside triggers a renaissance of scholarship: choose a [ICON_GREAT_SCIENTIST] Free Tech. Universities generate +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science.</Text>

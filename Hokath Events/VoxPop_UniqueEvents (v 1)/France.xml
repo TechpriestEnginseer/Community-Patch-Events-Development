@@ -50,8 +50,8 @@
 			<IsOneShot>true</IsOneShot>
 			<LosingMoney>true</LosingMoney>
 			<RequiredEra>ERA_INDUSTRIAL</RequiredEra>
-			<ResistanceTurns>4</ResistanceTurns>
-			<EventDuration>4</EventDuration>
+			<ResistanceTurns>3</ResistanceTurns>
+			<EventDuration>3</EventDuration>
 			<Expires>false</Expires>
 			<EventFreePolicies>1</EventFreePolicies>
 			<YieldBonusAllCities>true</YieldBonusAllCities>

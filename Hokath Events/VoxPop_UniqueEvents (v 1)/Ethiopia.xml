@@ -148,6 +148,20 @@
 			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
+	<EventChoice_ResourceYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_3</EventChoiceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_3</EventChoiceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_ResourceYieldChange>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_ETHIOPIA_UE_CHOICE_3</EventChoiceType>

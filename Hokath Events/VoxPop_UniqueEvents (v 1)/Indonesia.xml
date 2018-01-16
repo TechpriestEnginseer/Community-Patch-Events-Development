@@ -410,7 +410,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDONESIA_UE_HELP_CHOICE_2">
-			<Text>Emphasise the importance of coastal trade with {1_YieldCost}. Coastal Cities receive +1 [ICON_GOLD] Gold for every 2 Coastal Tiles within workable range, and generate +20% [ICON_GREAT_MERCHANT] Great Merchant Points.</Text>
+			<Text>Emphasise the importance of coastal trade with {1_YieldCost}. Coastal Cities receive +1 [ICON_GOLD] Gold for every 2 Coastal Tiles worked, and generate +20% [ICON_GREAT_MERCHANT] Great Merchant Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDONESIA_UE_HELP_CHOICE_3">
 			<Text>Support Wayang with {1_YieldCost}. Amphitheaters generate +1 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture.</Text>

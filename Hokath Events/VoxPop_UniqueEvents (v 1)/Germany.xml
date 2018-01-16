@@ -43,6 +43,7 @@
 			<RequiresWar>true</RequiresWar>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 			<IsOneShot>true</IsOneShot>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HEROIC_EPIC</RequiredAnywhereBuildingClass>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
@@ -77,8 +78,8 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<MinimumNationalPopulation>100</MinimumNationalPopulation>
 			<EventPromotion>PROMOTION_BLITZ</EventPromotion>
-			<EventDuration>20</EventDuration>
-			<GoldenAgeTurns>20</GoldenAgeTurns>
+			<EventDuration>12</EventDuration>
+			<GoldenAgeTurns>12</GoldenAgeTurns>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -123,21 +124,23 @@
 			<Cost>-1</Cost>
 			<FaithCost>200</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_ORDER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ORDER_TEXT</Civilopedia>
+			<Civilopedia>TXT_KEY_BUILDING_UE_ORDER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_ORDER_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_ORDER_HELP</Help>
-			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
+			<Help>TXT_KEY_BUILDING_UE_ORDER_HELP</Help>
+			<!--<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>-->
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Defense>1000</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<ReligiousPressureModifier>25</ReligiousPressureModifier>
-			<ConversionModifier>-10</ConversionModifier>
+			<!--<Defense>1000</Defense>-->
+			<!--<ExtraCityHitPoints>50</ExtraCityHitPoints>-->
+			<!--<ReligiousPressureModifier>25</ReligiousPressureModifier>-->
+			<!--<ConversionModifier>-10</ConversionModifier>-->
 			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<NeverCapture>true</NeverCapture>
+			<AlwaysHeal>15</AlwaysHeal>
+			<CitySupplyModifier>10</CitySupplyModifier>
 			<EventChoiceRequiredActive>EVENT_GERMANY_UE_CHOICE_3</EventChoiceRequiredActive>
-			<MutuallyExclusiveGroup>367</MutuallyExclusiveGroup>
+			<!--<MutuallyExclusiveGroup>367</MutuallyExclusiveGroup>-->
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -168,14 +171,19 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 	</Building_YieldChanges>
-	<Building_DomainFreeExperiences>
+	<!--<Building_DomainFreeExperiences>
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
-	</Building_DomainFreeExperiences>
+	</Building_DomainFreeExperiences>-->
 
 
 	<EventChoice_SpecialistYieldChange>
@@ -412,7 +420,7 @@
 			<Text>Eligible Units receive the Woodsman promotion and all Forests gain +1 [ICON_CULTURE] Culture. This also applies to new acquisitions with the next {4_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_3">
-			<Text>At the cost of {2_InstantYield} unlock the Teutonic Chapter Building. Other Orders gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>At the cost of {2_InstantYield} unlock the Crusader Hospital Building. Orders gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4">
 			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +4 [ICON_GOLD] Gold.</Text>
@@ -444,10 +452,16 @@
 
 		
 		<Row Tag="TXT_KEY_BUILDING_UE_ORDER">
-			<Text>Teutonic Chapter</Text>
+			<Text>Crusader Hospital</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_STRATEGY">
-			<Text>Purchasable with an Event Choice unique to Germany. Mutually exclusive with the Order.</Text>
+			<Text>Purchasable with an Event Choice unique to Germany.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_HELP">
+			<Text>Units in this City heal 15 points per turn whether or not they take an action. Increases Military Units supplied by this City's population by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_TEXT">
+			<Text>At the time of the First Crusade, Western Europe did not know hospitals in the sense of places where acutely ill patients received professional medical treatment. The Byzantine tradition was quite different. Although, as in the West, care of the sick had initially been provided at monasteries, already by the 7th century AD most hospitals were both financially independent and employed paid, professional staff rather than relying on members of a monastic institution to provide the care and treatment of patients. It was this tradition that was adopted by the Crusader States to cope with the stream of poor and injured pilgrims ariving from Europe to the Levant.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

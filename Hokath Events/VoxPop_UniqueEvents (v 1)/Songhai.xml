@@ -130,27 +130,12 @@
 	
 	<BuildingClasses>
 		<Row>
-			<Type>BUILDINGCLASS_SONGHAI_UE_DUMMY</Type>
-			<DefaultBuilding>BUILDING_SONGHAI_UE_DUMMY</DefaultBuilding>
-		</Row>
-		<Row>
 			<Type>BUILDINGCLASS_UE_MOSQUE</Type>
 			<DefaultBuilding>BUILDING_UE_MOSQUE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_UE_MOSQUE</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
-		<Row>
-			<Type>BUILDING_SONGHAI_UE_DUMMY</Type>
-			<BuildingClass>BUILDINGCLASS_SONGHAI_UE_DUMMY</BuildingClass>
-			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_SONGHAI_UE_DUMMY</Description>
-			<FaithCost>-1</FaithCost>
-			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
-			<NukeImmune>true</NukeImmune>
-		</Row>
 		<Row>
 			<Type>BUILDING_UE_MOSQUE</Type>
 			<BuildingClass>BUILDINGCLASS_UE_MOSQUE</BuildingClass>
@@ -209,26 +194,6 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-	<Building_YieldPerXTerrainTimes100>
-		<Row>
-			<BuildingType>BUILDING_SONGHAI_UE_DUMMY</BuildingType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>200</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SONGHAI_UE_DUMMY</BuildingType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>200</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SONGHAI_UE_DUMMY</BuildingType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>200</Yield>
-		</Row>
-	</Building_YieldPerXTerrainTimes100>
 
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
@@ -354,6 +319,26 @@
 			<YieldChange>3</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
+	<EventChoice_TerrainYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_6</EventChoiceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_6</EventChoiceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_6</EventChoiceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</EventChoice_TerrainYieldChange>
 
 	<EventChoiceFlavors>
 		<Row>
@@ -515,7 +500,7 @@
 			<Text>Pour {2_InstantYield} worth of resources into the [ICON_RES_OIL] Oil sector, gaining 5 copies and gaining +3 [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_GOLDEN_AGE] Golden Age Points from every Well and Offshore Platform.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_6">
-			<Text>Implement widespread policies to combat climate change. Cities gain +2 [ICON_RESEARCH] Science, [ICON_FOOD] Food and [ICON_TOURISM] Tourism for every Desert Tile within working range.</Text>
+			<Text>Implement widespread policies to combat climate change. Desert tiles gain +2 [ICON_RESEARCH] Science, [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_1">
 			<Text>People need a role model, to know what is a worthy life. Bring me our brightest student, I will shower him with gifts in front of all Songhai.</Text>
@@ -536,9 +521,6 @@
 			<Text>*The planet changes, and the deserts threaten to encroach upon land that was previously fertile*[NEWLINE]We have brought this doom upon us, it is up to us to fix it. We must live, love and learn about our Earth, or we shall surely perish.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_BUILDING_SONGHAI_UE_DUMMY">
-			<Text></Text>
-		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_SOFA">
 			<Text>Slaver</Text>
 		</Row>

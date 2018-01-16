@@ -425,7 +425,7 @@
 			<Text>Accept the loss of {2_InstantYield} in order to modernize the economy. Fishing Boats, Harbours and Seaports yield +2 [ICON_GOLD] Gold, but [ICON_GOLD] Poverty levels increase by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_6">
-			<Text>Holidaymakers increase Cities' [ICON_TOURISM] Tourism output by +2 for every Coast Tile in workable range.</Text>
+			<Text>Holidaymakers generate +2 [ICON_TOURISM] Tourism for every worked Coast Tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>Let the champion of the people challenge me for leadership. Though I will win, I shall be merciful and grant them a great reward for their bravery!</Text>

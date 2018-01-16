@@ -46,6 +46,7 @@
 			<Help>TXT_KEY_CITY_EVENT_AA_MINEGLINT_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_CITY_EVENT_AA_MINEGLINT_DESCRIPTION_CHOICE_5</Description>
 			<RequiredBuildingClass>BUILDINGCLASS_MARKET</RequiredBuildingClass>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 		</Row>
 		<Row>
 			<Type>CITY_EVENT_AA_MINEGLINT_CHOICE_6</Type>

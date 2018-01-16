@@ -124,7 +124,7 @@
 			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<PlotCultureCostModifier>-25</PlotCultureCostModifier>
+			<PlotCultureCostModifier>-15</PlotCultureCostModifier>
 		</Row>
 	</Buildings>
 
@@ -209,7 +209,7 @@
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BATH</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ROME_UE_CHOICE_3</EventChoiceType>
@@ -414,10 +414,10 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_2">
-			<Text>Introduce the Forum: Markets generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, Border Expansion requires -25% [ICON_CULTURE] Culture.</Text>
+			<Text>Introduce the Forum: Markets generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, Border Expansion requires -15% [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_3">
-			<Text>Provide {1_YieldCost} worth of material for the Thermae: Baths generate +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.</Text>
+			<Text>Provide {1_YieldCost} worth of material for the Thermae: Baths generate +1 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ROME_UE_HELP_CHOICE_4">
 			<Text>Use {1_YieldCost} to attract two [COLOR_POSITIVE_TEXT]Envoy[ENDCOLOR] and three appropriate [COLOR_POSITIVE_TEXT]Unit[ENDCOLOR] to the [ICON_CAPITAL] Capital.</Text>
