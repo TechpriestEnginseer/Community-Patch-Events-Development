@@ -152,7 +152,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>-4</Quantity>
+			<Quantity>-2</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>

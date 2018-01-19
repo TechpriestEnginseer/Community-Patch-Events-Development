@@ -449,16 +449,16 @@
 			<Text>Only with great effort do the cogs of the divine world continue to turn. Only with great power... and the power is in the blood. Uncountable multitudes have yet to give their lives to sate the thirst of creation.[NEWLINE][NEWLINE]Unless... unless we can find the chosen one. One pure soul, to die the final death and break the cycle.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_1">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Great Altar to generate +2 [ICON_PEACE] Production.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Great Altar to generate +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_2">
 			<Text>Authorise the sacrifice of prisoners and criminals with {1_YieldCost}. Courthouses, Chanceries and Constabularies generate +1 [ICON_PRODUCTION] Production, [ICON_PEACE] Faith and [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Great Altar to generate +3 [ICON_PEACE] Production.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Great Altar to generate +3 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_4">
-			<Text>Begin the empowerment of citizens with {1_YieldCost}. The Great Altar increases [ICON_PEACE] Production by 20%.</Text>
+			<Text>Begin the empowerment of citizens with {1_YieldCost}. The Great Altar increases [ICON_PRODUCTION] Production by 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HERO_WORSHIP_HELP_CHOICE_5">
 			<Text>Scouring the world for the Chosen One, receive extra [ICON_SPY] Spies.</Text>

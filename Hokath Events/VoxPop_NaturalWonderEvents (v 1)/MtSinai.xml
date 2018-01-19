@@ -193,7 +193,7 @@
 			<Text>Allow the first sect {2_InstantYield}. A Free Church is constructed in the City, it yields +3 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_MT_SINAI_HELP_CHOICE_3">
-			<Text>Allow the second sect {2_InstantYield}. A Free Mosque is constructed in the City, it yields +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Allow the second sect {2_InstantYield}. A Free Mosque is constructed in the City, it yields +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NW_MT_SINAI_HELP_CHOICE_4">
 			<Text>Allow the third sect {2_InstantYield}. A Free Monastery is constructed in the City, and you receive a copy of [ICON_RES_WINE] Wine.</Text>
