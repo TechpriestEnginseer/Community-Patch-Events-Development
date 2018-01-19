@@ -7,7 +7,7 @@
 			<Help>TXT_KEY_EVENT_AES_FOREIGN_PLAYER_GOOD_HELP</Help>
 			<NumChoices>4</NumChoices>
 			<RandomChance>50</RandomChance>
-			<RandomChanceDelta>3</RandomChanceDelta>
+			<RandomChanceDelta>1</RandomChanceDelta>
 			<IsOneShot>true</IsOneShot>
 		</Row>
 	</Events>

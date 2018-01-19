@@ -31,6 +31,8 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_THEOCRATIC_RULE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
 			<ImprovementAnywhereRequired>IMPROVEMENT_HOLY_SITE</ImprovementAnywhereRequired>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_CONSTABLE</RequiredAnywhereBuildingClass>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
 		<Row>
 			<Type>EVENT_THEOCRATIC_RULE_CHOICE_3</Type>
@@ -141,7 +143,7 @@
 			<Type>BUILDING_THEOCRATIC_RULE_DUMMY</Type>
 			<BuildingClass>BUILDINGCLASS_THEOCRATIC_RULE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_DUMMY</Description>
+			<Description>TXT_KEY_DUMMY_THEO</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
 			<GreatWorkCount>-1</GreatWorkCount>
@@ -152,7 +154,7 @@
 			<Type>BUILDING_THEOCRATIC_RULE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_THEOCRATIC_RULE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_DUMMY</Description>
+			<Description>TXT_KEY_DUMMY_THEO</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
 			<GreatWorkCount>-1</GreatWorkCount>
@@ -163,20 +165,30 @@
 	<Building_YieldFromPurchase>
 		<Row>
 			<BuildingType>BUILDING_THEOCRATIC_RULE_DUMMY_2</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>5</Yield>
 		</Row>
 	</Building_YieldFromPurchase>
 	<Building_WLTKDYieldMod>
 		<Row>
 			<BuildingType>BUILDING_THEOCRATIC_RULE_DUMMY</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>15</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_THEOCRATIC_RULE_DUMMY</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>15</Yield>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_THEOCRATIC_RULE_DUMMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_THEOCRATIC_RULE_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
 		</Row>
 	</Building_WLTKDYieldMod>
 	
@@ -188,24 +200,24 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>300</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>500</Yield>
+			<Yield>400</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_4</EventChoiceType>
-			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>500</Yield>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>150</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
@@ -215,22 +227,17 @@
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>150</Yield>
+			<Yield>750</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>150</Yield>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>150</Yield>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>150</Yield>
+			<Yield>500</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
 
@@ -243,14 +250,14 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_1</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
@@ -302,12 +309,49 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
+
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_6</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_5</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
@@ -320,9 +364,9 @@
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Modifier>15</Modifier>
+			<Modifier>10</Modifier>
 		</Row>
 	</EventChoice_BuildingClassYieldModifier>
 
@@ -372,83 +416,88 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_1_S">
-			<Text>{3_PlayerName} begins their Theocratic Rule.</Text>
+			<Text>{3_PlayerName} begins on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_1">
-			<Text>{3_PlayerName}'s religious men and women begin scouring for heretics opposing their Theocratic Rule.</Text>
+			<Text>{3_PlayerName}'s religious men and women begin scouring ancient texts for clues to the secrets of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_2_S">
-			<Text>{3_PlayerName} continues on their emphasis on Theocratic Rule.</Text>
+			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_2">
 			<Text>Cultural norms in {1_CivShortDescription} are being dominated by imitation of their religious figure.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_3_S">
-			<Text>{3_PlayerName} continues on their emphasis on Theocratic Rule.</Text>
+			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_3">
-			<Text>{3_PlayerName} further embeds their rule stricter and tougher in the culture of their temples.</Text>
+			<Text>{3_PlayerName} further embeds the quest for the secrets of Theocratic Rule in the culture of their Church.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_4_S">
-			<Text>{3_PlayerName} continues on their emphasis on Theocratic Rule.</Text>
+			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_4">
-			<Text>{3_PlayerName} upgrades the Grand Ossuary with more storage spaces.</Text>
+			<Text>{3_PlayerName} upgrades the Apostolic Palace to reflect ancient schematics.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_5_S">
-			<Text>{3_PlayerName} continues on their emphasis on Theocratic Rule.</Text>
+			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_5">
-			<Text>{3_PlayerName} begins a massive project on full theocracy.</Text>
+			<Text>{3_PlayerName} begins a massive translation project.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_6_S">
-			<Text>{3_PlayerName}'s government is fully Theocratic now!</Text>
+			<Text>{3_PlayerName} completes the quest of Theocratic Rule!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_6">
-			<Text>{3_PlayerName} has become fully theocratic, there are little opposition to withstand their rule.</Text>
+			<Text>{3_PlayerName} has uncovered the holy relic of Theocratic Rule!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION">
-			<Text>A Theocratic Rule</Text>
+			<Text>A Featherweight Heart</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP">
-			<Text>A government run based on divine intervention and purely on thoughts derived from divine beings... The government took measures to ensure that their rule would never be questioned again...</Text>
+			<Text>We all know that to pass into the afterlife, the great guardian will weigh our hearts against a single feather. For most a life of good deeds can outweigh our darker acts. But you, of Great One, you are destined to live a thousand mortal life times, and send a thousand thousand souls to next world.[NEWLINE][NEWLINE]All our work will be for naught if we cannot save your immortal soul!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_1">
-			<Text>Round up heretical beings, causing {1_YieldCost} while your Temples and the Grand Ossuary to generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Apostolic Palace to generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_2">
-			<Text>Nationalize the means of food and production risking {1_YieldCost} to solidify your theocratic rule. Cities generate +15% [ICON_FOOD] Food and [ICON_PRODUCTION] Production during a [ICON_HAPPINESS_1] WLTKD.</Text>
+			<Text>Use {1_YieldCost} to spread word of your success in the quest. Cities generate 5% more [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_PEACE] Faith and [ICON_CULTURE] Culture during [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased with [ICON_PEACE] Faith and the Grand Ossuary to generate +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Apostolic Palace to generate +3 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_4">
-			<Text>Reveal {1_YieldCost} worth of afterlife belongings. The Grand Ossuary increases [ICON_CULTURE] Culture by 15%.</Text>
+			<Text>Use {1_YieldCost} to expand our mass grave. The Grand Ossuary increases [ICON_CULTURE] Culture by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_5">
-			<Text>In the final stage of the government, all [ICON_DIPLOMAT] Civil Servants generate +2 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture.</Text>
+			<Text>In the final stage of the quest, all [ICON_DIPLOMAT] Civil Servants generate +2 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_6">
-			<Text>Bring together {1_YieldCost} to crush all opposition and reach a new stage of religion. Cities convert 5% of [ICON_GOLD] Gold to [ICON_CULTURE] Culture when purchasing.</Text>
+			<Text>Bring together {1_YieldCost} to complete the quest. The Palace gains +10 to all yields.</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_1">
-			<Text>Where does one begin? Grab the heretics and round them up first in front of our temples.</Text>
+			<Text>It is known that a man buried with his servants may bring them to bear witnesses to his good character. We must find a way that I may bring all of you, my subjects, to my judgment!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_2">
-			<Text>Now if there was a way we could get more food and more production out..</Text>
+			<Text>*Devotion to you has led to the annual celebrations of your life lavish and splendid*[NEWLINE]You see! They love me. They really love me!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_3">
-			<Text>We need to enforce a new doctrine on holy buildings and start hosting our government officials there!</Text>
+			<Text>All who live under {2_CivDescription} rule are pledged to travel with me through the next world. But what about all those who lived in ages gone by? We must exhume every grave we have record of! Set the priests to it!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_4">
-			<Text>Show what life in the afterlife is if you do bad deeds and show what life could be if you do good deeds...</Text>
+			<Text>We must dig deeper tunnels and grander chambers if all the children of the faith are to be interred together! Bring me all the able men you can find to work on the excavation. If they die in the process... well, at least we won't have to move them far.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_5">
-			<Text>Our goveernment is almost done... we just need to make sure all government officials are following our true faith.</Text>
+			<Text>Now all the practicalities are finally in place, we need to organise the burials. Summon all Civil Servants to the Ossuary!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION_CHOICE_6">
-			<Text>Our efforts has not been without waste, our empire can now ascend toward a new enlightenment with our fully theocratic rule with barely any opposition! There can be no corruption under the eyes of the divine heavens!</Text>
+			<Text>*As you walk through the catacombs, the sense of peace is palpable. Millions of souls all waiting here, to stand witness to your greatness before the God of Death.*</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DUMMY_THEO">
+			<Text></Text>
 		</Row>
 	</Language_en_US>
 </GameData>
