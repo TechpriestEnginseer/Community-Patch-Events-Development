@@ -156,16 +156,10 @@
 			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_2</EventChoiceType>
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_FeatureYieldChange>
 	<EventChoice_TerrainYieldChange>
-		<Row>
-			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_2</EventChoiceType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_2</EventChoiceType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
@@ -422,7 +416,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_2">
-			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. Oasis Tiles yield +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_PRODUCTION] Production. Oasis Tiles yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_HELP_CHOICE_3">
 			<Text>The Grand Souk is erected in the [ICON_CAPITAL] Capital. Gain an additional copy of every Luxury Resource in the City, and convert +25% of [ICON_GOLD] Gold to [ICON_PEACE] Faith when purchasing.</Text>

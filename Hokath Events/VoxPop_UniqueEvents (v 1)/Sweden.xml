@@ -205,12 +205,6 @@
 	<EventChoice_TerrainYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_2</EventChoiceType>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_SWEDEN_UE_CHOICE_2</EventChoiceType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>3</YieldChange>
@@ -409,7 +403,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_2">
-			<Text>Incorporate native peoples. Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Snow and Ice yields +3 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Incorporate native peoples. Tundra yields +1 [ICON_CULTURE] Culture. Snow and Ice yields +3 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SWEDEN_UE_HELP_CHOICE_3">
 			<Text>Three Berserkers spawn near the [ICON_CAPITAL] Capital. [ICON_INTERNATIONAL_TRADE] Trade Routes from the [ICON_CAPITAL] Capital generate +3 [ICON_GOLD] Gold.</Text>

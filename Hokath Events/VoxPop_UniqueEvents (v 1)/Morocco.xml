@@ -128,12 +128,6 @@
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_2</EventChoiceType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_2</EventChoiceType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -351,7 +345,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_2">
-			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. Mountains yield +3 [ICON_FOOD] and +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_PRODUCTION] Production. Mountains yield +3 [ICON_FOOD] and +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_3">
 			<Text>Pay {2_InstantYield}. Gain +2 [ICON_CULTURE] Culture from Temples, Academies and Holy Sites.</Text>
