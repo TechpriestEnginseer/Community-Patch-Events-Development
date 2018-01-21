@@ -250,14 +250,14 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_1</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
@@ -364,7 +364,7 @@
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_THEOCRATIC_RULE_CHOICE_4</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_APOSTOLIC_PALACE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_OSSUARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Modifier>10</Modifier>
 		</Row>
@@ -419,37 +419,37 @@
 			<Text>{3_PlayerName} begins on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_1">
-			<Text>{3_PlayerName}'s religious men and women begin scouring ancient texts for clues to the secrets of Theocratic Rule.</Text>
+			<Text>{3_PlayerName}'s religious men and women proclaim their ruler's divinity.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_2_S">
 			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_2">
-			<Text>Cultural norms in {1_CivShortDescription} are being dominated by imitation of their religious figure.</Text>
+			<Text>The people of {1_CivShortDescription} are completely entranced, devoted to protecting their leader's immortal soul.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_3_S">
 			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_3">
-			<Text>{3_PlayerName} further embeds the quest for the secrets of Theocratic Rule in the culture of their Church.</Text>
+			<Text>{3_PlayerName} embarks on a reteroactive survey of burial of the long-deceased.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_4_S">
 			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_4">
-			<Text>{3_PlayerName} upgrades the Apostolic Palace to reflect ancient schematics.</Text>
+			<Text>{3_PlayerName} expands the scope of the Grand Ossuary.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_5_S">
 			<Text>{3_PlayerName} continues on the quest of Theocratic Rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_5">
-			<Text>{3_PlayerName} begins a massive translation project.</Text>
+			<Text>{3_PlayerName} includes burial in the social security of the state.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_6_S">
 			<Text>{3_PlayerName} completes the quest of Theocratic Rule!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_THEOCRATIC_RULE_CHOICE_6">
-			<Text>{3_PlayerName} has uncovered the holy relic of Theocratic Rule!</Text>
+			<Text>{3_PlayerName}'s vast burial halls are a wonder of the world unparalleled in history!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_DESCRIPTION">
@@ -459,13 +459,13 @@
 			<Text>We all know that to pass into the afterlife, the great guardian will weigh our hearts against a single feather. For most a life of good deeds can outweigh our darker acts. But you, of Great One, you are destined to live a thousand mortal life times, and send a thousand thousand souls to next world.[NEWLINE][NEWLINE]All our work will be for naught if we cannot save your immortal soul!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_1">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Apostolic Palace to generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Temples and the Grand Ossuary to generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_2">
 			<Text>Use {1_YieldCost} to spread word of your success in the quest. Cities generate 5% more [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_PEACE] Faith and [ICON_CULTURE] Culture during [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_3">
-			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Apostolic Palace to generate +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Invoke {1_YieldCost} of new doctrine, causing your Buildings purchased via Beliefs and the Grand Ossuary to generate +3 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_THEOCRATIC_RULE_HELP_CHOICE_4">
 			<Text>Use {1_YieldCost} to expand our mass grave. The Grand Ossuary increases [ICON_CULTURE] Culture by 10%.</Text>
