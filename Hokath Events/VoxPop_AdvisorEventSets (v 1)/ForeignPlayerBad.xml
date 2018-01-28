@@ -44,6 +44,14 @@
 			<YieldChange>-1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
+	<EventChoice_BuildingClassYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_AES_FOREIGN_PLAYER_BAD_CHOICE_1</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</EventChoice_BuildingClassYieldChange>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION">
@@ -53,7 +61,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_HELP_CHOICE_1">
-			<Text>Pets sent as a gift by foreign dignitaries have escaped into the wild. They are rapidly breeding, consuming crops everywhere. Farms lose -1 [ICON_FOOD] Food until something can be done.</Text>
+			<Text>Pets sent as a gift by foreign dignitaries have escaped into the wild. They are rapidly breeding, consuming crops everywhere. Farms lose -1 [ICON_FOOD] Food until something can be done. Markets gain +1 [ICON_FOOD] Food.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_AES_FOREIGN_PLAYER_BAD_DESCRIPTION_CHOICE_1">
