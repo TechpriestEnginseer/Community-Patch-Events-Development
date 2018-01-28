@@ -64,13 +64,13 @@
 			<ResistanceTurns>2</ResistanceTurns>
 			<EventDuration>2</EventDuration>
 			<Expires>false</Expires>
-			<EventBuildingClassGlobal>BUILDINGCLASS_MONASTERY</EventBuildingClassGlobal>
+			<EventPromotion>PROMOTION_HOMELAND_GUARDIAN</EventPromotion>
 		</Row>
 		<Row>
 			<Type>EVENT_CHINA_UE_CHOICE_6</Type>
 			<Help>TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_6</Help>
 			<Description>TXT_KEY_EVENT_CHINA_UE_DESCRIPTION_CHOICE_6</Description>
-			<EraScaling>true</EraScaling>
+			<EraScaling>false</EraScaling>
 			<IsOneShot>true</IsOneShot>
 			<ResistanceTurns>10</ResistanceTurns>
 			<EventDuration>10</EventDuration>
@@ -229,7 +229,7 @@
 		<Row>
 			<EventChoiceType>EVENT_CHINA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2000</Yield>
+			<Yield>6000</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
 	<EventChoice_ResourceQuantity>
@@ -416,7 +416,7 @@
 			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_FOOD] FOOD, [ICON_PEACE] Faith, and [ICON_CULTURE]. However, the [ICON_RESEARCH] Illiteracy threshold increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_5">
-			<Text>After 1 turn of [ICON_RESISTANCE] Anarchy, every City receives a free Monastery.</Text>
+			<Text>After {4_Turns} turn of [ICON_RESISTANCE] Anarchy, all eligible Units receive the Homeland Guardian Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_6">
 			<Text>Pay {2_InstantYield} and enter {4_Turns} of Anarchy. In return, Factories increase [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_FOOD] Food by 8%.</Text>
