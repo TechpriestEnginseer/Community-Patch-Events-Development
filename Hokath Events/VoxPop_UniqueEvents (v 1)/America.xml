@@ -17,8 +17,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AMERICA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -47,7 +47,6 @@
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_STOCKYARD</RequiredAnywhereBuildingClass>
-			<UnitClassRequired>UNITCLASS_CAVALRY</UnitClassRequired>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -56,7 +55,7 @@
 			<Description>TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_POLICE_STATION</RequiredAnywhereBuildingClass>
-			<EventDuration>50</EventDuration>
+			<EventDuration>75</EventDuration>
 			<Expires>true</Expires>
 		</Row>
 		<Row>
@@ -109,11 +108,14 @@
 			<BuildingClass>BUILDINGCLASS_AMERICA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_AMERICA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_AMERICA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_BuildingClassYieldChanges>
@@ -121,13 +123,13 @@
 			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMERICA_UE_DUMMY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
 	
@@ -135,12 +137,12 @@
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
@@ -152,7 +154,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>-2</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
@@ -167,14 +169,14 @@
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_5</EventChoiceType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
 	<EventChoice_MinimumResourceRequired>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>
@@ -188,7 +190,7 @@
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ResourceYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -196,6 +198,12 @@
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_3</EventChoiceType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE_LOCAL</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
@@ -217,7 +225,7 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -268,7 +276,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_AMERICA_UE_CHOICE_1</EventChoiceType>
@@ -315,37 +323,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Innovative Invention</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_1">
 			<Text>{3_PlayerName} invests in a incredible invention!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Sustainable Horses</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_2">
 			<Text>{3_PlayerName} has released horses back into the wild.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Homestead Acts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_3">
-			<Text>{3_PlayerName} has sparked massive internal migration!</Text>
+			<Text>{3_PlayerName} has sparked massive migration to the American frontier!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Veteran Pensions</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_4">
 			<Text>{3_PlayerName} subsidises ranches across the Empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Prohibition</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5">
 			<Text>{3_PlayerName} bans alcohol, leading to an instantaneous rise in Crime and partying!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Music Fairs</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6">
 			<Text>{3_PlayerName} has experienced a popular musical awakening.</Text>
@@ -360,41 +368,44 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_2">
-			<Text>Lose 2 [ICON_RES_HORSE] Horses. Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on all sources of [ICON_RES_HORSE] Horse.</Text>
+			<Text>Gain 2 [ICON_RES_HORSE] Horses. Gain +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold on all sources of [ICON_RES_HORSE] Horse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_3">
-			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 5%.</Text>
+			<Text>Receive a copy of both the [ICON_RES_GOLD] Gold and [ICON_RES_FUR] Furs Luxury Resources. All Villages produce +1 [ICON_TOURISM] Tourism and [ICON_CULTURE_LOCAL] Border Growth Point. However, all Cities have their [ICON_GOLD] Poverty thresholds increased by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_4">
-			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 5%.</Text>
+			<Text>Gain +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on Pastures. However, all Cities have their [ICON_RESEARCH] Illiteracy thresholds increased by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_5">
-			<Text>Receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource. All Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Crime thresholds increased by 10%. Effects last {4_Turns}.</Text>
+			<Text>For {4_Turns}, receive two copies of the [ICON_RES_SUGAR] Sugar Luxury Resource, and all Villages produce +2 [ICON_GOLD] Gold. However, all Cities have their [ICON_STRENGTH] Distress thresholds increased by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_HELP_CHOICE_6">
-			<Text>For every City owned, [ICON_GREAT_MUSICIAN] Musician's Guilds gain +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism.</Text>
+			<Text>[ICON_GREAT_MUSICIAN] Musician's Guilds gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism for every City owned.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_1">
-			<Text>*It is an idea of brilliance!*[NEWLINE]I'd like the record to show that this has the full support of the American government.</Text>
+			<Text>*It is an idea of brilliance!*[NEWLINE]That's a brilliant idea! I'd like the record to show that this has the full support of the American government.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The presentation details how wild Horses, hunted to near extinction, could be repopulated. The long term benefits are significant*[NEWLINE]We must secure the ecological and cultural heritage of our children.</Text>
+			<Text>*The presentation details how wild Horses, hunted to near extinction, could be repopulated.*[NEWLINE]We must secure the ecological and cultural heritage of our children.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_3">
-			<Text>*Population density is identified as highly irregular. Encouraging resettlement could increase our prosperity tenfold!*[NEWLINE]The conflicts with our neighbours are pointless when we can find all we need here, at home.</Text>
+			<Text>*Population density is identified as highly irregular. Encouraging new settlement in the frontier could increase our prosperity tenfold!*[NEWLINE]You are right! With so much land, we must encourage our people to expand beyond our horizons of the cities!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The scheme seeks to utilise our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely. Integrating these men into urban society would be a nightmare.</Text>
+			<Text>*The scheme seeks to utilize our veterans, whose many practical skills are going to waste in the cities, to stimulate the agricultural sector*[NEWLINE]This plan is both elegant and timely. Integrating these men into urban society would be a nightmare.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_5">
 			<Text>*The benefits of a dry state have been made clear*[NEWLINE]We must prevent temptation from corrupting good Americans. If there's a small bit of bootlegging as a result, well... business is business.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AMERICA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*This entrepreneur believes the music industry could become unthinkably profitable, and requests legal assistance to aid his vision*[NEWLINE]I don't see why the emergency law against public gatherings can't be relaxed for this remote 'music fair'. If all the hoppies are sitting in some field, they can't be protesting the war!</Text>
+			<Text>*This entrepreneur believes the music industry could become unthinkably profitable, and requests legal assistance to aid his vision*[NEWLINE]I don't see why the emergency law against public gatherings can't be relaxed for this remote 'music fair'. If all the hippies are sitting in some field, they can't be protesting the war!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_UE_DUMMY">
-			<Text></Text>
+			<Text>Music Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_UE_DUMMY_HELP">
+			<Text>+2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism to Musician's Guilds.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
