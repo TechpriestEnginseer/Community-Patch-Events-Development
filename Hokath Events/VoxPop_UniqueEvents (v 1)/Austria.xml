@@ -18,8 +18,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_AUSTRIA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_AUSTRIA_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -43,11 +43,10 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
 			<WLTKDTurns>20</WLTKDTurns>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<EventBuildingClassGlobal>BUILDINGCLASS_AUSTRIA_UE_DUMMY</EventBuildingClassGlobal>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
-			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_AUSTRIA_UE_CHOICE_4</Type>
@@ -68,11 +67,11 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
 			<IsUnhappy>true</IsUnhappy>
-			<ResistanceTurns>5</ResistanceTurns>
+			<ResistanceTurns>3</ResistanceTurns>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<WLTKDTurns>20</WLTKDTurns>
 			<EventBuildingClassGlobal>BUILDINGCLASS_AUSTRIA_UE_DUMMY_2</EventBuildingClassGlobal>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -121,7 +120,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<CapitalDefenseModifier>50</CapitalDefenseModifier>
-			<CapitalDefenseFalloff>-7</CapitalDefenseFalloff>
+			<CapitalDefenseFalloff>-6</CapitalDefenseFalloff>
 			<PortraitIndex>40</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
@@ -141,6 +140,10 @@
 			<PromotionType>PROMOTION_UE_VIENNA_RELIEF</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_VIENNA_RELIEF</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
 	</UnitPromotions_UnitCombats>
 
 
@@ -148,10 +151,12 @@
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_AUSTRIA_UE_DUMMY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY_2</Type>
 			<DefaultBuilding>BUILDING_AUSTRIA_UE_DUMMY_2</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AUSTRIA_UE_DUMMY_3</Type>
@@ -164,55 +169,64 @@
 			<BuildingClass>BUILDINGCLASS_AUSTRIA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
+			<NeverCapture>true</NeverCapture>
 		</Row>
 		<Row>
 			<Type>BUILDING_AUSTRIA_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_AUSTRIA_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
+			<NeverCapture>true</NeverCapture>
 		</Row>
 		<Row>
 			<Type>BUILDING_AUSTRIA_UE_DUMMY_3</Type>
 			<BuildingClass>BUILDINGCLASS_AUSTRIA_UE_DUMMY_3</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_3</Description>
+			<Help>TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_3_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_WLTKDYieldMod>
 		<Row>
 			<BuildingType>BUILDING_AUSTRIA_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>25</Yield>
+			<Yield>33</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AUSTRIA_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>25</Yield>
+			<Yield>33</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AUSTRIA_UE_DUMMY_2</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>25</Yield>
+			<Yield>33</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AUSTRIA_UE_DUMMY_2</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>25</Yield>
+			<Yield>33</Yield>
 		</Row>
 	</Building_WLTKDYieldMod>
 	<Building_YieldPerXTerrainTimes100>
@@ -247,7 +261,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>25</Yield>
+			<Yield>250</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_4</EventChoiceType>
@@ -264,12 +278,7 @@
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>250</Yield>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_3</EventChoiceType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>150</Yield>
+			<Yield>1000</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_6</EventChoiceType>
@@ -279,7 +288,7 @@
 	</EventChoice_EventCostYield>
 
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -330,7 +339,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_AUSTRIA_UE_CHOICE_1</EventChoiceType>
@@ -377,37 +386,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Royal Marriage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_1">
 			<Text>{3_PlayerName} offers a lucrative duchy as as a dowry to a Great Person.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Hereditary Lands</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} accumulates a considerable amount of land and wealth through the succession of her various children!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s High Society of Vienna</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_3">
 			<Text>{3_PlayerName} invests in infrastructure to attract the rich and powerful to Vienna!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Relief of Vienna</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} makes promises to her underlings in exchange for immediate military assisstance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Higher Society of Vienna</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_5">
 			<Text>{3_PlayerName} takes internal action against upstart noveaux riches!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Ski Resorts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AUSTRIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} has popularised alpine retreats with the elites, revitalising Austria's mountain economy.</Text>
@@ -422,16 +431,16 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_2">
-			<Text>Leverage {1_YieldCost} to recruit two Emissaries and marry into {2_InstantYield} in the [ICON_CAPITAL] Capital.</Text>
+			<Text>Leverage {1_YieldCost} to recruit two Emissary and marry into {2_InstantYield} in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_3">
-			<Text>Utilise {1_YieldCost} to attract high society to Vienna. For {4_Turns} you experience [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital by 25%.</Text>
+			<Text>Utilise {1_YieldCost} to attract high society to Vienna. For {4_Turns} you experience [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital by 33%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_4">
-			<Text>Conscript {1_InstantYield} into the military in the [ICON_CAPITAL] Capital. Melee, Gun and Mounted Units gain up to 50% extra [ICON_STRENGTH] near the [ICON_CAPITAL], falling off with distance.</Text>
+			<Text>Conscript {1_InstantYield} into the military in the [ICON_CAPITAL] Capital. Melee, Gun, Mounted, and Armored Units gain up to 50% extra [ICON_STRENGTH] near the [ICON_CAPITAL], falling off with distance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_5">
-			<Text>Enter a period of reformation. This triggers {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], but you spend the first quarter of this time in [ICON_RESISTANCE] Anarchy. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital by 25%.</Text>
+			<Text>Enter a period of reformation. This triggers {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], but you spend the first short period of this time in [ICON_RESISTANCE] Anarchy. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital by 33%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_AUSTRIA_UE_HELP_CHOICE_6">
 			<Text>Invest {1_YieldCost} in Ski Resorts. Every City gains +3 [ICON_TOURISM] Tourism and +3 [ICON_GOLD] Gold for every Mountain Tile within range.</Text>
@@ -463,13 +472,22 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY">
-			<Text></Text>
+			<Text>High Society of Vienna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_HELP">
+			<Text>+33% [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism during WLTKD.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Higher Society of Vienna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_2_HELP">
+			<Text>+33% [ICON_PRODUCTION] Production and [ICON_GOLD] Gold during WLTKD.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_3">
-			<Text></Text>
+			<Text>Ski Resorts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_UE_DUMMY_3_HELP">
+			<Text>+3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism for each Mountain within workable proximity.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

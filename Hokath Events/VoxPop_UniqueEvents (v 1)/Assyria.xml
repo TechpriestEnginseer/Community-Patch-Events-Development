@@ -18,8 +18,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_ASSYRIA_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -32,7 +32,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresWarMinor>true</RequiresWarMinor>
 			<EventPromotion>PROMOTION_AMPHIBIOUS</EventPromotion>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -68,8 +68,8 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventPromotion>PROMOTION_UE_WINGED_VALOR</EventPromotion>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
+			<EventPromotion>PROMOTION_UE_WINGED_VALOR</EventPromotion>
 			<EventDuration>-1</EventDuration>
 		</Row>
 	</EventChoices>
@@ -99,7 +99,6 @@
 			<EventType>EVENT_ASSYRIA_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_UE_SYNAGOGUE</Type>
@@ -111,30 +110,31 @@
 		<Row>
 			<Type>BUILDING_UE_SYNAGOGUE</Type>
 			<BuildingClass>BUILDINGCLASS_UE_SYNAGOGUE</BuildingClass>
-			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_SYNAGOGUE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SYNAGOGUE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_SYNAGOGUE_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_SYNAGOGUE_HELP</Help>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
-			<ArtDefineTag>TEMPLE</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
+			<Help>TXT_KEY_BUILDING_SYNAGOGUE_HELP</Help>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
 			<ReligiousPressureModifier>25</ReligiousPressureModifier>
 			<ConversionModifier>-10</ConversionModifier>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>53</PortraitIndex>
 			<NeverCapture>true</NeverCapture>
 			<EventChoiceRequiredActive>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>366</MutuallyExclusiveGroup>
+			<DefenseHappinessChange>-25</DefenseHappinessChange>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
@@ -154,11 +154,11 @@
 	</Building_Flavors>
 	<Building_WLTKDYieldMod>
 		<Row>
-			<BuildingType>BUILDING_UE_SYNAGOGUE</<BuildingType>
+			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>15</Yield>
 		</Row>
-	</<Building_WLTKDYieldMod>
+	</Building_WLTKDYieldMod>
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_UE_SYNAGOGUE</BuildingType>
@@ -171,8 +171,6 @@
 			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
-
-
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_UE_WINGED_VALOR</Type>
@@ -223,19 +221,19 @@
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
@@ -255,13 +253,13 @@
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_3</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_5</EventChoiceType>
@@ -290,7 +288,7 @@
 		</Row>
 	</EventChoice_FreeUnitClasses>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -351,7 +349,7 @@
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_1</EventChoiceType>
@@ -398,37 +396,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Rewards of Treasure</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_1">
 			<Text>{3_PlayerName} rewards a treasure hunter with glory and riches!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Amphibious Feats</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} glorifies an incredible martial feat across the monuments of his Empire, inspiring his men!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Artifact Discovery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_3">
 			<Text>{3_PlayerName} rediscovers ancient texts thought undecipherable.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Religious Asylum</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} grants asylum to a people fleeing the destruction of their homeland.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Ancient Temple Discovery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_5">
 			<Text>{3_PlayerName} uncovers an ancient superstructure, igniting renewed hindrance of ancient Assyrian beliefs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Wings of Valor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ASSYRIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} forms an elite Paratrooper program from the daring and zealous.</Text>
@@ -443,10 +441,10 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_2">
-			<Text>Monuments produce +2 [ICON_PRODUCTION] Production. All eligible Units, as well as those produced in the next {4_Turns}, gain the Amphibious promotion.</Text>
+			<Text>Monuments produce +1 [ICON_PRODUCTION] Production. All eligible Units gain the Amphibious promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_3">
-			<Text>Pay {2_InstantYield}. Temples produce +2 and Holy Sites produce +4 [ICON_RESEARCH] Science. Libraries produce +2 and Academies produce +4 [ICON_PEACE] Faith.</Text>
+			<Text>Pay {2_InstantYield}. Temples and Holy Sites produce +3 [ICON_RESEARCH] Science. Libraries and Academies produce +3 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_4">
 			<Text>Pay {2_InstantYield} to unlock the Sephardic Synagogue Building. Other Synagogues gain +1 [ICON_CULTURE] and +2 [ICON_PEACE] Faith.</Text>
@@ -455,7 +453,7 @@
 			<Text>The discovery starts {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities. Landmarks yield +5 to [ICON_RESEARCH] Science, [ICON_PEACE] Faith and [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_6">
-			<Text>Four Paratroopers are recruited in the [ICON_CAPITAL] Capital. All Recon Units gain the Wings of Valor Promotion.</Text>
+			<Text>A Paratrooper is recruited in every City. All Recon Units gain the Wings of Valor Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*An adventurer has found a piece of the Tablet*[NEWLINE]See that all hear of the handsome reward that was given for this relic!</Text>
@@ -467,20 +465,20 @@
 			<Text>*The leading expert in ancient languages believes he can decipher our library of forgotten prophecies and record*[NEWLINE]If the location of more of the Tablet is hidden amongst these slates, I must know of it!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Once our enemies, a tribe of heathens fleeing their conquerors begs you for asylum. Just as was promised!*[NEWLINE]This is the will of the Gods! We must fulfil the prophecy, and settle these people in our lands.</Text>
+			<Text>*Once our enemies, a tribe of heathens fleeing their conquerors begs you for asylum. Just as was promised!*[NEWLINE]This is the will of the Gods! We must fulfill the prophecy, and settle these people in our lands.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_5">
-			<Text>*A recent excavation has uncovered a massive temple complex, lost to history.*[NEWLINE]Restore this shrine, and all others like it. When their homes are rebuilt, the gods will return. So it is written!</Text>
+			<Text>*A recent excavation has uncovered a massive temple complex, lost to history.*[NEWLINE]Restore this shrine and all others like it. When their homes are rebuilt, the gods will return. So it is written!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*Technological advancement has enabled our soldiers to fall, winged, from the sky.*[NEWLINE]The arrows of Ashur bringing the vengeance of the sun... Let the call go out, now is the time to fulfil our destiny!</Text>
+			<Text>*Technological advancement has enabled our soldiers to fall, winged, from the sky.*[NEWLINE]The arrows of Ashur bringing the vengeance of the sun... Let the call go out, now is the time to fulfill our destiny!</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_UE_WINGED_VALOR">
 			<Text>Wings of Valor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_WINGED_VALOR_HELP">
-			<Text>+25% [ICON_STRENGTH] Combat Strength vs. Wounded enemies. Can force enemies to retreat, and deals extra damage if they cannot.</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength vs. Wounded enemies. Can force enemies to retreat, and deals extra damage if they cannot. Granted only via Assryia's Events.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_SYNAGOGUE">
 			<Text>Sephardic Synagogue</Text>
