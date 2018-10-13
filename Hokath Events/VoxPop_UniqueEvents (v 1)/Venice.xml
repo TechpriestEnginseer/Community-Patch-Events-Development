@@ -8,10 +8,10 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_VENICE</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -44,6 +44,7 @@
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
+			<WLTKDTurns>20</WLTKDTurns>
 		</Row>
 		<Row>
 			<Type>EVENT_VENICE_UE_CHOICE_4</Type>
@@ -52,7 +53,6 @@
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_VENICE_UE_DUMMY</EventBuildingClassGlobal>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MUSICIANS_GUILD</RequiredAnywhereBuildingClass>
-			<UnitClassRequired>UNITCLASS_MUSICIAN</UnitClassRequired>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -107,10 +107,12 @@
 		<Row>
 			<Type>BUILDINGCLASS_VENICE_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_VENICE_UE_DUMMY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_VENICE_UE_DUMMY_2</Type>
 			<DefaultBuilding>BUILDING_VENICE_UE_DUMMY_2</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -121,9 +123,11 @@
 			<Description>TXT_KEY_BUILDING_VENICE_UE_DUMMY</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
+			<IsDummy>true</IsDummy>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_VENICE_UE_DUMMY_2</Type>
@@ -132,9 +136,11 @@
 			<Description>TXT_KEY_BUILDING_VENICE_UE_DUMMY_2</Description>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_YieldFromPurchase>
@@ -148,24 +154,24 @@
 		<Row>
 			<BuildingType>BUILDING_VENICE_UE_DUMMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>50</Yield>
+			<Yield>100</Yield>
 		</Row>
 	</Building_YieldChangesPerPop>
 	<Building_SpecificGreatPersonRateModifier>
 		<Row>
 			<BuildingType>BUILDING_VENICE_UE_DUMMY</BuildingType>
 			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
-			<Modifier>15</Modifier>
+			<Modifier>33</Modifier>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_VENICE_UE_DUMMY</BuildingType>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<Modifier>15</Modifier>
+			<Modifier>33</Modifier>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_VENICE_UE_DUMMY</BuildingType>
 			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
-			<Modifier>15</Modifier>
+			<Modifier>33</Modifier>
 		</Row>
 	</Building_SpecificGreatPersonRateModifier>
 
@@ -181,7 +187,7 @@
 		<Row>
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_5</EventChoiceType>
 			<ResourceType>RESOURCE_GLASS</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
 	<EventChoice_BuildingClassYieldChange>
@@ -189,7 +195,7 @@
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_EventCostYield>
@@ -203,20 +209,22 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>300</Yield>
 		</Row>
+	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_VENICE_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>600</Yield>
+		</Row>
 		<Row>
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_5</EventChoiceType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>300</Yield>
 		</Row>
-		<Row>
-			<EventChoiceType>EVENT_VENICE_UE_CHOICE_6</EventChoiceType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>500</Yield>
-		</Row>
-	</EventChoice_EventCostYield>
+	</EventChoice_MinimumStartYield>
 
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -257,7 +265,7 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_VENICE_UE_CHOICE_1</EventChoiceType>
@@ -304,37 +312,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Grand Invitation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_1">
 			<Text>{3_PlayerName} invites a popular Great Person to take up residence in Venice!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Grand Canals</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_2">
 			<Text>{3_PlayerName} uses huge ships to rebuild his Coastal Cities in the image of Venice!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s St. Mark Basilica</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_3">
 			<Text>{3_PlayerName} oversees the furnishing of the most opulent and stunning Cathedral in the land!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Patronage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_4">
 			<Text>{3_PlayerName} personally leads the patronage of art in Venice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Glasswork</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_5">
 			<Text>{3_PlayerName} protects the traditional Glass industry in the face of Industrialization.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Capital Funds</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_VENICE_UE_CHOICE_6">
 			<Text>{3_PlayerName} pledges a massive amount of public money to stop Venice from sinking!</Text>
@@ -343,7 +351,7 @@
 			<Text>La Dominante</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP">
-			<Text>Your Serenity, the grandi are becoming rather impatient. In times gone by they would have waited for the Doge's death to pass judgement on his legacy, but... well.[NEWLINE]Perhaps we could distract them with some new project?</Text>
+			<Text>Your Serenity, the grandi are becoming rather impatient. In times gone by they would have waited for the Doge's death to pass judgment on his legacy, but... well.[NEWLINE]Perhaps we could distract them with some new project?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -355,16 +363,16 @@
 			<Text>On the Piazzo St. Marco, a Cathedral is constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_4">
-			<Text>The patronage of art in the [ICON_CAPITAL] Capital generates +15% [ICON_GREAT_MUSICIAN] Great Musician, [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_WRITER] Great Writer Points. Receive +1 [ICON_CULTURE] Culture for every 2 [ICON_POPULATION] Citizens in the [ICON_CAPITAL] Capital.</Text>
+			<Text>The patronage of art in the [ICON_CAPITAL] Capital generates +33% [ICON_GREAT_MUSICIAN] Great Musician, [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_WRITER] Great Writer Points. Receive +1 [ICON_CULTURE] Culture for every [ICON_POPULATION] Citizens in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_5">
-			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 3 copies of [ICON_RES_GLASS] Glass, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 4 copies of [ICON_RES_GLASS] Glass, and Workshops generate +3 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_6">
 			<Text>The [ICON_CAPITAL] Capital converts 50% of [ICON_GOLD] Gold spent to [ICON_FOOD] Food when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_DESCRIPTION_CHOICE_1">
-			<Text>Let me think. We have heard of a fascinating Commendatore travelling the world. They would cause something of a stir in The City of Masks.</Text>
+			<Text>Let me think. We have heard of a fascinating Commendatore traveling the world. They would cause something of a stir in The City of Masks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_DESCRIPTION_CHOICE_2">
 			<Text>The Canals of Venice are set to be introduced across the Empire. If we included rooms and ships for the guilds in this project, I am sure they would be far too busy to consider an inquisition in our private affairs.</Text>
@@ -379,14 +387,19 @@
 			<Text>We were just in the process of subsidising the glassblowers, were we not. Perhaps some of the gold that somehow found itself to my bank vault could disappear into that, no? I am fond of those little figurines they make, and so sort after!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The senate have just passed a bill requiring a percentage of public spending to go to the preservation and reconstruction of the historic districts*[NEWLINE]If some of the funding found itself directed to the guildhalls. Well. I am certain that one good deed would encourage another.</Text>
+			<Text>*The senate has just passed a bill requiring a percentage of public spending to go to the preservation and reconstruction of the historic districts*[NEWLINE]If some of the funding found itself directed to the guildhalls. Well. I am certain that one good deed would encourage another.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BUILDING_VENICE_UE_DUMMY">
-			<Text></Text>
+			<Text>Venetian Patronage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE_UE_DUMMY_HELP">
+			<Text>+33% [ICON_GREAT_MUSICIAN] Great Musician, [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_WRITER] Great Writer Points. Receive +1 [ICON_CULTURE] Culture for every [ICON_POPULATION] Citizens in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENICE_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Venetian District Preservation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE_UE_DUMMY_2_HELP">
+			<Text>Converts 50% of [ICON_GOLD] Gold spent to [ICON_FOOD] Food when purchasing.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

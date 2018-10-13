@@ -8,11 +8,11 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_ZULU</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -33,7 +33,6 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_CAMP</ImprovementAnywhereRequired>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<EventBuildingClassGlobal>BUILDINGCLASS_ZULU_UE_DUMMY</EventBuildingClassGlobal>
-			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -43,8 +42,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<EventDuration>50</EventDuration>
-			<Expires>true</Expires>
+			<EventDuration>-1</EventDuration>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
@@ -62,7 +60,7 @@
 			<Help>TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_5</Help>
 			<Description>TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
-			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<RequiresWarMinor>true</RequiresWarMinor>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -116,11 +114,14 @@
 			<BuildingClass>BUILDINGCLASS_ZULU_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_ZULU_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_ZULU_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IsDummy>true</IsDummy>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_YieldPerXTerrainTimes100>
@@ -151,7 +152,7 @@
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>-10</Yield>
+			<Yield>-15</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_5</EventChoiceType>
@@ -161,22 +162,16 @@
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_ZULU_UE_CHOICE_6</EventChoiceType>
+			<EventChoiceType>EVENT_ZULU_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_ZULU_UE_CHOICE_6</EventChoiceType>
+			<EventChoiceType>EVENT_ZULU_UE_CHOICE_4</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_ZULU_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>-1</YieldChange>
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 	<EventChoice_ResourceQuantity>
@@ -188,6 +183,16 @@
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_5</EventChoiceType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ZULU_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ZULU_UE_CHOICE_5</EventChoiceType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
 			<Quantity>1</Quantity>
 		</Row>
 		<Row>
@@ -217,7 +222,7 @@
 		</Row>
 	</EventChoice_InstantYield>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -273,7 +278,7 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_ZULU_UE_CHOICE_1</EventChoiceType>
@@ -320,37 +325,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gifted Child</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_1">
 			<Text>{3_PlayerName} receives a blessing from the spirits!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Trial by Fire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_2">
 			<Text>{3_PlayerName} enforces the ancient trials of manhood, sending boys out onto the savannah to prove their strength.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mfecane</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_3">
 			<Text>{3_PlayerName} calls all able-bodied men to war!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Sangoma</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_4">
-			<Text>{3_PlayerName} focuses his efforts into promoting the traditional way of life.</Text>
+			<Text>{3_PlayerName} focuses his efforts into promoting the traditional healing ways of life.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mine Liberation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_5">
-			<Text>{3_PlayerName} discovers the illegal City State mining of [ICON_RES_GOLD] and [ICON_RES_GEMS]!</Text>
+			<Text>{3_PlayerName} discovers the illegal City State mining of [ICON_RES_COAL], [ICON_RES_COPPER], [ICON_RES_GOLD] and [ICON_RES_GEMS]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s We Are One</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_ZULU_UE_CHOICE_6">
 			<Text>{3_PlayerName} begins a process of peace and reconciliation in Zululand.</Text>
@@ -365,19 +370,19 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_2">
-			<Text>Utilise {1_YieldCost} to encourage a return to the Plains. Cities gain +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production for every 3 Plains Tiles within workable range.</Text>
+			<Text>Utilise {1_YieldCost} to encourage a return to the Plains. Cities gain +1 [ICON_FOOD] Food for every Grassland and +1 [ICON_PRODUCTION] Production for every 3 Plains Tiles within workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_3">
-			<Text>Workers leave the poor arable land to join the Mfecane. {2_InstantYield} becomes an Impi in every City, and Farms yield -1 [ICON_FOOD] Food for {4_Turns}.</Text>
+			<Text>Workers leave the poor arable land to join the Mfecane. {2_InstantYield} becomes an Impi in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_4">
 			<Text>Send {1_YieldCost} to support our rural communities. Villages produce +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production, and you receive 2 copies of [ICON_RES_TEA] Tea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_5">
-			<Text>You sieze a copy of [ICON_RES_GEMS] Gems and a copy of [ICON_RES_GOLD] Gold. The spread of so much illegal material increases [ICON_STRENGTH] Crime thresholds by 10%.</Text>
+			<Text>You seize a copy of [ICON_RES_COAL] Coal, a copy of [ICON_RES_GEMS] Gems, a copy of [ICON_RES_COPPER] Copper, and a copy of [ICON_RES_GOLD] Gold. The spread of so much illegal material increases [ICON_STRENGTH] Distress thresholds by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_HELP_CHOICE_6">
-			<Text>The coming together reduces [ICON_CULTURE] Boredom thresholds by -10%, and each City builds a Church.</Text>
+			<Text>The coming together reduces [ICON_CULTURE] Boredom thresholds by -15%, and each City builds a Church.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_1">
 			<Text>*There is a child, born under the blessings of all the ancestors. They have the power to both destroy and heal*[NEWLINE]We will seek out this child with the second sight. They will aid us.</Text>
@@ -386,20 +391,23 @@
 			<Text>*The spirits are restless. Too many Zulu dwell idle in the Cities, away from the open plains*[NEWLINE]It is clear. We have strayed from our heritage. We must bring back the old rites of passage, of feats of strength upon the savannah.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_3">
-			<Text>*This war will be unlike any other. If any Zulu dreamt of bringing honour to his ancestors, it is now, in this great conflict*[NEWLINE]Send the messangers from the greatest Palace to the smallest Farmstead. All men are called to war!</Text>
+			<Text>*This war will be unlike any other. If any Zulu dreamt of bringing honor to his ancestors, it is now, in this great conflict*[NEWLINE]Send the messengers from the greatest Palace to the smallest Farmstead. All men are called to war!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Your ancestors are pleased with the honour you have shown in your leadership, but there is still more to be done. You must look to the Villages*[NEWLINE]We shall continue to settle the plains, and live the old ways. Each Sangoma will take back the Gold of our conquests, to build anew.</Text>
+			<Text>*Your ancestors are pleased with the honor you have shown in your leadership, but there is still more to be done. You must look to the Villages*[NEWLINE]We shall continue to settle the plains, and live the old ways. Each Sangoma will take back the Gold of our conquests, to build anew.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_5">
-			<Text>*There is no doubt your enemies have proven themselves duplicitous and cowardly, but the true horror is hidden below, where they defile the Earth*[NEWLINE]It is good that the spirits alerted us to this. Slaves mining for their masters' greed is truely evil.</Text>
+			<Text>*There is no doubt your enemies have proven themselves duplicitous and cowardly, but the true horror is hidden below, where they defile the Earth*[NEWLINE]It is good that the spirits alerted us to this. Slaves mining for their masters' greed is truly evil.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ZULU_UE_DESCRIPTION_CHOICE_6">
-			<Text>*Many wars. Many peoples. All their ancestors weeping over their collective pain. It is time to heal*[NEWLINE]Let us come together as one people, one family, irrespective of colour or creed. In Zululand, we are one.</Text>
+			<Text>*Many wars. Many peoples. All their ancestors weeping over their collective pain. It is time to heal*[NEWLINE]Let us come together as one people, one family, irrespective of color or creed. In Zululand, we are one.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ZULU_UE_DUMMY">
-			<Text></Text>
+			<Text>Trial by Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZULU_UE_DUMMY_HELP">
+			<Text>+1 [ICON_FOOD] Food for every 3 Grassland Tiles and +1 [ICON_PRODUCTION] Production for every 3 Plains Tiles within workable range</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
