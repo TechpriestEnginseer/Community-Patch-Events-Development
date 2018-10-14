@@ -8,11 +8,11 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_RUSSIA</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -115,22 +115,28 @@
 			<BuildingClass>BUILDINGCLASS_RUSSIA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_RUSSIA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_RUSSIA_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_RUSSIA_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_YieldPerXTerrainTimes100>
@@ -138,7 +144,7 @@
 			<BuildingType>BUILDING_RUSSIA_UE_DUMMY</BuildingType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>300</Yield>
+			<Yield>100</Yield>
 		</Row>
 	</Building_YieldPerXTerrainTimes100>
 	<Building_BuildingClassYieldChanges>
@@ -275,7 +281,7 @@
 		</Row>
 	</EventChoice_MinimumStartYield>
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -351,7 +357,7 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_RUSSIA_UE_CHOICE_1</EventChoiceType>
@@ -398,37 +404,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Political Sponsorship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_1">
-			<Text>{3_PlayerName} sponsers the career of a young officer.</Text>
+			<Text>{3_PlayerName} sponsors the career of a young officer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Assimilation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} begins a campaign extoling Russian values and cultural practices!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Justice</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_3">
 			<Text>{3_PlayerName} defines a rigid feudal Code of Laws!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Conscription</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} conscripts an enormous force of soldiers from the civilian population!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Literature</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_5">
 			<Text>{3_PlayerName} sets up a prize for outstanding Russian Literature.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Militarization</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_RUSSIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} moves away from heavy state control of industry!</Text>
@@ -443,16 +449,16 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_2">
-			<Text>Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Generate +3 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
+			<Text>Tundra yields +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. The Banya generate +1 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_3">
 			<Text>Serfdom generates +1 [ICON_GOLD] Gold from Farms, and Castles increase [ICON_PRODUCTION] Production in Cities by 5%. However, the [ICON_GOLD] Poverty threshold increases by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_4">
-			<Text>In the [ICON_CAPITAL] Capital conscript {2_InstantYield} into four Tercio. All Forts and Citadels yield +2 [ICON_FOOD] Food.</Text>
+			<Text>In the [ICON_CAPITAL] Capital conscript {2_InstantYield} into six Tercio. All Forts and Citadels yield +2 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_5">
-			<Text>For every owned City, your [ICON_GREAT_WRITER] Writers' Guilds generate +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>For every owned City, your [ICON_GREAT_WRITER] Writers' Guilds generate +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_HELP_CHOICE_6">
 			<Text>Increase military funding by {2_InstantYield}. All Forts and Citadels yield +3 [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
@@ -475,18 +481,17 @@
 		<Row Tag="TXT_KEY_EVENT_RUSSIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The decadent foreign pigs seek to bring the whole world under their foul ideology*[NEWLINE]Now the world is home to these 'nuclear weapons', the enemies of peace finally have it within their power to end us. This will not be allowed to happen!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BUILDING_RUSSIA_UE_DUMMY">
-			<Text></Text>
+			<Text>The Banya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_HELP">
+			<Text>+2 [ICON_CULTURE] Culture for every Snow tile within working range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Russian Literature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_UE_DUMMY_2_HELP">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Point to Writers' Guilds.</Text>
 		</Row>
 	</Language_en_US>
-	<Civilization_Start_Region_Priority>
-		<Row>
-			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-			<RegionType>REGION_TUNDRA</RegionType>
-		</Row>
-	</Civilization_Start_Region_Priority>
 </GameData>
