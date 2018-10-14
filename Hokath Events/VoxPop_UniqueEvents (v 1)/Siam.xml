@@ -8,11 +8,11 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_SIAM</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -31,7 +31,6 @@
 			<Description>TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<ObsoleteEra>ERA_RENAISSANCE</ObsoleteEra>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
@@ -72,7 +71,7 @@
 			<EventBuildingClassGlobal>BUILDINGCLASS_SIAM_UE_DUMMY_2</EventBuildingClassGlobal>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<RequiresWar>true</RequiresWar>
-			<EventDuration>50</EventDuration>
+			<EventDuration>75</EventDuration>
 			<Expires>true</Expires>
 		</Row>
 	</EventChoices>
@@ -124,22 +123,28 @@
 			<BuildingClass>BUILDINGCLASS_SIAM_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_SIAM_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_SIAM_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_SIAM_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_SIAM_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_SIAM_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_SIAM_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_UE_STUPA</Type>
@@ -159,6 +164,8 @@
 			<NeverCapture>true</NeverCapture>
 			<EventChoiceRequiredActive>EVENT_SIAM_UE_CHOICE_4</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>365</MutuallyExclusiveGroup>
+			<IsDummy>true</IsDummy>
+			<IlliteracyHappinessChange>-25</IlliteracyHappinessChange>
 		</Row>
 	</Buildings>
 	<Building_YieldFromSpyAttack>
@@ -168,7 +175,6 @@
 			<Yield>150</Yield>
 		</Row>
 	</Building_YieldFromSpyAttack>
-
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_UE_STUPA</BuildingType>
@@ -190,12 +196,12 @@
 		<Row>
 			<BuildingType>BUILDING_UE_STUPA</BuildingType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UE_STUPA</BuildingType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 	</Building_YieldChanges>
 	<Building_SpecificGreatPersonRateModifier>
@@ -229,10 +235,9 @@
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldPerAlly>
-
 	<EventChoice_FreeUnits>
 		<Row>
-			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_3</EventChoiceType>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_2</EventChoiceType>
 			<UnitType>UNIT_EMISSARY</UnitType>
 			<Quantity>2</Quantity>
 		</Row>
@@ -272,29 +277,29 @@
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>5</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_TRAINSTATION</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
-	</EventChoice_BuildingClassYieldChange
+	</EventChoice_BuildingClassYieldChange>
 
 	<EventChoice_EventCostYield>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>200</Yield>
+			<Yield>100</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
+			<Yield>250</Yield>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_SIAM_UE_CHOICE_4</EventChoiceType>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>300</Yield>
 		</Row>
@@ -304,8 +309,30 @@
 			<Yield>300</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_SIAM_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -366,7 +393,7 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_SIAM_UE_CHOICE_1</EventChoiceType>
@@ -413,43 +440,43 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Political Internship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_1">
-			<Text>{3_PlayerName} takes a luminary City State figure hostage!</Text>
+			<Text>{3_PlayerName} takes a luminary City State figure to be an 'intern'!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s White Elephant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_2">
-			<Text>{3_PlayerName} organises the protection of Ivory, both in Siam and elsewhere.</Text>
+			<Text>{3_PlayerName} organizes the protection of Ivory, both in Siam and elsewhere.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Porcelain Trust Fund</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_3">
-			<Text>{3_PlayerName} forcibly monopolises the Porcelain market!</Text>
+			<Text>{3_PlayerName} forcibly monopolizes the Porcelain market!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Vihara</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_4">
 			<Text>{3_PlayerName} acquires blueprints for a new type of Stupa.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Patriarch Reigns Children</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_5">
 			<Text>{3_PlayerName} increases his control over merchants in Siam.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s New Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SIAM_UE_CHOICE_6">
-			<Text>{3_PlayerName} organises an alliance against Siam's enemies, dehumanising their opposition.</Text>
+			<Text>{3_PlayerName} organizes an alliance against Siam's enemies, dehumanising their opposition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION">
-			<Text>Gilding The Back Of The Buddha</Text>
+			<Text>Gilding The Back Of Buddha</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP">
 			<Text>My King, the envoys have arrived. I have them waiting in the gardens. Tell me, Your Grace, will you be requiring... assistance? Or will you be giving them a chance to be cooperative?</Text>
@@ -470,7 +497,7 @@
 			<Text>Cities generate: +33% [ICON_GREAT_DIPLOMAT] Great Diplomat Points, +1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every City-State Friend, and +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Point for every Ally.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_HELP_CHOICE_6">
-			<Text>For the next {4_Turns}, implement a policy of kidnapping and labour camps. Receive [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital whenever a [ICON_SPY] Spy completes an action. Train Stations generate +5 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold.</Text>
+			<Text>For the next {4_Turns}, implement a policy of kidnapping and labour camps. Receive [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital whenever a [ICON_SPY] Spy completes an action. Train Stations generate +10 [ICON_PRODUCTION] Production and +10 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_1">
 			<Text>Oh no, I do not anticipate any trouble. We are just asking for a hostage this time. Smooth things over.</Text>
@@ -479,23 +506,29 @@
 			<Text>*The elites of the various City States have developed a fascination with Ivory, driving elephants to local extinction*[NEWLINE]We are going to have a discussion about the importance of conservation of endangered species. Like elephants... and emissaries...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_3">
-			<Text>*Sangkalok pottery has become very popular in the courts of our neighbours*[NEWLINE]They are in fact here to buy our goods! Of their own accord this time!</Text>
+			<Text>*Sangkalok pottery has become very popular in the courts of our neighbors*[NEWLINE]They are in fact here to buy our goods! Of their own accord this time!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_4">
 			<Text>*Local cultures have developed a unique Stupa, which has attracted the attention of our religious caste*[NEWLINE]Bring in the chests of gold. Now we will discuss the location of their Stupa schematics.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_5">
-			<Text>*It seems our traditional sources of income can no longer fulfil the requirements of a modern state*[NEWLINE]While it is true that we have had our differences in the past, it is time to put that all behind us, and look forward to an ever-closer union.</Text>
+			<Text>*It seems our traditional sources of income can no longer fulfil the requirements of a modern state*[NEWLINE]While it is true that we have had our differences in the past, it is time to discuss to put that behind us, and look forward to an ever-closer union.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SIAM_UE_DESCRIPTION_CHOICE_6">
-			<Text>We have, over the years, made it abundantly clear that we are not to be trifled with. Yet our enemies have revealed themselves nonetheless. With the aid of these fine gentlemen, we shall organise an alliance that will wipe them off the face of the Earth!</Text>
+			<Text>We have, over the years, made it abundantly clear that we are not to be trifled with. Yet our enemies have revealed themselves nonetheless. With the aid of these fine gentlemen, we shall organize an alliance that will wipe them off the face of the Earth!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SIAM_UE_DUMMY">
-			<Text></Text>
+			<Text>Patriach Reigns Descendent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIAM_UE_DUMMY_HELP">
+			<Text>+1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every City-State Friend, and +1 [ICON_CULTURE] Culture and +1 [ICON_GOLDEN_AGE] Golden Age Point for every Ally. +33% [ICON_DIPLOMAT] Great Diplomat Generation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIAM_UE_DUMMY_2">
-			<Text></Text>
+			<Text>New Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIAM_UE_DUMMY_2_HELP">
+			<Text>+150 [ICON_PRODUCTION] Production when you steal a [ICON_GREAT_WORK] Great Work or [ICON_RESEARCH] Technology, or complete a City-State Coup (scaling with Era). +37.5 [ICON_PRODUCTION] Production when you complete an Advanced Action (scaling with Era).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_STUPA">
 			<Text>Vihara</Text>
