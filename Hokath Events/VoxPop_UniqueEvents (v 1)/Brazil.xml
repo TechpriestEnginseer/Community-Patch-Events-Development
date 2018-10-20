@@ -18,9 +18,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
-			<FreeGreatPeople>1</FreeGreatPeople>
+			<Description>TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_1</Help>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
@@ -39,8 +38,8 @@
 			<Description>TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
-			<EventBuildingClassGlobal>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
+			<EventBuildingClassGlobal>BUILDINGCLASS_BRAZIL_UE_DUMMY</EventBuildingClassGlobal>
 		</Row>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_4</Type>
@@ -60,9 +59,9 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
 			<RequiresWar>true</RequiresWar>
-			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 		<Row>
 			<Type>EVENT_BRAZIL_UE_CHOICE_6</Type>
@@ -112,11 +111,14 @@
 			<BuildingClass>BUILDINGCLASS_BRAZIL_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_BRAZIL_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_BRAZIL_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_WLTKDYieldMod>
@@ -148,6 +150,13 @@
 			<Yield>-10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
+	<EventChoice_ResourceQuantity>
+		<Row>
+			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_6</EventChoiceType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</EventChoice_ResourceQuantity>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_6</EventChoiceType>
@@ -269,7 +278,7 @@
 		</Row>
 	</EventChoice_InstantYield>
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -325,7 +334,7 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_1</EventChoiceType>
@@ -372,37 +381,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s New President</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_1">
 			<Text>{3_PlayerName} appoints a new president of the senate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Jungle Trade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_2">
 			<Text>{3_PlayerName} begins trade with the Kuikuro peoples!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Education Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_3">
 			<Text>{3_PlayerName} places an unprecedented level of importance on education.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gold Rush</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_4">
 			<Text>{3_PlayerName} relaxes immigration controls in light of the recent gold rush.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Pracinhas</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_5">
 			<Text>{3_PlayerName} oversees the formation of an army of Pracinhas.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Biodiesel Industry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BRAZIL_UE_CHOICE_6">
 			<Text>{3_PlayerName} spearheads a biofuel initiative in response to the energy crisis.</Text>
@@ -411,31 +420,31 @@
 			<Text>The Men Of Tomorrow</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP">
-			<Text>Emperor, the small council gathers to hear your latest proposal. There is much talk and excitement surrounding your announcement, I am personally very honoured to serve such a beloved ruler.[NEWLINE]As always, we expect great things from our country's first and favourite child.</Text>
+			<Text>Emperor, the small council gathers to hear your latest proposal. There are much talk and excitement surrounding your announcement, I am personally very honored to serve such a beloved ruler.[NEWLINE]As always, we expect great things from our country's first and favorite child.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_2">
-			<Text>Trade with the Jungle tribes. Unimproved Jungles yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Learn the traditional ways of cultivating [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices, allowing each of these resources to yield +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Trade with the Jungle tribes. Jungles yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Learn the traditional ways of cultivating [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices, allowing each of these resources to yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_3">
 			<Text>Against the elites and the clergy, spend {1_YieldCost} to reduce [ICON_RESEARCH] Illiteracy thresholds by 10%. During [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], Cities produce +10% [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_4">
-			<Text>You receive two copies of [ICON_RES_GOLD] Gold. An influx of migrants boosts population by {2_InstantYield}, but also causes +1 [ICON_HAPPINESS_3], in each City. Effects last {4_Turns}.</Text>
+			<Text>You receive two copies of [ICON_RES_GOLD] Gold. An influx of migrants boosts population by {2_InstantYield}, but also causes +1 [ICON_HAPPINESS_3] in every City. Effects last {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_5">
-			<Text>Five Pracinha are recruited in the [ICON_CAPITAL] Capital.</Text>
+			<Text>Five Pracinha is recruited in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_6">
-			<Text>By spending {1_YieldCost} your Platations begin to produce biofuel, yielding +2 [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points per turn.</Text>
+			<Text>By spending {1_YieldCost} your Platations begin to produce biofuel (Gain 2 copies of [ICON_RES_OIL] Oil), yielding +2 [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_1">
 			<Text>Thank you, President. I have come to a decision regarding your successor.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_2">
-			<Text>*Many indigenous peoples remain disconnected from the Empire, deep in the jungle*[NEWLINE]We lose many in our attempt to expand into the endless jungle, and cultivate the wonderous fruits of that place. Yet there exist a people who can already do this, and they can teach us, all we have to do is ask.</Text>
+			<Text>*Many indigenous peoples remain disconnected from the Empire, deep in the jungle*[NEWLINE]We lose many in our attempt to expand into the endless jungle and cultivate the wondrous fruits of that place. Yet there exist a people who can already do this, and they can teach us, all we have to do is ask.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_DESCRIPTION_CHOICE_3">
 			<Text>*Education is for the rich and powerful, and represents an obstacle to increased social mobility and justice*[NEWLINE]If I were not a leader, I should like to be a teacher. What better way to ensure the bright future of our people than through learning?</Text>
@@ -451,7 +460,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_BRAZIL_UE_DUMMY">
-			<Text></Text>
+			<Text>Brazilian Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRAZIL_UE_DUMMY_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production during WLTKD.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
