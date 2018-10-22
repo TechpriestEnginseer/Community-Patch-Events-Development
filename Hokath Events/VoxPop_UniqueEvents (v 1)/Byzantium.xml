@@ -18,8 +18,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_BYZANTIUM_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -74,12 +74,12 @@
 			<Description>TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
-			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<FreeUnitsTechAppropriate>6</FreeUnitsTechAppropriate>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventPromotion>PROMOTION_UE_DEUS_VEULT</EventPromotion>
 			<EraScaling>true</EraScaling>
 			<RequiresWar>true</RequiresWar>
-			<EventDuration>10</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<RequiresHolyCity>true</RequiresHolyCity>
 			<Expires>false</Expires>
 		</Row>
@@ -115,6 +115,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_BYZANTIUM_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_BYZANTIUM_UE_DUMMY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -123,13 +124,17 @@
 			<BuildingClass>BUILDINGCLASS_BYZANTIUM_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
-			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<IsDummy>true</IsDummy>
+			<CapitalOnly>true</CapitalOnly>
 		</Row>
 	</Buildings>
 	<Building_SpecificGreatPersonRateModifier>
@@ -233,7 +238,7 @@
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_2</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>225</Yield>
+			<Yield>150</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_5</EventChoiceType>
@@ -247,7 +252,7 @@
 		</Row>
 	</EventChoice_EventCostYield>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -303,7 +308,7 @@
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_BYZANTIUM_UE_CHOICE_1</EventChoiceType>
@@ -352,37 +357,37 @@
 	<!-- TEXT -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Miracle Birth</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_1">
 			<Text>Byzantium is blessed by the birth of a miracle worker!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Foreign Mercenaries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_2">
 			<Text>{3_PlayerName} hires foreign sellswords to diversify the Byzantine army.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Walls of Constantinople</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_3">
 			<Text>{3_PlayerName} renovates the walls of her Capital with an unprecedented level of fortification!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Tax Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_4">
 			<Text>{3_PlayerName} abolishes archaic forms of taxation, sparking a national celebration!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Iconolatry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_5">
 			<Text>{3_PlayerName} backs the iconodules, ending the centuries old debate over religious imagery!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Deus Vult!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_BYZANTIUM_UE_CHOICE_6">
 			<Text>{3_PlayerName} calls the faithful to a modern crusade against the Infidel!</Text>
@@ -397,7 +402,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_2">
-			<Text>For the sum of {1_YieldCost}, three Horse Archers are recruited in the [ICON_CAPITAL] Capital.</Text>
+			<Text>For the sum of {1_YieldCost}, 3 Hunnic Horse Archer is recruited in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_3">
 			<Text>The improvement of the [ICON_CAPITAL] Capital's defenses provides +10 [ICON_STRENGTH] Strength, +200 HP and +33% [ICON_GREAT_ENGINEER] Great Engineer Points.</Text>
@@ -409,19 +414,19 @@
 			<Text>Leverage {1_YieldCost} to restore iconography to the Empire. Every [ICON_GREAT_ARTIST] Artist generates an additional +3 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_6">
-			<Text>By calling upon {1_YieldCost}, start a crusade against your enemies. Siz appropriate Units are recruited near the [ICON_CAPITAL] Capital, and all Units, as well as those recruited in the next {4_Turns}, receive the Deus Veult Promotion.</Text>
+			<Text>By calling upon {1_YieldCost}, start a crusade against your enemies. A random Unit is recruited near every City, and all Units, as well as those recruited in the next {4_Turns}, receive the Deus Veult Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A young child in a remote area has performed a miracle. The clergy are plotting to put them on the throne as their puppet*[NEWLINE]We cannot let our enemies get there first. Bring me the child!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The sons of the Patriarchs now occupy every senior position in the military*[NEWLINE]While I have absolute confidence in the city guard, they cannot defend us against a full scale coup. We need soldier who are not under the Patriarchs' thumbs.</Text>
+			<Text>*The sons of the Patriarchs now occupy every senior position in the military*[NEWLINE]While I have absolute confidence in the city guard, they cannot defend us against a full-scale coup. We need soldiers who are not under the Patriarchs' thumbs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_3">
-			<Text>*There is word of a plot: that when our enemies next attempt an invasion, the governers will stand down and allow them to march on the Capital!*[NEWLINE]The Palace is surrounded by the key institutions of state, even without this rumour, we cannot allow the Capital to fall. Ever.</Text>
+			<Text>*There is word of a plot: that when our enemies next attempt an invasion, the governors will stand down and allow them to march on the Capital!*[NEWLINE]The Palace is surrounded by the key institutions of state, even without this rumor, we cannot allow the Capital to fall. Ever.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The elite ascertain their wealth from an ancient law allowing them to levy heavy tribute from their tennants*[NEWLINE]This Chrysargyron tax is a remnant of the dark ages. We are the laughing stock of modern economics.</Text>
+			<Text>*The elite ascertain their wealth from an ancient law allowing them to levy heavy tribute from their tenants*[NEWLINE]This Chrysargyron tax is a remnant of the dark ages. We are the laughing stock of modern economics.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_DESCRIPTION_CHOICE_5">
 			<Text>*For some time, the clergy have made themselves wealthy by seizing works of art under the pretense of an ongoing 'iconoclasm'*[NEWLINE]Once we demonstrate our intention to outlaw this practice, we will no doubt attract considerable support within the Church.</Text>
@@ -431,14 +436,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_UE_DEUS_VEULT">
-			<Text>Deus Veult</Text>
+			<Text>Deus Vult</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_DEUS_VEULT_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength in Foreign Territory. Earn Faith from Kills.</Text>
+			<Text>+15% [ICON_STRENGTH] Combat Strength in Foreign Territory. Earn Faith from Kills. Granted only via Byzantium's Events.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY">
-			<Text></Text>
+			<Text>Walls of Constantinople</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_UE_DUMMY_HELP">
+			<Text>+10 [ICON_STRENGTH] Strength, +200 HP, and +33% [ICON_GREAT_ENGINEER] Great Engineer Points.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
