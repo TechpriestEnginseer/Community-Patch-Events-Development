@@ -77,7 +77,7 @@
 			<IsUnhappy>true</IsUnhappy>
 			<EraScaling>true</EraScaling>
 			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -124,22 +124,28 @@
 			<BuildingClass>BUILDINGCLASS_OTTOMAN_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_OTTOMAN_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_OTTOMAN_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_YieldChangesPerReligion>
@@ -257,9 +263,45 @@
 			<Yield>400</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>350</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>350</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>400</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 
-
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -335,7 +377,7 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_OTTOMAN_UE_CHOICE_1</EventChoiceType>
@@ -382,37 +424,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s New Vizier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_1">
 			<Text>{3_PlayerName} executes his Grand Vizier!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Caravansary Network</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_2">
 			<Text>{3_PlayerName} sets up a network of Caravanserai.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Religious Regulations</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_3">
 			<Text>{3_PlayerName} introduces regulations for business in accordance with religious law.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Devolved Jurisprudence</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_4">
 			<Text>{3_PlayerName} devolves judicial duties for grievances within religious minority groups.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Tributary Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_5">
 			<Text>{3_PlayerName} demands additional tribute from his vassals!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Abolition of the Sultan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_OTTOMAN_UE_CHOICE_6">
 			<Text>{3_PlayerName} disbands his historic council of advisors in favour of modernising reform!</Text>
@@ -427,7 +469,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_HELP_CHOICE_2">
-			<Text>Invest {1_YieldCost} in your trade network, receiving a Caravansary in every City. Your Caravansary produce +1 [ICON_CULTURE] Culture, [ICON_GOLD]Gold, and [ICON_PEACE] Faith.</Text>
+			<Text>Invest {1_YieldCost} in your trade network, receiving a Caravansary in every City. Your Caravansary produce +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_OTTOMAN_UE_HELP_CHOICE_3">
 			<Text>Enforce {1_YieldCost} worth of religious practices in public places: Baths yield +2 [ICON_PEACE] Faith and +2 [ICON_FOOD] Food.</Text>
@@ -461,10 +503,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY">
-			<Text></Text>
+			<Text>Devolved Jurisprudence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_HELP">
+			<Text>+3 [ICON_FOOD] Food and [ICON_PRODUCTION] Production per Religion in the City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_2">
-			<Text></Text>
+			<Text>A Subject's Tributes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OTTOMAN_UE_DUMMY_2_HELP">
+			<Text>+1 [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_FOOD] Food, and [ICON_PEACE] Faith to the Palace.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
