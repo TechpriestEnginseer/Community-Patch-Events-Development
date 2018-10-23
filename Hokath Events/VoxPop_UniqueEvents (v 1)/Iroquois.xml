@@ -42,7 +42,7 @@
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 			<EventPromotion>PROMOTION_UE_MOURNING</EventPromotion>
 			<RequiresWar>true</RequiresWar>
-			<EventDuration>150</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -184,6 +184,12 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
+			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
 			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_HERBALIST</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -224,7 +230,7 @@
 	</EventChoice_BuildingClassYieldModifier>
 	
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -280,7 +286,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_IROQUOIS_UE_CHOICE_1</EventChoiceType>
@@ -327,37 +333,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s An Investment</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_1">
 			<Text>{3_PlayerName}'s policies have produced a Great Person.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Totem Poles</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_2">
 			<Text>{3_PlayerName} begins the construction of mighty totem poles!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mourning War</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_3">
 			<Text>{3_PlayerName} declares the edict of Mourning War!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gaihwi:io</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_4">
 			<Text>{3_PlayerName} is experiencing a religious awakening!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Wampum Industry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_5">
 			<Text>{3_PlayerName} has begun mass producing Wampum to fuel an international craze!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Lacross</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_IROQUOIS_UE_CHOICE_6">
 			<Text>Lacross becomes the most popular sport on Earth!</Text>
@@ -366,7 +372,7 @@
 			<Text>Skin Thick As Bark</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP">
-			<Text>The Mid-Winter festival draws to a close, and all the Lesser Chiefs and Clan Mothers gather to hear you speak, oh Great Chieftan![NEWLINE][NEWLINE]In your decisions lie the fates of our children and the honour of our ancestors.</Text>
+			<Text>The Mid-Winter festival draws to a close, and all the Lesser Chiefs and Clan Mothers gather to hear you speak, oh Great Chieftan![NEWLINE][NEWLINE]In your decisions lie the fates of our children and the honor of our ancestors.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -375,7 +381,7 @@
 			<Text>Woodcarvers erect a Monument in all Cities. Monuments produce an additional point of [ICON_CULTURE] Culture and boost overall [ICON_CULTURE] in Cities by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_3">
-			<Text>All Melee and Gun Units, as well as those trained in the next {4_Turns}, generate [ICON_FOOD] Food when they defeat an Enemy.</Text>
+			<Text>An edict of the Mourning Warrior makes all Melee and Gun Units generate [ICON_FOOD] Food when they defeat an Enemy, while +2 [ICON_FOOD] Food is gained from Barracks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_HELP_CHOICE_4">
 			<Text>Allow the mystics {2_InstantYield}. Receieve +2 [ICON_PEACE] Faith from Longhouses, and 3 copies of [ICON_RES_TOBACCO] Tobacco.</Text>
@@ -390,16 +396,16 @@
 			<Text>Our children are our future! We must nurture the skills of our youth as we have never done before.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_2">
-			<Text>*Travellers from the Hinterlands have brought a new kind of Monument with them*[NEWLINE]We must honour the story of our people in monuments carved from oak and pine. Let us erect these 'Totem Poles' to commemorate the greatness of our nation!</Text>
+			<Text>*Travellers from the Hinterlands have brought a new kind of Monument with them*[NEWLINE]We must honor the story of our people in monuments carved from oak and pine. Let us erect these 'Totem Poles' to commemorate the greatness of our nation!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_3">
 			<Text>*Many men have been killed in the war, mothers mourn their husbands and children and curse us in their prayers*[NEWLINE]We hate our enemies, but once we have defeated them, we must love and accept them as our own: for their lives are our responsibility. Let us bring them back to IROQUOIS and accept them into the clans!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Religious practises have abruptly changed as of late*[NEWLINE]These practices may be new, but they harken back to earlier times. Let us not be afraid of the pipe and the feathers and the drum. Let us share our dreams and be shown the way forward!</Text>
+			<Text>*Religious practices have abruptly changed as of late*[NEWLINE]These practices may be new, but they harken back to earlier times. Let us not be afraid of the pipe and the feathers and the drum. Let us share our dreams and be shown the way forward!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_5">
-			<Text>*Foreign Empires have mistook our ancient Wampum beads for Currency, and are quickly becoming obsessed with the shells*[NEWLINE]While we dishonour our heritage by engaging in these practices, this craze will bring fortune and prosperity to my people.</Text>
+			<Text>*Foreign Empires have mistaken our ancient Wampum beads for Currency, and are quickly becoming obsessed with the shells*[NEWLINE]While we dishonour our heritage by engaging in these practices, this craze will bring fortune and prosperity to my people.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_IROQUOIS_UE_DESCRIPTION_CHOICE_6">
 			<Text>*Our traditional sport has become a global sensation, the most engaged in activity on Earth!*[NEWLINE]Let the games begin!</Text>
@@ -409,7 +415,7 @@
 			<Text>Mourning Warrior</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_MOURNING_HELP">
-			<Text>Kills reward Food.</Text>
+			<Text>Kills reward Food to the Capital. Granted only via Iroquois's Events.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
