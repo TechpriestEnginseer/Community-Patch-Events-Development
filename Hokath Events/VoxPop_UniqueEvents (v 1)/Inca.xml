@@ -57,7 +57,7 @@
 			<IsUnhappy>true</IsUnhappy>
 			<RequiredEra>ERA_MODERN</RequiredEra>
 			<WLTKDTurns>15</WLTKDTurns>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<EventFreePolicies>1</EventFreePolicies>
 		</Row>
@@ -100,13 +100,13 @@
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>-200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1500</Yield>
+			<Yield>-2000</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_6</EventChoiceType>
@@ -117,13 +117,13 @@
 	<EventChoice_MinimumStartYield>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>400</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1500</Yield>
+			<Yield>2000</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_6</EventChoiceType>
@@ -157,7 +157,7 @@
 	<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>2</Quantity>
 	</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>
@@ -171,6 +171,12 @@
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_INCA_UE_CHOICE_2</EventChoiceType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ResourceYieldChange>
@@ -214,7 +220,7 @@
 	</EventChoice_CityUnhappinessNeedMod>
 
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -270,8 +276,8 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
-	<EventChoice_Notification>
+	</EventChoiceFlavors>-->
+<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_INCA_UE_CHOICE_1</EventChoiceType>
 			<NotificationType>NOTIFICATION_GENERIC</NotificationType>
@@ -317,37 +323,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Marital Mobility</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_1">
 			<Text>{3_PlayerName} elevates a young Capac to the rank of Crown Prince!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Alpaca Wool</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_2">
 			<Text>{3_PlayerName} discovers the techniques of weaving Alapaca wool.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Wak'a Trail</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_3">
-			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYE] Dyes.</Text>
+			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYE] Dyes.[NEWLINE][NEWLINE]+2 [ICON_PEACE] Faith to Mountains and 2 [ICON_RES_DYE] Dye.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mountain Mining</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_4">
-			<Text>{3_PlayerName} begins a campaign of mineral exploration with the aid of Dynamite. Gaining access to [ICON_RES_GOLD], [ICON_RES_SILVER] and [ICON_RES_COPPER]</Text>
+			<Text>{3_PlayerName} begins a campaign of mineral exploration with the aid of Dynamite. Gaining access to [ICON_RES_GOLD], [ICON_RES_SILVER] and [ICON_RES_COPPER].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Political Purge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_5">
 			<Text>{3_PlayerName} purges the oligarchy, winning widespread popular support for his regime at the expense of long-term stability.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mountain Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_6">
 			<Text>{3_PlayerName} opens up the hidden Incan mountain passes to the World's tourists.</Text>
@@ -362,7 +368,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_2">
-			<Text>Supply an alternative source of {2_InstantYield}. Textiles produced from [ICON_RES_SHEEP] Sheep Tiles produce +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.</Text>
+			<Text>Supply an alternative source of {2_InstantYield}. Textiles produced from [ICON_RES_SHEEP] Sheep Tiles produce +1 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_HELP_CHOICE_3">
 			<Text>Establish the Wak'a trail. Mountains produce +2 [ICON_PEACE] Faith, and you receive two copies of [ICON_RES_DYE] Dye.</Text>
@@ -377,7 +383,7 @@
 			<Text>Allow international access to your hertiage sites, losing {2_InstantYield}. In return, Mountains produce +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_DESCRIPTION_CHOICE_1">
-			<Text>To commemorate this wonderous occassion, the valedictorian shall be married to the Princess Royal!</Text>
+			<Text>To commemorate this wondrous occasion, the valedictorian shall be married to the Princess Royal!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_DESCRIPTION_CHOICE_2">
 			<Text>*Weavers in the court have discovered that the Alpaca, employed extensively as a food source and religious offering, produces a particularly versatile wool*[NEWLINE]When the Capac return to their lands, they do so enriched by the knowledge of the Sapa Inca, to the prosperity of all!</Text>
@@ -392,7 +398,7 @@
 			<Text>*There is widespread dissent amongst both the political elite and the common man at your rule*[NEWLINE]It is with regret that I place my Governors under arrest! They shall be replaced with their children, whom I know to be loyal to Inca and the common man!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INCA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*Your sacred sites and mountain villages, which have remained hidden to world for a millenia, have been discovered by the world*[NEWLINE]We can no longer hide our great treasures from the world. Let all who wish to bow before the majesty of Inca come, and see!</Text>
+			<Text>*Your sacred sites and mountain villages, which have remained hidden to the world for millenniums, have been discovered by the world*[NEWLINE]We can no longer hide our great treasures from the world. Let all who wish to bow before the majesty of Inca come, and see!</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
