@@ -70,7 +70,7 @@
 			<Description>TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<EraScaling>true</EraScaling>
 			<RequiredEra>ERA_MODERN</RequiredEra>
 			<EventBuildingClassGlobal>BUILDINGCLASS_PERSIA_UE_DUMMY_2</EventBuildingClassGlobal>
@@ -119,27 +119,31 @@
 			<BuildingClass>BUILDINGCLASS_PERSIA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_PERSIA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_PERSIA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_PERSIA_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_PERSIA_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_PERSIA_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_PERSIA_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_YieldFromPurchase>
 		<Row>
-			<BuildingType>BUILDING_PERSIA_UE_DUMMY</BuildingType>
+			<BuildingType>BUILDING_PERSIA_UE_DUMMY_2</BuildingType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>5</Yield>
 		</Row>
@@ -237,9 +241,36 @@
 			<Yield>200</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>400</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>500</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>200</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -280,7 +311,7 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_PERSIA_UE_CHOICE_1</EventChoiceType>
@@ -327,37 +358,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Prince to Govern</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_1">
 			<Text>{3_PlayerName} appoints his son to a vacant Satrapy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Incorporation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} enacts a new military initiative to grow his armed forces!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Elephants</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_3">
 			<Text>{3_PlayerName} hires foreign mercenaries riding great Elephants to aid his war effort.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Age of Learning</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} suppresses religious extremists in goverment in order to begin a Golden Age of learning!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Carpet Industry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_5">
 			<Text>{3_PlayerName} protects the traditional Persian carpet industry in the face of Industrialization.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Democratic Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_PERSIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} enacts sweeping legal reform, modernizing many aspects of Persian life.</Text>
@@ -366,7 +397,7 @@
 			<Text>A Generous God</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP">
-			<Text>The princes have returned from their hunting excursion, My Lord Darius. They have not seen their father in some years, will you see them?[NEWLINE]The Queen would no doubt be immensely greatful.</Text>
+			<Text>The princes have returned from their hunting excursion, My Lord Darius. They have not seen their father in some years, will you see them?[NEWLINE]The Queen would no doubt be immensely grateful.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -375,7 +406,7 @@
 			<Text>Melee and Gun Units gain the Incorporation promotion, allowing them to capture defeated enemies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_3">
-			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and three Naresuan's Elephants arrive at the [ICON_CAPITAL] Capital.</Text>
+			<Text>For the sum of {1_YieldCost}, hire mercenaries from exotic foreign lands. Gain 2 copies of [ICON_RES_IVORY] Ivory, and 3 Naresuan's Elephant in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_4">
 			<Text>Suppress {1_YieldCost} of religious influence over the Empire. Chanceries yield +3 [ICON_RESEARCH] Science, and Cities generate 20% additional [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.</Text>
@@ -402,20 +433,26 @@
 			<Text>Forget my sons, those use layabouts, bring my daughter to me. She has an exceptional mind of political economy, I wish her to review my plans for the textile sector.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_6">
-			<Text>Endless princes and princesses to apoint to the top positions in my kingdom. I grow tired of this patronage, it is time the country learned to govern itself, for one day I shall no longer be here to guide it.</Text>
+			<Text>Endless princes and princesses to appoint to the top positions in my kingdom. I grow tired of this patronage, it is time the country learned to govern itself, for one day I shall no longer be here to guide it.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY">
-			<Text></Text>
+			<Text>Secular Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY_HELP">
+			<Text>+20% [ICON_RESEARCH] Science during Golden Ages.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Advisor Election</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERSIA_UE_DUMMY_2_HELP">
+			<Text>Converts 5% of [ICON_GOLD] Gold to [ICON_GOLDEN_AGE] Golden Age Points on this city's purchases.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_INCORPORATE">
 			<Text>Incorporate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_INCORPORATE_HELP">
-			<Text>Defeated enemies fight for you.</Text>
+			<Text>Defeated enemies has a chance to fight for you. Granted only via Persia's Events.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
