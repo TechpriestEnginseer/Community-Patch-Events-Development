@@ -338,7 +338,7 @@
 			<Text>{1_CivShortDescription}'s Wak'a Trail</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_3">
-			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYE] Dyes.[NEWLINE][NEWLINE]+2 [ICON_PEACE] Faith to Mountains and 2 [ICON_RES_DYE] Dye.</Text>
+			<Text>{3_PlayerName} establishes a series of alpine shrines, acquiring knowledge of perennial floral [ICON_RES_DYE] Dyes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INCA_UE_CHOICE_4_S">
 			<Text>{1_CivShortDescription}'s Mountain Mining</Text>
