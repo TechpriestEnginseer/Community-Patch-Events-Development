@@ -114,7 +114,7 @@
 			<Type>BUILDING_UE_CATHEDRAL</Type>
 			<BuildingClass>BUILDINGCLASS_UE_CATHEDRAL</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_CATHEDRAL</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CATHEDRAL_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_CATHEDRAL_STRATEGY</Strategy>
@@ -132,6 +132,7 @@
 			<EventChoiceRequiredActive>EVENT_SPAIN_UE_CHOICE_3</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>362</MutuallyExclusiveGroup>
 			<PovertyHappinessChange>-25</PovertyHappinessChange>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

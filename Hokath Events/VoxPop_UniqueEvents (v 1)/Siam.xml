@@ -150,7 +150,7 @@
 			<Type>BUILDING_UE_STUPA</Type>
 			<BuildingClass>BUILDINGCLASS_UE_STUPA</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_STUPA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STUPA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_STUPA_STRATEGY</Strategy>
