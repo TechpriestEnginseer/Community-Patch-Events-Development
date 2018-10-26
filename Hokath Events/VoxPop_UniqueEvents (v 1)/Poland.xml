@@ -38,7 +38,6 @@
 			<Help>TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_3</Description>
 			<IsOneShot>true</IsOneShot>
-			<EventBuildingClassGlobal>BUILDINGCLASS_SYNAGOGUE</EventBuildingClassGlobal>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
@@ -59,10 +58,10 @@
 			<Description>TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MILITARY_ACADEMY</RequiredAnywhereBuildingClass>
-			<ResistanceTurns>5</ResistanceTurns>
-			<EventDuration>5</EventDuration>
+			<ResistanceTurns>2</ResistanceTurns>
+			<EventDuration>2</EventDuration>
 			<Expires>false</Expires>
-			<EraScaling>true</EraScaling>
+			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
 		<Row>
 			<Type>EVENT_POLAND_UE_CHOICE_6</Type>
@@ -109,6 +108,11 @@
 			<Type>BUILDINGCLASS_POLAND_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_POLAND_UE_DUMMY</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UE_SYNAGOGUE2</Type>
+			<DefaultBuilding>BUILDING_UE_SYNAGOGUE2</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_SYNAGOGUE2</Description>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -116,22 +120,88 @@
 			<BuildingClass>BUILDINGCLASS_POLAND_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_POLAND_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_POLAND_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
+		</Row>
+		<Row>
+			<Type>BUILDING_UE_SYNAGOGUE2</Type>
+			<BuildingClass>BUILDINGCLASS_UE_SYNAGOGUE2</BuildingClass>
+			<Description>TXT_KEY_BUILDING_UE_SYNAGOGUE2</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SYNAGOGUE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_SYNAGOGUE2_STRATEGY</Strategy>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<Help>TXT_KEY_BUILDING_SYNAGOGUE_HELP</Help>
+			<Cost>-1</Cost>
+			<FaithCost>250</FaithCost>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<ConversionModifier>-10</ConversionModifier>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<EventChoiceRequiredActive>EVENT_POLAND_UE_CHOICE_3</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>366</MutuallyExclusiveGroup>
+			<DefenseHappinessChange>-25</DefenseHappinessChange>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
-	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_WLTKDYieldMod>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_WLTKDYieldMod>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_SYNAGOGUE2</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
 	
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_2</EventChoiceType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<Quantity>3</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
 	<EventChoice_BuildingClassYieldChange>
@@ -139,19 +209,31 @@
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_GROVE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_POLAND_UE_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_POLAND_UE_CHOICE_2</EventChoiceType>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -179,7 +261,7 @@
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_4</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>500</Yield>
+			<Yield>1000</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_4</EventChoiceType>
@@ -187,6 +269,23 @@
 			<Yield>1000</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1000</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLAND_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1000</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_5</EventChoiceType>
@@ -201,7 +300,7 @@
 	</EventChoice_InstantYield>
 	
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -257,7 +356,7 @@
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_POLAND_UE_CHOICE_1</EventChoiceType>
@@ -304,37 +403,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Royal Intervention</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_1">
 			<Text>{3_PlayerName} appoints one of his Princes to resolve a internal dispute.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Religion in Moderation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_2">
 			<Text>{3_PlayerName} preserves ancient pagan religious practices.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Religious Asylum</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_3">
 			<Text>{3_PlayerName} allows a large wave of religious refugees to settle in Poland!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s On the Revolutions of the Celestial Spheres</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_4">
 			<Text>{3_PlayerName} overcomes religious opposition to shift to a heliocentric model of the Solar System.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Polish Operation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_5">
 			<Text>{3_PlayerName} supports a purge of disloyal military officers!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s A New Identity</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLAND_UE_CHOICE_6">
 			<Text>{3_PlayerName} rallies the Polish people in defence of the realm!</Text>
@@ -343,7 +442,7 @@
 			<Text>Skill Over Strength</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP">
-			<Text>Great King, as long as you stand, so too does Poland! I bring news from council! The debate is fierce; much is at stake.[NEWLINE]Yet again Poland stands on the brink. How does the King move to act?</Text>
+			<Text>Great King, as long as you stand, so too does Poland! I bring news from the council! The debate is fierce; much is at stake.[NEWLINE]Yet again Poland stands on the brink. How does the King move to act?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -352,13 +451,13 @@
 			<Text>All Forests and Councils gain +1 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_3">
-			<Text>At the cost of {1_YieldCost} of your religious influence, a Synagogue is erected in every City.</Text>
+			<Text>At the cost of {1_YieldCost} of your religious influence, you unlock the Hasidic Synagogue. Other Synagogues gain +2 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_4">
-			<Text>Sacrifice {1_YieldCost} in order to recieve a free Technology, Academies permanently gain +4 [ICON_RESEARCH] Science</Text>
+			<Text>Sacrifice {1_YieldCost} in order to receive a free Technology, Academies permanently gain +4 [ICON_RESEARCH] Science</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_5">
-			<Text>Purge traitors over the course over {4_Turns} of [ICON_RESISTANCE] Anarchy. Gain {2_InstantYield} instantly, and then +2 [ICON_CULTURE] Culture and +2 [ICON_GOLDEN_AGE] Golden Age Points from every Military Academy every turn.</Text>
+			<Text>Purge traitors over the course over {4_Turns} of [ICON_RESISTANCE] Anarchy. Gain {2_InstantYield} increased with number of cities, and then +2 [ICON_CULTURE] Culture and +2 [ICON_GOLDEN_AGE] Golden Age Points from every Military Academy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_6">
 			<Text>All eligible Units receive the Homeland Guardian promotion. All Cities gain +10 [ICON_STRENGTH] Strength and +200 Hit Points.</Text>
@@ -373,7 +472,7 @@
 			<Text>*A large number of a persecuted religious group have fled over the border into Poland. The elite would see them deported or worse*[NEWLINE]That we should turn against our own morals just because these vulnerable wretches do not pray to the same God as we? No. Not while I rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_4">
-			<Text>*A great man has approached the court with his scientific findings. While a genious, he is also a godly man, and is concerned by his findings which contradict scripture*[NEWLINE]I see this matter weighs deeply on his soul. We will do what we must to ensure everything is resolved in truth and understanding.</Text>
+			<Text>*A great man has approached the court with his scientific findings. While a genius, he is also a godly man, and is concerned by his findings which contradict scripture*[NEWLINE]I see this matter weighs deeply on his soul. We will do what we must to ensure everything is resolved in truth and understanding.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_DESCRIPTION_CHOICE_5">
 			<Text>*Patriotic soldiers of the lower officer ranks have become convinced that the senior generals are gripped in a foreign conspiracy*[NEWLINE]Foreign influence over the court concerns me greatly; this conspiracy may have some truth to it. Secretly, I would instruct my Military Advisor to see this matter escalates further.</Text>
@@ -383,7 +482,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POLAND_UE_DUMMY">
-			<Text></Text>
+			<Text>Polish Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLAND_UE_DUMMY_HELP">
+			<Text>+10 [ICON_STRENGTH] Strength and +200 Hit Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_SYNAGOGUE2">
+			<Text>Sephardic Synagogue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_SYNAGOGUE2_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to Poland. Mutually exclusive with the Synagogue.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
