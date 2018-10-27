@@ -113,23 +113,29 @@
 			<BuildingClass>BUILDINGCLASS_POLYNESIA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_POLYNESIA_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_POLYNESIA_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<GreatPeopleRateModifier>20</GreatPeopleRateModifier>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_YieldPerXTerrainTimes100>
@@ -140,7 +146,6 @@
 			<Yield>200</Yield>
 		</Row>
 	</Building_YieldPerXTerrainTimes100>
-
 	<EventChoice_CityUnhappinessNeedMod>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_3</EventChoiceType>
@@ -164,15 +169,15 @@
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 	</EventChoice_MinimumResourceRequired>
 	<EventChoice_ResourceYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_1</EventChoiceType>
+			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_2</EventChoiceType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_ResourceYieldChange>
 	<EventChoice_BuildingClassYieldChange>
@@ -190,7 +195,7 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_5</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -200,12 +205,24 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_5</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_TerrainYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_3</EventChoiceType>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_3</EventChoiceType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
@@ -265,7 +282,7 @@
 		</Row>
 	</EventChoice_ImprovementYieldChange>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -321,7 +338,7 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_POLYNESIA_UE_CHOICE_1</EventChoiceType>
@@ -368,37 +385,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Test of Bravery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_1">
 			<Text>{3_PlayerName} rewards a defeated adversary with a prestigious position!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Loko Iʻa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} rediscovers ancient aquacultural techniques!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Tales of the Wayfinder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_3">
 			<Text>{3_PlayerName} tells his people of the life of adventure awaiting over the horizon!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Kahuna Support</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} rallies the Kahuna to his court!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Fishing Industry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_5">
-			<Text>{3_PlayerName} modernizes Polynesian fishing practises.</Text>
+			<Text>{3_PlayerName} modernizes Polynesian fishing practices.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Paradise Beaches</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_POLYNESIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} opens the beaches of Polynesia to holidaymakers.</Text>
@@ -407,25 +424,25 @@
 			<Text>In Search Of Mana</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP">
-			<Text>Great King who onced move the Naha Stone and united the many tribes under one bloodline, it has been many years since you last proved your worth before the clans. They have forgotton your greatness, and say the mana has deserted you.[NEWLINE][NEWLINE]You must show them why it was you who was chosen to rule Polynesia for all time!</Text>
+			<Text>Great King who once moved the Naha Stone and united the many tribes under one bloodline, it has been many years since you last proved your worth before the clans. They have forgotten your greatness, and say the mana has deserted you.[NEWLINE][NEWLINE]You must show them why it was you who was chosen to rule Polynesia for all time!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_2">
-			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] Fish yield +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>Discover how to create Fish Ponds for {2_InstantYield}. All Lighthouses gain +3 [ICON_FOOD] Food and [ICON_RES_FISH] Fish yield +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_3">
-			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, working Ocean Tiles yields +1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture and [ICON_FOOD] Food.</Text>
+			<Text>Longing for the horizon, [ICON_CULTURE] Boredom rates increase by 15%. At the same time, Water Tiles yield +1 [ICON_FOOD] Food, while Ocean Tiles yields +1 [ICON_PEACE] Faith and [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_4">
 			<Text>Use {2_InstantYield} to establish the Kahuna. The birth rate of [ICON_GREAT_PEOPLE] Great People increases in all Cities by 20%, and Workshops yield +2 [ICON_CULTURE].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_5">
-			<Text>Accept the loss of {2_InstantYield} in order to modernize the economy. Fishing Boats, Harbours and Seaports yield +2 [ICON_GOLD] Gold, but [ICON_GOLD] Poverty levels increase by 10%.</Text>
+			<Text>Accept the loss of {2_InstantYield} in order to modernize the economy. Fishing Boats, Lighthouses, Harbors, and Seaports yield +2 [ICON_GOLD] Gold, but [ICON_GOLD] Poverty levels increase by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_HELP_CHOICE_6">
-			<Text>Holidaymakers generate +2 [ICON_TOURISM] Tourism for every worked Coast Tile.</Text>
+			<Text>Holidaymakers generate +2 [ICON_TOURISM] Tourism for every Coast Tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>Let the champion of the people challenge me for leadership. Though I will win, I shall be merciful and grant them a great reward for their bravery!</Text>
@@ -445,12 +462,17 @@
 		<Row Tag="TXT_KEY_EVENT_POLYNESIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>*We are blessed with beauty and paradise, foreigners will give much for just a taste of our happiness*[NEWLINE]With these new airplanes, the peoples of the world are only hours away from our cities. This is paradise on Earth, sooner or later, they will come. If we are to prosper again, we must use this opportunity wisely.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY">
-			<Text></Text>
+			<Text>Paradise Beaches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_HELP">
+			<Text>+2 [ICON_TOURISM] Tourism generated for every Coastal tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Kahuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_UE_DUMMY_2_HELP">
+			<Text>+20% [ICON_GREAT_PEOPLE] Great People Generation.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
