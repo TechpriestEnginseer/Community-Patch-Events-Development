@@ -8,11 +8,11 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_SONGHAI</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -96,38 +96,6 @@
 			<EventType>EVENT_SONGHAI_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-
-	<UnitPromotions>
-		<Row>
-			<Type>PROMOTION_UE_SOFA</Type>
-			<Description>TXT_KEY_PROMOTION_UE_SOFA</Description>
-			<Help>TXT_KEY_PROMOTION_UE_SOFA_HELP</Help>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<CannotBeChosen>true</CannotBeChosen>
-			<PortraitIndex>6</PortraitIndex>
-			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
-			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_UE_SOFA</PediaEntry>
-		</Row>
-	</UnitPromotions>
-	<UnitPromotions_YieldFromKills>
-		<Row>
-			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>100</Yield>
-		</Row>
-	</UnitPromotions_YieldFromKills>
-	<UnitPromotions_UnitCombats>
-		<Row>
-			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
-			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
-			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-		</Row>
-	</UnitPromotions_UnitCombats>
-	
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_UE_MOSQUE</Type>
@@ -140,7 +108,7 @@
 			<Type>BUILDING_UE_MOSQUE</Type>
 			<BuildingClass>BUILDINGCLASS_UE_MOSQUE</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_MOSQUE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MOSQUE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_MOSQUE_STRATEGY</Strategy>
@@ -156,6 +124,8 @@
 			<NeverCapture>true</NeverCapture>
 			<EventChoiceRequiredActive>EVENT_SONGHAI_UE_CHOICE_3</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>364</MutuallyExclusiveGroup>
+			<IlliteracyHappinessChange>-25</IlliteracyHappinessChange>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -194,6 +164,36 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_UE_SOFA</Type>
+			<Description>TXT_KEY_PROMOTION_UE_SOFA</Description>
+			<Help>TXT_KEY_PROMOTION_UE_SOFA_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UE_SOFA</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_YieldFromKills>
+		<Row>
+			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</UnitPromotions_YieldFromKills>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_UE_SOFA</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
 
 	<EventChoice_MinimumFeatureRequired>
 		<Row>
@@ -215,7 +215,7 @@
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_3</EventChoiceType>
@@ -229,7 +229,7 @@
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>400</Yield>
+			<Yield>500</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_4</EventChoiceType>
@@ -244,14 +244,14 @@
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2500</Yield>
+			<Yield>1000</Yield>
 		</Row>
 	</EventChoice_MinimumStartYield>
 	<EventChoice_InstantYield>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-400</Yield>
+			<Yield>-500</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_4</EventChoiceType>
@@ -266,14 +266,14 @@
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-1500</Yield>
+			<Yield>-1000</Yield>
 		</Row>
 	</EventChoice_InstantYield>
 	<EventChoice_ResourceQuantity>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_4</EventChoiceType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_5</EventChoiceType>
@@ -340,7 +340,7 @@
 		</Row>
 	</EventChoice_TerrainYieldChange>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -396,7 +396,7 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_SONGHAI_UE_CHOICE_1</EventChoiceType>
@@ -443,37 +443,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gifted Student</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_1">
 			<Text>{3_PlayerName} pours gifts on a promising student!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Slave Trade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_2">
 			<Text>{3_PlayerName} sets down a legal framework to support the slave trade!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Great Hajj</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_3">
 			<Text>{3_PlayerName} goes on a great Hajj, generously giving away ludicrous sums of gold!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gold Monopoly</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_4">
 			<Text>{3_PlayerName} brings in strict control over ownership of [ICON_RES_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Hidden Oil</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_5">
 			<Text>{3_PlayerName} becomes a world leader in [ICON_RES_OIL] Oil related technology!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Climate Accords</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SONGHAI_UE_CHOICE_6">
 			<Text>{3_PlayerName} pledges to save his lands from desertification and defeat climate change!</Text>
@@ -482,25 +482,25 @@
 			<Text>Gift Without Motive</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP">
-			<Text>Great and godly emperor, your people clamour for your justice and righteousness. Times are trying, and your people look for your strong guidance in the days that are to come.[NEWLINE][NEWLINE]Perhaps a small token of your charity would be appropriate?</Text>
+			<Text>Great and godly emperor, your people clamor for your justice and righteousness. Times are trying, and your people look for your strong guidance in the days that are to come.[NEWLINE][NEWLINE]Perhaps a small token of your charity would be appropriate?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_2">
-			<Text>Melee and Gun Units gain [ICON_PRODUCTION] Production on kill. Slave auctions yield +2 [ICON_PRODUCTION] Production at Markets, but their presence increases [ICON_HAPPINESS_3] Unhappiness in all Cities by +1.</Text>
+			<Text>Melee and Gun Units gain [ICON_PRODUCTION] Production to the Capital on kill. Slave auctions yield +4 [ICON_PRODUCTION] Production at Markets, but their presence increases [ICON_HAPPINESS_3] Unhappiness in all Cities by +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_3">
 			<Text>Go on a great Hajj, spending {2_InstantYield} to unlock the Adobe Mosque Building. Other Mosques generate +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_4">
-			<Text>Spend {2_InstantYield} in order to protect 3 copies of [ICON_RES_GOLD] Gold. Your Constabularies boost [ICON_GOLD] Gold income by 5%.</Text>
+			<Text>Spend {2_InstantYield} in order to protect 2 copies of [ICON_RES_GOLD] Gold. Your Constabularies boost [ICON_GOLD] Gold income by 5%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_5">
 			<Text>Pour {2_InstantYield} worth of resources into the [ICON_RES_OIL] Oil sector, gaining 5 copies and gaining +3 [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_GOLDEN_AGE] Golden Age Points from every Well and Offshore Platform.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_HELP_CHOICE_6">
-			<Text>Implement widespread policies to combat climate change. Desert tiles gain +2 [ICON_RESEARCH] Science, [ICON_FOOD] Food and [ICON_TOURISM] Tourism.</Text>
+			<Text>Implement widespread policies to combat climate change. Cities gain +2 [ICON_RESEARCH] Science, [ICON_FOOD] Food and [ICON_TOURISM] Tourism for every Desert Tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_1">
 			<Text>People need a role model, to know what is a worthy life. Bring me our brightest student, I will shower him with gifts in front of all Songhai.</Text>
@@ -515,17 +515,16 @@
 			<Text>*We are rich, but the mercurial and fleeting nature of wealth concerns us deeply*[NEWLINE]To squander God's gifts is a great disgrace. We safeguard our wealth in Gold, and be ever vigilant in the protection of the sources of our prosperity.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_5">
-			<Text>*This black gold - oil - that can be found deep below the Empire is precious above all previous resources*[NEWLINE]Just as we sook to protect the sources of our affluence in the past, so to must we adapt going into the future. This oil is gift from God, that is certain.</Text>
+			<Text>*This black gold - oil - that can be found deep below the Empire is precious above all previous resources*[NEWLINE]Just as we sook to protect the sources of our affluence in the past, so to must we adapt going into the future. This oil is a gift from God, that is certain.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SONGHAI_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The planet changes, and the deserts threaten to encroach upon land that was previously fertile*[NEWLINE]We have brought this doom upon us, it is up to us to fix it. We must live, love and learn about our Earth, or we shall surely perish.</Text>
+			<Text>*The planet changes and the deserts threaten to encroach upon land that was previously fertile*[NEWLINE]We have brought this doom upon us, it is up to us to fix it. We must live, love and learn about our Earth, or we shall surely perish.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_UE_SOFA">
 			<Text>Slaver</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_SOFA_HELP">
-			<Text>Earns [ICON_PRODUCTION] on Kills.</Text>
+			<Text>Earns [ICON_PRODUCTION] on Kills. Granted only via Songhai's Events.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_MOSQUE">
 			<Text>Adobe Mosque</Text>
