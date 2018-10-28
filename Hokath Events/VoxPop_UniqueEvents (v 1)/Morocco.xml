@@ -64,7 +64,7 @@
 			<RandomBarbarianSpawn>6</RandomBarbarianSpawn>
 			<FreeUnitsTechAppropriate>3</FreeUnitsTechAppropriate>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
-			<EventDuration>10</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -125,6 +125,12 @@
 		</Row>
 	</EventChoice_MinimumStartYield>
 	<EventChoice_TerrainYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_2</EventChoiceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_2</EventChoiceType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
@@ -190,14 +196,9 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>-20</Yield>
 		</Row>
-		<Row>
-			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_5</EventChoiceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
-		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -253,7 +254,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_MOROCCO_UE_CHOICE_1</EventChoiceType>
@@ -300,58 +301,58 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mysterious Traveler</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_1">
 			<Text>{3_PlayerName} personally financially backs an unknown traveller, to great success!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Berber Inclusion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_2">
 			<Text>{3_PlayerName} negotiates the inclusion of isolated Berber tribes into his Empire!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Discovery in Worship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_3">
 			<Text>{3_PlayerName} adorns places of worship and learning with zellige tiling!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s The Black Guard</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_4">
-			<Text>{3_PlayerName} forms a new military institution from naturalised slaves!</Text>
+			<Text>{3_PlayerName} forms a new military institution from naturalized slaves!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Revolution of the King and People!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_5">
 			<Text>{3_PlayerName} is forced to contend with a rebellion while already at war!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Tourism Industry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_MOROCCO_UE_CHOICE_6">
-			<Text>{3_PlayerName} impliments a massive plan for the promotion of tourism!</Text>
+			<Text>{3_PlayerName} implements a massive plan for the promotion of tourism!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION">
 			<Text>Men of Tamazgha</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP">
-			<Text>My King, a messenger has arrived with lengthy correspondance from one of your trusted friends, last seen adventuring in some far flung corner of the Empire.[NEWLINE][NEWLINE]Most patient King, I am sure you are eager to receive this news.</Text>
+			<Text>My King, a messenger has arrived with lengthy correspondence from one of your trusted friends, last seen adventuring in some far-flung corner of the Empire.[NEWLINE][NEWLINE]Most patient King, I am sure you are eager to receive this news.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_2">
-			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_PRODUCTION] Production. Mountains yield +3 [ICON_FOOD] and +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Incorporate native peoples. Desert Tiles yield +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. Mountains yield +3 [ICON_FOOD] and +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_3">
 			<Text>Pay {2_InstantYield}. Gain +2 [ICON_CULTURE] Culture from Temples, Academies and Holy Sites.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_4">
-			<Text>Your Black Guard reduce [ICON_STRENGTH] Crime in Cities by 20%. Eligible Units receive the Homeland Guardian Promotion.</Text>
+			<Text>Your Black Guard reduce [ICON_STRENGTH] Distress in Cities by 20%. Eligible Units receive the Homeland Guardian Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_HELP_CHOICE_5">
 			<Text>6 [ICON_WAR] Barbarians and 3 loyal militia engage near the [ICON_CAPITAL] Capital. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
@@ -363,7 +364,7 @@
 			<Text>*The letter explains how the bearer saved your friends life. He is a brilliant man who deserves the opportunities of your court.*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The messages relays how your friend, adventuring in the desert, convinced local tribespeople to make the journey to the Capital to meet you. They cannot be far behind the messenger.*</Text>
+			<Text>*The messages relay how your friend, adventuring in the desert, convinced local tribespeople to make the journey to the Capital to meet you. They cannot be far behind the messenger.*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MOROCCO_UE_DESCRIPTION_CHOICE_3">
 			<Text>*The envelope contains schematics for an expensive but beautiful tile kiln. These were thought lost to antiquity!*</Text>
