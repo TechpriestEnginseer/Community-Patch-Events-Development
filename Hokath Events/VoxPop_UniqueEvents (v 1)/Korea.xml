@@ -40,7 +40,7 @@
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_UNIVERSITY</RequiredAnywhereBuildingClass>
-			<EventDuration>10</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
 		</Row>
@@ -71,7 +71,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
 			<MinimumNationalPopulation>120</MinimumNationalPopulation>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<GoldenAgeTurns>15</GoldenAgeTurns>
 			<LosingMoney>true</LosingMoney>
@@ -86,7 +86,7 @@
 			<Help>TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP</Help>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
-			<PediaType>PEDIA_NAVAL</PediaType>
+			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_UE_TURTLE_SHELL</PediaEntry>
 			<MovesChange>-1</MovesChange>
 		</Row>
@@ -148,11 +148,14 @@
 			<BuildingClass>BUILDINGCLASS_KOREA_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_KOREA_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_KOREA_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_YieldFromSpyDefense>
@@ -164,13 +167,13 @@
 	</Building_YieldFromSpyDefense>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_KOREA_UE_CHOICE_5</EventChoiceType>
+			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>-4</YieldChange>
 		</Row>
 		<Row>
-			<EventChoiceType>EVENT_KOREA_UE_CHOICE_5</EventChoiceType>
+			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>-4</YieldChange>
@@ -235,12 +238,6 @@
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_KOREA_UE_CHOICE_4</EventChoiceType>
-			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -314,7 +311,7 @@
 			<Quantity>1</Quantity>
 		</Row>
 	</EventChoice_ResourceQuantity>
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -385,7 +382,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_KOREA_UE_CHOICE_1</EventChoiceType>
@@ -432,37 +429,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s A New State</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_1">
 			<Text>{3_PlayerName} places an unknown in the role of State Councillor!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Gyeongbok Palace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_2">
 			<Text>{3_PlayerName} builds a spectacular new Palace, filled with Porcelain artifacts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Reformed Alphabet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_3">
 			<Text>{3_PlayerName} invents Hangul, a new alphabet!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Societal Appeasement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_4">
-			<Text>The design of {3_PlayerName}'s warships has been overhauled!</Text>
+			<Text>{3_PlayerName} give rises to social mobility!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Assassination</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_5">
 			<Text>The Queen of Korea has been assassinated, sparking violent, isolationist sentiment!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Modernization</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_KOREA_UE_CHOICE_6">
 			<Text>{3_PlayerName} massively increases economic and social freedom in Korea!</Text>
@@ -471,13 +468,13 @@
 			<Text>A Pinfeather Thrust</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP">
-			<Text>The factions of the court clamour for your approval, Great King. They serve either the heavens, themselves, your enemies, and some of them possibly serve you.[NEWLINE][NEWLINE]The Earth trembles but slightly, and they have opportunity to make demands of you once again...</Text>
+			<Text>The factions of the court clamor for your approval, Great King. They serve either the heavens, themselves, your enemies, and some of them possibly serve you.[NEWLINE][NEWLINE]The Earth trembles but slightly, and they have the opportunity to make demands of you once again...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_2">
-			<Text>Pay {2_InstantYield}. The Palace provides +5% to [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_RESEARCH] Science. Receive a copy of [ICON_RES_PORCELAIN] Porcelain.</Text>
+			<Text>Pay {2_InstantYield}. The Palace provides +5% to [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_RESEARCH] Science. Its glory also bask in +5 [ICON_PEACE] Faith. Receive a copy of [ICON_RES_PORCELAIN] Porcelain.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_3">
 			<Text>Pay {2_InstantYield}. Farms yield +1 [ICON_RESEARCH] Science. Enter a Golden Age for {4_Turns}.</Text>
@@ -495,30 +492,31 @@
 			<Text>Use these political demands to replace the head of the Council with a man loyal to Korea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The councillors request large building projects and artistic requisitions*[NEWLINE]This thinly veiled attempt to rob me will not stand. Emphasise the need for a grand Gyeongbok to be erected for... the court.</Text>
+			<Text>*The councilors request large building projects and artistic requisitions*[NEWLINE]This thinly veiled attempt to rob me will not stand. Emphasize the need for a grand Gyeongbok to be erected for... the court.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_3">
-			<Text>*Our lords wish to restrict access to eduction, in order to keep the peasants in check.*[NEWLINE]We will give them their educational reform, but not in the way they imagined. Bring me the Head Scholar!</Text>
+			<Text>*Our lords wish to restrict access to education, in order to keep the peasants in check.*[NEWLINE]We will give them their educational reform, but not in the way they imagined. Bring me the Head Scholar!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Upstart peasantry once again look to positions beyond their station. The lords demand action.*[NEWLINE]We will peacefully reinforce our tradition. There will be order under heaven.</Text>
+			<Text>*Upstart peasantry once again looks to positions beyond their station. The lords demand action.*[NEWLINE]We will peacefully reinforce our tradition. There will be order under heaven.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_5">
-			<Text>*The queen has been assassinated. The councillors call for capitulation.*[NEWLINE]These traitors... we will never accede to the pathetic, imperialistic delusions of foreign devils! BRING ME THEIR HEADS!</Text>
+			<Text>*The queen has been assassinated. The councilors call for capitulation.*[NEWLINE]These traitors... we will never accede to the pathetic, imperialistic delusions of foreign devils! BRING ME THEIR HEADS!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The councillors, in a spiteful move to dethrone you at this difficult time for our economy, call for reforms which would destroy both their own power, and yours.*[NEWLINE]So it has come to this... It is no matter. With these reforms, the full potential of my people shall finally be unleashed!</Text>
+			<Text>*The councilors, in a spiteful move to dethrone you at this difficult time for our economy, call for reforms which would destroy both their own power and yours.*[NEWLINE]So it has come to this... It is no matter. With these reforms, the full potential of my people shall finally be unleashed!</Text>
 		</Row>
-		
+		<Row Tag="TXT_KEY_BUILDING_KOREA_UE_DUMMY">
+			<Text>Korean Protectionism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KOREA_UE_DUMMY_HELP">
+			<Text>Receive [ICON_CULTURE] Culture when an enemy [ICON_SPY] Spy is killed scaling upon era.</Text>
+		</Row>		
 		<Row Tag="TXT_KEY_PROMOTION_UE_TURTLE_SHELL">
-			<Text>Turtle Armour</Text>
+			<Text>Turtle Armor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_TURTLE_SHELL_HELP">
-			<Text>Receive 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. -1 Movement.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_KOREA_UE_DUMMY">
-			<Text></Text>
+			<Text>Receive 50% less damage from [ICON_RANGE_STRENGTH] Ranged attacks. -1 Movement. Granted only via Korea's Events.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
