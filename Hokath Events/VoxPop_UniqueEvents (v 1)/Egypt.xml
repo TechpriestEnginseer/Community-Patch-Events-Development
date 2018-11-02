@@ -8,18 +8,17 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
-			<EventCooldown>0</EventCooldown>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_EGYPT</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
 		<Row>
 			<Type>EVENT_EGYPT_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Help>TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_1</Description>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -63,7 +62,7 @@
 			<GoldenAgeTurns>20</GoldenAgeTurns>
 			<EventDuration>20</EventDuration>
 			<EraScaling>true</EraScaling>
-			<Expires>false</Expires>
+			<Expires>-1</Expires>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
 			<IsOneShot>true</IsOneShot>
 			<RequiredEra>ERA_POSTMODERN</RequiredEra>
@@ -77,7 +76,7 @@
 			<IsOneShot>true</IsOneShot>
 			<EraScaling>true</EraScaling>
 			<EventPromotion>PROMOTION_UE_JIHAD</EventPromotion>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 			<Expires>false</Expires>
 		</Row>
@@ -134,7 +133,7 @@
 		<Row>
 			<PromotionType>PROMOTION_UE_JIHAD</PromotionType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
+			<Yield>50</Yield>
 		</Row>
 	</UnitPromotions_YieldFromKills>
 	<UnitPromotions_UnitCombats>
@@ -308,8 +307,24 @@
 			<Yield>300</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
-	
-	<EventChoiceFlavors>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>200</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -370,7 +385,7 @@
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_EGYPT_UE_CHOICE_1</EventChoiceType>
@@ -416,47 +431,47 @@
 		</Row>
 	</EventChoice_Notification>
 	<Language_en_US>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_2">
-			<Text>{3_PlayerName} revolutionises flood-based farming.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Rise to Greatness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_1">
 			<Text>{3_PlayerName} has seen a Great Person reach intellectual maturity.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_2_S">
+			<Text>{1_CivShortDescription}'s Inundation System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_2">
+			<Text>{3_PlayerName} revolutionizes flood-based farming.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Out with the Old</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_3">
 			<Text>{3_PlayerName} purges local government and begins to adopt foreign methodology.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Cotton</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_4">
 			<Text>{3_PlayerName} reinvigorates manufactoring by exporting unique cultural goods.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Spring</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_5">
 			<Text>{3_PlayerName} sparks an Egyptian Spring!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s National Struggle</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_EGYPT_UE_CHOICE_6">
 			<Text>{3_PlayerName} calls a Jihad to defend their Holy City!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION">
-			<Text>Speak My Name</Text>
+			<Text>Child of the Nile</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP">
-			<Text>An orphan, raised in the temples, is maturing into an gifted, ingenious and loyal celebrity.[NEWLINE][NEWLINE]How shall we direct their energy?</Text>
+			<Text>An orphan, raised in the temples, is maturing into a gifted, ingenious, and loyal celebrity.[NEWLINE][NEWLINE]How shall we direct their energy?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
@@ -474,32 +489,32 @@
 			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_6">
-			<Text>Receive {2_InstantYield} faith. Existing Military Units, and those trained during the next {4_Turns}, gain the Jihad Promotion.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_2">
-			<Text>*Their ideas and inventions pertaining to the farming of our wonderous rivers amaze me*[NEWLINE]Begin rolling out these Shaduf.</Text>
+			<Text>Receive {2_InstantYield}. Military Units gain the Jihad Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_1">
 			<Text>It is not for we to decide the fate of Great People.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_2">
+			<Text>*Their ideas and inventions pertaining to the farming of our wonderous rivers amaze me*[NEWLINE]Construct these... 'Nilometers'.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_3">
-			<Text>*Their criticisms of our outdated, idiosyncratic civil infrastructure are well founded*[NEWLINE]He is right. These Mamluks have held sway long enough. Summon them to the citadel!</Text>
+			<Text>*Their criticisms of our outdated, idiosyncratic civil infrastructure are well-founded*[NEWLINE]He is right. These Mamluks have held sway long enough. Summon them to the citadel!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Their novel, patriotic approach to economic theory will revitalise our manufactoring sector*[NEWLINE]The ingenuity of Egyptians has waited a long time for this recognition.</Text>
+			<Text>*Their novel, patriotic approach to economic theory will revitalize our manufacturing sector*[NEWLINE]The ingenuity of Egyptians has waited a long time for this recognition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_5">
 			<Text>*Their impassioned essays, advocating radical political reform, should be made widely available*[NEWLINE]It is time for a new Era to dawn on Egypt. Arrest my deputy, bring him to the square!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_DESCRIPTION_CHOICE_6">
-			<Text>*Their religious fervour will ignite the fires of our people in defense of our Holiest of Holies*[NEWLINE]If Egypt can win this war, then to God goes the glory!</Text>
+			<Text>*Their religious fervor will ignite the fires of our people in defense of our Holiest of Holies*[NEWLINE]If Egypt can win this war, then to God goes the glory!</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_UE_JIHAD">
 			<Text>Jihadist</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UE_JIHAD_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength in Friendly Territory. Earn Faith from Kills.</Text>
+			<Text>+15% [ICON_STRENGTH] Combat Strength in Friendly Territory. Earn Faith from Kills. Granted only via Egypt's Events.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
