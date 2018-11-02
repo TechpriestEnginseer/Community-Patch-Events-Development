@@ -30,7 +30,7 @@
 			<Help>TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_2</Help>
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
-			<EventDuration>150</EventDuration>
+			<EventDuration>100</EventDuration>
 			<EventPromotion>PROMOTION_WOODSMAN</EventPromotion>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LUMBERMILL</ImprovementAnywhereRequired>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
@@ -41,19 +41,18 @@
 			<Help>TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_3</Help>
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_3</Description>
 			<RequiresWar>true</RequiresWar>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HEROIC_EPIC</RequiredAnywhereBuildingClass>
 			<RequiredEra>ERA_MEDIEVAL</RequiredEra>
 			<IsOneShot>true</IsOneShot>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_HEROIC_EPIC</RequiredAnywhereBuildingClass>
 			<ObsoleteEra>ERA_INDUSTRIAL</ObsoleteEra>
-			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
+			<EraScaling>true</EraScaling>
 		</Row>
 		<Row>
 			<Type>EVENT_GERMANY_UE_CHOICE_4</Type>
 			<Help>TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4</Help>
 			<Description>TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
-			<UnitClassRequired>UNITCLASS_MUSICIAN</UnitClassRequired>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MUSICIANS_GUILD</RequiredAnywhereBuildingClass>
 			<EventDuration>-1</EventDuration>
 		</Row>
@@ -78,8 +77,8 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<MinimumNationalPopulation>100</MinimumNationalPopulation>
 			<EventPromotion>PROMOTION_BLITZ</EventPromotion>
-			<EventDuration>12</EventDuration>
-			<GoldenAgeTurns>12</GoldenAgeTurns>
+			<EventDuration>10</EventDuration>
+			<GoldenAgeTurns>10</GoldenAgeTurns>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -109,7 +108,6 @@
 			<EventType>EVENT_GERMANY_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_UE_ORDER</Type>
@@ -122,32 +120,31 @@
 			<Type>BUILDING_UE_ORDER</Type>
 			<BuildingClass>BUILDINGCLASS_UE_ORDER</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_ORDER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_UE_ORDER_TEXT</Civilopedia>
+			<Civilopedia>TXT_KEY_BUILDING_ORDER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_ORDER_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_UE_ORDER_HELP</Help>
-			<!--<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>-->
+			<Help>TXT_KEY_BUILDING_ORDER_HELP</Help>
+			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<!--<Defense>1000</Defense>-->
-			<!--<ExtraCityHitPoints>50</ExtraCityHitPoints>-->
-			<!--<ReligiousPressureModifier>25</ReligiousPressureModifier>-->
-			<!--<ConversionModifier>-10</ConversionModifier>-->
+			<Defense>1000</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<ConversionModifier>-10</ConversionModifier>
 			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<NeverCapture>true</NeverCapture>
-			<AlwaysHeal>15</AlwaysHeal>
-			<CitySupplyModifier>10</CitySupplyModifier>
 			<EventChoiceRequiredActive>EVENT_GERMANY_UE_CHOICE_3</EventChoiceRequiredActive>
-			<!--<MutuallyExclusiveGroup>367</MutuallyExclusiveGroup>-->
+			<MutuallyExclusiveGroup>367</MutuallyExclusiveGroup>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
@@ -157,7 +154,7 @@
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
@@ -171,21 +168,31 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_UE_ORDER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
 	</Building_YieldChanges>
-	<!--<Building_DomainFreeExperiences>
+	<Building_DomainFreeExperiences>
 		<Row>
 			<BuildingType>BUILDING_UE_ORDER</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
-	</Building_DomainFreeExperiences>-->
-
-
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_YieldFromVictory>
+		<Row>
+			<BuildingType>BUILDING_UE_ORDER</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldFromVictory>
 	<EventChoice_SpecialistYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
@@ -197,7 +204,7 @@
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</EventChoice_SpecialistYieldChange>
 	<EventChoice_MinimumFeatureRequired>
@@ -212,13 +219,13 @@
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_4</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_3</EventChoiceType>
@@ -268,8 +275,14 @@
 			<Yield>300</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
-	
-	<EventChoiceFlavors>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_3</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -325,7 +338,7 @@
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_GERMANY_UE_CHOICE_1</EventChoiceType>
@@ -372,37 +385,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s A New Chancellor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_1">
 			<Text>{3_PlayerName} chooses a new Chancellor!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Unity Under One Flag</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_2">
 			<Text>{3_PlayerName} unities minority factions within the State.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Teutonic Order</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_3">
 			<Text>{3_PlayerName} recalls crusaders to defend Germany!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Conservatories Sponsorships </Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_4">
-			<Text>{3_PlayerName} endows a series of conservatoires.</Text>
+			<Text>{3_PlayerName} endows a series of Conservatories.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Science Funding</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_5">
 			<Text>{3_PlayerName} provides additional funding and legislature to support scientific institutes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Call for War</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GERMANY_UE_CHOICE_6">
 			<Text>{3_PlayerName} readies for a higher form of war!</Text>
@@ -420,13 +433,13 @@
 			<Text>Eligible Units receive the Woodsman promotion and all Forests gain +1 [ICON_CULTURE] Culture. This also applies to new acquisitions with the next {4_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_3">
-			<Text>At the cost of {2_InstantYield} unlock the Crusader Hospital Building. Orders gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
+			<Text>At the cost of {2_InstantYield} unlock the Teutonic Chapter Building. Other Orders gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_4">
-			<Text>Opera Houses gain +3 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +4 [ICON_GOLD] Gold.</Text>
+			<Text>Opera Houses gain +2 [ICON_GOLD] Gold and +2 [ICON_TOURISM] Tourism. Every [ICON_GREAT_MUSICIAN] Musician generates +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_5">
-			<Text>Receive a [ICON_GREAT_SCIENTIST] Free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
+			<Text>Receive a [ICON_RESEARCH] Free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_6">
 			<Text>Eligible Units, and those produced within {4_Turns}, receive the Blitz promotion. You enter a [ICON_GOLDEN_AGE] Golden Age during this time.</Text>
@@ -441,7 +454,7 @@
 			<Text>*The war is causing some extreme views to gain support and threaten the internal power structure*[NEWLINE]In this time of tribulation, we must make some concessions to the church. We must recall all those crusaders fighting in foreign lands, in order to defend the faith here, at home.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_4">
-			<Text>*Many members of the meeting have been personally slighted by a prodigal musician, and move to see him exiled or worse*[NEWLINE]This is ridiculous! These overinflated Barons need to gain some perspective! We ought to give patronage to our composers, and nurture their creativity, lest they be tempted by foreign courts.</Text>
+			<Text>*Many members of the meeting have been personally slighted by a prodigal musician, and move to see him exiled or worse*[NEWLINE]This is ridiculous! These overinflated Barons need to gain some perspective! We ought to give patronage to our composers and nurture their creativity, lest they are tempted by foreign courts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_5">
 			<Text>*One faction wishes to massively increase science funding, but they cannot secure a majority*[NEWLINE]Our physical scientists are among the best in the world, and their inventions crucial to our economy. We must support them however we can.</Text>
@@ -449,19 +462,11 @@
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_6">
 			<Text>*A pacifistic group are trying to oppose the largescale manufacturing of arms*[NEWLINE]Our country has grown strong: our manufactories and train stations the cathedrals of this new age. Soon, we will take our rightful place in the world.</Text>
 		</Row>
-
-		
 		<Row Tag="TXT_KEY_BUILDING_UE_ORDER">
-			<Text>Crusader Hospital</Text>
+			<Text>Teutonic Chapter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_STRATEGY">
-			<Text>Purchasable with an Event Choice unique to Germany.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_HELP">
-			<Text>Units in this City heal 15 points per turn whether or not they take an action. Increases Military Units supplied by this City's population by 10%.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_UE_ORDER_TEXT">
-			<Text>At the time of the First Crusade, Western Europe did not know hospitals in the sense of places where acutely ill patients received professional medical treatment. The Byzantine tradition was quite different. Although, as in the West, care of the sick had initially been provided at monasteries, already by the 7th century AD most hospitals were both financially independent and employed paid, professional staff rather than relying on members of a monastic institution to provide the care and treatment of patients. It was this tradition that was adopted by the Crusader States to cope with the stream of poor and injured pilgrims ariving from Europe to the Levant.</Text>
+			<Text>Purchasable with an Event Choice unique to Germany. Mutually exclusive with the Order.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
