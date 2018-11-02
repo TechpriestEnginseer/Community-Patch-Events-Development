@@ -248,6 +248,18 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_UE_SYNAGOGUE2</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ASSYRIA_UE_CHOICE_4</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_UE_SYNAGOGUE2</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
 		<Row>
