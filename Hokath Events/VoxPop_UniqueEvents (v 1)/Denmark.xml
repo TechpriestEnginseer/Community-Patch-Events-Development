@@ -8,7 +8,6 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
-			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_DENMARK</RequiredCiv>
@@ -18,8 +17,8 @@
 	<EventChoices>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_1</Type>
-			<Description>TXT_KEY_EVENT_HUNS_UE_DESCRIPTION_CHOICE_1</Description>
-			<Help>TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_1</Help>
+			<Description>TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_1</Description>
+			<Help>TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_1</Help>
 			<FreeGreatPeople>1</FreeGreatPeople>
 			<EventDuration>150</EventDuration>
 			<IsOneShot>false</IsOneShot>
@@ -31,7 +30,6 @@
 			<Description>TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_2</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-			<EraScaling>true</EraScaling>
 			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
@@ -60,7 +58,6 @@
 			<RequiresWar>true</RequiresWar>
 			<EventBuildingClassGlobal>BUILDINGCLASS_DENMARK_UE_DUMMY</EventBuildingClassGlobal>
 			<EventDuration>-1</EventDuration>
-			<ObsoleteEra>ERA_FUTURE</ObsoleteEra>
 		</Row>
 		<Row>
 			<Type>EVENT_DENMARK_UE_CHOICE_6</Type>
@@ -104,20 +101,83 @@
 			<Type>BUILDINGCLASS_DENMARK_UE_DUMMY</Type>
 			<DefaultBuilding>BUILDING_DENMARK_UE_DUMMY</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UE_CHURCH2</Type>
+			<DefaultBuilding>BUILDING_UE_CHURCH2</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UE_CHURCH2</Description>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
+		<Row>
+			<Type>BUILDING_UE_CHURCH2</Type>
+			<BuildingClass>BUILDINGCLASS_UE_CHURCH</BuildingClass>
+			<Description>TXT_KEY_BUILDING_UE_CHURCH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CHURCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_UE_CHURCH_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CHURCH_HELP</Help>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<ConversionModifier>-10</ConversionModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<WLTKDTurns>15</WLTKDTurns>
+			<ReligiousPressureModifier>40</ReligiousPressureModifier>
+			<Cost>-1</Cost>
+			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
+			<FaithCost>250</FaithCost>
+			<EventChoiceRequiredActive>EVENT_DENMARK_UE_CHOICE_3</EventChoiceRequiredActive>
+			<MutuallyExclusiveGroup>361</MutuallyExclusiveGroup>
+			<IsDummy>true</IsDummy>
+			<NeverCapture>true</NeverCapture>
+			<UnculturedHappinessChange>-25</UnculturedHappinessChange>
+		</Row>
 		<Row>
 			<Type>BUILDING_DENMARK_UE_DUMMY</Type>
 			<BuildingClass>BUILDINGCLASS_DENMARK_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_DENMARK_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_DENMARK_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH2</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH2</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH2</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH2</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_GreatWorkYieldChangesLocal>
+		<Row>
+			<BuildingType>BUILDING_UE_CHURCH2</BuildingType>
+			<YieldType>FLAVOR_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_GreatWorkYieldChangesLocal>
 	<Building_YieldPerXTerrainTimes100>
 		<Row>
 			<BuildingType>BUILDING_DENMARK_UE_DUMMY</BuildingType>
@@ -126,7 +186,6 @@
 			<Yield>300</Yield>
 		</Row>
 	</Building_YieldPerXTerrainTimes100>
-	
 	
 	<EventChoice_FreeUnits>
 		<Row>
@@ -139,7 +198,7 @@
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<Quantity>6</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 	</EventChoice_MinimumFeatureRequired>
 	<EventChoice_BuildingClassYieldModifier>
@@ -147,10 +206,23 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Modifier>15</Modifier>
+			<Modifier>20</Modifier>
 		</Row>
 	</EventChoice_BuildingClassYieldModifier>
 	<EventChoice_BuildingClassYieldChange>
+		<Row>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_CHURCH</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
+			<BuildingClassType>BUILDINGCLASS_UE_CHURCH</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
@@ -161,25 +233,7 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_3</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_4</EventChoiceType>
@@ -197,7 +251,7 @@
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>5</YieldChange>
 		</Row>
 	</EventChoice_BuildingClassYieldChange>
 	<EventChoice_ImprovementYieldChange>
@@ -220,9 +274,21 @@
 			<Yield>300</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>200</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>300</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 	
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -273,7 +339,7 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_DENMARK_UE_CHOICE_1</EventChoiceType>
@@ -320,37 +386,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Loyal Servant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_1">
 			<Text>{3_PlayerName} acknowledges a slain adversary by raising his son to the rank of Thane.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Longhouses</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_2">
 			<Text>{3_PlayerName} constructs great Longhouses throughout Denmark!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Place of Woodship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_3">
 			<Text>{3_PlayerName} converts to using wooden materials to build his Stave Churches.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Naval Supremacy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_4">
 			<Text>{3_PlayerName} begins a campaign of intimidation against his nautical adversaries!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Ski Infantry Corps</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_5">
 			<Text>{3_PlayerName} forms the Ski Infantry corps.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Historical Conservation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_DENMARK_UE_CHOICE_6">
 			<Text>{3_PlayerName} invests in Danish cultural institutions and conservation of historic sites.</Text>
@@ -365,19 +431,19 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_2">
-			<Text>Introduce Longhouses for {1_YieldCost}, which upgrade Barracks to generate an additional +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Introduce Longhouses for {1_YieldCost}, which upgrade Barracks to generate an additional +2 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_3">
-			<Text>Move away from stone Temples to Stave Churches from the plentiful resource of wood. Temple pay for their maintenance, repay +1 [ICON_PRODUCTION] Production per turn and generate +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Move away from stone Temples to unlock Stave Churches from the plentiful resource of wood. Other Churches gain +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_4">
-			<Text>The policy of naval dominance causes Harbours and Castles to yield +1 [ICON_GOLDEN_AGE] Golden Age Points, and for Citadels to yield +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>The policy of naval dominance causes Harbors and Castles to yield +1 [ICON_GOLDEN_AGE] Golden Age Points, and for Citadels to yield +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_5">
 			<Text>A Guerilla is recruited in every City. The new military expansion allows Cities to generate +3 [ICON_PRODUCTION] for every Snow tile in workable range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_HELP_CHOICE_6">
-			<Text>Spend {1_YieldCost} promoting Danish culture. Writers' Guilds increase [ICON_CULTURE] Culture generation by 15%. Jelling Stones generate +2 [ICON_TOURISM] Tourism.</Text>
+			<Text>Spend {1_YieldCost} promoting Danish culture. Writers' Guilds increase [ICON_CULTURE] Culture generation by 20%. Jelling Stones generate +5 [ICON_TOURISM] Tourism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_1">
 			<Text>I haven't fought a good single combat in many moons. Come, there must be a Great Man amongst them who will challenge me!</Text>
@@ -386,20 +452,28 @@
 			<Text>*Many gathered outside the Palace are desperate, having no reliable shelter in which to endure the winter months*[NEWLINE]What good are strong warriors when we cannot protect our people from the cold? Open up the Barracks and put our men to work constructing homes becoming of Danes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_3">
-			<Text>*The masses are angered by your apparent disrespect for the Gods, and wish to see more Temples*[NEWLINE]I do what I can to honour the Gods, it is regrettable that we cannot do more. From this day, I will begin a new building project, to erect a new kind of church! They shall stand in every community, a symbol of our culture.</Text>
+			<Text>*The masses are angered by your apparent disrespect for the Gods, and wish to see more Temples*[NEWLINE]I do what I can to honor the Gods, it is regrettable that we cannot do more. From this day, I will begin a new building project, to erect a new kind of church! They shall stand in every community, a symbol of our culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_4">
 			<Text>*The minor Cities of the world continue to slight our rule of the seas. The demonstrators demand you establish unquestionable dominance.*[NEWLINE]The rabble and I are in agreement. The seas belong to the Danes!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_5">
-			<Text>*The public are concerned about the cost of war. If you cannot quickly end the conflict, they demand you step down.*[NEWLINE]The war is fought on all fronts, but there are skills we Danes know that the enemy does not. I will announce our new initiative to the amassed crowd.</Text>
+			<Text>*The public is concerned about the cost of war. If you cannot quickly end the conflict, they demand you step down.*[NEWLINE]The war is fought on all fronts, but there are skills we Danes know that the enemy does not. I will announce our new initiative to the amassed crowd.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_DENMARK_UE_DESCRIPTION_CHOICE_6">
-			<Text>*The public are angry at what they consider the complacency of the Palace to promote alternatives to warfare.*[NEWLINE]Long has our culture revolved around war. For once we have the opportunity to reflect on the other parts of our history. I will see this wish made flesh in a great celebration of Danish culture.</Text>
+			<Text>*The public is angry at what they consider the complacency of the Palace to promote alternatives to warfare.*[NEWLINE]Long has our culture revolved around war. For once we have the opportunity to reflect on the other parts of our history. I will see this wish made flesh in a great celebration of Danish culture.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BUILDING_DENMARK_UE_DUMMY">
-			<Text></Text>
+			<Text>Ski Infantry Corp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DENMARK_UE_DUMMY_HELP">
+			<Text>+3 [ICON_PRODUCTION] Production for each workable Snow.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_CHURCH2">
+			<Text>Staves Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UE_CHURCH2_STRATEGY">
+			<Text>Purchasable with an Event Choice unique to Denmark. Mutually exclusive with the Church.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
