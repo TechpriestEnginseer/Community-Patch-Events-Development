@@ -8,11 +8,10 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
-			<EventCooldown>0</EventCooldown>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_GREECE</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -71,8 +70,8 @@
 			<Description>TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_6</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
-			<CapitalEffectOnly>true</CapitalEffectOnly>
 			<EventDuration>-1</EventDuration>
+			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
 	</EventChoices>
 	<Event_ParentEvents>
@@ -114,12 +113,15 @@
 			<BuildingClass>BUILDINGCLASS_GREECE_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_GREECE_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_GREECE_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 	</Buildings>
 
@@ -128,13 +130,13 @@
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
-			<YieldType>YIELD_TOURISM</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
 			<SpecialistType>SPECIALIST_CIVIL_SERVANT</SpecialistType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_TOURISM</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
@@ -172,9 +174,26 @@
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>300</Yield>
+			<Yield>1000</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>200</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>300</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_GREECE_UE_CHOICE_6</EventChoiceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1000</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_2</EventChoiceType>
@@ -194,7 +213,6 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
-
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
@@ -232,11 +250,11 @@
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_6</EventChoiceType>
 			<UnitClassType>UNITCLASS_AMBASSADOR</UnitClassType>
-			<Quantity>2</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -292,7 +310,7 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_GREECE_UE_CHOICE_1</EventChoiceType>
@@ -339,31 +357,31 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Of Prophecy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_1">
 			<Text>{3_PlayerName} hears of the birth of a child of prophecy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s The Assembly</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_2">
-			<Text>{3_PlayerName} supports the Greek cultural Agora.</Text>
+			<Text>{3_PlayerName} supports the Greek cultural center of the Agora.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Scholasticism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_3">
 			<Text>Greek scholars make an Exodus back to the Palace, their homes ravaged by war!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Society of Friends</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_4">
 			<Text>{3_PlayerName} is somehow able to secure even the most unlikely trade deals...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Nationalize Language</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_GREECE_UE_CHOICE_5">
 			<Text>{3_PlayerName} announces the adoption of the Demotic dialect as the formal language of State.</Text>
@@ -378,13 +396,13 @@
 			<Text>To The Ends Of The Earth</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP">
-			<Text>Strangers in the court again today, My King. As usual they seek an audience with Your Highness, but curiously they will not say for what purpose.[NEWLINE]Shall I send them away?</Text>
+			<Text>Strangers in the court again today, My King. As usual, they seek an audience with Your Highness, but curiously they will not say for what purpose.[NEWLINE]Shall I send them away?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_2">
-			<Text>Protect the Agora with {1_YieldCost}, which now generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_FOOD] Food. In addition, all your Cities generate +10% [ICON_GREAT_PEOPLE] Great People Points.</Text>
+			<Text>Markets change to Agora with {1_YieldCost}, which generate +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith, and [ICON_FOOD] Food. In addition, all your Cities generate +15% [ICON_GREAT_PEOPLE] Great People Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_3">
 			<Text>The return of your scholars from the countryside triggers a renaissance of scholarship: choose a [ICON_GREAT_SCIENTIST] Free Tech. Universities generate +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science.</Text>
@@ -396,10 +414,10 @@
 			<Text>The Printing Press boosts [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture by +10%. The [ICON_RESEARCH] Illiteracy threshold is everywhere reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_HELP_CHOICE_6">
-			<Text>Invest {1_YieldCost} to gain a boost of {2_InstantYield}. In preparation, two Ambassadors are appointed at the [ICON_CAPITAL] Capital.</Text>
+			<Text>Invest {1_YieldCost} to gain a boost of {2_InstantYield}. In preparation, 4 Ambassador are appointed in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_1">
-			<Text>*The men bring a prophesy from an Oracle, a birth of prophecy is soon to take place*[NEWLINE]The omens suggest this baby could either grow to make us great, or destroy us! We must ensure it is the former!</Text>
+			<Text>*The men bring a prophecy from an Oracle, a birth of prophecy is soon to take place*[NEWLINE]The omens suggest this baby could either grow to make us great or destroy us! We must ensure it is the former!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GREECE_UE_DESCRIPTION_CHOICE_2">
 			<Text>*Your visitors are merchants who are incensed by their treatment at the market, and demanded to speak only to you*[NEWLINE]I don't know how things are done in your lands, but in Greece, the Agora is more than just a simple Market. You will receive no compensation for your imagined slight. Guards, away with them!</Text>
@@ -418,7 +436,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GREECE_UE_DUMMY">
-			<Text></Text>
+			<Text>Agorism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREECE_UE_DUMMY_HELP">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great People Generation</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
