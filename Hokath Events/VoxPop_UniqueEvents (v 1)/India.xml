@@ -8,11 +8,10 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
-			<EventCooldown>0</EventCooldown>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_INDIA</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -58,10 +57,9 @@
 			<Description>TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_5</Description>
 			<IsOneShot>true</IsOneShot>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<ObsoleteEra>ERA_POSTMODERN</ObsoleteEra>
 			<RequiresWar>true</RequiresWar>
-			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<GoldenAgeTurns>15</GoldenAgeTurns>
+			<EventDuration>15</EventDuration>
 			<Expires>false</Expires>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
@@ -72,8 +70,8 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiresIdeology>true</RequiresIdeology>
 			<RequiredEra>ERA_MODERN</RequiredEra>
-			<ResistanceTurns>4</ResistanceTurns>
-			<EventDuration>4</EventDuration>
+			<ResistanceTurns>2</ResistanceTurns>
+			<EventDuration>2</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -103,7 +101,6 @@
 			<EventType>EVENT_INDIA_UE</EventType>
 		</Row>
 	</Event_ParentEvents>
-
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_UE_MANDIR</Type>
@@ -116,7 +113,9 @@
 			<Type>BUILDING_UE_MANDIR</Type>
 			<BuildingClass>BUILDINGCLASS_UE_MANDIR</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
+			<IsDummy>true</IsDummy>
+			<NeverCapture>true</NeverCapture>
 			<Description>TXT_KEY_BUILDING_UE_MANDIR</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANDIR_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_MANDIR_STRATEGY</Strategy>
@@ -134,6 +133,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<EventChoiceRequiredActive>EVENT_INDIA_UE_CHOICE_3</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>363</MutuallyExclusiveGroup>
+			<PovertyHappinessChange>-25</PovertyHappinessChange>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -145,7 +145,7 @@
 		<Row>
 			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
@@ -155,7 +155,7 @@
 		<Row>
 			<BuildingType>BUILDING_UE_MANDIR</BuildingType>
 			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Building_YieldModifiers>
@@ -177,19 +177,18 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-
 	<EventChoice_FreeUnitClasses>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_5</EventChoiceType>
 			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<Quantity>4</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 	</EventChoice_FreeUnitClasses>
 	
 	<EventChoice_BuildingClassYieldModifier>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Modifier>10</Modifier>
 		</Row>
@@ -247,16 +246,11 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-35</Yield>
+			<Yield>-10</Yield>
 		</Row>
 	</EventChoice_CityUnhappinessNeedMod>
 	
 	<EventChoice_MinimumStartYield>
-		<Row>
-			<EventChoiceType>EVENT_INDIA_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
-		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -285,11 +279,6 @@
 	</EventChoice_MinimumStartYield>
 	<EventChoice_InstantYield>
 		<Row>
-			<EventChoiceType>EVENT_INDIA_UE_CHOICE_2</EventChoiceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>-100</Yield>
-		</Row>
-		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_3</EventChoiceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>-100</Yield>
@@ -312,7 +301,7 @@
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_5</EventChoiceType>
 			<YieldType>YIELD_POPULATION</YieldType>
-			<Yield>-2</Yield>
+			<Yield>-3</Yield>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_6</EventChoiceType>
@@ -321,7 +310,7 @@
 		</Row>
 	</EventChoice_InstantYield>
 
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -367,7 +356,7 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_INDIA_UE_CHOICE_1</EventChoiceType>
@@ -416,25 +405,25 @@
 	<!-- TEXT -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Great Reincarnation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_1">
 			<Text>{3_PlayerName} discovers the reincarnation of a Great Person!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Pillars of Peace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_2">
 			<Text>{3_PlayerName} erects intricate Pillars to promote peace in his Empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Deula</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_3">
-			<Text>{3_PlayerName} begins the large-scale construction of Mandirs throughout India!</Text>
+			<Text>{3_PlayerName} begins the large-scale construction of Temples throughout India!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Mughal Forts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_4">
 			<Text>{3_PlayerName} has his Engineers re-sculpt the various Castles in his Cities.</Text>
@@ -455,13 +444,13 @@
 			<Text>Heart Without Words</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP">
-			<Text>Peace follow you throughout all your doings, Mahatma. If it is not to much bother, your wisdom is requested in council. We need it much of late.</Text>
+			<Text>Peace follows you throughout all your doings, Mahatma. If it is not to much bother, your wisdom is requested in council. We need it much of late.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_2">
-			<Text>Monuments of the conquest generate +1 [ICON_PEACE] Faith, and increase [ICON_FOOD] Growth by 10%.</Text>
+			<Text>Monuments of the conquest generate +1 [ICON_PEACE] Faith, and increase [ICON_FOOD] Growth by 10% in cities with a Courthouse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_3">
 			<Text>Allow the priests {2_InstantYield} to unlock the Duela Building. Mandir generate +2 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith.</Text>
@@ -470,10 +459,10 @@
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_5">
-			<Text>Conscript {2_InstantYield} into four Fusiliers in the [ICON_CAPITAL] Capital. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Conscript {2_InstantYield} in every City into Fusiliers. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_6">
-			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy are reduced by 10%, and [ICON_RELIGION] Religious Divisions are reduced by 35%.</Text>
+			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A recent birth has been identified as the reincarnation of a Great Person*[NEWLINE]A Great Soul is returned to us! Make the necessary arrangements.</Text>
@@ -488,12 +477,11 @@
 			<Text>*Our Engineers believe that with new technologies, many of the old fortifications which are falling into disuse can be renovated in the new style*[NEWLINE]To see these bastions of war transformed into palaces of holiness and protection brings great joy to my soul.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_5">
-			<Text>*Our Military Advisor has penned a text dubbed Adnyapatra, he would have us impliment its suggestions*[NEWLINE]It pains me to see a drop of blood spilt in my name, but if I cannot convince men to accept peace, I must force it on them.</Text>
+			<Text>*Our Military Advisor has penned a text dubbed Adnyapatra, he would have us implement its suggestions*[NEWLINE]It pains me to see a drop of blood spilt in my name, but if I cannot convince men to accept peace, I must force it on them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The people are increasingly resentful of the roles imposed upon them by outdated social expectations*[NEWLINE]As the Empire has grown further from its roots, so too have we grown further from the Truth. It now falls to me to lead us back...</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BUILDING_UE_MANDIR">
 			<Text>Deula</Text>
 		</Row>
