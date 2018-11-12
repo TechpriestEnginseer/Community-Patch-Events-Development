@@ -77,7 +77,7 @@
 			<ImprovementAnywhereRequired>IMPROVEMENT_MANUFACTORY</ImprovementAnywhereRequired>
 			<MinimumNationalPopulation>100</MinimumNationalPopulation>
 			<EventPromotion>PROMOTION_BLITZ</EventPromotion>
-			<EventDuration>10</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
 			<Expires>false</Expires>
 		</Row>
@@ -442,7 +442,7 @@
 			<Text>Receive a [ICON_RESEARCH] Free Tech. Academies produce +3 [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_HELP_CHOICE_6">
-			<Text>Eligible Units, and those produced within {4_Turns}, receive the Blitz promotion. You enter a [ICON_GOLDEN_AGE] Golden Age during this time.</Text>
+			<Text>Eligible Units receive the Blitz promotion. You enter a [ICON_GOLDEN_AGE] Golden Age for 10 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_GERMANY_UE_DESCRIPTION_CHOICE_1">
 			<Text>If agreement cannot be found on these trivial issues, I will personally invest a Chancellor.</Text>

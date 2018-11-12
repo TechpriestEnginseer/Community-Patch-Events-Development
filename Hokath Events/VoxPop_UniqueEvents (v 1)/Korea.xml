@@ -477,7 +477,7 @@
 			<Text>Pay {2_InstantYield}. The Palace provides +5% to [ICON_CULTURE] Culture, [ICON_GOLD] Gold and [ICON_RESEARCH] Science. Its glory also bask in +5 [ICON_PEACE] Faith. Receive a copy of [ICON_RES_PORCELAIN] Porcelain.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_3">
-			<Text>Pay {2_InstantYield}. Farms yield +1 [ICON_RESEARCH] Science. Enter a Golden Age for {4_Turns}.</Text>
+			<Text>Pay {2_InstantYield}. Farms yield +1 [ICON_RESEARCH] Science. Enter a Golden Age for 10 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_4">
 			<Text>Pay {2_InstantYield}. +1 [ICON_CULTURE] Culture from Specialists.</Text>
@@ -486,7 +486,7 @@
 			<Text>For the next {4_Turns}: Melee and Gun Units gain +25% [ICON_STRENGTH] Combat Strength in Friendly territory; when an enemy [ICON_SPY] Spy is killed receive [ICON_CULTURE] Culture scaling with era and the level of the Spy killed; however, Customs Houses reduce [ICON_GOLD] Gold by -4 and [ICON_TOURISM] Tourism by -4.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_HELP_CHOICE_6">
-			<Text>Stock Exchanges provide +20% [ICON_GOLD] Gold in Cities, and the [ICON_CULTURE] Boredom threshold is reduced by 20%. Enter a Golden Age for {4_Turns}.</Text>
+			<Text>Stock Exchanges provide +20% [ICON_GOLD] Gold in Cities, and the [ICON_CULTURE] Boredom threshold is reduced by 20%. Enter a Golden Age for 15 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_KOREA_UE_DESCRIPTION_CHOICE_1">
 			<Text>Use these political demands to replace the head of the Council with a man loyal to Korea.</Text>

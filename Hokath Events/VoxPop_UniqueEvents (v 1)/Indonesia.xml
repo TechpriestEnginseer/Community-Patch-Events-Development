@@ -9,7 +9,6 @@
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
 			<MinimumNationalPopulation>30</MinimumNationalPopulation>
-			<EventAudio>AS2D_EVENT_ECIV</EventAudio>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_INDONESIA</RequiredCiv>

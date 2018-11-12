@@ -534,10 +534,10 @@
 			<Text>Invest {1_YieldCost} into border defences. Castles, Forts and Citadels generate +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_4">
-			<Text>Funnel {1_YieldCost} into discovering [COLOR_POSITIVE_TEXT]Metallurgy[ENDCOLOR]. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Funnel {1_YieldCost} into discovering [COLOR_POSITIVE_TEXT]Metallurgy[ENDCOLOR]. Enter a [ICON_GOLDEN_AGE] Golden Age for 20 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_5">
-			<Text>Give in to the demands of your people, entering {4_Turns} of [ICON_RESISTANCE] Anarchy. The Scrivener's Office, Printing Press, and Hermitage generate +25% [ICON_PRODUCTION] Production and +25% [ICON_GOLD] Gold. Ekis generate +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Give in to the demands of your people, entering 1 Turn of [ICON_RESISTANCE] Anarchy. The Scrivener's Office, Printing Press, and Hermitage generate +25% [ICON_PRODUCTION] Production and +25% [ICON_GOLD] Gold. Ekis generate +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_HUNS_UE_HELP_CHOICE_6">
 			<Text>Invest {1_YieldCost} in the military-industrial complex. All Cities gain +15% [ICON_PRODUCTION] Production when producing Units. Forts and Citadels generate +3 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold. Ekis generate +1 [ICON_PRODUCTION] Production.</Text>

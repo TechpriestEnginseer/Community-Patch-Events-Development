@@ -415,7 +415,7 @@
 			<Text>Spend {1_YieldCost} to preserve traditional industry. Gain 3 copies of [ICON_RES_COTTON] Cotton, and Workshops generate +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_HELP_CHOICE_6">
-			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. Cities convert 5% of [ICON_GOLD] Gold to [ICON_GOLDEN_AGE] Golden Age Points when purchasing.</Text>
+			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for 20 Turns. Cities convert 5% of [ICON_GOLD] Gold to [ICON_GOLDEN_AGE] Golden Age Points when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PERSIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>It is time to appoint a new Satrap, and I am running short on loyal governors. Bring me the son who excels in domestic affairs.</Text>

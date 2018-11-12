@@ -349,7 +349,7 @@
 			<Text>Salons spring up around your Cities' Gardens: +3 [ICON_RESEARCH] Science and +5% [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_4">
-			<Text>Force through a Free Policy, causing you to enter {4_Turns} of [ICON_RESISTANCE] Anarchy. All cities lose 2 [ICON_CITIZEN] Citizens.</Text>
+			<Text>Force through a Free Policy, causing you to enter 2 Turns of [ICON_RESISTANCE] Anarchy. All cities lose 2 [ICON_CITIZEN] Citizens.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_FRANCE_UE_HELP_CHOICE_5">
 			<Text>Invest {2_InstantYield} in this new school. Cities with [ICON_GREAT_ARTIST] Artist's Guilds gain +10 [ICON_TOURISM] Tourism and +10% [ICON_CULTURE] Culture.</Text>

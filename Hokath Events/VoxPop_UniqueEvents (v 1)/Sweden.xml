@@ -121,6 +121,7 @@
 			<IconAtlas>CE123_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<IsDummy>true</IsDummy>
+			<CapitalOnly>true</CapitalOnly>
 			<TradeRouteRecipientBonus>3</TradeRouteRecipientBonus>
 		</Row>
 	</Buildings>

@@ -476,19 +476,19 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_2">
-			<Text>Spend {1_YieldCost} to host a Grand Tourney. he [ICON_CAPITAL] Capital enters [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns} and 2 Longbowmen spawn nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation in the [ICON_CAPITAL] Capital by 25%.</Text>
+			<Text>Spend {1_YieldCost} to host a Grand Tourney. The [ICON_CAPITAL] Capital enters [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for 20 Turns and 2 Longbowmen spawn nearby. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_CULTURE] Culture generation in the [ICON_CAPITAL] Capital by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_3">
 			<Text>Plea for forgiveness with {1_YieldCost}, and a tithe of 10 [ICON_GOLD] Maintenance on the Grand Temple. Pilgrims to the site of martyrdom unlock the Parish Church Building. Other Churches gain +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_4">
-			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for {4_Turns}. Each [ICON_DIPLOMAT] Civil Servant generates +5 [ICON_CULTURE] Culture.</Text>
+			<Text>Up to 3 [ICON_WAR] Barbarians spawn near every City and you enter [ICON_RESISTANCE] Anarchy for 1 Turn. Each [ICON_DIPLOMAT] Civil Servant generates +5 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_5">
 			<Text>Up to 2 [ICON_WAR] Barbarian spawns near every City. Courthouses provide +2 [ICON_CULTURE] Culture and +2 [ICON_PRODUCTION] Production. Gun and Siege Units gain the Sun Never Sets Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_HELP_CHOICE_6">
-			<Text>Exert {1_YieldCost} of cultural influence to enter {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_PRODUCTION] Production by 15%. All Fighters, and those constructed in the next {4_Turns}, gain the Interception III Promotion.</Text>
+			<Text>Exert {1_YieldCost} of cultural influence to enter 15 Turns of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] also increase [ICON_PRODUCTION] Production by 15%. All Fighters, and those constructed in the next {4_Turns}, gain the Interception III Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ENGLAND_UE_DESCRIPTION_CHOICE_1">
 			<Text>*Your are petitioned by your lords to recognize a Great Person.*[NEWLINE]We and our subjects are of one mind. This champion of the common folk shall be knighted without further delay.</Text>

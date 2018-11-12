@@ -110,7 +110,7 @@
 	<Buildings>
 		<Row>
 			<Type>BUILDING_UE_CHURCH2</Type>
-			<BuildingClass>BUILDINGCLASS_UE_CHURCH</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_UE_CHURCH2</BuildingClass>
 			<Description>TXT_KEY_BUILDING_UE_CHURCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHURCH_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_CHURCH_STRATEGY</Strategy>

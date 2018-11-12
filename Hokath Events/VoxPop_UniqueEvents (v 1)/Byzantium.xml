@@ -56,7 +56,7 @@
 			<LosingMoney>true</LosingMoney>
 			<WLTKDTurns>20</WLTKDTurns>
 			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -408,7 +408,7 @@
 			<Text>The improvement of the [ICON_CAPITAL] Capital's defenses provides +10 [ICON_STRENGTH] Strength, +200 HP and +33% [ICON_GREAT_ENGINEER] Great Engineer Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_4">
-			<Text>Repeal ineffectual taxation to stimulate the economy: the Empire enters a [ICON_GOLDEN_AGE] Golden Age and [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for {4_Turns}.</Text>
+			<Text>Repeal ineffectual taxation to stimulate the economy: the Empire enters a [ICON_GOLDEN_AGE] Golden Age and [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for 20 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BYZANTIUM_UE_HELP_CHOICE_5">
 			<Text>Leverage {1_YieldCost} to restore iconography to the Empire. Every [ICON_GREAT_ARTIST] Artist generates an additional +3 [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_TOURISM] Tourism.</Text>

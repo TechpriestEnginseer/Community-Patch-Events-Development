@@ -178,18 +178,6 @@
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>-1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_2</EventChoiceType>
-			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>-1</YieldChange>
-		</Row>
-		<Row>
-			<EventChoiceType>EVENT_BRAZIL_UE_CHOICE_2</EventChoiceType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL_JUNGLE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>-1</YieldChange>
@@ -426,7 +414,7 @@
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_2">
-			<Text>Trade with the Jungle tribes. Jungles yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Learn the traditional ways of cultivating [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices, allowing each of these resources to yield +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Trade with the Jungle tribes. Jungles yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Logging Camps however, remove the jungle bonus. Learn the traditional ways of cultivating [ICON_RES_COCOA] Cocoa, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Banana and [ICON_RES_SPICES] Spices, allowing each of these resources to yield +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_BRAZIL_UE_HELP_CHOICE_3">
 			<Text>Against the elites and the clergy, spend {1_YieldCost} to reduce [ICON_RESEARCH] Illiteracy thresholds by 10%. During [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR], Cities produce +10% [ICON_PRODUCTION] Production.</Text>

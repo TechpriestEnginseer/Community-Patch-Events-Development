@@ -59,7 +59,7 @@
 			<IsOneShot>true</IsOneShot>
 			<RequiredAnywhereBuildingClass>BUILDINGCLASS_MILITARY_ACADEMY</RequiredAnywhereBuildingClass>
 			<ResistanceTurns>2</ResistanceTurns>
-			<EventDuration>2</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<YieldBonusAllCities>true</YieldBonusAllCities>
 		</Row>
@@ -469,7 +469,7 @@
 			<Text>Sacrifice {1_YieldCost} in order to receive a free Technology, Academies permanently gain +4 [ICON_RESEARCH] Science</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_5">
-			<Text>Purge traitors over the course over {4_Turns} of [ICON_RESISTANCE] Anarchy. Gain {2_InstantYield} increased with number of cities, and then +2 [ICON_CULTURE] Culture and +2 [ICON_GOLDEN_AGE] Golden Age Points from every Military Academy.</Text>
+			<Text>Purge traitors over the course over 2 Turns of [ICON_RESISTANCE] Anarchy. Gain {2_InstantYield} increased with number of cities, and then +2 [ICON_CULTURE] Culture and +2 [ICON_GOLDEN_AGE] Golden Age Points from every Military Academy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_POLAND_UE_HELP_CHOICE_6">
 			<Text>All eligible Units receive the Homeland Guardian promotion. All Cities gain +10 [ICON_STRENGTH] Strength and +200 Hit Points.</Text>

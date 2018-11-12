@@ -398,7 +398,7 @@
 			<Text>Rural tribes come to your aid. 5 Impi spawns in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_5">
-			<Text>Expend up to {2_InstantYield} to enter a {4_Turns} [ICON_GOLDEN_AGE] Golden Age. Reforms allow Cities to convert 10% of [ICON_GOLD] Gold spent to [ICON_CULTURE] Culture when purchasing.</Text>
+			<Text>Expend up to {2_InstantYield} to enter a 20 Turns [ICON_GOLDEN_AGE] Golden Age. Reforms allow Cities to convert 10% of [ICON_GOLD] Gold spent to [ICON_CULTURE] Culture when purchasing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ETHIOPIA_UE_HELP_CHOICE_6">
 			<Text>Divert {1_YieldCost} into agricultural science. Farms and Plantations generate +2 [ICON_FOOD] Food, and [ICON_GREAT_MERCHANT] Merchants generate +2 [ICON_FOOD] Food.</Text>

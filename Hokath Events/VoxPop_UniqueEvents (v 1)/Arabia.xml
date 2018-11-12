@@ -122,6 +122,7 @@
 			<ExtraLuxuries>true</ExtraLuxuries>
 			<NeverCapture>true</NeverCapture>
 			<IsDummy>true</IsDummy>
+			<CapitalOnly>true</CapitalOnly>
 		</Row>
 	</Buildings>
 	<Building_YieldFromPurchase>
@@ -256,6 +257,18 @@
 			<Yield>250</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_4</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>250</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_ARABIA_UE_CHOICE_5</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>250</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 
 <!--<EventChoiceFlavors>
 		<Row>
@@ -437,7 +450,7 @@
 			<Text>Academic institutions are currently private affairs, it is in the interests of everyone to require a certain amount of oversight[NEWLINE]*The council agrees. These institutions will be overseen by senior clerics, under the strictest of supervision*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION_CHOICE_5">
-			<Text>The plans of the Palace will help rehabilitate criminals and bring our sprawling cities into a new era of prosperity![NEWLINE]*The council considers the reduction of crime very important also. However, we have an alternative methodology...*</Text>
+			<Text>The plans of the Palace will help rehabilitate criminals and bring our sprawling cities into a new era of prosperity![NEWLINE]*The council considers the reduction of distress very important also. However, we have an alternative methodology...*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ARABIA_UE_DESCRIPTION_CHOICE_6">
 			<Text>Currently, Oil is partially owned by private interests. If the clergy were to validate the crown in our efforts to ascertain... stewardship over these sources, then-[NEWLINE]*The council is sympathetic to the crown in this matter. We look forward to... continued prosperity*</Text>

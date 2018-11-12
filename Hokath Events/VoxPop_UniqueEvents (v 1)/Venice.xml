@@ -128,6 +128,7 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>CE123_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+			<CapitalOnly>true</CapitalOnly>
 		</Row>
 		<Row>
 			<Type>BUILDING_VENICE_UE_DUMMY_2</Type>
@@ -141,6 +142,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<NeverCapture>true</NeverCapture>
 			<IsDummy>true</IsDummy>
+			<CapitalOnly>true</CapitalOnly>
 		</Row>
 	</Buildings>
 	<Building_YieldFromPurchase>
@@ -360,7 +362,7 @@
 			<Text>Send {1_YieldCost} to beautify our Coastal Cities. They receive a Garden and a Great Galleass.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_3">
-			<Text>On the Piazzo St. Marco, a Cathedral is constructed.</Text>
+			<Text>On the Piazzo St. Marco, a Cathedral is constructed. This allows 20 turns of WLTKD in the Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_VENICE_UE_HELP_CHOICE_4">
 			<Text>The patronage of art in the [ICON_CAPITAL] Capital generates +33% [ICON_GREAT_MUSICIAN] Great Musician, [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_WRITER] Great Writer Points. Receive +1 [ICON_CULTURE] Culture for every [ICON_POPULATION] Citizens in the [ICON_CAPITAL] Capital.</Text>

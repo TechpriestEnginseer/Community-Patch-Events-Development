@@ -55,7 +55,7 @@
 			<UnitClassRequired>UNITCLASS_CARAVEL</UnitClassRequired>
 			<EventPromotion>PROMOTION_SCOUTING_3</EventPromotion>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
-			<EventDuration>10</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<ObsoleteEra>ERA_MODERN</ObsoleteEra>
 			<EraScaling>true</EraScaling>
@@ -440,10 +440,10 @@
 			<Text>Call upon {1_YieldCost} of religious fervour to defeat your foes. Your Cities produce {3_CityYield}. All Melee and Gun Units receive the Stalwart Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_4">
-			<Text>Pour {1_YieldCost} into an Age of Discovery. An Explorer appears near every City. For {4_Turns}, enter a [ICON_GOLDEN_AGE] Golden Age and existing Scouting Units (as well as those produced in this time) receive the Scouting 3 Promotion.</Text>
+			<Text>Pour {1_YieldCost} into an Age of Discovery. An Explorer appears near every City. Enter a [ICON_GOLDEN_AGE] Golden Age for 10 Turns. Existing Scouting Units (as well as those produced in this time) receive the Scouting 3 Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_5">
-			<Text>Reform the domestic economy, entering a brief {4_Turns} period of Anarchy. Receive 2 copies of [ICON_RES_WINE] Wine. Every Town, Village and Feitoria yields +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food.</Text>
+			<Text>Reform the domestic economy, entering 2 Turns of Anarchy. Receive 2 copies of [ICON_RES_WINE] Wine. Every Town, Village, and Feitoria yields +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_PORTUGAL_UE_HELP_CHOICE_6">
 			<Text>Naturalisation of colonials causes Harbours to yield +1 [ICON_GOLD] Gold, [ICON_FOOD] Food and [ICON_GOLDEN_AGE] Golden Age Point per turn for every City you own. However, the many languages, practices and prejudices brought into contact by the free movement of people increases [ICON_GOLD] Poverty and [ICON_RESEARCH] Illiteracy thresholds by 10%.</Text>

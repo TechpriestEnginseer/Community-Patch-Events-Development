@@ -436,10 +436,10 @@
 			<Text>Herbalists and Temples provide +1, and Holy Sites yield +2, [ICON_FOOD] FOOD, [ICON_PEACE] Faith, and [ICON_CULTURE] Culture. However, the [ICON_RESEARCH] Illiteracy threshold increases by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_5">
-			<Text>After {4_Turns} of Anarchy, every City receives a free Monastery and Unit.</Text>
+			<Text>After 1 Turn of Anarchy, every City receives a free Monastery and Unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_HELP_CHOICE_6">
-			<Text>Pay {2_InstantYield} and enter {4_Turns} of Anarchy. In return, Factories increase [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_FOOD] Food by 10%.</Text>
+			<Text>Pay {2_InstantYield} and enter 1 Turn of Anarchy. In return, Factories increase [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_FOOD] Food by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHINA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*The messenger has brought you the head of a wanted man. He asks for your blessing in his endeavors.*</Text>

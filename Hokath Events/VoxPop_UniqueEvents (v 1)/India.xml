@@ -59,7 +59,7 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<RequiresWar>true</RequiresWar>
 			<GoldenAgeTurns>15</GoldenAgeTurns>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 			<CapitalEffectOnly>true</CapitalEffectOnly>
 		</Row>
@@ -71,7 +71,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<RequiredEra>ERA_MODERN</RequiredEra>
 			<ResistanceTurns>2</ResistanceTurns>
-			<EventDuration>2</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 	</EventChoices>
@@ -429,13 +429,13 @@
 			<Text>{3_PlayerName} has his Engineers re-sculpt the various Castles in his Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Royal Military Edict</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_5">
 			<Text>{3_PlayerName} begins a new Era of political thought!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Satyagraha</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_INDIA_UE_CHOICE_6">
 			<Text>{3_PlayerName} personally leads a non-violent campaign for social improvement in India!</Text>
@@ -459,10 +459,10 @@
 			<Text>Permit plans worth {2_InstantYield} to be enacted. All Castles generate +2 [ICON_CULTURE] Culture, [ICON_TOURISM] Tourism, and [ICON_GOLDEN_AGE] Golden Age Points.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_5">
-			<Text>Conscript {2_InstantYield} in every City into Fusiliers. Enter a [ICON_GOLDEN_AGE] Golden Age for {4_Turns}.</Text>
+			<Text>Conscript {2_InstantYield} in every City into Fusiliers. Enter a [ICON_GOLDEN_AGE] Golden Age for 15 Turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_HELP_CHOICE_6">
-			<Text>Use {2_InstantYield} to call upon {4_Turns} of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 10%.</Text>
+			<Text>Use {2_InstantYield} to call upon 2 Turns of Resistance. Unhappiness thresholds of [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_RELIGION] Religious Divisions are reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_INDIA_UE_DESCRIPTION_CHOICE_1">
 			<Text>*A recent birth has been identified as the reincarnation of a Great Person*[NEWLINE]A Great Soul is returned to us! Make the necessary arrangements.</Text>

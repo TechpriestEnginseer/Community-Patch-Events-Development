@@ -60,7 +60,7 @@
 			<RequiresIdeology>true</RequiresIdeology>
 			<RandomBarbarianSpawn>2</RandomBarbarianSpawn>
 			<GoldenAgeTurns>20</GoldenAgeTurns>
-			<EventDuration>20</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<EraScaling>true</EraScaling>
 			<Expires>-1</Expires>
 			<FreeUnitsTechAppropriate>1</FreeUnitsTechAppropriate>
@@ -486,7 +486,7 @@
 			<Text>Expend {1_YieldCost}. Every [ICON_GREAT_ENGINEER] Engineer provides +1 [ICON_GOLD] Gold and +1 [ICON_TOURISM] Tourism. Gain +2 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold on [ICON_RES_INCENSE] Incense, [ICON_RES_PERFUME] Perfume and [ICON_RES_COTTON] Cotton Resources, and receive one additional copy of each.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_5">
-			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for {4_Turns}. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
+			<Text>Consume {1_YieldCost} to enter an early [ICON_GOLDEN_AGE] Golden Age for 20 Turns. 1 Friendly and 2 Hostile Unit spawn next to every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EGYPT_UE_HELP_CHOICE_6">
 			<Text>Receive {2_InstantYield}. Military Units gain the Jihad Promotion.</Text>

@@ -58,7 +58,7 @@
 			<IsOneShot>true</IsOneShot>
 			<ImprovementAnywhereRequired>IMPROVEMENT_LANDMARK</ImprovementAnywhereRequired>
 			<WLTKDTurns>15</WLTKDTurns>
-			<EventDuration>15</EventDuration>
+			<EventDuration>-1</EventDuration>
 			<Expires>false</Expires>
 		</Row>
 		<Row>
@@ -463,7 +463,7 @@
 			<Text>Pay {2_InstantYield} to unlock the Sephardic Synagogue Building. Other Synagogues gain +1 [ICON_CULTURE] Culture and +2 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_5">
-			<Text>The discovery starts {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities. Landmarks yield +5 to [ICON_RESEARCH] Science, [ICON_PEACE] Faith and [ICON_PRODUCTION] Production.</Text>
+			<Text>The discovery starts 15 Turns of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] in all Cities. Landmarks yield +5 to [ICON_RESEARCH] Science, [ICON_PEACE] Faith and [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ASSYRIA_UE_HELP_CHOICE_6">
 			<Text>4 Paratrooper is recruited in the [ICON_CAPITAL] Capital. All Recon Units gain the Wings of Valor Promotion.</Text>

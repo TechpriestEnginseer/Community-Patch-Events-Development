@@ -350,7 +350,7 @@
 			<Text>{1_CivShortDescription}'s Prohibition</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_5">
-			<Text>{3_PlayerName} bans alcohol, leading to an instantaneous rise in Crime and partying!</Text>
+			<Text>{3_PlayerName} bans alcohol, leading to an instantaneous rise in Distress and partying!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_AMERICA_UE_CHOICE_6_S">
 			<Text>{1_CivShortDescription}'s Music Fairs</Text>

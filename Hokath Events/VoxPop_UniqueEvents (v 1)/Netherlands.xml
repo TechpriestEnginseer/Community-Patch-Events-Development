@@ -383,7 +383,7 @@
 			<Text>Siphon -15 [ICON_FOOD] Food and -5 [ICON_GOLDEN_AGE] Golden Age Points from all Cities with a Courthouse for {4_Turns}. During this time, all Cities experience [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_HELP_CHOICE_6">
-			<Text>Abolish {2_InstantYield} worth of outdated practices. All Cities enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] and gain +2 [ICON_HAPPINESS_1] Happiness for {4_Turns}.</Text>
+			<Text>Abolish {2_InstantYield} worth of outdated practices. All Cities enter [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] for 25 Turns and gain +2 [ICON_HAPPINESS_1] Happiness .</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NETHERLANDS_UE_DESCRIPTION_CHOICE_1">
 			<Text>*The hungry and hateful nations of the world look to devour our happy country*[NEWLINE]I need my advisors to seek out possible political marriages that might be made in the hope of avoiding conflict. I wish to review the options a week from now. Go.</Text>
