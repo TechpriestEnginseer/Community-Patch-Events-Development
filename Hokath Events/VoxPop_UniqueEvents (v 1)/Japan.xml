@@ -8,11 +8,11 @@
 			<NumChoices>6</NumChoices>
 			<RandomChance>125</RandomChance>
 			<RandomChanceDelta>125</RandomChanceDelta>
+			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 			<EventCooldown>0</EventCooldown>
 			<IsOneShot>false</IsOneShot>
 			<RequiredEra>ERA_CLASSICAL</RequiredEra>
 			<RequiredCiv>CIVILIZATION_JAPAN</RequiredCiv>
-			<MinimumNationalPopulation>30</MinimumNationalPopulation>
 		</Row>
 	</Events>
 	<EventChoices>
@@ -49,10 +49,9 @@
 			<Description>TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_4</Description>
 			<IsOneShot>true</IsOneShot>
 			<EventBuildingClassGlobal>BUILDINGCLASS_JAPAN_UE_DUMMY_2</EventBuildingClassGlobal>
-			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
-			<EventDuration>10</EventDuration>
 			<WLTKDTurns>10</WLTKDTurns>
-			<Expires>false</Expires>
+			<RequiredAnywhereBuildingClass>BUILDINGCLASS_OPERA_HOUSE</RequiredAnywhereBuildingClass>
+			<EventDuration>-1</EventDuration>
 		</Row>
 		<Row>
 			<Type>EVENT_JAPAN_UE_CHOICE_5</Type>
@@ -121,28 +120,34 @@
 			<BuildingClass>BUILDINGCLASS_JAPAN_UE_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_JAPAN_UE_DUMMY</Description>
+			<Help>TXT_KEY_BUILDING_JAPAN_UE_DUMMY_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_JAPAN_UE_DUMMY_2</Type>
 			<BuildingClass>BUILDINGCLASS_JAPAN_UE_DUMMY_2</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_JAPAN_UE_DUMMY_2</Description>
+			<Help>TXT_KEY_BUILDING_JAPAN_UE_DUMMY_2_HELP</Help>
 			<FaithCost>-1</FaithCost>
 			<PrereqTech>NULL</PrereqTech>
-			<GreatWorkCount>-1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
+			<IconAtlas>CE123_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IsDummy>true</IsDummy>
 		</Row>
 		<Row>
 			<Type>BUILDING_UE_PAGODA</Type>
 			<BuildingClass>BUILDINGCLASS_UE_PAGODA</BuildingClass>
 			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
+			<FaithCost>250</FaithCost>
 			<Description>TXT_KEY_BUILDING_UE_PAGODA</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PAGODA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UE_PAGODA_STRATEGY</Strategy>
@@ -158,6 +163,8 @@
 			<NeverCapture>true</NeverCapture>
 			<EventChoiceRequiredActive>EVENT_JAPAN_UE_CHOICE_2</EventChoiceRequiredActive>
 			<MutuallyExclusiveGroup>368</MutuallyExclusiveGroup>
+			<MinorityHappinessChange>-25</MinorityHappinessChange>
+			<UnculturedHappinessChange>-25</UnculturedHappinessChange>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -239,12 +246,6 @@
 	</EventChoice_CityUnhappinessNeedMod>
 	<EventChoice_BuildingClassYieldChange>
 		<Row>
-			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_2</EventChoiceType>
-			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-		<Row>
 			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_3</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -260,7 +261,7 @@
 			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_5</EventChoiceType>
 			<BuildingClassType>BUILDINGCLASS_COAL_PLANT</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>-6</YieldChange>
+			<YieldChange>-3</YieldChange>
 		</Row>
 		<Row>
 			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_5</EventChoiceType>
@@ -290,8 +291,20 @@
 			<Yield>200</Yield>
 		</Row>
 	</EventChoice_EventCostYield>
+	<EventChoice_MinimumStartYield>
+		<Row>
+			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>200</Yield>
+		</Row>
+		<Row>
+			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_2</EventChoiceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>200</Yield>
+		</Row>
+	</EventChoice_MinimumStartYield>
 	
-	<EventChoiceFlavors>
+<!--<EventChoiceFlavors>
 		<Row>
 			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_1</EventChoiceType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
@@ -347,7 +360,7 @@
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</EventChoiceFlavors>
+	</EventChoiceFlavors>-->
 	<EventChoice_Notification>
 		<Row>
 			<EventChoiceType>EVENT_JAPAN_UE_CHOICE_1</EventChoiceType>
@@ -394,37 +407,37 @@
 	</EventChoice_Notification>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_1_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Apprenticeship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_1">
 			<Text>The Emperor's son becomes {3_PlayerName}'s apprentice!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_2_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Tahoto</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_2">
 			<Text>{3_PlayerName} erects many great Pagoda for the use of religious sects.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_3_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Court Musicians</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_3">
 			<Text>{3_PlayerName} increases the social standing and expectation of Musicians in Japan's courts!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_4_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Elite Theater</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_4">
 			<Text>{3_PlayerName} suppresses lower class theater in favour of the historical, sophisticated style!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_5_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Shale Oil</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_5">
 			<Text>{3_PlayerName} begins cracking shale for [ICON_RES_OIL] Oil.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_6_S">
-			<Text>{3_PlayerName} receives a Unique Event for {1_CivShortDescription}.</Text>
+			<Text>{1_CivShortDescription}'s Yamato Design</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_JAPAN_UE_CHOICE_6">
 			<Text>{3_PlayerName}'s Yamato class Battleships are unveiled!</Text>
@@ -433,50 +446,56 @@
 			<Text>Land Of The Rising Sun</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP">
-			<Text>Great honour upon your family, Shogun Tokugawa. Your presence is requested urgently by the Chrysanthemum Throne.[NEWLINE]Long live the Emperor!</Text>
+			<Text>Great honor upon your family, Shogun Tokugawa. Your presence is requested urgently by the Chrysanthemum Throne.[NEWLINE]Long live the Emperor!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_1">
 			<Text>Receive a Great Person of your choice.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_2">
-			<Text>Promote {1_YieldCost} of cultural and religious practices. Unlock the Tahoto Building. Pagodas gain +3 [ICON_CULTURE] Culture.</Text>
+			<Text>Promote {1_YieldCost} of cultural and religious practices. Unlock the Tahoto Building. Pagodas gain +2 [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_3">
 			<Text>Court Musicians inhabit every Castle in the land, producing +2 [ICON_CULTURE] Culture, increasing [ICON_GREAT_MUSICIAN] Great Musician birth rates by 20%, and increasing [ICON_PEACE] Faith generated by [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] by 20%.[NEWLINE]However, their upkeep costs -3 [ICON_GOLD] Gold per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_4">
-			<Text>Patronize elite theater practices. You enter {4_Turns} of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] increase [ICON_CULTURE] Culture generation by 15%. However, the reduced access to drama increases [ICON_CULTURE] Boredom thresholds by 15%.</Text>
+			<Text>Patronize elite theater practices. You enter 10 turns of of [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR]. This and future [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] increase [ICON_CULTURE] Culture generation by 15%. However, the reduced access to drama increases [ICON_CULTURE] Boredom thresholds by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_5">
-			<Text>Extract 8 [ICON_RES_OIL] from shale in your Coal Plants. However, the process is expensive and polluting: Coal Plants cost an additional -3 [ICON_GOLD] Gold and -6 [ICON_FOOD] Food per turn.</Text>
+			<Text>Extract 8 [ICON_RES_OIL] Oil from shale in your Coal Refineries. However, the process is expensive and polluting: Coal Refineries cost an additional -3 [ICON_GOLD] Gold and -3 [ICON_FOOD] Food per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_HELP_CHOICE_6">
 			<Text>Outfit Battleships with the Yamato designation weapons. All eligible units gain the Broadside promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_1">
-			<Text>*The Emperor wishes his new son to study under you as an apprentice. This is a great honour, of course*</Text>
+			<Text>*The Emperor wishes his new son to study under you as an apprentice. This is a great honor, of course*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_2">
-			<Text>*The Emperor has become obssessed of late in arcane religious practices, he commands they become widespread*[NEWLINE]In these matters of heaven, as the Emperor commands, the Shogun shall enforce.</Text>
+			<Text>*The Emperor has become obsessed of late in arcane religious practices, he commands they become widespread*[NEWLINE]In these matters of heaven, as the Emperor commands, the Shogun shall enforce.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_3">
 			<Text>*His Majesty's musicians have displeased him, he commands you to execute them and all their families*[NEWLINE]We will see to it that better Musicians are seen in Japan from now on! From the Chrysanthemum Court to the lowliest Daimyo's Castle.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_4">
-			<Text>*The Emperor is concerned by the recent degredation in the quality of Nogaku. What will the Shogun do about this?*[NEWLINE]We shall emphasise the ceremonial nature of Noh, and banish these peasant story tellers from our presence!</Text>
+			<Text>*The Emperor is concerned by the recent degradation in the quality of Nogaku. What will the Shogun do about this?*[NEWLINE]We shall emphasize the ceremonial nature of Noh, and banish these peasant story tellers from our presence!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_5">
-			<Text>*The other Empires of the world mock Japan, the Emperor knows this. What will the Shogun do to restore our honour?*[NEWLINE]The Emperor should rest easy. Though we have been constrained in the past, with ingenuity, soon Japan will have the resources to overcome our mightiest adversaries!</Text>
+			<Text>*The other Empires of the world mock Japan, the Emperor knows this. What will the Shogun do to restore our honor?*[NEWLINE]The Emperor should rest easy. Though we have been constrained in the past, with ingenuity, soon Japan will have the resources to overcome our mightiest adversaries!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_JAPAN_UE_DESCRIPTION_CHOICE_6">
 			<Text>*The Emperor is confused. The has begun, has it not? Why are the heads of our enemies not adorning the Palace's battlements?*[NEWLINE]We share the Emperor's impatience, and invite him to the unveiling of our newest class of warship on the morrow. Through the unique skills of the Japanese people, we have created the most monstrous Battleships ever to sail!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_JAPAN_UE_DUMMY">
-			<Text></Text>
+			<Text>Court Musicians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_UE_DUMMY_HELP">
+			<Text>+20% [ICON_GREAT_MUSICIAN] Great Musician Rate. WLTKD generate +20% [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JAPAN_UE_DUMMY_2">
-			<Text></Text>
+			<Text>Patronization of Elite Theater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_UE_DUMMY_2_HELP">
+			<Text>WLTKD generates +15% [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UE_PAGODA">
 			<Text>Tahoto</Text>
